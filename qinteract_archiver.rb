@@ -93,7 +93,7 @@ class ArchiveHelper
   
   # gathers filenames from lims projects and compacts list
   def self.compact_lims_projects(lims_projects = [])
-    
+
     compacted = []
     lims_projects.sort! {|x,y| x[:lims_project_id].to_i <=> y[:lims_project_id].to_i}
     lp_hash = {}
@@ -377,7 +377,7 @@ f = File.open(ARGV[0]).each do |l|
   lims_hash[:lims_project_name] = la[LIMS_PROJECT_NAME_COL] unless la[LIMS_PROJECT_NAME_COL].nil?
   lims_hash[:lims_project_description] =  lims_db[:projects].where(:id => la[LIMS_PROJECT_ID_COL].to_i).first[:description] unless la[LIMS_PROJECT_ID_COL].nil?
   lims_hash[:lims_project_owner] = [ la[LIMS_OWNER_COL], la[LIMS_FULLNAME_COL].strip ] unless la[LIMS_OWNER_COL].nil?
-  analysis_hash[:lims_projects] << lims_hash  
+  analysis_hash[:lims_projects] << lims_hash unless la[LIMS_PROJECT_ID_COL].nil? 
   
   puts "Added input file #{lims_hash[:file]} to analysis #{analysis_hash[:analysis_name]}."
     
