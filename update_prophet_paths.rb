@@ -2,7 +2,7 @@ require 'rubygems'
 require 'json'
 
 puts <<EOL
-#######################
+#########################################################################
 #
 #  Updates Prophet Paths
 #  Dave Austin - ITMAT @ UPENN
@@ -14,7 +14,9 @@ puts <<EOL
 #
 #  - then open index.html in browser
 #
-############
+#  WARNING: Create 777 c:\\dev\\null on windows systems to view msms plot
+#
+#####################################
 
 EOL
 
@@ -328,6 +330,7 @@ readme = JSON.parse(File.read('README.json'))
 
 index = File.open('index.html', 'w+')
 index.write "<HTML><BODY><h1>List of Analyses</h1></BODY></HTML>\n\n"
+index.write "<h3><font color='red'>WARNING: Create 777 C:\\dev\\null on windows systems to view msms spectrum plot.</font></h3>\n\n"
 
 readme['analyses'].each do |a|
   
@@ -339,7 +342,8 @@ readme['analyses'].each do |a|
       puts "Processing #{f}..."
 
       if f =~ /(interact\.xml)/ || f =~ /(interact\.pep\.xml)/
-        index.write "<A HREF='#{HOST}#{TPP_BIN}/pepxml2html.pl?restore=yes&xmlfile=#{Dir.pwd}/#{f}'>PepXML</A> | \n"
+        index.write "<A HREF='#{HOST}#{TPP_BIN}/pepxml2html.pl?restore=yes&xmlfile=#{Dir.pwd}/#{f}'>PepXML</A>\n"
+        index.write "(<A HREF='#{HOST}#{TPP_BIN}/PepXMLViewer.cgi?xmlFileName=#{Dir.pwd}/#{f}'>indexed</A>) | \n"
 
       end
 
