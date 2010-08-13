@@ -10,7 +10,7 @@
 #
 #######
 
-SERVERNAME = 'arcuser@chutney'
+SERVERNAME = 'arcuser@backup.itmat.upenn.edu'
 MD5CMD = 'md5 -q' # needs to output only md5 hash, or a wsv with the hash as the first value 
 VOLUMES = [ "/Volumes/3440_Archive_001",
 	    "/Volumes/3440_Archive_002",
@@ -25,6 +25,12 @@ remote_size = ARGV[2]
 puts "remote path: #{remote_path}"
 puts "remote md5: #{remote_md5}"
 puts "remote size: #{remote_size}"
+
+#workaround for project 342
+if remote_path =~ /project_342/
+puts "ERROR: reached project 342"
+exit 1
+end
 
 # first find volume that is big enough
 
@@ -89,7 +95,7 @@ Dir.chdir current_vol do
     system "thor client:update_readme #{folder_name}.7z.001 archive_disk_id #{File.basename(current_vol)}"
 
     puts "Uploading to iarchive..."
-    cout = `curl -v -F "readme_file=@README.json" -u iarchive:iarchive http://mustard.itmat.upenn.int/iarchive/create 2>&1`
+    cout = `curl -v -F "readme_file=@README.json" -u iarchive:iarchive http://bioinf.itmat.upenn.edu/iarchive/create 2>&1`
     new_id = 0
     cout.each_line do |el|
 	if el =~ /archive\/show\/(\d+)/
@@ -101,7 +107,7 @@ Dir.chdir current_vol do
 	puts "ERROR: Could not fetch new archive id from iarchive."
     else
         system "thor client:update_readme #{folder_name}.7z.001 iarchive_id #{new_id}"
-	`curl -v -F "readme_file=@README.json" -u iarchive:iarchive http://mustard.itmat.upenn.int/iarchive/update/#{new_id}`
+	`curl -v -F "readme_file=@README.json" -u iarchive:iarchive http://bioinf.itmat.upenn.edu/iarchive/update/#{new_id}`
     end
 
   end

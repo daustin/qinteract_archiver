@@ -158,12 +158,12 @@ class ArchiveHelper
           
           puts "Analysis is archived to different location.  Retrieving #{QINTERACT_ARCHIVE_PATH}/archive_#{a[:analysis_id]}.tgz"
           # copy archive file to project directory and upzip
-          system "cp -v #{QINTERACT_ARCHIVE_PATH}/archive_#{a[:analysis_id]}.tgz ."
-          system "tar -xvf archive_#{a[:analysis_id]}.tgz"
+          `cp -v #{QINTERACT_ARCHIVE_PATH}/archive_#{a[:analysis_id]}.tgz .`
+          `tar -xvf archive_#{a[:analysis_id]}.tgz`
           old_folder_name = `tar -tf archive_#{a[:analysis_id]}.tgz`
           old_folder_name = old_folder_name.split('/')[0]    
           # rename folder name
-          system "mv #{old_folder_name}/* analysis_#{a[:analysis_id]}"
+          `find #{old_folder_name} -type f -name '*' -exec mv {} analysis_#{a[:analysis_id]}/ \\;`
           # remove qinteract archived tar
           system "rm -rv #{old_folder_name}"
           system "rm -v archive_#{a[:analysis_id]}.tgz"
@@ -173,7 +173,7 @@ class ArchiveHelper
           # build path to project directory
           project_path = "#{@@qdb[:pipeline_projects].where(:id => project_hash[:project_id]).first[:path]}"
           analysis_path = "#{@@qdb[:pipeline_analyses].where(:id => a[:analysis_id]).first[:path]}"
-          system "cp -v #{QINTERACT_DATA_PATH}/#{analysis_path}/* ./analysis_#{a[:analysis_id]}"
+          `find #{QINTERACT_DATA_PATH}/#{analysis_path} -type f -name '*' -exec cp {} ./analysis_#{a[:analysis_id]}/ \\;`
 
         end
 
