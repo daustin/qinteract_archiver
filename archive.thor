@@ -10,7 +10,7 @@ class ArchiveHelper
   @restore_dir = @work_dir + "/restore-" + Time.now.to_i.to_s
   
   def self.compress(dir)
-    `#{@pzip_bin} a -v2000m -mx6 -mmt -r #{dir.split("/").last}.7z #{dir}`
+    `#{@pzip_bin} a -v2000m -mx0 -mmt -r #{dir.split("/").last}.7z #{dir}`
   end
   
   def self.list_archive(archive_file)
@@ -31,11 +31,11 @@ class ArchiveHelper
   end
   
   def self.add_archive(file_name, archive_file)
-    `#{@pzip_bin} a -mx6 -mmt #{archive_file} #{file_name}`
+    `#{@pzip_bin} a -mx0 -mmt #{archive_file} #{file_name}`
   end
   
   def self.update_archive(file_name, archive_file)
-    `#{@pzip_bin} u -mx6 -mmt #{archive_file} #{file_name}`
+    `#{@pzip_bin} u -mx0 -mmt #{archive_file} #{file_name}`
   end
   
   def self.delete_archive(file_name, archive_file)
