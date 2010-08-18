@@ -1,0 +1,3137 @@
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_no_blanks_small_only.part2.txt...
+Found new project 244 - platelet-PAGE-all-dR
+Creating project staging dirs.
+Found new analysis 3196 - platelet-PAGE-all-20 ppm
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta' -> `./project_244/data_files/ipi.HUMAN.20081112.rev.fasta'
+running md5sum ./project_244/data_files/ipi.HUMAN.20081112.rev.fasta
+Added prot_db file data_files/ipi.HUMAN.20081112.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/Platelet--1-Nov-1.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-1.RAW
+Added input file data_files/Platelet--1-Nov-1.RAW to file list.
+Added input file data_files/Platelet--1-Nov-3.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-3.RAW
+Added input file data_files/Platelet--1-Nov-3.RAW to file list.
+Added input file data_files/Platelet--1-Nov-3_081103091020.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-3_081103091020.RAW
+Added input file data_files/Platelet--1-Nov-3_081103091020.RAW to file list.
+Added input file data_files/Platelet--1-Nov-4.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-4.RAW
+Added input file data_files/Platelet--1-Nov-4.RAW to file list.
+Added input file data_files/Platelet--1-Nov-6.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-6.RAW
+Added input file data_files/Platelet--1-Nov-6.RAW to file list.
+Added input file data_files/Platelet--1-Nov-7.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-7.RAW
+Added input file data_files/Platelet--1-Nov-7.RAW to file list.
+Added input file data_files/Platelet--1-Nov-8.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-8.RAW
+Added input file data_files/Platelet--1-Nov-8.RAW to file list.
+Added input file data_files/Platelet--1-Nov-9.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-9.RAW
+Added input file data_files/Platelet--1-Nov-9.RAW to file list.
+Added input file data_files/Platelet--1-Nov-10.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-10.RAW
+Added input file data_files/Platelet--1-Nov-10.RAW to file list.
+Added input file data_files/Platelet--1-Nov-11.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-11.RAW
+Added input file data_files/Platelet--1-Nov-11.RAW to file list.
+Added input file data_files/Platelet-oct-30-1.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-1.RAW
+Added input file data_files/Platelet-oct-30-1.RAW to file list.
+Added input file data_files/Platelet-oct-30-2.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-2.RAW
+Added input file data_files/Platelet-oct-30-2.RAW to file list.
+Added input file data_files/Platelet-oct-30-3.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-3.RAW
+Added input file data_files/Platelet-oct-30-3.RAW to file list.
+Added input file data_files/Platelet-oct-30-4.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-4.RAW
+Added input file data_files/Platelet-oct-30-4.RAW to file list.
+Added input file data_files/Platelet-oct-30-5.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-5.RAW
+Added input file data_files/Platelet-oct-30-5.RAW to file list.
+Added input file data_files/Platelet-oct-30-6.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-6.RAW
+Added input file data_files/Platelet-oct-30-6.RAW to file list.
+Added input file data_files/Platelet-oct-30-7.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-7.RAW
+Added input file data_files/Platelet-oct-30-7.RAW to file list.
+Added input file data_files/Platelet-oct-30-8.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-8.RAW
+Added input file data_files/Platelet-oct-30-8.RAW to file list.
+Added input file data_files/Platelet-oct-30-9.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-9.RAW
+Added input file data_files/Platelet-oct-30-9.RAW to file list.
+Added input file data_files/Platelet-oct-30-10.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-10.RAW
+Added input file data_files/Platelet-oct-30-10.RAW to file list.
+Added input file data_files/Platelet-oct-30-11.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-11.RAW
+Added input file data_files/Platelet-oct-30-11.RAW to file list.
+Added input file data_files/Platelet-oct-30-12.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet-oct-30-12.RAW
+Added input file data_files/Platelet-oct-30-12.RAW to file list.
+Added input file data_files/Platelets-sds-27-oct-5.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelets-sds-27-oct-5.RAW
+Added input file data_files/Platelets-sds-27-oct-5.RAW to file list.
+Added input file data_files/Platelet--1-Nov-3-3.RAW to analysis platelet-PAGE-all-20 ppm.
+running md5sum ./project_244/data_files/Platelet--1-Nov-3-3.RAW
+Added input file data_files/Platelet--1-Nov-3-3.RAW to file list.
+Found new analysis 3213 - platelet-PAGE-all-1.4
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/Platelet--1-Nov-1.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-3.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-3_081103091020.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-4.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-6.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-7.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-8.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-9.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-10.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-11.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-1.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-2.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-3.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-4.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-5.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-6.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-7.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-8.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-9.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-10.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-11.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet-oct-30-12.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelets-sds-27-oct-5.RAW to analysis platelet-PAGE-all-1.4.
+Added input file data_files/Platelet--1-Nov-3-3.RAW to analysis platelet-PAGE-all-1.4.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/auditJob.sh' -> `./analysis_3196/auditJob.sh'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/auditJob.sh.o12332' -> `./analysis_3196/auditJob.sh.o12332'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact-prot.mx.ggl' -> `./analysis_3196/interact-prot.mx.ggl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact-prot.nl.ggl' -> `./analysis_3196/interact-prot.nl.ggl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact-prot.nv.ggl' -> `./analysis_3196/interact-prot.nv.ggl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact-prot.png' -> `./analysis_3196/interact-prot.png'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact-prot.shtml' -> `./analysis_3196/interact-prot.shtml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact-prot.xml' -> `./analysis_3196/interact-prot.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact-prot.xsl' -> `./analysis_3196/interact-prot.xsl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact.shtml' -> `./analysis_3196/interact.shtml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact.xml' -> `./analysis_3196/interact.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/interact.xsl' -> `./analysis_3196/interact.xsl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-10.mzXML' -> `./analysis_3196/Platelet--1-Nov-10.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-10.pep.xml' -> `./analysis_3196/Platelet--1-Nov-10.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-10.sequest.log' -> `./analysis_3196/Platelet--1-Nov-10.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-10.tgz' -> `./analysis_3196/Platelet--1-Nov-10.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-11.mzXML' -> `./analysis_3196/Platelet--1-Nov-11.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-11.pep.xml' -> `./analysis_3196/Platelet--1-Nov-11.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-11.sequest.log' -> `./analysis_3196/Platelet--1-Nov-11.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-11.tgz' -> `./analysis_3196/Platelet--1-Nov-11.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-1.mzXML' -> `./analysis_3196/Platelet--1-Nov-1.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-1.pep.xml' -> `./analysis_3196/Platelet--1-Nov-1.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-1.sequest.log' -> `./analysis_3196/Platelet--1-Nov-1.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-1.tgz' -> `./analysis_3196/Platelet--1-Nov-1.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3_081103091020.mzXML' -> `./analysis_3196/Platelet--1-Nov-3_081103091020.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3_081103091020.pep.xml' -> `./analysis_3196/Platelet--1-Nov-3_081103091020.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3_081103091020.sequest.log' -> `./analysis_3196/Platelet--1-Nov-3_081103091020.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3_081103091020.tgz' -> `./analysis_3196/Platelet--1-Nov-3_081103091020.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-2.mzXML' -> `./analysis_3196/Platelet--1-Nov-3-2.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-2.pep.xml' -> `./analysis_3196/Platelet--1-Nov-3-2.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-2.sequest.log' -> `./analysis_3196/Platelet--1-Nov-3-2.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-2.tgz' -> `./analysis_3196/Platelet--1-Nov-3-2.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-3.mzXML' -> `./analysis_3196/Platelet--1-Nov-3-3.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-3.pep.xml' -> `./analysis_3196/Platelet--1-Nov-3-3.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-3.sequest.log' -> `./analysis_3196/Platelet--1-Nov-3-3.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3-3.tgz' -> `./analysis_3196/Platelet--1-Nov-3-3.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3.mzXML' -> `./analysis_3196/Platelet--1-Nov-3.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3.pep.xml' -> `./analysis_3196/Platelet--1-Nov-3.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3.sequest.log' -> `./analysis_3196/Platelet--1-Nov-3.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-3.tgz' -> `./analysis_3196/Platelet--1-Nov-3.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-4.mzXML' -> `./analysis_3196/Platelet--1-Nov-4.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-4.pep.xml' -> `./analysis_3196/Platelet--1-Nov-4.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-4.sequest.log' -> `./analysis_3196/Platelet--1-Nov-4.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-4.tgz' -> `./analysis_3196/Platelet--1-Nov-4.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-6.mzXML' -> `./analysis_3196/Platelet--1-Nov-6.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-6.pep.xml' -> `./analysis_3196/Platelet--1-Nov-6.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-6.sequest.log' -> `./analysis_3196/Platelet--1-Nov-6.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-6.tgz' -> `./analysis_3196/Platelet--1-Nov-6.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-7.mzXML' -> `./analysis_3196/Platelet--1-Nov-7.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-7.pep.xml' -> `./analysis_3196/Platelet--1-Nov-7.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-7.sequest.log' -> `./analysis_3196/Platelet--1-Nov-7.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-7.tgz' -> `./analysis_3196/Platelet--1-Nov-7.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-8.mzXML' -> `./analysis_3196/Platelet--1-Nov-8.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-8.pep.xml' -> `./analysis_3196/Platelet--1-Nov-8.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-8.sequest.log' -> `./analysis_3196/Platelet--1-Nov-8.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-8.tgz' -> `./analysis_3196/Platelet--1-Nov-8.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-9.mzXML' -> `./analysis_3196/Platelet--1-Nov-9.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-9.pep.xml' -> `./analysis_3196/Platelet--1-Nov-9.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-9.sequest.log' -> `./analysis_3196/Platelet--1-Nov-9.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet--1-Nov-9.tgz' -> `./analysis_3196/Platelet--1-Nov-9.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-10.mzXML' -> `./analysis_3196/Platelet-oct-30-10.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-10.pep.xml' -> `./analysis_3196/Platelet-oct-30-10.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-10.sequest.log' -> `./analysis_3196/Platelet-oct-30-10.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-10.tgz' -> `./analysis_3196/Platelet-oct-30-10.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-11.mzXML' -> `./analysis_3196/Platelet-oct-30-11.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-11.pep.xml' -> `./analysis_3196/Platelet-oct-30-11.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-11.sequest.log' -> `./analysis_3196/Platelet-oct-30-11.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-11.tgz' -> `./analysis_3196/Platelet-oct-30-11.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-12.mzXML' -> `./analysis_3196/Platelet-oct-30-12.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-12.pep.xml' -> `./analysis_3196/Platelet-oct-30-12.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-12.sequest.log' -> `./analysis_3196/Platelet-oct-30-12.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-12.tgz' -> `./analysis_3196/Platelet-oct-30-12.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-1.mzXML' -> `./analysis_3196/Platelet-oct-30-1.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-1.pep.xml' -> `./analysis_3196/Platelet-oct-30-1.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-1.sequest.log' -> `./analysis_3196/Platelet-oct-30-1.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-1.tgz' -> `./analysis_3196/Platelet-oct-30-1.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-2.mzXML' -> `./analysis_3196/Platelet-oct-30-2.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-2.pep.xml' -> `./analysis_3196/Platelet-oct-30-2.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-2.sequest.log' -> `./analysis_3196/Platelet-oct-30-2.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-2.tgz' -> `./analysis_3196/Platelet-oct-30-2.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-3.mzXML' -> `./analysis_3196/Platelet-oct-30-3.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-3.pep.xml' -> `./analysis_3196/Platelet-oct-30-3.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-3.sequest.log' -> `./analysis_3196/Platelet-oct-30-3.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-3.tgz' -> `./analysis_3196/Platelet-oct-30-3.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-4.mzXML' -> `./analysis_3196/Platelet-oct-30-4.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-4.pep.xml' -> `./analysis_3196/Platelet-oct-30-4.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-4.sequest.log' -> `./analysis_3196/Platelet-oct-30-4.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-4.tgz' -> `./analysis_3196/Platelet-oct-30-4.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-5.mzXML' -> `./analysis_3196/Platelet-oct-30-5.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-5.pep.xml' -> `./analysis_3196/Platelet-oct-30-5.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-5.sequest.log' -> `./analysis_3196/Platelet-oct-30-5.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-5.tgz' -> `./analysis_3196/Platelet-oct-30-5.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-6.mzXML' -> `./analysis_3196/Platelet-oct-30-6.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-6.pep.xml' -> `./analysis_3196/Platelet-oct-30-6.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-6.sequest.log' -> `./analysis_3196/Platelet-oct-30-6.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-6.tgz' -> `./analysis_3196/Platelet-oct-30-6.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-7.mzXML' -> `./analysis_3196/Platelet-oct-30-7.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-7.pep.xml' -> `./analysis_3196/Platelet-oct-30-7.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-7.sequest.log' -> `./analysis_3196/Platelet-oct-30-7.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-7.tgz' -> `./analysis_3196/Platelet-oct-30-7.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-8.mzXML' -> `./analysis_3196/Platelet-oct-30-8.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-8.pep.xml' -> `./analysis_3196/Platelet-oct-30-8.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-8.sequest.log' -> `./analysis_3196/Platelet-oct-30-8.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-8.tgz' -> `./analysis_3196/Platelet-oct-30-8.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-9.mzXML' -> `./analysis_3196/Platelet-oct-30-9.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-9.pep.xml' -> `./analysis_3196/Platelet-oct-30-9.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-9.sequest.log' -> `./analysis_3196/Platelet-oct-30-9.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelet-oct-30-9.tgz' -> `./analysis_3196/Platelet-oct-30-9.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelets-sds-27-oct-5.mzXML' -> `./analysis_3196/Platelets-sds-27-oct-5.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelets-sds-27-oct-5.pep.xml' -> `./analysis_3196/Platelets-sds-27-oct-5.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelets-sds-27-oct-5.sequest.log' -> `./analysis_3196/Platelets-sds-27-oct-5.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/Platelets-sds-27-oct-5.tgz' -> `./analysis_3196/Platelets-sds-27-oct-5.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/runPipeline.sh' -> `./analysis_3196/runPipeline.sh'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/runPipeline.sh.o12331' -> `./analysis_3196/runPipeline.sh.o12331'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/runSequest.log' -> `./analysis_3196/runSequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/sequest.params' -> `./analysis_3196/sequest.params'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/sequest_runs.log' -> `./analysis_3196/sequest_runs.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3196/xuanwen_20081113.pXML' -> `./analysis_3196/xuanwen_20081113.pXML'
+Added files for analysis 3196 - platelet-PAGE-all-20 ppm.
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/auditJob.sh' -> `./analysis_3213/auditJob.sh'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/auditJob.sh.o12366' -> `./analysis_3213/auditJob.sh.o12366'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact-prot.mx.ggl' -> `./analysis_3213/interact-prot.mx.ggl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact-prot.nl.ggl' -> `./analysis_3213/interact-prot.nl.ggl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact-prot.nv.ggl' -> `./analysis_3213/interact-prot.nv.ggl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact-prot.png' -> `./analysis_3213/interact-prot.png'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact-prot.shtml' -> `./analysis_3213/interact-prot.shtml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact-prot.xml' -> `./analysis_3213/interact-prot.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact-prot.xsl' -> `./analysis_3213/interact-prot.xsl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact.shtml' -> `./analysis_3213/interact.shtml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact.xml' -> `./analysis_3213/interact.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/interact.xsl' -> `./analysis_3213/interact.xsl'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-10.mzXML' -> `./analysis_3213/Platelet--1-Nov-10.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-10.pep.xml' -> `./analysis_3213/Platelet--1-Nov-10.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-10.sequest.log' -> `./analysis_3213/Platelet--1-Nov-10.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-10.tgz' -> `./analysis_3213/Platelet--1-Nov-10.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-11.mzXML' -> `./analysis_3213/Platelet--1-Nov-11.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-11.pep.xml' -> `./analysis_3213/Platelet--1-Nov-11.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-11.sequest.log' -> `./analysis_3213/Platelet--1-Nov-11.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-11.tgz' -> `./analysis_3213/Platelet--1-Nov-11.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-1.mzXML' -> `./analysis_3213/Platelet--1-Nov-1.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-1.pep.xml' -> `./analysis_3213/Platelet--1-Nov-1.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-1.sequest.log' -> `./analysis_3213/Platelet--1-Nov-1.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-1.tgz' -> `./analysis_3213/Platelet--1-Nov-1.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3_081103091020.mzXML' -> `./analysis_3213/Platelet--1-Nov-3_081103091020.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3_081103091020.pep.xml' -> `./analysis_3213/Platelet--1-Nov-3_081103091020.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3_081103091020.sequest.log' -> `./analysis_3213/Platelet--1-Nov-3_081103091020.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3_081103091020.tgz' -> `./analysis_3213/Platelet--1-Nov-3_081103091020.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-2.mzXML' -> `./analysis_3213/Platelet--1-Nov-3-2.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-2.pep.xml' -> `./analysis_3213/Platelet--1-Nov-3-2.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-2.sequest.log' -> `./analysis_3213/Platelet--1-Nov-3-2.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-2.tgz' -> `./analysis_3213/Platelet--1-Nov-3-2.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-3.mzXML' -> `./analysis_3213/Platelet--1-Nov-3-3.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-3.pep.xml' -> `./analysis_3213/Platelet--1-Nov-3-3.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-3.sequest.log' -> `./analysis_3213/Platelet--1-Nov-3-3.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3-3.tgz' -> `./analysis_3213/Platelet--1-Nov-3-3.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3.mzXML' -> `./analysis_3213/Platelet--1-Nov-3.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3.pep.xml' -> `./analysis_3213/Platelet--1-Nov-3.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3.sequest.log' -> `./analysis_3213/Platelet--1-Nov-3.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-3.tgz' -> `./analysis_3213/Platelet--1-Nov-3.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-4.mzXML' -> `./analysis_3213/Platelet--1-Nov-4.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-4.pep.xml' -> `./analysis_3213/Platelet--1-Nov-4.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-4.sequest.log' -> `./analysis_3213/Platelet--1-Nov-4.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-4.tgz' -> `./analysis_3213/Platelet--1-Nov-4.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-6.mzXML' -> `./analysis_3213/Platelet--1-Nov-6.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-6.pep.xml' -> `./analysis_3213/Platelet--1-Nov-6.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-6.sequest.log' -> `./analysis_3213/Platelet--1-Nov-6.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-6.tgz' -> `./analysis_3213/Platelet--1-Nov-6.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-7.mzXML' -> `./analysis_3213/Platelet--1-Nov-7.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-7.pep.xml' -> `./analysis_3213/Platelet--1-Nov-7.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-7.sequest.log' -> `./analysis_3213/Platelet--1-Nov-7.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-7.tgz' -> `./analysis_3213/Platelet--1-Nov-7.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-8.mzXML' -> `./analysis_3213/Platelet--1-Nov-8.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-8.pep.xml' -> `./analysis_3213/Platelet--1-Nov-8.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-8.sequest.log' -> `./analysis_3213/Platelet--1-Nov-8.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-8.tgz' -> `./analysis_3213/Platelet--1-Nov-8.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-9.mzXML' -> `./analysis_3213/Platelet--1-Nov-9.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-9.pep.xml' -> `./analysis_3213/Platelet--1-Nov-9.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-9.sequest.log' -> `./analysis_3213/Platelet--1-Nov-9.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet--1-Nov-9.tgz' -> `./analysis_3213/Platelet--1-Nov-9.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-10.mzXML' -> `./analysis_3213/Platelet-oct-30-10.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-10.pep.xml' -> `./analysis_3213/Platelet-oct-30-10.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-10.sequest.log' -> `./analysis_3213/Platelet-oct-30-10.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-10.tgz' -> `./analysis_3213/Platelet-oct-30-10.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-11.mzXML' -> `./analysis_3213/Platelet-oct-30-11.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-11.pep.xml' -> `./analysis_3213/Platelet-oct-30-11.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-11.sequest.log' -> `./analysis_3213/Platelet-oct-30-11.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-11.tgz' -> `./analysis_3213/Platelet-oct-30-11.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-12.mzXML' -> `./analysis_3213/Platelet-oct-30-12.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-12.pep.xml' -> `./analysis_3213/Platelet-oct-30-12.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-12.sequest.log' -> `./analysis_3213/Platelet-oct-30-12.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-12.tgz' -> `./analysis_3213/Platelet-oct-30-12.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-1.mzXML' -> `./analysis_3213/Platelet-oct-30-1.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-1.pep.xml' -> `./analysis_3213/Platelet-oct-30-1.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-1.sequest.log' -> `./analysis_3213/Platelet-oct-30-1.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-1.tgz' -> `./analysis_3213/Platelet-oct-30-1.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-2.mzXML' -> `./analysis_3213/Platelet-oct-30-2.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-2.pep.xml' -> `./analysis_3213/Platelet-oct-30-2.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-2.sequest.log' -> `./analysis_3213/Platelet-oct-30-2.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-2.tgz' -> `./analysis_3213/Platelet-oct-30-2.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-3.mzXML' -> `./analysis_3213/Platelet-oct-30-3.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-3.pep.xml' -> `./analysis_3213/Platelet-oct-30-3.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-3.sequest.log' -> `./analysis_3213/Platelet-oct-30-3.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-3.tgz' -> `./analysis_3213/Platelet-oct-30-3.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-4.mzXML' -> `./analysis_3213/Platelet-oct-30-4.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-4.pep.xml' -> `./analysis_3213/Platelet-oct-30-4.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-4.sequest.log' -> `./analysis_3213/Platelet-oct-30-4.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-4.tgz' -> `./analysis_3213/Platelet-oct-30-4.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-5.mzXML' -> `./analysis_3213/Platelet-oct-30-5.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-5.pep.xml' -> `./analysis_3213/Platelet-oct-30-5.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-5.sequest.log' -> `./analysis_3213/Platelet-oct-30-5.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-5.tgz' -> `./analysis_3213/Platelet-oct-30-5.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-6.mzXML' -> `./analysis_3213/Platelet-oct-30-6.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-6.pep.xml' -> `./analysis_3213/Platelet-oct-30-6.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-6.sequest.log' -> `./analysis_3213/Platelet-oct-30-6.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-6.tgz' -> `./analysis_3213/Platelet-oct-30-6.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-7.mzXML' -> `./analysis_3213/Platelet-oct-30-7.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-7.pep.xml' -> `./analysis_3213/Platelet-oct-30-7.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-7.sequest.log' -> `./analysis_3213/Platelet-oct-30-7.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-7.tgz' -> `./analysis_3213/Platelet-oct-30-7.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-8.mzXML' -> `./analysis_3213/Platelet-oct-30-8.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-8.pep.xml' -> `./analysis_3213/Platelet-oct-30-8.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-8.sequest.log' -> `./analysis_3213/Platelet-oct-30-8.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-8.tgz' -> `./analysis_3213/Platelet-oct-30-8.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-9.mzXML' -> `./analysis_3213/Platelet-oct-30-9.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-9.pep.xml' -> `./analysis_3213/Platelet-oct-30-9.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-9.sequest.log' -> `./analysis_3213/Platelet-oct-30-9.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelet-oct-30-9.tgz' -> `./analysis_3213/Platelet-oct-30-9.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelets-sds-27-oct-5.mzXML' -> `./analysis_3213/Platelets-sds-27-oct-5.mzXML'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelets-sds-27-oct-5.pep.xml' -> `./analysis_3213/Platelets-sds-27-oct-5.pep.xml'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelets-sds-27-oct-5.sequest.log' -> `./analysis_3213/Platelets-sds-27-oct-5.sequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/Platelets-sds-27-oct-5.tgz' -> `./analysis_3213/Platelets-sds-27-oct-5.tgz'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/runPipeline.sh' -> `./analysis_3213/runPipeline.sh'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/runPipeline.sh.o12365' -> `./analysis_3213/runPipeline.sh.o12365'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/runSequest.log' -> `./analysis_3213/runSequest.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/sequest.params' -> `./analysis_3213/sequest.params'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/sequest_runs.log' -> `./analysis_3213/sequest_runs.log'
+`/export/www-data/www/htdocs/qInteract/data2/xuanwen_20081117135356/xuanwen_3213/xuanwen_20081113.pXML' -> `./analysis_3213/xuanwen_20081113.pXML'
+Added files for analysis 3213 - platelet-PAGE-all-1.4.
+Project contains 261 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_244.7z.*' 7177151b75ea9ca9a022335a4e2a5dc1,ab68d9b306e763c9b7d920f56e175a12 2515040429
+Client output: ==> 
+remote path: /export/scratch/project_244.7z.*
+remote md5: 7177151b75ea9ca9a022335a4e2a5dc1,ab68d9b306e763c9b7d920f56e175a12
+remote size: 2515040429
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_244.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 244 - platelet-PAGE-all-dR
+Found new project 245 - zebrafish-24hpf-22 t
+Creating project staging dirs.
+Found new analysis 3197 - Zebrafish-24hpf-22-1.4
+Using prot db: IPI.DANRE.080523.REV/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.4.
+running md5sum ./project_245/data_files/ZF24-29Sep08-22.RAW
+Added input file data_files/ZF24-29Sep08-22.RAW to file list.
+Found new analysis 3200 - Zebrafish-24hpf-22-1.4-top 8
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-1.4-top 8.
+running md5sum ./project_245/data_files/zf-24-30Oct08-22.RAW
+Added input file data_files/zf-24-30Oct08-22.RAW to file list.
+Found new analysis 3201 - Zebrafish-24hpf-22-1.4-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine.
+Found new analysis 3206 - Zebrafish-24hpf-22-1-7-10
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1-7-10.
+Found new analysis 3207 - Zebrafish-24hpf-22-1-7-5ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1-7-5ppm.
+Found new analysis 3208 - Zebrafish-24hpf-22-10ppm-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-10ppm-combine.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-10ppm-combine.
+Found new analysis 3210 - Zebrafish-24hpf-22-20ppm-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-20ppm-combine.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-20ppm-combine.
+Found new analysis 3214 - Zebrafish-24hpf-22-20 ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-20 ppm.
+Found new analysis 3215 - Zebrafish-24hpf-22-20ppm-top 8
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-20ppm-top 8.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3197.tgz
+`/export/wdbackup/archive_3197.tgz' -> `./archive_3197.tgz'
+xuanwen_3197/
+xuanwen_3197/interact-prot.shtml
+xuanwen_3197/ZF24-29Sep08-22.tgz
+xuanwen_3197/interact-prot.xml
+xuanwen_3197/ZF24-29Sep08-22.mzXML
+xuanwen_3197/sequest.params
+xuanwen_3197/runPipeline.sh
+xuanwen_3197/sequest_runs.log
+xuanwen_3197/runSequest.log
+xuanwen_3197/xuanwen_20081113.pXML
+xuanwen_3197/interact.xls
+xuanwen_3197/ZF24-29Sep08-22.pep.xml
+xuanwen_3197/interact.xml.684694228.ISB.png
+xuanwen_3197/interact.xml.684694228.3.ISB.png
+xuanwen_3197/runPipeline.sh.o12333
+xuanwen_3197/interact-prot.xsl
+xuanwen_3197/interact.xml
+xuanwen_3197/ZF24-29Sep08-22.sequest.log
+xuanwen_3197/interact.xml.684694228.1.ISB.png
+xuanwen_3197/interact-prot.png
+xuanwen_3197/interact.xsl
+xuanwen_3197/interact.xml.tmp.xls
+xuanwen_3197/interact.xml.684694228.2.ISB.png
+xuanwen_3197/interact.xml.tmp.xsl
+xuanwen_3197/auditJob.sh
+xuanwen_3197/auditJob.sh.o12334
+xuanwen_3197/interact.shtml
+removed directory: `xuanwen_3197'
+removed `archive_3197.tgz'
+Added files for analysis 3197 - Zebrafish-24hpf-22-1.4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3200.tgz
+`/export/wdbackup/archive_3200.tgz' -> `./archive_3200.tgz'
+xuanwen_3200/
+xuanwen_3200/interact-prot.shtml
+xuanwen_3200/ebp.shtml
+xuanwen_3200/interact-prot.xml
+xuanwen_3200/ebp_len.png
+xuanwen_3200/sequest.params
+xuanwen_3200/runPipeline.sh
+xuanwen_3200/sequest_runs.log
+xuanwen_3200/zf-24-30Oct08-22.sequest.log
+xuanwen_3200/zf-24-30Oct08-22.pep.xml
+xuanwen_3200/runSequest.log
+xuanwen_3200/ebp.png
+xuanwen_3200/xuanwen_20081113.pXML
+xuanwen_3200/interact-prot.xsl
+xuanwen_3200/interact.xml
+xuanwen_3200/interact-prot.nl.ggl
+xuanwen_3200/ebp.xml
+xuanwen_3200/interact-prot.png
+xuanwen_3200/auditJob.sh.o12340
+xuanwen_3200/interact.xsl
+xuanwen_3200/zf-24-30Oct08-22.mzXML
+xuanwen_3200/zf-24-30Oct08-22.tgz
+xuanwen_3200/auditJob.sh
+xuanwen_3200/interact-prot.nv.ggl
+xuanwen_3200/interact-prot.mx.ggl
+xuanwen_3200/interact.shtml
+xuanwen_3200/ebp.xsl
+xuanwen_3200/interact-prot.xls
+xuanwen_3200/runPipeline.sh.o12339
+removed directory: `xuanwen_3200'
+removed `archive_3200.tgz'
+Added files for analysis 3200 - Zebrafish-24hpf-22-1.4-top 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3201.tgz
+`/export/wdbackup/archive_3201.tgz' -> `./archive_3201.tgz'
+xuanwen_3201/
+xuanwen_3201/interact-prot.shtml
+xuanwen_3201/ZF24-29Sep08-22.tgz
+xuanwen_3201/interact-prot.xml
+xuanwen_3201/ZF24-29Sep08-22.mzXML
+xuanwen_3201/sequest.params
+xuanwen_3201/runPipeline.sh
+xuanwen_3201/sequest_runs.log
+xuanwen_3201/zf-24-30Oct08-22.sequest.log
+xuanwen_3201/zf-24-30Oct08-22.pep.xml
+xuanwen_3201/runSequest.log
+xuanwen_3201/xuanwen_20081113.pXML
+xuanwen_3201/auditJob.sh.o12342
+xuanwen_3201/ZF24-29Sep08-22.pep.xml
+xuanwen_3201/interact-prot.xsl
+xuanwen_3201/interact.xml
+xuanwen_3201/ZF24-29Sep08-22.sequest.log
+xuanwen_3201/interact-prot.png
+xuanwen_3201/interact.xsl
+xuanwen_3201/zf-24-30Oct08-22.mzXML
+xuanwen_3201/zf-24-30Oct08-22.tgz
+xuanwen_3201/auditJob.sh
+xuanwen_3201/interact.shtml
+xuanwen_3201/runPipeline.sh.o12341
+removed directory: `xuanwen_3201'
+removed `archive_3201.tgz'
+Added files for analysis 3201 - Zebrafish-24hpf-22-1.4-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3206.tgz
+`/export/wdbackup/archive_3206.tgz' -> `./archive_3206.tgz'
+xuanwen_3206/
+xuanwen_3206/interact-prot.shtml
+xuanwen_3206/ZF24-29Sep08-22.tgz
+xuanwen_3206/interact-prot.xml
+xuanwen_3206/ZF24-29Sep08-22.mzXML
+xuanwen_3206/sequest.params
+xuanwen_3206/runPipeline.sh
+xuanwen_3206/sequest_runs.log
+xuanwen_3206/auditJob.sh.o12352
+xuanwen_3206/runSequest.log
+xuanwen_3206/runPipeline.sh.o12351
+xuanwen_3206/xuanwen_20081113.pXML
+xuanwen_3206/ZF24-29Sep08-22.pep.xml
+xuanwen_3206/interact-prot.xsl
+xuanwen_3206/interact.xml
+xuanwen_3206/ZF24-29Sep08-22.sequest.log
+xuanwen_3206/interact-prot.png
+xuanwen_3206/interact.xsl
+xuanwen_3206/auditJob.sh
+xuanwen_3206/interact.shtml
+xuanwen_3206/interact.xml.index
+removed directory: `xuanwen_3206'
+removed `archive_3206.tgz'
+Added files for analysis 3206 - Zebrafish-24hpf-22-1-7-10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3207.tgz
+`/export/wdbackup/archive_3207.tgz' -> `./archive_3207.tgz'
+xuanwen_3207/
+xuanwen_3207/interact-prot.shtml
+xuanwen_3207/runPipeline.sh.o12353
+xuanwen_3207/ZF24-29Sep08-22.tgz
+xuanwen_3207/interact-prot.xml
+xuanwen_3207/ZF24-29Sep08-22.mzXML
+xuanwen_3207/sequest.params
+xuanwen_3207/runPipeline.sh
+xuanwen_3207/sequest_runs.log
+xuanwen_3207/runSequest.log
+xuanwen_3207/xuanwen_20081113.pXML
+xuanwen_3207/ZF24-29Sep08-22.pep.xml
+xuanwen_3207/interact-prot.xsl
+xuanwen_3207/interact.xml
+xuanwen_3207/ZF24-29Sep08-22.sequest.log
+xuanwen_3207/interact-prot.png
+xuanwen_3207/interact.xsl
+xuanwen_3207/auditJob.sh
+xuanwen_3207/interact.shtml
+xuanwen_3207/auditJob.sh.o12354
+xuanwen_3207/interact.xml.index
+removed directory: `xuanwen_3207'
+removed `archive_3207.tgz'
+Added files for analysis 3207 - Zebrafish-24hpf-22-1-7-5ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3208.tgz
+`/export/wdbackup/archive_3208.tgz' -> `./archive_3208.tgz'
+xuanwen_3208/
+xuanwen_3208/interact-prot.shtml
+xuanwen_3208/ZF24-29Sep08-22.tgz
+xuanwen_3208/interact-prot.xml
+xuanwen_3208/ZF24-29Sep08-22.mzXML
+xuanwen_3208/sequest.params
+xuanwen_3208/runPipeline.sh
+xuanwen_3208/sequest_runs.log
+xuanwen_3208/runPipeline.sh.o12355
+xuanwen_3208/auditJob.sh.o12356
+xuanwen_3208/zf-24-30Oct08-22.sequest.log
+xuanwen_3208/zf-24-30Oct08-22.pep.xml
+xuanwen_3208/runSequest.log
+xuanwen_3208/xuanwen_20081113.pXML
+xuanwen_3208/ZF24-29Sep08-22.pep.xml
+xuanwen_3208/interact-prot.xsl
+xuanwen_3208/interact.xml
+xuanwen_3208/ZF24-29Sep08-22.sequest.log
+xuanwen_3208/interact-prot.png
+xuanwen_3208/interact.xsl
+xuanwen_3208/zf-24-30Oct08-22.mzXML
+xuanwen_3208/zf-24-30Oct08-22.tgz
+xuanwen_3208/auditJob.sh
+xuanwen_3208/interact.shtml
+removed directory: `xuanwen_3208'
+removed `archive_3208.tgz'
+Added files for analysis 3208 - Zebrafish-24hpf-22-10ppm-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3210.tgz
+`/export/wdbackup/archive_3210.tgz' -> `./archive_3210.tgz'
+xuanwen_3210/
+xuanwen_3210/interact-prot.shtml
+xuanwen_3210/ZF24-29Sep08-22.tgz
+xuanwen_3210/interact-prot.xml
+xuanwen_3210/ZF24-29Sep08-22.mzXML
+xuanwen_3210/sequest.params
+xuanwen_3210/runPipeline.sh
+xuanwen_3210/sequest_runs.log
+xuanwen_3210/zf-24-30Oct08-22.sequest.log
+xuanwen_3210/zf-24-30Oct08-22.pep.xml
+xuanwen_3210/runSequest.log
+xuanwen_3210/xuanwen_20081113.pXML
+xuanwen_3210/ZF24-29Sep08-22.pep.xml
+xuanwen_3210/interact-prot.xsl
+xuanwen_3210/interact.xml
+xuanwen_3210/ZF24-29Sep08-22.sequest.log
+xuanwen_3210/interact-prot.png
+xuanwen_3210/interact.xsl
+xuanwen_3210/zf-24-30Oct08-22.mzXML
+xuanwen_3210/runPipeline.sh.o12359
+xuanwen_3210/zf-24-30Oct08-22.tgz
+xuanwen_3210/auditJob.sh
+xuanwen_3210/interact.shtml
+xuanwen_3210/auditJob.sh.o12360
+removed directory: `xuanwen_3210'
+removed `archive_3210.tgz'
+Added files for analysis 3210 - Zebrafish-24hpf-22-20ppm-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3214.tgz
+`/export/wdbackup/archive_3214.tgz' -> `./archive_3214.tgz'
+xuanwen_3214/
+xuanwen_3214/interact-prot.shtml
+xuanwen_3214/auditJob.sh.o12368
+xuanwen_3214/ZF24-29Sep08-22.tgz
+xuanwen_3214/interact-prot.xml
+xuanwen_3214/ZF24-29Sep08-22.mzXML
+xuanwen_3214/sequest.params
+xuanwen_3214/runPipeline.sh
+xuanwen_3214/sequest_runs.log
+xuanwen_3214/subset.xml
+xuanwen_3214/subset.nl.ggl
+xuanwen_3214/runSequest.log
+xuanwen_3214/xuanwen_20081113.pXML
+xuanwen_3214/ZF24-29Sep08-22.pep.xml
+xuanwen_3214/interact-prot.xsl
+xuanwen_3214/subset.xsl
+xuanwen_3214/interact.xml
+xuanwen_3214/interact-prot.nl.ggl
+xuanwen_3214/ZF24-29Sep08-22.sequest.log
+xuanwen_3214/subset.mx.ggl
+xuanwen_3214/subset.shtml
+xuanwen_3214/interact-prot.png
+xuanwen_3214/interact.xsl
+xuanwen_3214/runPipeline.sh.o12367
+xuanwen_3214/auditJob.sh
+xuanwen_3214/interact-prot.nv.ggl
+xuanwen_3214/interact-prot.mx.ggl
+xuanwen_3214/interact.shtml
+xuanwen_3214/subset.nv.ggl
+xuanwen_3214/interact.xml.index
+removed directory: `xuanwen_3214'
+removed `archive_3214.tgz'
+Added files for analysis 3214 - Zebrafish-24hpf-22-20 ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3215.tgz
+`/export/wdbackup/archive_3215.tgz' -> `./archive_3215.tgz'
+xuanwen_3215/
+xuanwen_3215/interact-prot.shtml
+xuanwen_3215/interact-prot.xml
+xuanwen_3215/sequest.params
+xuanwen_3215/runPipeline.sh
+xuanwen_3215/sequest_runs.log
+xuanwen_3215/zf-24-30Oct08-22.sequest.log
+xuanwen_3215/zf-24-30Oct08-22.pep.xml
+xuanwen_3215/runSequest.log
+xuanwen_3215/xuanwen_20081113.pXML
+xuanwen_3215/auditJob.sh.o12370
+xuanwen_3215/interact-prot.xsl
+xuanwen_3215/interact.xml
+xuanwen_3215/interact-prot.png
+xuanwen_3215/interact.xsl
+xuanwen_3215/zf-24-30Oct08-22.mzXML
+xuanwen_3215/zf-24-30Oct08-22.tgz
+xuanwen_3215/auditJob.sh
+xuanwen_3215/interact.shtml
+xuanwen_3215/runPipeline.sh.o12369
+xuanwen_3215/interact.xml.index
+removed directory: `xuanwen_3215'
+removed `archive_3215.tgz'
+Added files for analysis 3215 - Zebrafish-24hpf-22-20ppm-top 8.
+Project contains 223 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_245.7z.*' 72ade9b19c9fcda9e0c27ae04de657a1 716952454
+Client output: ==> 
+remote path: /export/scratch/project_245.7z.*
+remote md5: 72ade9b19c9fcda9e0c27ae04de657a1
+remote size: 716952454
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_245.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 245 - zebrafish-24hpf-22 t
+Found new project 246 - BeWo-SCX-Light-LTQ-2
+Creating project staging dirs.
+Found new analysis 3209 - BeWo-SCX-Light-LTQ-2008
+Using prot db: REFSEQ_HUMAN_071119/refseq_human_071119.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ_HUMAN_071119/refseq_human_071119.fasta' -> `./project_246/data_files/refseq_human_071119.fasta'
+running md5sum ./project_246/data_files/refseq_human_071119.fasta
+Added prot_db file data_files/refseq_human_071119.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/BeWo1108SCX-1.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-1.RAW
+Added input file data_files/BeWo1108SCX-1.RAW to file list.
+Added input file data_files/BeWo1108SCX-2.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-2.RAW
+Added input file data_files/BeWo1108SCX-2.RAW to file list.
+Added input file data_files/BeWo1108SCX-3.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-3.RAW
+Added input file data_files/BeWo1108SCX-3.RAW to file list.
+Added input file data_files/BeWo1108SCX-4.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-4.RAW
+Added input file data_files/BeWo1108SCX-4.RAW to file list.
+Added input file data_files/BeWo1108SCX-5.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-5.RAW
+Added input file data_files/BeWo1108SCX-5.RAW to file list.
+Added input file data_files/BeWo1108SCX-6.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-6.RAW
+Added input file data_files/BeWo1108SCX-6.RAW to file list.
+Added input file data_files/BeWo1108SCX-7.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-7.RAW
+Added input file data_files/BeWo1108SCX-7.RAW to file list.
+Added input file data_files/BeWo1108SCX-8.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-8.RAW
+Added input file data_files/BeWo1108SCX-8.RAW to file list.
+Added input file data_files/BeWo1108SCX-9.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-9.RAW
+Added input file data_files/BeWo1108SCX-9.RAW to file list.
+Added input file data_files/BeWo1108SCX-10.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-10.RAW
+Added input file data_files/BeWo1108SCX-10.RAW to file list.
+Added input file data_files/BeWo1108SCX-11.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-11.RAW
+Added input file data_files/BeWo1108SCX-11.RAW to file list.
+Added input file data_files/BeWo1108SCX-12.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-12.RAW
+Added input file data_files/BeWo1108SCX-12.RAW to file list.
+Added input file data_files/BeWo1108SCX-13.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-13.RAW
+Added input file data_files/BeWo1108SCX-13.RAW to file list.
+Added input file data_files/BeWo1108SCX-14.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-14.RAW
+Added input file data_files/BeWo1108SCX-14.RAW to file list.
+Added input file data_files/BeWo1108SCX-15.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-15.RAW
+Added input file data_files/BeWo1108SCX-15.RAW to file list.
+Added input file data_files/BeWo1108SCX-16.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-16.RAW
+Added input file data_files/BeWo1108SCX-16.RAW to file list.
+Added input file data_files/BeWo1108SCX-17.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-17.RAW
+Added input file data_files/BeWo1108SCX-17.RAW to file list.
+Added input file data_files/BeWo1108SCX-18.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-18.RAW
+Added input file data_files/BeWo1108SCX-18.RAW to file list.
+Added input file data_files/BeWo1108SCX-19.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-19.RAW
+Added input file data_files/BeWo1108SCX-19.RAW to file list.
+Added input file data_files/BeWo1108SCX-20.RAW to analysis BeWo-SCX-Light-LTQ-2008.
+running md5sum ./project_246/data_files/BeWo1108SCX-20.RAW
+Added input file data_files/BeWo1108SCX-20.RAW to file list.
+Found new analysis 3211 - BeWoSCX-LTQ-2008
+Using prot db: REFSEQ_HUMAN_071119/refseq_human_071119.fasta
+Adding Sequest search params to analysis
+Added input file data_files/BeWo1108SCX-1.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-2.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-3.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-4.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-5.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-6.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-7.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-8.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-9.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-10.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-11.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-12.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-13.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-14.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-15.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-16.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-17.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-18.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-19.RAW to analysis BeWoSCX-LTQ-2008.
+Added input file data_files/BeWo1108SCX-20.RAW to analysis BeWoSCX-LTQ-2008.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3209.tgz
+`/export/wdbackup/archive_3209.tgz' -> `./archive_3209.tgz'
+vsangar_3209/
+vsangar_3209/BeWo1108SCX-14.mzXML
+vsangar_3209/BeWo1108SCX-16.pep.xml
+vsangar_3209/BeWo1108SCX-3.sequest.log
+vsangar_3209/interact-prot.shtml
+vsangar_3209/BeWo1108SCX-2.pep.xml
+vsangar_3209/BeWo1108SCX-4.tgz
+vsangar_3209/BeWo1108SCX-5.pep.xml
+vsangar_3209/BeWo1108SCX-4.pep.xml
+vsangar_3209/BeWo1108SCX-3.mzXML
+vsangar_3209/BeWo1108SCX-9.mzXML
+vsangar_3209/ebp.shtml
+vsangar_3209/BeWo1108SCX-16.mzXML
+vsangar_3209/BeWo1108SCX-13.pep.xml
+vsangar_3209/BeWo1108SCX-12.tgz
+vsangar_3209/BeWo1108SCX-19.tgz
+vsangar_3209/auditJob.sh.o12358
+vsangar_3209/BeWo1108SCX-14.tgz
+vsangar_3209/BeWo1108SCX-11.pep.xml
+vsangar_3209/interact-prot.xml
+vsangar_3209/BeWo1108SCX-1.sequest.log
+vsangar_3209/BeWo1108SCX-9.sequest.log
+vsangar_3209/BeWo1108SCX-17.pep.xml
+vsangar_3209/ebp_len.png
+vsangar_3209/sequest.params
+vsangar_3209/BeWo1108SCX-8.sequest.log
+vsangar_3209/BeWo1108SCX-19.pep.xml
+vsangar_3209/runPipeline.sh
+vsangar_3209/BeWo1108SCX-5.mzXML
+vsangar_3209/BeWo1108SCX-9.tgz
+vsangar_3209/BeWo1108SCX-7.pep.xml
+vsangar_3209/BeWo1108SCX-1.mzXML
+vsangar_3209/BeWo1108SCX-14.sequest.log
+vsangar_3209/BeWo1108SCX-8.mzXML
+vsangar_3209/sequest_runs.log
+vsangar_3209/BeWo1108SCX-10.mzXML
+vsangar_3209/BeWo1108SCX-15.mzXML
+vsangar_3209/BeWo1108SCX-6.sequest.log
+vsangar_3209/BeWo1108SCX-9.pep.xml
+vsangar_3209/BeWo1108SCX-18.mzXML
+vsangar_3209/BeWo1108SCX-18.tgz
+vsangar_3209/BeWo1108SCX-20.sequest.log
+vsangar_3209/BeWo1108SCX-15.tgz
+vsangar_3209/BeWo1108SCX-6.mzXML
+vsangar_3209/BeWo1108SCX-13.sequest.log
+vsangar_3209/runSequest.log
+vsangar_3209/BeWo1108SCX-12.pep.xml
+vsangar_3209/BeWo1108SCX-10.pep.xml
+vsangar_3209/BeWo1108SCX-3.tgz
+vsangar_3209/BeWo1108SCX-1.tgz
+vsangar_3209/ebp.png
+vsangar_3209/BeWo1108SCX-2.sequest.log
+vsangar_3209/BeWo1108SCX-2.mzXML
+vsangar_3209/BeWo1108SCX-18.pep.xml
+vsangar_3209/BeWo1108SCX-4.mzXML
+vsangar_3209/BeWo1108SCX-20.tgz
+vsangar_3209/interact-prot.xsl
+vsangar_3209/BeWo1108SCX-11.mzXML
+vsangar_3209/interact.xml
+vsangar_3209/interact-prot.nl.ggl
+vsangar_3209/runPipeline.sh.o12357
+vsangar_3209/BeWo1108SCX-19.sequest.log
+vsangar_3209/BeWo1108SCX-13.mzXML
+vsangar_3209/BeWo1108SCX-15.pep.xml
+vsangar_3209/BeWo1108SCX-7.tgz
+vsangar_3209/BeWo1108SCX-16.tgz
+vsangar_3209/BeWo1108SCX-7.sequest.log
+vsangar_3209/ebp.xml
+vsangar_3209/BeWo1108SCX-5.sequest.log
+vsangar_3209/interact-prot.png
+vsangar_3209/BeWo1108SCX-12.sequest.log
+vsangar_3209/BeWo1108SCX-11.sequest.log
+vsangar_3209/interact.xsl
+vsangar_3209/BeWo1108SCX-8.tgz
+vsangar_3209/BeWo1108SCX-18.sequest.log
+vsangar_3209/BeWo1108SCX-19.mzXML
+vsangar_3209/BeWo1108SCX-3.pep.xml
+vsangar_3209/BeWo1108SCX-17.sequest.log
+vsangar_3209/BeWo1108SCX-11.tgz
+vsangar_3209/BeWo1108SCX-6.pep.xml
+vsangar_3209/BeWo1108SCX-14.pep.xml
+vsangar_3209/BeWo1108SCX-6.tgz
+vsangar_3209/BeWo1108SCX-2.tgz
+vsangar_3209/auditJob.sh
+vsangar_3209/BeWo1108SCX-10.tgz
+vsangar_3209/BeWo1108SCX-4.sequest.log
+vsangar_3209/interact-prot.nv.ggl
+vsangar_3209/interact-prot.mx.ggl
+vsangar_3209/interact.shtml
+vsangar_3209/BeWo1108SCX-13.tgz
+vsangar_3209/ebp.xsl
+vsangar_3209/BeWo1108SCX-17.tgz
+vsangar_3209/BeWo1108SCX-8.pep.xml
+vsangar_3209/BeWo1108SCX-5.tgz
+vsangar_3209/BeWo1108SCX-17.mzXML
+vsangar_3209/BeWo1108SCX-15.sequest.log
+vsangar_3209/BeWo1108SCX-16.sequest.log
+vsangar_3209/LTQ_20081118.pXML
+vsangar_3209/BeWo1108SCX-1.pep.xml
+vsangar_3209/BeWo1108SCX-10.sequest.log
+vsangar_3209/BeWo1108SCX-7.mzXML
+vsangar_3209/BeWo1108SCX-12.mzXML
+vsangar_3209/BeWo1108SCX-20.pep.xml
+removed directory: `vsangar_3209'
+removed `archive_3209.tgz'
+Added files for analysis 3209 - BeWo-SCX-Light-LTQ-2008.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3211.tgz
+`/export/wdbackup/archive_3211.tgz' -> `./archive_3211.tgz'
+vsangar_3211/
+vsangar_3211/BeWo1108SCX-14.mzXML
+vsangar_3211/BeWo1108SCX-16.pep.xml
+vsangar_3211/BeWo1108SCX-3.sequest.log
+vsangar_3211/interact-prot.shtml
+vsangar_3211/BeWo1108SCX-2.pep.xml
+vsangar_3211/BeWo1108SCX-4.tgz
+vsangar_3211/BeWo1108SCX-5.pep.xml
+vsangar_3211/BeWo1108SCX-4.pep.xml
+vsangar_3211/BeWo1108SCX-3.mzXML
+vsangar_3211/BeWo1108SCX-9.mzXML
+vsangar_3211/ebp.shtml
+vsangar_3211/BeWo1108SCX-16.mzXML
+vsangar_3211/BeWo1108SCX-13.pep.xml
+vsangar_3211/BeWo1108SCX-12.tgz
+vsangar_3211/BeWo1108SCX-19.tgz
+vsangar_3211/BeWo1108SCX-14.tgz
+vsangar_3211/BeWo1108SCX-11.pep.xml
+vsangar_3211/interact-prot.xml
+vsangar_3211/BeWo1108SCX-1.sequest.log
+vsangar_3211/BeWo1108SCX-9.sequest.log
+vsangar_3211/BeWo1108SCX-17.pep.xml
+vsangar_3211/ebp_len.png
+vsangar_3211/sequest.params
+vsangar_3211/BeWo1108SCX-8.sequest.log
+vsangar_3211/BeWo1108SCX-19.pep.xml
+vsangar_3211/runPipeline.sh
+vsangar_3211/BeWo1108SCX-5.mzXML
+vsangar_3211/BeWo1108SCX-9.tgz
+vsangar_3211/BeWo1108SCX-7.pep.xml
+vsangar_3211/BeWo1108SCX-1.mzXML
+vsangar_3211/BeWo1108SCX-14.sequest.log
+vsangar_3211/BeWo1108SCX-8.mzXML
+vsangar_3211/sequest_runs.log
+vsangar_3211/BeWo1108SCX-10.mzXML
+vsangar_3211/BeWo1108SCX-15.mzXML
+vsangar_3211/BeWo1108SCX-6.sequest.log
+vsangar_3211/BeWo1108SCX-9.pep.xml
+vsangar_3211/BeWo1108SCX-18.mzXML
+vsangar_3211/BeWo1108SCX-18.tgz
+vsangar_3211/BeWo1108SCX-20.sequest.log
+vsangar_3211/BeWo1108SCX-15.tgz
+vsangar_3211/BeWo1108SCX-6.mzXML
+vsangar_3211/BeWo1108SCX-13.sequest.log
+vsangar_3211/runSequest.log
+vsangar_3211/BeWo1108SCX-12.pep.xml
+vsangar_3211/BeWo1108SCX-10.pep.xml
+vsangar_3211/BeWo1108SCX-3.tgz
+vsangar_3211/BeWo1108SCX-1.tgz
+vsangar_3211/ebp.png
+vsangar_3211/BeWo1108SCX-2.sequest.log
+vsangar_3211/BeWo1108SCX-2.mzXML
+vsangar_3211/BeWo1108SCX-18.pep.xml
+vsangar_3211/BeWo1108SCX-4.mzXML
+vsangar_3211/BeWo1108SCX-20.tgz
+vsangar_3211/interact-prot.xsl
+vsangar_3211/BeWo1108SCX-11.mzXML
+vsangar_3211/interact.xml
+vsangar_3211/interact-prot.nl.ggl
+vsangar_3211/runPipeline.sh.o12361
+vsangar_3211/BeWo1108SCX-19.sequest.log
+vsangar_3211/BeWo1108SCX-13.mzXML
+vsangar_3211/BeWo1108SCX-15.pep.xml
+vsangar_3211/BeWo1108SCX-7.tgz
+vsangar_3211/BeWo1108SCX-16.tgz
+vsangar_3211/BeWo1108SCX-7.sequest.log
+vsangar_3211/ebp.xml
+vsangar_3211/BeWo1108SCX-5.sequest.log
+vsangar_3211/interact-prot.png
+vsangar_3211/BeWo1108SCX-12.sequest.log
+vsangar_3211/BeWo1108SCX-11.sequest.log
+vsangar_3211/interact.xsl
+vsangar_3211/BeWo1108SCX-8.tgz
+vsangar_3211/BeWo1108SCX-18.sequest.log
+vsangar_3211/BeWo1108SCX-19.mzXML
+vsangar_3211/BeWo1108SCX-3.pep.xml
+vsangar_3211/BeWo1108SCX-17.sequest.log
+vsangar_3211/BeWo1108SCX-11.tgz
+vsangar_3211/BeWo1108SCX-6.pep.xml
+vsangar_3211/BeWo1108SCX-14.pep.xml
+vsangar_3211/BeWo1108SCX-6.tgz
+vsangar_3211/BeWo1108SCX-2.tgz
+vsangar_3211/auditJob.sh
+vsangar_3211/BeWo1108SCX-10.tgz
+vsangar_3211/BeWo1108SCX-4.sequest.log
+vsangar_3211/interact-prot.nv.ggl
+vsangar_3211/interact-prot.mx.ggl
+vsangar_3211/interact.shtml
+vsangar_3211/BeWo1108SCX-13.tgz
+vsangar_3211/ebp.xsl
+vsangar_3211/BeWo1108SCX-17.tgz
+vsangar_3211/BeWo1108SCX-8.pep.xml
+vsangar_3211/interact.xml.index
+vsangar_3211/BeWo1108SCX-5.tgz
+vsangar_3211/auditJob.sh.o12362
+vsangar_3211/BeWo1108SCX-17.mzXML
+vsangar_3211/BeWo1108SCX-15.sequest.log
+vsangar_3211/BeWo1108SCX-16.sequest.log
+vsangar_3211/LTQ_20081118.pXML
+vsangar_3211/BeWo1108SCX-1.pep.xml
+vsangar_3211/BeWo1108SCX-10.sequest.log
+vsangar_3211/BeWo1108SCX-7.mzXML
+vsangar_3211/BeWo1108SCX-12.mzXML
+vsangar_3211/BeWo1108SCX-20.pep.xml
+removed directory: `vsangar_3211'
+removed `archive_3211.tgz'
+Added files for analysis 3211 - BeWoSCX-LTQ-2008.
+Project contains 226 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_246.7z.*' eca9debe5e91f7a405e3a3b7876bda49 782716612
+Client output: ==> 
+remote path: /export/scratch/project_246.7z.*
+remote md5: eca9debe5e91f7a405e3a3b7876bda49
+remote size: 782716612
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_246.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 246 - BeWo-SCX-Light-LTQ-2
+Found new project 247 - Platelets KF 1
+Creating project staging dirs.
+Found new analysis 3235 - seq test 10 - new interact 
+Using prot db: IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta' -> `./project_247/data_files/ipi.HUMAN.20081105.rev.fasta'
+running md5sum ./project_247/data_files/ipi.HUMAN.20081105.rev.fasta
+Added prot_db file data_files/ipi.HUMAN.20081105.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-034L.RAW to analysis seq test 10 - new interact .
+running md5sum ./project_247/data_files/CGB-002-034L.RAW
+Added input file data_files/CGB-002-034L.RAW to file list.
+Added input file data_files/CGB-002-034A.RAW to analysis seq test 10 - new interact .
+running md5sum ./project_247/data_files/CGB-002-034A.RAW
+Added input file data_files/CGB-002-034A.RAW to file list.
+Added input file data_files/CGB-002-034B.RAW to analysis seq test 10 - new interact .
+running md5sum ./project_247/data_files/CGB-002-034B.RAW
+Added input file data_files/CGB-002-034B.RAW to file list.
+Added input file data_files/CGB-002-034C.RAW to analysis seq test 10 - new interact .
+running md5sum ./project_247/data_files/CGB-002-034C.RAW
+Added input file data_files/CGB-002-034C.RAW to file list.
+Added input file data_files/CGB-002-034D.RAW to analysis seq test 10 - new interact .
+running md5sum ./project_247/data_files/CGB-002-034D.RAW
+Added input file data_files/CGB-002-034D.RAW to file list.
+Found new analysis 3236 - seq test 9 - new interact -repeat
+Using prot db: IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-034L.RAW to analysis seq test 9 - new interact -repeat.
+Added input file data_files/CGB-002-034A.RAW to analysis seq test 9 - new interact -repeat.
+Added input file data_files/CGB-002-034B.RAW to analysis seq test 9 - new interact -repeat.
+Added input file data_files/CGB-002-034C.RAW to analysis seq test 9 - new interact -repeat.
+Added input file data_files/CGB-002-034D.RAW to analysis seq test 9 - new interact -repeat.
+Found new analysis 3237 - seq test 11 - new interact -ebponly 
+Using prot db: IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-034L.RAW to analysis seq test 11 - new interact -ebponly .
+Added input file data_files/CGB-002-034A.RAW to analysis seq test 11 - new interact -ebponly .
+Added input file data_files/CGB-002-034B.RAW to analysis seq test 11 - new interact -ebponly .
+Added input file data_files/CGB-002-034C.RAW to analysis seq test 11 - new interact -ebponly .
+Added input file data_files/CGB-002-034D.RAW to analysis seq test 11 - new interact -ebponly .
+Found new analysis 3239 - seq test 11 - new interact -ebponly one more time 
+Using prot db: IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-034L.RAW to analysis seq test 11 - new interact -ebponly one more time .
+Added input file data_files/CGB-002-034A.RAW to analysis seq test 11 - new interact -ebponly one more time .
+Added input file data_files/CGB-002-034B.RAW to analysis seq test 11 - new interact -ebponly one more time .
+Added input file data_files/CGB-002-034C.RAW to analysis seq test 11 - new interact -ebponly one more time .
+Added input file data_files/CGB-002-034D.RAW to analysis seq test 11 - new interact -ebponly one more time .
+Found new analysis 3241 - KF_4_W_A_1_26Aug08_seq
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta' -> `./project_247/data_files/ipi.HUMAN.20081112.rev.fasta'
+running md5sum ./project_247/data_files/ipi.HUMAN.20081112.rev.fasta
+Added prot_db file data_files/ipi.HUMAN.20081112.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/BrassACTIVE-18-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-18-Orb2.RAW
+Added input file data_files/BrassACTIVE-18-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-1-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-1-Orb2.RAW
+Added input file data_files/BrassACTIVE-1-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-2-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-2-Orb2.RAW
+Added input file data_files/BrassACTIVE-2-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-3-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-3-Orb2.RAW
+Added input file data_files/BrassACTIVE-3-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-4-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-4-Orb2.RAW
+Added input file data_files/BrassACTIVE-4-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-5-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-5-Orb2.RAW
+Added input file data_files/BrassACTIVE-5-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-6-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-6-Orb2.RAW
+Added input file data_files/BrassACTIVE-6-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-7-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-7-Orb2.RAW
+Added input file data_files/BrassACTIVE-7-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-8-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-8-Orb2.RAW
+Added input file data_files/BrassACTIVE-8-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-9-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-9-Orb2.RAW
+Added input file data_files/BrassACTIVE-9-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-10-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-10-Orb2.RAW
+Added input file data_files/BrassACTIVE-10-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-11-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-11-Orb2.RAW
+Added input file data_files/BrassACTIVE-11-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-12-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-12-Orb2.RAW
+Added input file data_files/BrassACTIVE-12-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-13-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-13-Orb2.RAW
+Added input file data_files/BrassACTIVE-13-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-14-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-14-Orb2.RAW
+Added input file data_files/BrassACTIVE-14-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-15-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-15-Orb2.RAW
+Added input file data_files/BrassACTIVE-15-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-16-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-16-Orb2.RAW
+Added input file data_files/BrassACTIVE-16-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-17-Orb2.RAW to analysis KF_4_W_A_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-17-Orb2.RAW
+Added input file data_files/BrassACTIVE-17-Orb2.RAW to file list.
+Found new analysis 3242 - KF_4_W_G_1_26Aug08_seq
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/BrassACTIVE-GM-18-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-18-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-18-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-1-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-1-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-1-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-2-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-2-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-2-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-3-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-3-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-3-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-4-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-4-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-4-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-5-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-5-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-5-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-6-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-6-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-6-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-7-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-7-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-7-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-8-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-8-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-8-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-9-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-9-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-9-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-10-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-10-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-10-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-11-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-11-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-11-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-12-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-12-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-12-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-13-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-13-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-13-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-14-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-14-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-14-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-15-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-15-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-15-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-16-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-16-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-16-Orb2.RAW to file list.
+Added input file data_files/BrassACTIVE-GM-17-Orb2.RAW to analysis KF_4_W_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/BrassACTIVE-GM-17-Orb2.RAW
+Added input file data_files/BrassACTIVE-GM-17-Orb2.RAW to file list.
+Found new analysis 3245 - KF_4_C_A_1_26Aug08
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-035L.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035L.RAW
+Added input file data_files/CGB-002-035L.RAW to file list.
+Added input file data_files/CGB-002-035A-10x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035A-10x.RAW
+Added input file data_files/CGB-002-035A-10x.RAW to file list.
+Added input file data_files/CGB-002-035A-20x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035A-20x.RAW
+Added input file data_files/CGB-002-035A-20x.RAW to file list.
+Added input file data_files/CGB-002-035A.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035A.RAW
+Added input file data_files/CGB-002-035A.RAW to file list.
+Added input file data_files/CGB-002-035B-10x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035B-10x.RAW
+Added input file data_files/CGB-002-035B-10x.RAW to file list.
+Added input file data_files/CGB-002-035B-20x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035B-20x.RAW
+Added input file data_files/CGB-002-035B-20x.RAW to file list.
+Added input file data_files/CGB-002-035B.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035B.RAW
+Added input file data_files/CGB-002-035B.RAW to file list.
+Added input file data_files/CGB-002-035C-10x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035C-10x.RAW
+Added input file data_files/CGB-002-035C-10x.RAW to file list.
+Added input file data_files/CGB-002-035C-20x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035C-20x.RAW
+Added input file data_files/CGB-002-035C-20x.RAW to file list.
+Added input file data_files/CGB-002-035C.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035C.RAW
+Added input file data_files/CGB-002-035C.RAW to file list.
+Added input file data_files/CGB-002-035D-10x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035D-10x.RAW
+Added input file data_files/CGB-002-035D-10x.RAW to file list.
+Added input file data_files/CGB-002-035D-20x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035D-20x.RAW
+Added input file data_files/CGB-002-035D-20x.RAW to file list.
+Added input file data_files/CGB-002-035D.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035D.RAW
+Added input file data_files/CGB-002-035D.RAW to file list.
+Added input file data_files/CGB-002-035E-10x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035E-10x.RAW
+Added input file data_files/CGB-002-035E-10x.RAW to file list.
+Added input file data_files/CGB-002-035E-20x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035E-20x.RAW
+Added input file data_files/CGB-002-035E-20x.RAW to file list.
+Added input file data_files/CGB-002-035E.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035E.RAW
+Added input file data_files/CGB-002-035E.RAW to file list.
+Added input file data_files/CGB-002-035F-10x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035F-10x.RAW
+Added input file data_files/CGB-002-035F-10x.RAW to file list.
+Added input file data_files/CGB-002-035F-20x.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035F-20x.RAW
+Added input file data_files/CGB-002-035F-20x.RAW to file list.
+Added input file data_files/CGB-002-035F.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035F.RAW
+Added input file data_files/CGB-002-035F.RAW to file list.
+Added input file data_files/CGB-002-035G.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035G.RAW
+Added input file data_files/CGB-002-035G.RAW to file list.
+Added input file data_files/CGB-002-035H.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035H.RAW
+Added input file data_files/CGB-002-035H.RAW to file list.
+Added input file data_files/CGB-002-035I.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035I.RAW
+Added input file data_files/CGB-002-035I.RAW to file list.
+Added input file data_files/CGB-002-035J.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035J.RAW
+Added input file data_files/CGB-002-035J.RAW to file list.
+Added input file data_files/CGB-002-035k.RAW to analysis KF_4_C_A_1_26Aug08.
+running md5sum ./project_247/data_files/CGB-002-035k.RAW
+Added input file data_files/CGB-002-035k.RAW to file list.
+Found new analysis 3246 - KF_4_C_G_1_26Aug08_seq
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-034L.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+Added input file data_files/CGB-002-034A-10x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034A-10x.RAW
+Added input file data_files/CGB-002-034A-10x.RAW to file list.
+Added input file data_files/CGB-002-034A-20x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034A-20x.RAW
+Added input file data_files/CGB-002-034A-20x.RAW to file list.
+Added input file data_files/CGB-002-034A.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+Added input file data_files/CGB-002-034B-10x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034B-10x.RAW
+Added input file data_files/CGB-002-034B-10x.RAW to file list.
+Added input file data_files/CGB-002-034B-20x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034B-20x.RAW
+Added input file data_files/CGB-002-034B-20x.RAW to file list.
+Added input file data_files/CGB-002-034B.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+Added input file data_files/CGB-002-034C-10x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034C-10x.RAW
+Added input file data_files/CGB-002-034C-10x.RAW to file list.
+Added input file data_files/CGB-002-034C-20x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034C-20x.RAW
+Added input file data_files/CGB-002-034C-20x.RAW to file list.
+Added input file data_files/CGB-002-034C.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+Added input file data_files/CGB-002-034D-10x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034D-10x.RAW
+Added input file data_files/CGB-002-034D-10x.RAW to file list.
+Added input file data_files/CGB-002-034D-20x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034D-20x.RAW
+Added input file data_files/CGB-002-034D-20x.RAW to file list.
+Added input file data_files/CGB-002-034D.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+Added input file data_files/CGB-002-034E-10x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034E-10x.RAW
+Added input file data_files/CGB-002-034E-10x.RAW to file list.
+Added input file data_files/CGB-002-034E-20x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034E-20x.RAW
+Added input file data_files/CGB-002-034E-20x.RAW to file list.
+Added input file data_files/CGB-002-034E.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034E.RAW
+Added input file data_files/CGB-002-034E.RAW to file list.
+Added input file data_files/CGB-002-034F-10x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034F-10x.RAW
+Added input file data_files/CGB-002-034F-10x.RAW to file list.
+Added input file data_files/CGB-002-034F-20x.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034F-20x.RAW
+Added input file data_files/CGB-002-034F-20x.RAW to file list.
+Added input file data_files/CGB-002-034F.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034F.RAW
+Added input file data_files/CGB-002-034F.RAW to file list.
+Added input file data_files/CGB-002-034G.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034G.RAW
+Added input file data_files/CGB-002-034G.RAW to file list.
+Added input file data_files/CGB-002-034H.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034H.RAW
+Added input file data_files/CGB-002-034H.RAW to file list.
+Added input file data_files/CGB-002-034I.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034I.RAW
+Added input file data_files/CGB-002-034I.RAW to file list.
+Added input file data_files/CGB-002-034J.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034J.RAW
+Added input file data_files/CGB-002-034J.RAW to file list.
+Added input file data_files/CGB-002-034K.RAW to analysis KF_4_C_G_1_26Aug08_seq.
+running md5sum ./project_247/data_files/CGB-002-034K.RAW
+Added input file data_files/CGB-002-034K.RAW to file list.
+Found new analysis 3247 - KF_3_C_A_1_28Jul08_seq
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-016MN.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016MN.RAW
+Added input file data_files/CGB-002-016MN.RAW to file list.
+Added input file data_files/CGB-002-016AB-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016AB-2.RAW
+Added input file data_files/CGB-002-016AB-2.RAW to file list.
+Added input file data_files/CGB-002-016AB-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016AB-3.RAW
+Added input file data_files/CGB-002-016AB-3.RAW to file list.
+Added input file data_files/CGB-002-016AB-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016AB-4.RAW
+Added input file data_files/CGB-002-016AB-4.RAW to file list.
+Added input file data_files/CGB-002-016AB.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016AB.RAW
+Added input file data_files/CGB-002-016AB.RAW to file list.
+Added input file data_files/CGB-002-016C-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016C-2.RAW
+Added input file data_files/CGB-002-016C-2.RAW to file list.
+Added input file data_files/CGB-002-016C-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016C-3.RAW
+Added input file data_files/CGB-002-016C-3.RAW to file list.
+Added input file data_files/CGB-002-016C-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016C-4.RAW
+Added input file data_files/CGB-002-016C-4.RAW to file list.
+Added input file data_files/CGB-002-016C.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016C.RAW
+Added input file data_files/CGB-002-016C.RAW to file list.
+Added input file data_files/CGB-002-016D-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016D-2.RAW
+Added input file data_files/CGB-002-016D-2.RAW to file list.
+Added input file data_files/CGB-002-016D-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016D-3.RAW
+Added input file data_files/CGB-002-016D-3.RAW to file list.
+Added input file data_files/CGB-002-016D-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016D-4.RAW
+Added input file data_files/CGB-002-016D-4.RAW to file list.
+Added input file data_files/CGB-002-016D.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016D.RAW
+Added input file data_files/CGB-002-016D.RAW to file list.
+Added input file data_files/CGB-002-016E-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016E-2.RAW
+Added input file data_files/CGB-002-016E-2.RAW to file list.
+Added input file data_files/CGB-002-016E-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016E-3.RAW
+Added input file data_files/CGB-002-016E-3.RAW to file list.
+Added input file data_files/CGB-002-016E-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016E-4.RAW
+Added input file data_files/CGB-002-016E-4.RAW to file list.
+Added input file data_files/CGB-002-016E.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016E.RAW
+Added input file data_files/CGB-002-016E.RAW to file list.
+Added input file data_files/CGB-002-016F-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016F-2.RAW
+Added input file data_files/CGB-002-016F-2.RAW to file list.
+Added input file data_files/CGB-002-016F-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016F-3.RAW
+Added input file data_files/CGB-002-016F-3.RAW to file list.
+Added input file data_files/CGB-002-016F-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016F-4.RAW
+Added input file data_files/CGB-002-016F-4.RAW to file list.
+Added input file data_files/CGB-002-016F.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016F.RAW
+Added input file data_files/CGB-002-016F.RAW to file list.
+Added input file data_files/CGB-002-016G-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016G-2.RAW
+Added input file data_files/CGB-002-016G-2.RAW to file list.
+Added input file data_files/CGB-002-016G-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016G-3.RAW
+Added input file data_files/CGB-002-016G-3.RAW to file list.
+Added input file data_files/CGB-002-016G-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016G-4.RAW
+Added input file data_files/CGB-002-016G-4.RAW to file list.
+Added input file data_files/CGB-002-016G.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016G.RAW
+Added input file data_files/CGB-002-016G.RAW to file list.
+Added input file data_files/CGB-002-016H-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016H-2.RAW
+Added input file data_files/CGB-002-016H-2.RAW to file list.
+Added input file data_files/CGB-002-016H-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016H-3.RAW
+Added input file data_files/CGB-002-016H-3.RAW to file list.
+Added input file data_files/CGB-002-016H-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016H-4.RAW
+Added input file data_files/CGB-002-016H-4.RAW to file list.
+Added input file data_files/CGB-002-016H.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016H.RAW
+Added input file data_files/CGB-002-016H.RAW to file list.
+Added input file data_files/CGB-002-016I-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016I-2.RAW
+Added input file data_files/CGB-002-016I-2.RAW to file list.
+Added input file data_files/CGB-002-016I-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016I-3.RAW
+Added input file data_files/CGB-002-016I-3.RAW to file list.
+Added input file data_files/CGB-002-016I-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016I-4.RAW
+Added input file data_files/CGB-002-016I-4.RAW to file list.
+Added input file data_files/CGB-002-016I.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016I.RAW
+Added input file data_files/CGB-002-016I.RAW to file list.
+Added input file data_files/CGB-002-016J-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016J-2.RAW
+Added input file data_files/CGB-002-016J-2.RAW to file list.
+Added input file data_files/CGB-002-016J-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016J-3.RAW
+Added input file data_files/CGB-002-016J-3.RAW to file list.
+Added input file data_files/CGB-002-016J-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016J-4.RAW
+Added input file data_files/CGB-002-016J-4.RAW to file list.
+Added input file data_files/CGB-002-016J.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016J.RAW
+Added input file data_files/CGB-002-016J.RAW to file list.
+Added input file data_files/CGB-002-016K-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016K-2.RAW
+Added input file data_files/CGB-002-016K-2.RAW to file list.
+Added input file data_files/CGB-002-016K-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016K-3.RAW
+Added input file data_files/CGB-002-016K-3.RAW to file list.
+Added input file data_files/CGB-002-016K-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016K-4.RAW
+Added input file data_files/CGB-002-016K-4.RAW to file list.
+Added input file data_files/CGB-002-016K.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016K.RAW
+Added input file data_files/CGB-002-016K.RAW to file list.
+Added input file data_files/CGB-002-016L-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016L-2.RAW
+Added input file data_files/CGB-002-016L-2.RAW to file list.
+Added input file data_files/CGB-002-016L-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016L-3.RAW
+Added input file data_files/CGB-002-016L-3.RAW to file list.
+Added input file data_files/CGB-002-016L-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016L-4.RAW
+Added input file data_files/CGB-002-016L-4.RAW to file list.
+Added input file data_files/CGB-002-016L.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016L.RAW
+Added input file data_files/CGB-002-016L.RAW to file list.
+Added input file data_files/CGB-002-016MN-2.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016MN-2.RAW
+Added input file data_files/CGB-002-016MN-2.RAW to file list.
+Added input file data_files/CGB-002-016MN-3.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016MN-3.RAW
+Added input file data_files/CGB-002-016MN-3.RAW to file list.
+Added input file data_files/CGB-002-016MN-4.RAW to analysis KF_3_C_A_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-016MN-4.RAW
+Added input file data_files/CGB-002-016MN-4.RAW to file list.
+Found new analysis 3248 - KF_3_C_B_1_28Jul08_seq
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/CGB-002-015MN.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015MN.RAW
+Added input file data_files/CGB-002-015MN.RAW to file list.
+Added input file data_files/CGB-002-015AB-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015AB-2.RAW
+Added input file data_files/CGB-002-015AB-2.RAW to file list.
+Added input file data_files/CGB-002-015AB-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015AB-3.RAW
+Added input file data_files/CGB-002-015AB-3.RAW to file list.
+Added input file data_files/CGB-002-015AB-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015AB-4.RAW
+Added input file data_files/CGB-002-015AB-4.RAW to file list.
+Added input file data_files/CGB-002-015AB.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015AB.RAW
+Added input file data_files/CGB-002-015AB.RAW to file list.
+Added input file data_files/CGB-002-015C-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015C-2.RAW
+Added input file data_files/CGB-002-015C-2.RAW to file list.
+Added input file data_files/CGB-002-015C-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015C-3.RAW
+Added input file data_files/CGB-002-015C-3.RAW to file list.
+Added input file data_files/CGB-002-015C-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015C-4.RAW
+Added input file data_files/CGB-002-015C-4.RAW to file list.
+Added input file data_files/CGB-002-015C.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015C.RAW
+Added input file data_files/CGB-002-015C.RAW to file list.
+Added input file data_files/CGB-002-015D-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015D-2.RAW
+Added input file data_files/CGB-002-015D-2.RAW to file list.
+Added input file data_files/CGB-002-015D-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015D-3.RAW
+Added input file data_files/CGB-002-015D-3.RAW to file list.
+Added input file data_files/CGB-002-015D-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015D-4.RAW
+Added input file data_files/CGB-002-015D-4.RAW to file list.
+Added input file data_files/CGB-002-015D.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015D.RAW
+Added input file data_files/CGB-002-015D.RAW to file list.
+Added input file data_files/CGB-002-015E-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015E-2.RAW
+Added input file data_files/CGB-002-015E-2.RAW to file list.
+Added input file data_files/CGB-002-015E-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015E-3.RAW
+Added input file data_files/CGB-002-015E-3.RAW to file list.
+Added input file data_files/CGB-002-015E-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015E-4.RAW
+Added input file data_files/CGB-002-015E-4.RAW to file list.
+Added input file data_files/CGB-002-015E.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015E.RAW
+Added input file data_files/CGB-002-015E.RAW to file list.
+Added input file data_files/CGB-002-015F-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015F-2.RAW
+Added input file data_files/CGB-002-015F-2.RAW to file list.
+Added input file data_files/CGB-002-015F-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015F-3.RAW
+Added input file data_files/CGB-002-015F-3.RAW to file list.
+Added input file data_files/CGB-002-015F-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015F-4.RAW
+Added input file data_files/CGB-002-015F-4.RAW to file list.
+Added input file data_files/CGB-002-015F.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015F.RAW
+Added input file data_files/CGB-002-015F.RAW to file list.
+Added input file data_files/CGB-002-015G-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015G-2.RAW
+Added input file data_files/CGB-002-015G-2.RAW to file list.
+Added input file data_files/CGB-002-015G-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015G-3.RAW
+Added input file data_files/CGB-002-015G-3.RAW to file list.
+Added input file data_files/CGB-002-015G-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015G-4.RAW
+Added input file data_files/CGB-002-015G-4.RAW to file list.
+Added input file data_files/CGB-002-015G.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015G.RAW
+Added input file data_files/CGB-002-015G.RAW to file list.
+Added input file data_files/CGB-002-015H-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015H-2.RAW
+Added input file data_files/CGB-002-015H-2.RAW to file list.
+Added input file data_files/CGB-002-015H-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015H-3.RAW
+Added input file data_files/CGB-002-015H-3.RAW to file list.
+Added input file data_files/CGB-002-015H-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015H-4.RAW
+Added input file data_files/CGB-002-015H-4.RAW to file list.
+Added input file data_files/CGB-002-015H.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015H.RAW
+Added input file data_files/CGB-002-015H.RAW to file list.
+Added input file data_files/CGB-002-015I-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015I-2.RAW
+Added input file data_files/CGB-002-015I-2.RAW to file list.
+Added input file data_files/CGB-002-015I-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015I-3.RAW
+Added input file data_files/CGB-002-015I-3.RAW to file list.
+Added input file data_files/CGB-002-015I-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015I-4.RAW
+Added input file data_files/CGB-002-015I-4.RAW to file list.
+Added input file data_files/CGB-002-015I.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015I.RAW
+Added input file data_files/CGB-002-015I.RAW to file list.
+Added input file data_files/CGB-002-015J-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015J-2.RAW
+Added input file data_files/CGB-002-015J-2.RAW to file list.
+Added input file data_files/CGB-002-015J-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015J-3.RAW
+Added input file data_files/CGB-002-015J-3.RAW to file list.
+Added input file data_files/CGB-002-015J-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015J-4.RAW
+Added input file data_files/CGB-002-015J-4.RAW to file list.
+Added input file data_files/CGB-002-015J.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015J.RAW
+Added input file data_files/CGB-002-015J.RAW to file list.
+Added input file data_files/CGB-002-015K-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015K-2.RAW
+Added input file data_files/CGB-002-015K-2.RAW to file list.
+Added input file data_files/CGB-002-015K-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015K-3.RAW
+Added input file data_files/CGB-002-015K-3.RAW to file list.
+Added input file data_files/CGB-002-015K-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015K-4.RAW
+Added input file data_files/CGB-002-015K-4.RAW to file list.
+Added input file data_files/CGB-002-015K.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015K.RAW
+Added input file data_files/CGB-002-015K.RAW to file list.
+Added input file data_files/CGB-002-015L-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015L-2.RAW
+Added input file data_files/CGB-002-015L-2.RAW to file list.
+Added input file data_files/CGB-002-015L-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015L-3.RAW
+Added input file data_files/CGB-002-015L-3.RAW to file list.
+Added input file data_files/CGB-002-015L-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015L-4.RAW
+Added input file data_files/CGB-002-015L-4.RAW to file list.
+Added input file data_files/CGB-002-015L.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015L.RAW
+Added input file data_files/CGB-002-015L.RAW to file list.
+Added input file data_files/CGB-002-015MN-2.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015MN-2.RAW
+Added input file data_files/CGB-002-015MN-2.RAW to file list.
+Added input file data_files/CGB-002-015MN-3.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015MN-3.RAW
+Added input file data_files/CGB-002-015MN-3.RAW to file list.
+Added input file data_files/CGB-002-015MN-4.RAW to analysis KF_3_C_B_1_28Jul08_seq.
+running md5sum ./project_247/data_files/CGB-002-015MN-4.RAW
+Added input file data_files/CGB-002-015MN-4.RAW to file list.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3235.tgz
+`/export/wdbackup/archive_3235.tgz' -> `./archive_3235.tgz'
+tilo_3235/
+tilo_3235/CGB-002-034A.sequest.log
+tilo_3235/CGB-002-034A.mzXML
+tilo_3235/interact.prot.png
+tilo_3235/CGB-002-034B.sequest.log
+tilo_3235/ebp.shtml
+tilo_3235/CGB-002-034A.tgz
+tilo_3235/CGB-002-034C.pep.xml
+tilo_3235/ebp_len.png
+tilo_3235/CGB-002-034C.tgz
+tilo_3235/sequest.params
+tilo_3235/runPipeline.sh
+tilo_3235/CGB-002-034D.pep.xml
+tilo_3235/CGB-002-034C.mzXML
+tilo_3235/CGB-002-034L.mzXML
+tilo_3235/sequest_runs.log
+tilo_3235/interact.prot.shtml
+tilo_3235/interact.prot.mx.ggl
+tilo_3235/CGB-002-034D.mzXML
+tilo_3235/runSequest.log
+tilo_3235/interact.prot.xml
+tilo_3235/ebp.png
+tilo_3235/tiloLTQ_20081122.pXML
+tilo_3235/interact.prot.nl.ggl
+tilo_3235/CGB-002-034C.sequest.log
+tilo_3235/auditJob.sh.o12421
+tilo_3235/CGB-002-034B.pep.xml
+tilo_3235/CGB-002-034L.pep.xml
+tilo_3235/interact.xml
+tilo_3235/CGB-002-034A.pep.xml
+tilo_3235/CGB-002-034D.sequest.log
+tilo_3235/interact.prot.nv.ggl
+tilo_3235/ebp.xml
+tilo_3235/CGB-002-034B.tgz
+tilo_3235/runPipeline.sh.o12420
+tilo_3235/interact.xsl
+tilo_3235/CGB-002-034L.tgz
+tilo_3235/auditJob.sh
+tilo_3235/CGB-002-034B.mzXML
+tilo_3235/interact.shtml
+tilo_3235/ebp.xsl
+tilo_3235/CGB-002-034L.sequest.log
+tilo_3235/CGB-002-034D.tgz
+tilo_3235/interact.prot.xsl
+removed directory: `tilo_3235'
+removed `archive_3235.tgz'
+Added files for analysis 3235 - seq test 10 - new interact .
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3236.tgz
+`/export/wdbackup/archive_3236.tgz' -> `./archive_3236.tgz'
+tilo_3236/
+tilo_3236/CGB-002-034A.sequest.log
+tilo_3236/runPipeline.sh.o12422
+tilo_3236/CGB-002-034A.mzXML
+tilo_3236/interact.prot.png
+tilo_3236/CGB-002-034B.sequest.log
+tilo_3236/ebp.shtml
+tilo_3236/CGB-002-034A.tgz
+tilo_3236/CGB-002-034C.pep.xml
+tilo_3236/ebp_len.png
+tilo_3236/CGB-002-034C.tgz
+tilo_3236/sequest.params
+tilo_3236/runPipeline.sh
+tilo_3236/CGB-002-034D.pep.xml
+tilo_3236/CGB-002-034C.mzXML
+tilo_3236/CGB-002-034L.mzXML
+tilo_3236/sequest_runs.log
+tilo_3236/interact.prot.shtml
+tilo_3236/interact.prot.mx.ggl
+tilo_3236/CGB-002-034D.mzXML
+tilo_3236/runSequest.log
+tilo_3236/interact.prot.xml
+tilo_3236/auditJob.sh.o12423
+tilo_3236/ebp.png
+tilo_3236/tiloLTQ_20081122.pXML
+tilo_3236/interact.prot.nl.ggl
+tilo_3236/CGB-002-034C.sequest.log
+tilo_3236/CGB-002-034B.pep.xml
+tilo_3236/CGB-002-034L.pep.xml
+tilo_3236/interact.xml
+tilo_3236/CGB-002-034A.pep.xml
+tilo_3236/CGB-002-034D.sequest.log
+tilo_3236/interact.prot.nv.ggl
+tilo_3236/ebp.xml
+tilo_3236/CGB-002-034B.tgz
+tilo_3236/interact.xsl
+tilo_3236/CGB-002-034L.tgz
+tilo_3236/auditJob.sh
+tilo_3236/CGB-002-034B.mzXML
+tilo_3236/interact.shtml
+tilo_3236/ebp.xsl
+tilo_3236/CGB-002-034L.sequest.log
+tilo_3236/CGB-002-034D.tgz
+tilo_3236/interact.prot.xsl
+removed directory: `tilo_3236'
+removed `archive_3236.tgz'
+Added files for analysis 3236 - seq test 9 - new interact -repeat.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3237.tgz
+`/export/wdbackup/archive_3237.tgz' -> `./archive_3237.tgz'
+tilo_3237/
+tilo_3237/CGB-002-034A.sequest.log
+tilo_3237/CGB-002-034A.mzXML
+tilo_3237/interact.prot.png
+tilo_3237/CGB-002-034B.sequest.log
+tilo_3237/ebp.shtml
+tilo_3237/CGB-002-034A.tgz
+tilo_3237/CGB-002-034C.pep.xml
+tilo_3237/ebp_len.png
+tilo_3237/CGB-002-034C.tgz
+tilo_3237/sequest.params
+tilo_3237/runPipeline.sh
+tilo_3237/CGB-002-034D.pep.xml
+tilo_3237/CGB-002-034C.mzXML
+tilo_3237/CGB-002-034L.mzXML
+tilo_3237/sequest_runs.log
+tilo_3237/interact.prot.shtml
+tilo_3237/interact.prot.mx.ggl
+tilo_3237/CGB-002-034D.mzXML
+tilo_3237/runSequest.log
+tilo_3237/runPipeline.sh.o12424
+tilo_3237/interact.prot.xml
+tilo_3237/ebp.png
+tilo_3237/tiloLTQ_20081122.pXML
+tilo_3237/interact.prot.nl.ggl
+tilo_3237/CGB-002-034C.sequest.log
+tilo_3237/CGB-002-034B.pep.xml
+tilo_3237/CGB-002-034L.pep.xml
+tilo_3237/interact.xml
+tilo_3237/CGB-002-034A.pep.xml
+tilo_3237/CGB-002-034D.sequest.log
+tilo_3237/interact.prot.nv.ggl
+tilo_3237/ebp.xml
+tilo_3237/CGB-002-034B.tgz
+tilo_3237/interact.xsl
+tilo_3237/CGB-002-034L.tgz
+tilo_3237/auditJob.sh
+tilo_3237/auditJob.sh.o12425
+tilo_3237/CGB-002-034B.mzXML
+tilo_3237/interact.shtml
+tilo_3237/ebp.xsl
+tilo_3237/CGB-002-034L.sequest.log
+tilo_3237/CGB-002-034D.tgz
+tilo_3237/interact.prot.xsl
+removed directory: `tilo_3237'
+removed `archive_3237.tgz'
+Added files for analysis 3237 - seq test 11 - new interact -ebponly .
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3239.tgz
+`/export/wdbackup/archive_3239.tgz' -> `./archive_3239.tgz'
+tilo_3239/
+tilo_3239/CGB-002-034A.sequest.log
+tilo_3239/CGB-002-034A.mzXML
+tilo_3239/interact.prot.png
+tilo_3239/CGB-002-034B.sequest.log
+tilo_3239/ebp.shtml
+tilo_3239/CGB-002-034A.tgz
+tilo_3239/CGB-002-034C.pep.xml
+tilo_3239/ebp_len.png
+tilo_3239/CGB-002-034C.tgz
+tilo_3239/sequest.params
+tilo_3239/runPipeline.sh
+tilo_3239/CGB-002-034D.pep.xml
+tilo_3239/CGB-002-034C.mzXML
+tilo_3239/CGB-002-034L.mzXML
+tilo_3239/sequest_runs.log
+tilo_3239/interact.prot.shtml
+tilo_3239/interact.prot.mx.ggl
+tilo_3239/CGB-002-034D.mzXML
+tilo_3239/runSequest.log
+tilo_3239/interact.prot.xml
+tilo_3239/ebp.png
+tilo_3239/tiloLTQ_20081122.pXML
+tilo_3239/interact.prot.nl.ggl
+tilo_3239/CGB-002-034C.sequest.log
+tilo_3239/CGB-002-034B.pep.xml
+tilo_3239/CGB-002-034L.pep.xml
+tilo_3239/interact.xml
+tilo_3239/CGB-002-034A.pep.xml
+tilo_3239/CGB-002-034D.sequest.log
+tilo_3239/interact.prot.nv.ggl
+tilo_3239/ebp.xml
+tilo_3239/runPipeline.sh.o12428
+tilo_3239/CGB-002-034B.tgz
+tilo_3239/interact.xsl
+tilo_3239/auditJob.sh.o12429
+tilo_3239/CGB-002-034L.tgz
+tilo_3239/auditJob.sh
+tilo_3239/CGB-002-034B.mzXML
+tilo_3239/interact.shtml
+tilo_3239/ebp.xsl
+tilo_3239/CGB-002-034L.sequest.log
+tilo_3239/CGB-002-034D.tgz
+tilo_3239/interact.prot.xsl
+removed directory: `tilo_3239'
+removed `archive_3239.tgz'
+Added files for analysis 3239 - seq test 11 - new interact -ebponly one more time .
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3241.tgz
+`/export/wdbackup/archive_3241.tgz' -> `./archive_3241.tgz'
+tilo_3241/
+tilo_3241/BrassACTIVE-12-Orb2.mzXML
+tilo_3241/BrassACTIVE-7-Orb2.sequest.log
+tilo_3241/BrassACTIVE-11-Orb2.pep.xml
+tilo_3241/BrassACTIVE-2-Orb2.sequest.log
+tilo_3241/interact-prot.shtml
+tilo_3241/BrassACTIVE-5-Orb2.pep.xml
+tilo_3241/BrassACTIVE-9-Orb2.pep.xml
+tilo_3241/interact_FVAL_1.png
+tilo_3241/interact_FVAL_4.png
+tilo_3241/BrassACTIVE-15-Orb2.pep.xml
+tilo_3241/ebp.shtml
+tilo_3241/BrassACTIVE-11-Orb2.tgz
+tilo_3241/interact-prot.xml
+tilo_3241/BrassACTIVE-15-Orb2.tgz
+tilo_3241/ebp_len.png
+tilo_3241/BrassACTIVE-9-Orb2.mzXML
+tilo_3241/sequest.params
+tilo_3241/interact_FVAL_2.png
+tilo_3241/BrassACTIVE-17-Orb2.sequest.log
+tilo_3241/BrassACTIVE-2-Orb2.pep.xml
+tilo_3241/BrassACTIVE-7-Orb2.pep.xml
+tilo_3241/BrassACTIVE-9-Orb2.tgz
+tilo_3241/BrassACTIVE-8-Orb2.pep.xml
+tilo_3241/runPipeline.sh
+tilo_3241/BrassACTIVE-6-Orb2.mzXML
+tilo_3241/BrassACTIVE-13-Orb2.tgz
+tilo_3241/sequest_runs.log
+tilo_3241/BrassACTIVE-4-Orb2.mzXML
+tilo_3241/BrassACTIVE-4-Orb2.tgz
+tilo_3241/BrassACTIVE-2-Orb2.mzXML
+tilo_3241/BrassACTIVE-13-Orb2.mzXML
+tilo_3241/BrassACTIVE-11-Orb2.mzXML
+tilo_3241/BrassACTIVE-1-Orb2.tgz
+tilo_3241/BrassACTIVE-5-Orb2.tgz
+tilo_3241/runSequest.log
+tilo_3241/BrassACTIVE-9-Orb2.sequest.log
+tilo_3241/BrassACTIVE-5-Orb2.sequest.log
+tilo_3241/BrassACTIVE-7-Orb2.tgz
+tilo_3241/ebp.png
+tilo_3241/BrassACTIVE-16-Orb2.sequest.log
+tilo_3241/BrassACTIVE-14-Orb2.mzXML
+tilo_3241/BrassACTIVE-15-Orb2.sequest.log
+tilo_3241/tiloLTQ_20081122.pXML
+tilo_3241/BrassACTIVE-7-Orb2.mzXML
+tilo_3241/BrassACTIVE-14-Orb2.tgz
+tilo_3241/BrassACTIVE-1-Orb2.mzXML
+tilo_3241/BrassACTIVE-14-Orb2.sequest.log
+tilo_3241/BrassACTIVE-16-Orb2.mzXML
+tilo_3241/interact-prot.xsl
+tilo_3241/BrassACTIVE-5-Orb2.mzXML
+tilo_3241/BrassACTIVE-18-Orb2.sequest.log
+tilo_3241/BrassACTIVE-6-Orb2.tgz
+tilo_3241/BrassACTIVE-16-Orb2.tgz
+tilo_3241/BrassACTIVE-2-Orb2.tgz
+tilo_3241/interact.xml
+tilo_3241/BrassACTIVE-10-Orb2.pep.xml
+tilo_3241/BrassACTIVE-12-Orb2.pep.xml
+tilo_3241/interact-prot.nl.ggl
+tilo_3241/BrassACTIVE-16-Orb2.pep.xml
+tilo_3241/BrassACTIVE-17-Orb2.mzXML
+tilo_3241/BrassACTIVE-17-Orb2.tgz
+tilo_3241/BrassACTIVE-12-Orb2.tgz
+tilo_3241/BrassACTIVE-8-Orb2.mzXML
+tilo_3241/BrassACTIVE-10-Orb2.mzXML
+tilo_3241/BrassACTIVE-18-Orb2.mzXML
+tilo_3241/BrassACTIVE-18-Orb2.pep.xml
+tilo_3241/BrassACTIVE-6-Orb2.pep.xml
+tilo_3241/BrassACTIVE-15-Orb2.mzXML
+tilo_3241/BrassACTIVE-8-Orb2.sequest.log
+tilo_3241/BrassACTIVE-18-Orb2.tgz
+tilo_3241/ebp.xml
+tilo_3241/interact-prot.png
+tilo_3241/BrassACTIVE-10-Orb2.tgz
+tilo_3241/BrassACTIVE-13-Orb2.pep.xml
+tilo_3241/interact.xsl
+tilo_3241/BrassACTIVE-17-Orb2.pep.xml
+tilo_3241/auditJob.sh.o12433
+tilo_3241/BrassACTIVE-4-Orb2.sequest.log
+tilo_3241/BrassACTIVE-1-Orb2.sequest.log
+tilo_3241/BrassACTIVE-3-Orb2.sequest.log
+tilo_3241/BrassACTIVE-12-Orb2.sequest.log
+tilo_3241/BrassACTIVE-3-Orb2.mzXML
+tilo_3241/BrassACTIVE-3-Orb2.tgz
+tilo_3241/interact_FVAL_3.png
+tilo_3241/auditJob.sh
+tilo_3241/interact-prot.nv.ggl
+tilo_3241/interact-prot.mx.ggl
+tilo_3241/interact.shtml
+tilo_3241/BrassACTIVE-11-Orb2.sequest.log
+tilo_3241/ebp.xsl
+tilo_3241/interact_FVAL_5.png
+tilo_3241/BrassACTIVE-14-Orb2.pep.xml
+tilo_3241/BrassACTIVE-8-Orb2.tgz
+tilo_3241/BrassACTIVE-3-Orb2.pep.xml
+tilo_3241/interact.xml.index
+tilo_3241/BrassACTIVE-4-Orb2.pep.xml
+tilo_3241/BrassACTIVE-6-Orb2.sequest.log
+tilo_3241/BrassACTIVE-10-Orb2.sequest.log
+tilo_3241/BrassACTIVE-1-Orb2.pep.xml
+tilo_3241/runPipeline.sh.o12432
+tilo_3241/BrassACTIVE-13-Orb2.sequest.log
+removed directory: `tilo_3241'
+removed `archive_3241.tgz'
+Added files for analysis 3241 - KF_4_W_A_1_26Aug08_seq.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3242.tgz
+`/export/wdbackup/archive_3242.tgz' -> `./archive_3242.tgz'
+tilo_3242/
+tilo_3242/BrassACTIVE-GM-14-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-9-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-5-Orb2.tgz
+tilo_3242/interact-prot.shtml
+tilo_3242/BrassACTIVE-GM-8-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-11-Orb2.mzXML
+tilo_3242/interact_FVAL_1.png
+tilo_3242/BrassACTIVE-GM-3-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-3-Orb2.tgz
+tilo_3242/interact_FVAL_4.png
+tilo_3242/auditJob.sh.o12435
+tilo_3242/ebp.shtml
+tilo_3242/BrassACTIVE-GM-15-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-8-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-13-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-7-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-15-Orb2.tgz
+tilo_3242/interact-prot.xml
+tilo_3242/ebp_len.png
+tilo_3242/sequest.params
+tilo_3242/interact_FVAL_2.png
+tilo_3242/BrassACTIVE-GM-6-Orb2.sequest.log
+tilo_3242/runPipeline.sh
+tilo_3242/BrassACTIVE-GM-1-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-12-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-15-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-1-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-13-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-14-Orb2.sequest.log
+tilo_3242/sequest_runs.log
+tilo_3242/BrassACTIVE-GM-10-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-4-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-9-Orb2.mzXML
+tilo_3242/runSequest.log
+tilo_3242/BrassACTIVE-GM-4-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-12-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-14-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-5-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-1-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-3-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-7-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-16-Orb2.pep.xml
+tilo_3242/ebp.png
+tilo_3242/runScript2.sh
+tilo_3242/BrassACTIVE-GM-9-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-4-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-10-Orb2.mzXML
+tilo_3242/tiloLTQ_20081122.pXML
+tilo_3242/BrassACTIVE-GM-6-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-17-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-11-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-17-Orb2.pep.xml
+tilo_3242/interact-prot.xsl
+tilo_3242/BrassACTIVE-GM-10-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-6-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-13-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-7-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-2-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-17-Orb2.mzXML
+tilo_3242/runPipeline.sh.o12434
+tilo_3242/BrassACTIVE-GM-16-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-7-Orb2.pep.xml
+tilo_3242/interact.xml
+tilo_3242/BrassACTIVE-GM-16-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-15-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-11-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-12-Orb2.tgz
+tilo_3242/ebp.xml
+tilo_3242/BrassACTIVE-GM-8-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-14-Orb2.mzXML
+tilo_3242/interact-prot.png
+tilo_3242/interact.xsl
+tilo_3242/BrassACTIVE-GM-1-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-18-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-2-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-17-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-13-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-2-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-5-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-16-Orb2.mzXML
+tilo_3242/interact_FVAL_3.png
+tilo_3242/BrassACTIVE-GM-10-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-4-Orb2.pep.xml
+tilo_3242/auditJob.sh
+tilo_3242/BrassACTIVE-GM-5-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-18-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-9-Orb2.pep.xml
+tilo_3242/interact.shtml
+tilo_3242/BrassACTIVE-GM-12-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-6-Orb2.pep.xml
+tilo_3242/BrassACTIVE-GM-3-Orb2.mzXML
+tilo_3242/BrassACTIVE-GM-18-Orb2.sequest.log
+tilo_3242/ebp.xsl
+tilo_3242/interact_FVAL_5.png
+tilo_3242/BrassACTIVE-GM-11-Orb2.pep.xml
+tilo_3242/interact.xml.index
+tilo_3242/BrassACTIVE-GM-18-Orb2.tgz
+tilo_3242/BrassACTIVE-GM-8-Orb2.sequest.log
+tilo_3242/BrassACTIVE-GM-2-Orb2.pep.xml
+removed directory: `tilo_3242'
+removed `archive_3242.tgz'
+Added files for analysis 3242 - KF_4_W_G_1_26Aug08_seq.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3245.tgz
+`/export/wdbackup/archive_3245.tgz' -> `./archive_3245.tgz'
+tilo_3245/
+tilo_3245/CGB-002-035C-10x.tgz
+tilo_3245/CGB-002-035F.pep.xml
+tilo_3245/CGB-002-035D-10x.tgz
+tilo_3245/CGB-002-035D-10x.mzXML
+tilo_3245/CGB-002-035C-20x.pep.xml
+tilo_3245/CGB-002-035E-10x.mzXML
+tilo_3245/CGB-002-035A-10x.tgz
+tilo_3245/interact-prot.shtml
+tilo_3245/CGB-002-035C-20x.sequest.log
+tilo_3245/CGB-002-035L.sequest.log
+tilo_3245/interact_FVAL_1.png
+tilo_3245/interact_FVAL_4.png
+tilo_3245/CGB-002-035D-20x.mzXML
+tilo_3245/ebp.shtml
+tilo_3245/CGB-002-035D-20x.pep.xml
+tilo_3245/CGB-002-035I.sequest.log
+tilo_3245/CGB-002-035C.tgz
+tilo_3245/CGB-002-035J.mzXML
+tilo_3245/interact-prot.xml
+tilo_3245/CGB-002-035A-10x.mzXML
+tilo_3245/CGB-002-035A-10x.pep.xml
+tilo_3245/CGB-002-035D.mzXML
+tilo_3245/CGB-002-035I.pep.xml
+tilo_3245/ebp_len.png
+tilo_3245/CGB-002-035C.sequest.log
+tilo_3245/sequest.params
+tilo_3245/interact_FVAL_2.png
+tilo_3245/CGB-002-035B.pep.xml
+tilo_3245/runPipeline.sh
+tilo_3245/CGB-002-035E.pep.xml
+tilo_3245/CGB-002-035D-20x.tgz
+tilo_3245/CGB-002-035H.tgz
+tilo_3245/CGB-002-035F-10x.mzXML
+tilo_3245/sequest_runs.log
+tilo_3245/CGB-002-035B-10x.pep.xml
+tilo_3245/CGB-002-035A-20x.sequest.log
+tilo_3245/CGB-002-035A.sequest.log
+tilo_3245/CGB-002-035B-20x.pep.xml
+tilo_3245/CGB-002-035A.tgz
+tilo_3245/CGB-002-035L.mzXML
+tilo_3245/auditJob.sh.o12441
+tilo_3245/runSequest.log
+tilo_3245/CGB-002-035E-20x.pep.xml
+tilo_3245/CGB-002-035k.pep.xml
+tilo_3245/CGB-002-035E.mzXML
+tilo_3245/CGB-002-035E-20x.mzXML
+tilo_3245/CGB-002-035E-20x.sequest.log
+tilo_3245/CGB-002-035B-10x.sequest.log
+tilo_3245/CGB-002-035C-10x.sequest.log
+tilo_3245/CGB-002-035B-10x.mzXML
+tilo_3245/CGB-002-035A-20x.tgz
+tilo_3245/CGB-002-035H.mzXML
+tilo_3245/CGB-002-035B.tgz
+tilo_3245/CGB-002-035L.pep.xml
+tilo_3245/CGB-002-035E-10x.sequest.log
+tilo_3245/CGB-002-035B-10x.tgz
+tilo_3245/CGB-002-035A-10x.sequest.log
+tilo_3245/ebp.png
+tilo_3245/runScript2.sh
+tilo_3245/CGB-002-035k.mzXML
+tilo_3245/CGB-002-035D-10x.pep.xml
+tilo_3245/CGB-002-035C.pep.xml
+tilo_3245/CGB-002-035H.sequest.log
+tilo_3245/CGB-002-035F.tgz
+tilo_3245/CGB-002-035F-20x.mzXML
+tilo_3245/CGB-002-035F-10x.tgz
+tilo_3245/CGB-002-035C-10x.pep.xml
+tilo_3245/tiloLTQ_20081122.pXML
+tilo_3245/CGB-002-035J.pep.xml
+tilo_3245/CGB-002-035F-20x.sequest.log
+tilo_3245/CGB-002-035F.sequest.log
+tilo_3245/runPipeline.sh.o12440
+tilo_3245/CGB-002-035E-10x.tgz
+tilo_3245/interact-prot.xsl
+tilo_3245/CGB-002-035A.pep.xml
+tilo_3245/CGB-002-035E.tgz
+tilo_3245/CGB-002-035B.sequest.log
+tilo_3245/CGB-002-035I.mzXML
+tilo_3245/CGB-002-035k.tgz
+tilo_3245/CGB-002-035L.tgz
+tilo_3245/interact.xml
+tilo_3245/CGB-002-035J.tgz
+tilo_3245/CGB-002-035I.tgz
+tilo_3245/CGB-002-035A-20x.mzXML
+tilo_3245/CGB-002-035A-20x.pep.xml
+tilo_3245/CGB-002-035G.pep.xml
+tilo_3245/CGB-002-035B-20x.sequest.log
+tilo_3245/CGB-002-035D.pep.xml
+tilo_3245/CGB-002-035E-20x.tgz
+tilo_3245/CGB-002-035F-10x.pep.xml
+tilo_3245/ebp.xml
+tilo_3245/interact-prot.png
+tilo_3245/interact.xsl
+tilo_3245/CGB-002-035C-10x.mzXML
+tilo_3245/CGB-002-035A.mzXML
+tilo_3245/CGB-002-035E.sequest.log
+tilo_3245/CGB-002-035E-10x.pep.xml
+tilo_3245/CGB-002-035G.sequest.log
+tilo_3245/CGB-002-035F-20x.pep.xml
+tilo_3245/CGB-002-035B.mzXML
+tilo_3245/interact_FVAL_3.png
+tilo_3245/CGB-002-035B-20x.tgz
+tilo_3245/auditJob.sh
+tilo_3245/CGB-002-035F-20x.tgz
+tilo_3245/CGB-002-035k.sequest.log
+tilo_3245/CGB-002-035F-10x.sequest.log
+tilo_3245/CGB-002-035B-20x.mzXML
+tilo_3245/interact.shtml
+tilo_3245/CGB-002-035C-20x.tgz
+tilo_3245/ebp.xsl
+tilo_3245/interact_FVAL_5.png
+tilo_3245/CGB-002-035G.tgz
+tilo_3245/CGB-002-035C-20x.mzXML
+tilo_3245/CGB-002-035H.pep.xml
+tilo_3245/CGB-002-035J.sequest.log
+tilo_3245/CGB-002-035D.sequest.log
+tilo_3245/interact.xml.index
+tilo_3245/CGB-002-035D.tgz
+tilo_3245/CGB-002-035G.mzXML
+tilo_3245/CGB-002-035C.mzXML
+tilo_3245/CGB-002-035D-20x.sequest.log
+tilo_3245/CGB-002-035F.mzXML
+tilo_3245/CGB-002-035D-10x.sequest.log
+removed directory: `tilo_3245'
+removed `archive_3245.tgz'
+Added files for analysis 3245 - KF_4_C_A_1_26Aug08.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3246.tgz
+`/export/wdbackup/archive_3246.tgz' -> `./archive_3246.tgz'
+tilo_3246/
+tilo_3246/CGB-002-034A-10x.mzXML
+tilo_3246/CGB-002-034J.sequest.log
+tilo_3246/CGB-002-034C-20x.pep.xml
+tilo_3246/CGB-002-034C-20x.mzXML
+tilo_3246/CGB-002-034F-10x.mzXML
+tilo_3246/CGB-002-034A.sequest.log
+tilo_3246/CGB-002-034A.mzXML
+tilo_3246/CGB-002-034A-10x.pep.xml
+tilo_3246/CGB-002-034D-20x.sequest.log
+tilo_3246/CGB-002-034E-10x.tgz
+tilo_3246/interact-prot.shtml
+tilo_3246/CGB-002-034B-20x.mzXML
+tilo_3246/CGB-002-034E-10x.pep.xml
+tilo_3246/interact_FVAL_1.png
+tilo_3246/auditJob.sh.o12443
+tilo_3246/interact_FVAL_4.png
+tilo_3246/CGB-002-034E-20x.tgz
+tilo_3246/CGB-002-034B.sequest.log
+tilo_3246/CGB-002-034I.tgz
+tilo_3246/ebp.shtml
+tilo_3246/CGB-002-034E.sequest.log
+tilo_3246/CGB-002-034C-10x.pep.xml
+tilo_3246/CGB-002-034A.tgz
+tilo_3246/CGB-002-034E.mzXML
+tilo_3246/CGB-002-034E-10x.sequest.log
+tilo_3246/CGB-002-034F-20x.pep.xml
+tilo_3246/CGB-002-034F.sequest.log
+tilo_3246/interact-prot.xml
+tilo_3246/CGB-002-034C.pep.xml
+tilo_3246/CGB-002-034I.mzXML
+tilo_3246/ebp_len.png
+tilo_3246/CGB-002-034C.tgz
+tilo_3246/CGB-002-034F.mzXML
+tilo_3246/sequest.params
+tilo_3246/interact_FVAL_2.png
+tilo_3246/runPipeline.sh
+tilo_3246/CGB-002-034D.pep.xml
+tilo_3246/CGB-002-034C.mzXML
+tilo_3246/CGB-002-034A-20x.mzXML
+tilo_3246/CGB-002-034G.tgz
+tilo_3246/CGB-002-034L.mzXML
+tilo_3246/sequest_runs.log
+tilo_3246/CGB-002-034D-10x.mzXML
+tilo_3246/CGB-002-034C-10x.sequest.log
+tilo_3246/CGB-002-034E.tgz
+tilo_3246/CGB-002-034C-10x.mzXML
+tilo_3246/CGB-002-034B-20x.tgz
+tilo_3246/CGB-002-034D.mzXML
+tilo_3246/CGB-002-034K.mzXML
+tilo_3246/CGB-002-034G.mzXML
+tilo_3246/runSequest.log
+tilo_3246/CGB-002-034F-20x.tgz
+tilo_3246/CGB-002-034C-10x.tgz
+tilo_3246/CGB-002-034C-20x.tgz
+tilo_3246/CGB-002-034F-10x.tgz
+tilo_3246/CGB-002-034F.pep.xml
+tilo_3246/CGB-002-034E-10x.mzXML
+tilo_3246/CGB-002-034H.mzXML
+tilo_3246/CGB-002-034F-20x.sequest.log
+tilo_3246/CGB-002-034E.pep.xml
+tilo_3246/ebp.png
+tilo_3246/runScript2.sh
+tilo_3246/CGB-002-034B-10x.tgz
+tilo_3246/tiloLTQ_20081122.pXML
+tilo_3246/CGB-002-034F-10x.pep.xml
+tilo_3246/CGB-002-034A-20x.pep.xml
+tilo_3246/CGB-002-034H.pep.xml
+tilo_3246/CGB-002-034D-20x.tgz
+tilo_3246/CGB-002-034K.sequest.log
+tilo_3246/interact-prot.xsl
+tilo_3246/CGB-002-034C.sequest.log
+tilo_3246/CGB-002-034A-20x.sequest.log
+tilo_3246/CGB-002-034B.pep.xml
+tilo_3246/CGB-002-034L.pep.xml
+tilo_3246/CGB-002-034K.tgz
+tilo_3246/CGB-002-034J.mzXML
+tilo_3246/interact.xml
+tilo_3246/CGB-002-034A.pep.xml
+tilo_3246/CGB-002-034D.sequest.log
+tilo_3246/CGB-002-034B-10x.pep.xml
+tilo_3246/CGB-002-034D-20x.pep.xml
+tilo_3246/CGB-002-034F-10x.sequest.log
+tilo_3246/CGB-002-034I.pep.xml
+tilo_3246/CGB-002-034H.sequest.log
+tilo_3246/CGB-002-034G.pep.xml
+tilo_3246/CGB-002-034B-10x.sequest.log
+tilo_3246/CGB-002-034F-20x.mzXML
+tilo_3246/CGB-002-034I.sequest.log
+tilo_3246/CGB-002-034A-20x.tgz
+tilo_3246/ebp.xml
+tilo_3246/interact-prot.png
+tilo_3246/CGB-002-034B.tgz
+tilo_3246/interact.xsl
+tilo_3246/CGB-002-034B-10x.mzXML
+tilo_3246/CGB-002-034B-20x.pep.xml
+tilo_3246/CGB-002-034J.tgz
+tilo_3246/CGB-002-034D-20x.mzXML
+tilo_3246/CGB-002-034E-20x.pep.xml
+tilo_3246/CGB-002-034L.tgz
+tilo_3246/interact_FVAL_3.png
+tilo_3246/CGB-002-034B-20x.sequest.log
+tilo_3246/auditJob.sh
+tilo_3246/CGB-002-034B.mzXML
+tilo_3246/CGB-002-034A-10x.tgz
+tilo_3246/interact.shtml
+tilo_3246/ebp.xsl
+tilo_3246/CGB-002-034E-20x.sequest.log
+tilo_3246/interact_FVAL_5.png
+tilo_3246/CGB-002-034C-20x.sequest.log
+tilo_3246/CGB-002-034K.pep.xml
+tilo_3246/interact.xml.index
+tilo_3246/CGB-002-034L.sequest.log
+tilo_3246/CGB-002-034A-10x.sequest.log
+tilo_3246/CGB-002-034D.tgz
+tilo_3246/CGB-002-034J.pep.xml
+tilo_3246/CGB-002-034E-20x.mzXML
+tilo_3246/CGB-002-034D-10x.tgz
+tilo_3246/CGB-002-034H.tgz
+tilo_3246/CGB-002-034D-10x.pep.xml
+tilo_3246/CGB-002-034D-10x.sequest.log
+tilo_3246/CGB-002-034G.sequest.log
+tilo_3246/runPipeline.sh.o12442
+tilo_3246/CGB-002-034F.tgz
+removed directory: `tilo_3246'
+removed `archive_3246.tgz'
+Added files for analysis 3246 - KF_4_C_G_1_26Aug08_seq.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3247.tgz
+`/export/wdbackup/archive_3247.tgz' -> `./archive_3247.tgz'
+tilo_3247/
+tilo_3247/CGB-002-016J-2.tgz
+tilo_3247/CGB-002-016D.sequest.log
+tilo_3247/CGB-002-016F-4.mzXML
+tilo_3247/CGB-002-016D.tgz
+tilo_3247/CGB-002-016D-4.sequest.log
+tilo_3247/CGB-002-016G-2.pep.xml
+tilo_3247/CGB-002-016E-3.mzXML
+tilo_3247/interact-prot.shtml
+tilo_3247/CGB-002-016E-3.pep.xml
+tilo_3247/CGB-002-016AB-4.mzXML
+tilo_3247/CGB-002-016H-2.mzXML
+tilo_3247/interact_FVAL_1.png
+tilo_3247/CGB-002-016C-2.pep.xml
+tilo_3247/CGB-002-016I-4.pep.xml
+tilo_3247/CGB-002-016G-4.mzXML
+tilo_3247/interact_FVAL_4.png
+tilo_3247/CGB-002-016J-3.tgz
+tilo_3247/ebp.shtml
+tilo_3247/auditJob.sh.o12445
+tilo_3247/CGB-002-016J-4.pep.xml
+tilo_3247/CGB-002-016AB.pep.xml
+tilo_3247/CGB-002-016AB-2.tgz
+tilo_3247/CGB-002-016I-3.pep.xml
+tilo_3247/CGB-002-016F.mzXML
+tilo_3247/CGB-002-016MN-4.mzXML
+tilo_3247/CGB-002-016E-3.tgz
+tilo_3247/CGB-002-016E-2.mzXML
+tilo_3247/CGB-002-016G-3.sequest.log
+tilo_3247/CGB-002-016L.pep.xml
+tilo_3247/CGB-002-016K-4.mzXML
+tilo_3247/CGB-002-016G-2.tgz
+tilo_3247/interact-prot.xml
+tilo_3247/CGB-002-016I-3.tgz
+tilo_3247/CGB-002-016K-4.pep.xml
+tilo_3247/CGB-002-016C-3.mzXML
+tilo_3247/CGB-002-016C-2.mzXML
+tilo_3247/ebp_len.png
+tilo_3247/CGB-002-016AB.mzXML
+tilo_3247/CGB-002-016C-4.sequest.log
+tilo_3247/CGB-002-016D.mzXML
+tilo_3247/sequest.params
+tilo_3247/interact_FVAL_2.png
+tilo_3247/CGB-002-016C.mzXML
+tilo_3247/CGB-002-016H.mzXML
+tilo_3247/CGB-002-016J-3.sequest.log
+tilo_3247/CGB-002-016I-2.sequest.log
+tilo_3247/CGB-002-016H-3.sequest.log
+tilo_3247/CGB-002-016G-2.mzXML
+tilo_3247/runPipeline.sh
+tilo_3247/CGB-002-016F-3.tgz
+tilo_3247/CGB-002-016I-2.pep.xml
+tilo_3247/CGB-002-016C.pep.xml
+tilo_3247/CGB-002-016C-4.tgz
+tilo_3247/CGB-002-016F-2.sequest.log
+tilo_3247/CGB-002-016H.sequest.log
+tilo_3247/CGB-002-016K-3.mzXML
+tilo_3247/CGB-002-016H-3.pep.xml
+tilo_3247/sequest_runs.log
+tilo_3247/CGB-002-016I-3.sequest.log
+tilo_3247/CGB-002-016E.pep.xml
+tilo_3247/CGB-002-016MN.sequest.log
+tilo_3247/CGB-002-016H-2.sequest.log
+tilo_3247/CGB-002-016D-2.tgz
+tilo_3247/CGB-002-016MN-2.pep.xml
+tilo_3247/CGB-002-016G-3.pep.xml
+tilo_3247/CGB-002-016J.sequest.log
+tilo_3247/CGB-002-016H-4.pep.xml
+tilo_3247/CGB-002-016H-4.sequest.log
+tilo_3247/CGB-002-016AB-4.pep.xml
+tilo_3247/CGB-002-016AB-2.mzXML
+tilo_3247/CGB-002-016G.pep.xml
+tilo_3247/runSequest.log
+tilo_3247/CGB-002-016K-2.pep.xml
+tilo_3247/CGB-002-016K-3.sequest.log
+tilo_3247/CGB-002-016E.tgz
+tilo_3247/CGB-002-016H.tgz
+tilo_3247/CGB-002-016I.sequest.log
+tilo_3247/CGB-002-016G.tgz
+tilo_3247/CGB-002-016D.pep.xml
+tilo_3247/CGB-002-016G-4.pep.xml
+tilo_3247/CGB-002-016H-3.tgz
+tilo_3247/CGB-002-016MN.mzXML
+tilo_3247/CGB-002-016I-4.sequest.log
+tilo_3247/CGB-002-016AB-4.sequest.log
+tilo_3247/CGB-002-016E-4.mzXML
+tilo_3247/runPipeline.sh.o12444
+tilo_3247/CGB-002-016H-2.pep.xml
+tilo_3247/ebp.png
+tilo_3247/CGB-002-016E-4.sequest.log
+tilo_3247/runScript2.sh
+tilo_3247/CGB-002-016MN-4.tgz
+tilo_3247/CGB-002-016H.pep.xml
+tilo_3247/CGB-002-016C.sequest.log
+tilo_3247/CGB-002-016G.sequest.log
+tilo_3247/CGB-002-016D-2.pep.xml
+tilo_3247/CGB-002-016C-3.tgz
+tilo_3247/CGB-002-016J.mzXML
+tilo_3247/CGB-002-016H-4.tgz
+tilo_3247/CGB-002-016MN.tgz
+tilo_3247/CGB-002-016J-2.pep.xml
+tilo_3247/CGB-002-016F.tgz
+tilo_3247/CGB-002-016F.pep.xml
+tilo_3247/tiloLTQ_20081122.pXML
+tilo_3247/CGB-002-016G-4.sequest.log
+tilo_3247/CGB-002-016F-4.tgz
+tilo_3247/CGB-002-016AB-3.sequest.log
+tilo_3247/CGB-002-016MN-3.tgz
+tilo_3247/CGB-002-016J-2.sequest.log
+tilo_3247/CGB-002-016J-4.sequest.log
+tilo_3247/CGB-002-016I-4.mzXML
+tilo_3247/CGB-002-016I-4.tgz
+tilo_3247/CGB-002-016C.tgz
+tilo_3247/interact-prot.xsl
+tilo_3247/CGB-002-016E-2.sequest.log
+tilo_3247/CGB-002-016I-2.tgz
+tilo_3247/CGB-002-016K-4.sequest.log
+tilo_3247/CGB-002-016D-2.mzXML
+tilo_3247/CGB-002-016L-2.sequest.log
+tilo_3247/CGB-002-016G-2.sequest.log
+tilo_3247/CGB-002-016L.sequest.log
+tilo_3247/CGB-002-016L-2.mzXML
+tilo_3247/CGB-002-016E-4.pep.xml
+tilo_3247/CGB-002-016K-3.tgz
+tilo_3247/CGB-002-016D-4.pep.xml
+tilo_3247/CGB-002-016MN-3.pep.xml
+tilo_3247/CGB-002-016D-3.sequest.log
+tilo_3247/CGB-002-016AB-4.tgz
+tilo_3247/CGB-002-016F-3.sequest.log
+tilo_3247/CGB-002-016AB-3.mzXML
+tilo_3247/CGB-002-016L-4.sequest.log
+tilo_3247/CGB-002-016H-4.mzXML
+tilo_3247/CGB-002-016K.mzXML
+tilo_3247/interact.xml
+tilo_3247/CGB-002-016MN-3.mzXML
+tilo_3247/CGB-002-016C-2.tgz
+tilo_3247/CGB-002-016L-4.mzXML
+tilo_3247/CGB-002-016G-3.tgz
+tilo_3247/CGB-002-016J-3.pep.xml
+tilo_3247/CGB-002-016MN-2.sequest.log
+tilo_3247/CGB-002-016MN-3.sequest.log
+tilo_3247/CGB-002-016L-4.tgz
+tilo_3247/CGB-002-016D-4.mzXML
+tilo_3247/CGB-002-016J-2.mzXML
+tilo_3247/CGB-002-016J-4.tgz
+tilo_3247/CGB-002-016AB-3.pep.xml
+tilo_3247/CGB-002-016K.pep.xml
+tilo_3247/CGB-002-016G.mzXML
+tilo_3247/CGB-002-016H-2.tgz
+tilo_3247/CGB-002-016E-2.pep.xml
+tilo_3247/CGB-002-016F-3.pep.xml
+tilo_3247/CGB-002-016L-3.mzXML
+tilo_3247/CGB-002-016L.mzXML
+tilo_3247/CGB-002-016C-4.pep.xml
+tilo_3247/CGB-002-016MN-2.tgz
+tilo_3247/CGB-002-016C-3.pep.xml
+tilo_3247/CGB-002-016F-4.pep.xml
+tilo_3247/CGB-002-016L.tgz
+tilo_3247/CGB-002-016J-4.mzXML
+tilo_3247/CGB-002-016L-2.tgz
+tilo_3247/CGB-002-016I-2.mzXML
+tilo_3247/CGB-002-016AB.tgz
+tilo_3247/CGB-002-016D-2.sequest.log
+tilo_3247/CGB-002-016E-3.sequest.log
+tilo_3247/CGB-002-016K.sequest.log
+tilo_3247/CGB-002-016L-3.sequest.log
+tilo_3247/ebp.xml
+tilo_3247/interact-prot.png
+tilo_3247/CGB-002-016K-4.tgz
+tilo_3247/CGB-002-016L-3.pep.xml
+tilo_3247/CGB-002-016F-3.mzXML
+tilo_3247/CGB-002-016F-2.tgz
+tilo_3247/interact.xsl
+tilo_3247/CGB-002-016D-3.tgz
+tilo_3247/CGB-002-016E.sequest.log
+tilo_3247/CGB-002-016F.sequest.log
+tilo_3247/CGB-002-016MN.pep.xml
+tilo_3247/CGB-002-016E-4.tgz
+tilo_3247/CGB-002-016J.tgz
+tilo_3247/CGB-002-016C-2.sequest.log
+tilo_3247/CGB-002-016E-2.tgz
+tilo_3247/CGB-002-016I.mzXML
+tilo_3247/interact_FVAL_3.png
+tilo_3247/CGB-002-016L-4.pep.xml
+tilo_3247/CGB-002-016MN-2.mzXML
+tilo_3247/CGB-002-016AB.sequest.log
+tilo_3247/CGB-002-016C-3.sequest.log
+tilo_3247/CGB-002-016K-2.sequest.log
+tilo_3247/auditJob.sh
+tilo_3247/CGB-002-016G-3.mzXML
+tilo_3247/CGB-002-016E.mzXML
+tilo_3247/CGB-002-016AB-2.sequest.log
+tilo_3247/interact.shtml
+tilo_3247/CGB-002-016J-3.mzXML
+tilo_3247/CGB-002-016AB-3.tgz
+tilo_3247/ebp.xsl
+tilo_3247/CGB-002-016D-3.pep.xml
+tilo_3247/CGB-002-016D-3.mzXML
+tilo_3247/CGB-002-016I-3.mzXML
+tilo_3247/CGB-002-016F-2.mzXML
+tilo_3247/CGB-002-016C-4.mzXML
+tilo_3247/CGB-002-016D-4.tgz
+tilo_3247/CGB-002-016K-2.tgz
+tilo_3247/interact_FVAL_5.png
+tilo_3247/CGB-002-016MN-4.pep.xml
+tilo_3247/CGB-002-016L-3.tgz
+tilo_3247/CGB-002-016K.tgz
+tilo_3247/CGB-002-016F-2.pep.xml
+tilo_3247/interact.xml.index
+tilo_3247/CGB-002-016I.pep.xml
+tilo_3247/CGB-002-016G-4.tgz
+tilo_3247/CGB-002-016L-2.pep.xml
+tilo_3247/CGB-002-016MN-4.sequest.log
+tilo_3247/CGB-002-016F-4.sequest.log
+tilo_3247/CGB-002-016AB-2.pep.xml
+tilo_3247/CGB-002-016K-3.pep.xml
+tilo_3247/CGB-002-016K-2.mzXML
+tilo_3247/CGB-002-016H-3.mzXML
+tilo_3247/CGB-002-016I.tgz
+tilo_3247/CGB-002-016J.pep.xml
+removed directory: `tilo_3247'
+removed `archive_3247.tgz'
+Added files for analysis 3247 - KF_3_C_A_1_28Jul08_seq.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3248.tgz
+`/export/wdbackup/archive_3248.tgz' -> `./archive_3248.tgz'
+tilo_3248/
+tilo_3248/CGB-002-015C.tgz
+tilo_3248/CGB-002-015AB-3.sequest.log
+tilo_3248/interact-prot.shtml
+tilo_3248/CGB-002-015MN-4.mzXML
+tilo_3248/CGB-002-015E-3.tgz
+tilo_3248/interact_FVAL_1.png
+tilo_3248/CGB-002-015K-2.mzXML
+tilo_3248/CGB-002-015AB-4.mzXML
+tilo_3248/interact_FVAL_4.png
+tilo_3248/CGB-002-015E-4.pep.xml
+tilo_3248/CGB-002-015E-4.sequest.log
+tilo_3248/CGB-002-015J-2.pep.xml
+tilo_3248/CGB-002-015MN.tgz
+tilo_3248/ebp.shtml
+tilo_3248/CGB-002-015D-2.mzXML
+tilo_3248/CGB-002-015H-3.mzXML
+tilo_3248/CGB-002-015H-3.tgz
+tilo_3248/CGB-002-015C-3.tgz
+tilo_3248/CGB-002-015E-3.sequest.log
+tilo_3248/CGB-002-015J-3.pep.xml
+tilo_3248/CGB-002-015C-4.pep.xml
+tilo_3248/CGB-002-015D-3.mzXML
+tilo_3248/CGB-002-015AB-4.pep.xml
+tilo_3248/interact-prot.xml
+tilo_3248/CGB-002-015AB.sequest.log
+tilo_3248/CGB-002-015L.mzXML
+tilo_3248/CGB-002-015J-4.tgz
+tilo_3248/ebp_len.png
+tilo_3248/CGB-002-015G.tgz
+tilo_3248/sequest.params
+tilo_3248/interact_FVAL_2.png
+tilo_3248/CGB-002-015D.mzXML
+tilo_3248/CGB-002-015H-3.pep.xml
+tilo_3248/CGB-002-015E-3.pep.xml
+tilo_3248/CGB-002-015J.mzXML
+tilo_3248/runPipeline.sh
+tilo_3248/CGB-002-015E.pep.xml
+tilo_3248/CGB-002-015L.sequest.log
+tilo_3248/CGB-002-015E.tgz
+tilo_3248/CGB-002-015H-2.sequest.log
+tilo_3248/CGB-002-015C.mzXML
+tilo_3248/CGB-002-015I-2.mzXML
+tilo_3248/CGB-002-015I.pep.xml
+tilo_3248/CGB-002-015I-2.tgz
+tilo_3248/sequest_runs.log
+tilo_3248/CGB-002-015J-4.pep.xml
+tilo_3248/runPipeline.sh.o12446
+tilo_3248/CGB-002-015E-4.mzXML
+tilo_3248/CGB-002-015L-4.sequest.log
+tilo_3248/CGB-002-015I-2.pep.xml
+tilo_3248/CGB-002-015E-2.tgz
+tilo_3248/CGB-002-015J-3.mzXML
+tilo_3248/CGB-002-015L-2.sequest.log
+tilo_3248/CGB-002-015MN-3.sequest.log
+tilo_3248/CGB-002-015AB.tgz
+tilo_3248/CGB-002-015D.pep.xml
+tilo_3248/CGB-002-015F-4.mzXML
+tilo_3248/CGB-002-015J-2.tgz
+tilo_3248/CGB-002-015I-3.sequest.log
+tilo_3248/CGB-002-015AB.pep.xml
+tilo_3248/runSequest.log
+tilo_3248/CGB-002-015F-2.tgz
+tilo_3248/CGB-002-015F-2.mzXML
+tilo_3248/CGB-002-015F-4.tgz
+tilo_3248/CGB-002-015H-2.pep.xml
+tilo_3248/CGB-002-015F.mzXML
+tilo_3248/CGB-002-015L-2.pep.xml
+tilo_3248/CGB-002-015F.pep.xml
+tilo_3248/CGB-002-015H-2.mzXML
+tilo_3248/CGB-002-015C.pep.xml
+tilo_3248/CGB-002-015F-3.sequest.log
+tilo_3248/CGB-002-015E-4.tgz
+tilo_3248/auditJob.sh.o12447
+tilo_3248/CGB-002-015K.mzXML
+tilo_3248/CGB-002-015D-3.pep.xml
+tilo_3248/CGB-002-015AB.mzXML
+tilo_3248/CGB-002-015H.mzXML
+tilo_3248/CGB-002-015I-3.mzXML
+tilo_3248/CGB-002-015MN-2.mzXML
+tilo_3248/CGB-002-015F-3.mzXML
+tilo_3248/CGB-002-015L-3.sequest.log
+tilo_3248/CGB-002-015G.mzXML
+tilo_3248/CGB-002-015H.tgz
+tilo_3248/CGB-002-015J-4.sequest.log
+tilo_3248/CGB-002-015L.tgz
+tilo_3248/CGB-002-015C-4.tgz
+tilo_3248/ebp.png
+tilo_3248/runScript2.sh
+tilo_3248/CGB-002-015C.sequest.log
+tilo_3248/CGB-002-015MN-4.pep.xml
+tilo_3248/CGB-002-015F-2.pep.xml
+tilo_3248/CGB-002-015G-3.tgz
+tilo_3248/CGB-002-015E-3.mzXML
+tilo_3248/CGB-002-015D-3.sequest.log
+tilo_3248/CGB-002-015D-2.tgz
+tilo_3248/CGB-002-015AB-3.tgz
+tilo_3248/CGB-002-015AB-3.pep.xml
+tilo_3248/CGB-002-015K-4.tgz
+tilo_3248/tiloLTQ_20081122.pXML
+tilo_3248/CGB-002-015MN.sequest.log
+tilo_3248/CGB-002-015H-2.tgz
+tilo_3248/CGB-002-015H-4.pep.xml
+tilo_3248/CGB-002-015C-2.tgz
+tilo_3248/CGB-002-015K.pep.xml
+tilo_3248/CGB-002-015J.tgz
+tilo_3248/CGB-002-015F.tgz
+tilo_3248/CGB-002-015J-3.sequest.log
+tilo_3248/CGB-002-015MN-4.sequest.log
+tilo_3248/CGB-002-015G-4.sequest.log
+tilo_3248/interact-prot.xsl
+tilo_3248/CGB-002-015D.tgz
+tilo_3248/CGB-002-015G-3.sequest.log
+tilo_3248/CGB-002-015H-4.tgz
+tilo_3248/CGB-002-015MN.mzXML
+tilo_3248/CGB-002-015E-2.mzXML
+tilo_3248/CGB-002-015F-2.sequest.log
+tilo_3248/CGB-002-015J.pep.xml
+tilo_3248/CGB-002-015MN-2.pep.xml
+tilo_3248/CGB-002-015J-2.sequest.log
+tilo_3248/CGB-002-015K-4.pep.xml
+tilo_3248/CGB-002-015F-4.pep.xml
+tilo_3248/CGB-002-015AB-4.sequest.log
+tilo_3248/CGB-002-015G-2.pep.xml
+tilo_3248/interact.xml
+tilo_3248/CGB-002-015D-4.pep.xml
+tilo_3248/CGB-002-015I.tgz
+tilo_3248/CGB-002-015AB-2.mzXML
+tilo_3248/CGB-002-015D-3.tgz
+tilo_3248/CGB-002-015L-4.pep.xml
+tilo_3248/interact-prot.nl.ggl
+tilo_3248/CGB-002-015C-3.sequest.log
+tilo_3248/CGB-002-015G.pep.xml
+tilo_3248/CGB-002-015F.sequest.log
+tilo_3248/CGB-002-015I-2.sequest.log
+tilo_3248/CGB-002-015AB-4.tgz
+tilo_3248/CGB-002-015K-3.pep.xml
+tilo_3248/CGB-002-015C-2.sequest.log
+tilo_3248/CGB-002-015J.sequest.log
+tilo_3248/CGB-002-015H.sequest.log
+tilo_3248/CGB-002-015D.sequest.log
+tilo_3248/CGB-002-015C-3.pep.xml
+tilo_3248/CGB-002-015I.sequest.log
+tilo_3248/CGB-002-015K-3.sequest.log
+tilo_3248/CGB-002-015G-2.sequest.log
+tilo_3248/CGB-002-015L-4.mzXML
+tilo_3248/CGB-002-015I.mzXML
+tilo_3248/CGB-002-015G-3.pep.xml
+tilo_3248/CGB-002-015F-4.sequest.log
+tilo_3248/CGB-002-015F-3.pep.xml
+tilo_3248/CGB-002-015H.pep.xml
+tilo_3248/CGB-002-015C-2.pep.xml
+tilo_3248/CGB-002-015MN-2.sequest.log
+tilo_3248/CGB-002-015C-2.mzXML
+tilo_3248/CGB-002-015H-4.sequest.log
+tilo_3248/CGB-002-015L-3.pep.xml
+tilo_3248/ebp.xml
+tilo_3248/CGB-002-015D-4.sequest.log
+tilo_3248/interact-prot.png
+tilo_3248/CGB-002-015I-4.pep.xml
+tilo_3248/CGB-002-015K-3.tgz
+tilo_3248/CGB-002-015MN.pep.xml
+tilo_3248/CGB-002-015E-2.pep.xml
+tilo_3248/interact.xsl
+tilo_3248/CGB-002-015J-3.tgz
+tilo_3248/CGB-002-015K-4.sequest.log
+tilo_3248/CGB-002-015K.sequest.log
+tilo_3248/CGB-002-015I-4.mzXML
+tilo_3248/CGB-002-015K-3.mzXML
+tilo_3248/CGB-002-015G-2.tgz
+tilo_3248/CGB-002-015H-4.mzXML
+tilo_3248/CGB-002-015I-4.tgz
+tilo_3248/CGB-002-015MN-3.tgz
+tilo_3248/CGB-002-015G-2.mzXML
+tilo_3248/CGB-002-015E.sequest.log
+tilo_3248/CGB-002-015E.mzXML
+tilo_3248/CGB-002-015L-3.tgz
+tilo_3248/CGB-002-015L-2.mzXML
+tilo_3248/CGB-002-015K-2.sequest.log
+tilo_3248/CGB-002-015D-4.mzXML
+tilo_3248/CGB-002-015MN-2.tgz
+tilo_3248/CGB-002-015G-4.pep.xml
+tilo_3248/interact_FVAL_3.png
+tilo_3248/auditJob.sh
+tilo_3248/CGB-002-015H-3.sequest.log
+tilo_3248/CGB-002-015K.tgz
+tilo_3248/CGB-002-015K-4.mzXML
+tilo_3248/interact-prot.nv.ggl
+tilo_3248/CGB-002-015E-2.sequest.log
+tilo_3248/interact-prot.mx.ggl
+tilo_3248/CGB-002-015MN-4.tgz
+tilo_3248/interact.shtml
+tilo_3248/CGB-002-015K-2.tgz
+tilo_3248/ebp.xsl
+tilo_3248/CGB-002-015L-4.tgz
+tilo_3248/CGB-002-015AB-2.tgz
+tilo_3248/interact_FVAL_5.png
+tilo_3248/CGB-002-015MN-3.mzXML
+tilo_3248/CGB-002-015G-3.mzXML
+tilo_3248/CGB-002-015MN-3.pep.xml
+tilo_3248/CGB-002-015C-3.mzXML
+tilo_3248/CGB-002-015F-3.tgz
+tilo_3248/interact.xml.index
+tilo_3248/CGB-002-015L-2.tgz
+tilo_3248/CGB-002-015D-4.tgz
+tilo_3248/CGB-002-015I-4.sequest.log
+tilo_3248/CGB-002-015L-3.mzXML
+tilo_3248/CGB-002-015G.sequest.log
+tilo_3248/CGB-002-015C-4.mzXML
+tilo_3248/CGB-002-015G-4.tgz
+tilo_3248/CGB-002-015D-2.sequest.log
+tilo_3248/CGB-002-015J-4.mzXML
+tilo_3248/CGB-002-015AB-3.mzXML
+tilo_3248/CGB-002-015J-2.mzXML
+tilo_3248/CGB-002-015L.pep.xml
+tilo_3248/CGB-002-015I-3.pep.xml
+tilo_3248/CGB-002-015AB-2.sequest.log
+tilo_3248/CGB-002-015D-2.pep.xml
+tilo_3248/CGB-002-015AB-2.pep.xml
+tilo_3248/CGB-002-015G-4.mzXML
+tilo_3248/CGB-002-015K-2.pep.xml
+tilo_3248/CGB-002-015C-4.sequest.log
+tilo_3248/CGB-002-015I-3.tgz
+removed directory: `tilo_3248'
+removed `archive_3248.tgz'
+Added files for analysis 3248 - KF_3_C_B_1_28Jul08_seq.
+Project contains 1241 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_247.7z.*' 73c25de515d395417ab02f766c9b2f99,11c8ffe0eedebf0db29790c2415c2509,5fd5f6d7698aa5a61db08302d5047d41,c8ffaa4cd1a6967f5a020e0d46ed0982,7c535c19bad56cb4b7d9e52d955a34fd,640d7696b74c712164056b9e2cfddc3b,06ed06e4293690dbd8d9d267132d6d50,54cc6079a12c3ac55232d9a2deefba9b,1291058ce07cedd5e1604ee65ec32f71,c20f7d72d891db63ed73e797ea150695,3532aed7a4dedbf581393765e3ca1a61,99f0c63ea8b19de24ae84813a1a1a919 24575361750
+Client output: ==> 
+remote path: /export/scratch/project_247.7z.*
+remote md5: 73c25de515d395417ab02f766c9b2f99,11c8ffe0eedebf0db29790c2415c2509,5fd5f6d7698aa5a61db08302d5047d41,c8ffaa4cd1a6967f5a020e0d46ed0982,7c535c19bad56cb4b7d9e52d955a34fd,640d7696b74c712164056b9e2cfddc3b,06ed06e4293690dbd8d9d267132d6d50,54cc6079a12c3ac55232d9a2deefba9b,1291058ce07cedd5e1604ee65ec32f71,c20f7d72d891db63ed73e797ea150695,3532aed7a4dedbf581393765e3ca1a61,99f0c63ea8b19de24ae84813a1a1a919
+remote size: 24575361750
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_247.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 247 - Platelets KF 1
+Found new project 248 - Zebrafish_FT
+Creating project staging dirs.
+Found new analysis 4227 - 72hr_mascot
+Using prot db: IPI.DANRE.v3.59.DECOY/ipi.DANRE.v3.59.decoy.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.DANRE.v3.59.DECOY/ipi.DANRE.v3.59.decoy.fasta' -> `./project_248/data_files/ipi.DANRE.v3.59.decoy.fasta'
+running md5sum ./project_248/data_files/ipi.DANRE.v3.59.decoy.fasta
+Added prot_db file data_files/ipi.DANRE.v3.59.decoy.fasta to file list.
+Adding Mascot search params to analysis
+Added input file data_files/3d0710m_01.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_01.raw
+Added input file data_files/3d0710m_01.raw to file list.
+Added input file data_files/3d0710m_02.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_02.raw
+Added input file data_files/3d0710m_02.raw to file list.
+Added input file data_files/3d0710m_03.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_03.raw
+Added input file data_files/3d0710m_03.raw to file list.
+Added input file data_files/3d0710m_04.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_04.raw
+Added input file data_files/3d0710m_04.raw to file list.
+Added input file data_files/3d0710m_05.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_05.raw
+Added input file data_files/3d0710m_05.raw to file list.
+Added input file data_files/3d0710m_06.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_06.raw
+Added input file data_files/3d0710m_06.raw to file list.
+Added input file data_files/3d0710m_07.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_07.raw
+Added input file data_files/3d0710m_07.raw to file list.
+Added input file data_files/3d0710m_08.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_08.raw
+Added input file data_files/3d0710m_08.raw to file list.
+Added input file data_files/3d0710m_09.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_09.raw
+Added input file data_files/3d0710m_09.raw to file list.
+Added input file data_files/3d0710m_10.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_10.raw
+Added input file data_files/3d0710m_10.raw to file list.
+Added input file data_files/3d0710m_11.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_11.raw
+Added input file data_files/3d0710m_11.raw to file list.
+Added input file data_files/3d0710m_12.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_12.raw
+Added input file data_files/3d0710m_12.raw to file list.
+Added input file data_files/3d0710m_13.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_13.raw
+Added input file data_files/3d0710m_13.raw to file list.
+Added input file data_files/3d0710m_14.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_14.raw
+Added input file data_files/3d0710m_14.raw to file list.
+Added input file data_files/3d0710m_15.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_15.raw
+Added input file data_files/3d0710m_15.raw to file list.
+Added input file data_files/3d0710m_16.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_16.raw
+Added input file data_files/3d0710m_16.raw to file list.
+Added input file data_files/3d0710m_17.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_17.raw
+Added input file data_files/3d0710m_17.raw to file list.
+Added input file data_files/3d0710m_18.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_18.raw
+Added input file data_files/3d0710m_18.raw to file list.
+Added input file data_files/3d0710m_19.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_19.raw
+Added input file data_files/3d0710m_19.raw to file list.
+Added input file data_files/3d0710m_20.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_20.raw
+Added input file data_files/3d0710m_20.raw to file list.
+Added input file data_files/3d0710m_21.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_21.raw
+Added input file data_files/3d0710m_21.raw to file list.
+Added input file data_files/3d0710m_22.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_22.raw
+Added input file data_files/3d0710m_22.raw to file list.
+Added input file data_files/3d0710m_23.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_23.raw
+Added input file data_files/3d0710m_23.raw to file list.
+Added input file data_files/3d0710m_24.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_24.raw
+Added input file data_files/3d0710m_24.raw to file list.
+Added input file data_files/3d0710m_25.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_25.raw
+Added input file data_files/3d0710m_25.raw to file list.
+Added input file data_files/3d0710m_26.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_26.raw
+Added input file data_files/3d0710m_26.raw to file list.
+Added input file data_files/3d0710m_27.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_27.raw
+Added input file data_files/3d0710m_27.raw to file list.
+Added input file data_files/3d0710m_28.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_28.raw
+Added input file data_files/3d0710m_28.raw to file list.
+Added input file data_files/3d0710m_29.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_29.raw
+Added input file data_files/3d0710m_29.raw to file list.
+Added input file data_files/3d0710m_30.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_30.raw
+Added input file data_files/3d0710m_30.raw to file list.
+Added input file data_files/3d0710m_31.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_31.raw
+Added input file data_files/3d0710m_31.raw to file list.
+Added input file data_files/3d0710m_32.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_32.raw
+Added input file data_files/3d0710m_32.raw to file list.
+Added input file data_files/3d0710m_33.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_33.raw
+Added input file data_files/3d0710m_33.raw to file list.
+Added input file data_files/3d0710m_34.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_34.raw
+Added input file data_files/3d0710m_34.raw to file list.
+Added input file data_files/3d0710m_35.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_35.raw
+Added input file data_files/3d0710m_35.raw to file list.
+Added input file data_files/3d0710m_36.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_36.raw
+Added input file data_files/3d0710m_36.raw to file list.
+Added input file data_files/3d0710m_37.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_37.raw
+Added input file data_files/3d0710m_37.raw to file list.
+Added input file data_files/3d0710m_38.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_38.raw
+Added input file data_files/3d0710m_38.raw to file list.
+Added input file data_files/3d0710m_39.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0710m_39.raw
+Added input file data_files/3d0710m_39.raw to file list.
+Added input file data_files/3d0805m_01.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_01.raw
+Added input file data_files/3d0805m_01.raw to file list.
+Added input file data_files/3d0805m_02.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_02.raw
+Added input file data_files/3d0805m_02.raw to file list.
+Added input file data_files/3d0805m_03.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_03.raw
+Added input file data_files/3d0805m_03.raw to file list.
+Added input file data_files/3d0805m_04.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_04.raw
+Added input file data_files/3d0805m_04.raw to file list.
+Added input file data_files/3d0805m_05.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_05.raw
+Added input file data_files/3d0805m_05.raw to file list.
+Added input file data_files/3d0805m_06.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_06.raw
+Added input file data_files/3d0805m_06.raw to file list.
+Added input file data_files/3d0805m_07.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_07.raw
+Added input file data_files/3d0805m_07.raw to file list.
+Added input file data_files/3d0805m_08.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_08.raw
+Added input file data_files/3d0805m_08.raw to file list.
+Added input file data_files/3d0805m_09.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_09.raw
+Added input file data_files/3d0805m_09.raw to file list.
+Added input file data_files/3d0805m_10.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_10.raw
+Added input file data_files/3d0805m_10.raw to file list.
+Added input file data_files/3d0805m_11.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_11.raw
+Added input file data_files/3d0805m_11.raw to file list.
+Added input file data_files/3d0805m_12.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_12.raw
+Added input file data_files/3d0805m_12.raw to file list.
+Added input file data_files/3d0805m_13.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_13.raw
+Added input file data_files/3d0805m_13.raw to file list.
+Added input file data_files/3d0805m_14.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_14.raw
+Added input file data_files/3d0805m_14.raw to file list.
+Added input file data_files/3d0805m_15.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_15.raw
+Added input file data_files/3d0805m_15.raw to file list.
+Added input file data_files/3d0805m_16.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_16.raw
+Added input file data_files/3d0805m_16.raw to file list.
+Added input file data_files/3d0805m_17.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_17.raw
+Added input file data_files/3d0805m_17.raw to file list.
+Added input file data_files/3d0805m_18.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_18.raw
+Added input file data_files/3d0805m_18.raw to file list.
+Added input file data_files/3d0805m_19.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_19.raw
+Added input file data_files/3d0805m_19.raw to file list.
+Added input file data_files/3d0805m_20.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_20.raw
+Added input file data_files/3d0805m_20.raw to file list.
+Added input file data_files/3d0805m_21.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_21.raw
+Added input file data_files/3d0805m_21.raw to file list.
+Added input file data_files/3d0805m_22.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_22.raw
+Added input file data_files/3d0805m_22.raw to file list.
+Added input file data_files/3d0805m_23.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_23.raw
+Added input file data_files/3d0805m_23.raw to file list.
+Added input file data_files/3d0805m_24.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_24.raw
+Added input file data_files/3d0805m_24.raw to file list.
+Added input file data_files/3d0805m_25.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_25.raw
+Added input file data_files/3d0805m_25.raw to file list.
+Added input file data_files/3d0805m_26.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_26.raw
+Added input file data_files/3d0805m_26.raw to file list.
+Added input file data_files/3d0805m_27.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_27.raw
+Added input file data_files/3d0805m_27.raw to file list.
+Added input file data_files/3d0805m_28long.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_28long.raw
+Added input file data_files/3d0805m_28long.raw to file list.
+Added input file data_files/3d0805m_29long.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_29long.raw
+Added input file data_files/3d0805m_29long.raw to file list.
+Added input file data_files/3d0805m_30long.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_30long.raw
+Added input file data_files/3d0805m_30long.raw to file list.
+Added input file data_files/3d0805m_31long.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_31long.raw
+Added input file data_files/3d0805m_31long.raw to file list.
+Added input file data_files/3d0805m_32.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_32.raw
+Added input file data_files/3d0805m_32.raw to file list.
+Added input file data_files/3d0805m_33.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_33.raw
+Added input file data_files/3d0805m_33.raw to file list.
+Added input file data_files/3d0805m_34.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_34.raw
+Added input file data_files/3d0805m_34.raw to file list.
+Added input file data_files/3d0805m_35cont.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0805m_35cont.raw
+Added input file data_files/3d0805m_35cont.raw to file list.
+Added input file data_files/3d0818m_01.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_01.raw
+Added input file data_files/3d0818m_01.raw to file list.
+Added input file data_files/3d0818m_02.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_02.raw
+Added input file data_files/3d0818m_02.raw to file list.
+Added input file data_files/3d0818m_03.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_03.raw
+Added input file data_files/3d0818m_03.raw to file list.
+Added input file data_files/3d0818m_04.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_04.raw
+Added input file data_files/3d0818m_04.raw to file list.
+Added input file data_files/3d0818m_05.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_05.raw
+Added input file data_files/3d0818m_05.raw to file list.
+Added input file data_files/3d0818m_06.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_06.raw
+Added input file data_files/3d0818m_06.raw to file list.
+Added input file data_files/3d0818m_07.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_07.raw
+Added input file data_files/3d0818m_07.raw to file list.
+Added input file data_files/3d0818m_08.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_08.raw
+Added input file data_files/3d0818m_08.raw to file list.
+Added input file data_files/3d0818m_09.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_09.raw
+Added input file data_files/3d0818m_09.raw to file list.
+Added input file data_files/3d0818m_10.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_10.raw
+Added input file data_files/3d0818m_10.raw to file list.
+Added input file data_files/3d0818m_11cont.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_11cont.raw
+Added input file data_files/3d0818m_11cont.raw to file list.
+Added input file data_files/3d0818m_12.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_12.raw
+Added input file data_files/3d0818m_12.raw to file list.
+Added input file data_files/3d0818m_13.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_13.raw
+Added input file data_files/3d0818m_13.raw to file list.
+Added input file data_files/3d0818m_14.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_14.raw
+Added input file data_files/3d0818m_14.raw to file list.
+Added input file data_files/3d0818m_15.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_15.raw
+Added input file data_files/3d0818m_15.raw to file list.
+Added input file data_files/3d0818m_16.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_16.raw
+Added input file data_files/3d0818m_16.raw to file list.
+Added input file data_files/3d0818m_17.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_17.raw
+Added input file data_files/3d0818m_17.raw to file list.
+Added input file data_files/3d0818m_18.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_18.raw
+Added input file data_files/3d0818m_18.raw to file list.
+Added input file data_files/3d0818m_19.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_19.raw
+Added input file data_files/3d0818m_19.raw to file list.
+Added input file data_files/3d0818m_20.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_20.raw
+Added input file data_files/3d0818m_20.raw to file list.
+Added input file data_files/3d0818m_21.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_21.raw
+Added input file data_files/3d0818m_21.raw to file list.
+Added input file data_files/3d0818m_22.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_22.raw
+Added input file data_files/3d0818m_22.raw to file list.
+Added input file data_files/3d0818m_23.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_23.raw
+Added input file data_files/3d0818m_23.raw to file list.
+Added input file data_files/3d0818m_24.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_24.raw
+Added input file data_files/3d0818m_24.raw to file list.
+Added input file data_files/3d0818m_25.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_25.raw
+Added input file data_files/3d0818m_25.raw to file list.
+Added input file data_files/3d0818m_26.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_26.raw
+Added input file data_files/3d0818m_26.raw to file list.
+Added input file data_files/3d0818m_27.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_27.raw
+Added input file data_files/3d0818m_27.raw to file list.
+Added input file data_files/3d0818m_28.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_28.raw
+Added input file data_files/3d0818m_28.raw to file list.
+Added input file data_files/3d0818m_29.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_29.raw
+Added input file data_files/3d0818m_29.raw to file list.
+Added input file data_files/3d0818m_30.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_30.raw
+Added input file data_files/3d0818m_30.raw to file list.
+Added input file data_files/3d0818m_31.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_31.raw
+Added input file data_files/3d0818m_31.raw to file list.
+Added input file data_files/3d0818m_32.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_32.raw
+Added input file data_files/3d0818m_32.raw to file list.
+Added input file data_files/3d0818m_33.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_33.raw
+Added input file data_files/3d0818m_33.raw to file list.
+Added input file data_files/3d0818m_34.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_34.raw
+Added input file data_files/3d0818m_34.raw to file list.
+Added input file data_files/3d0818m_35.raw to analysis 72hr_mascot.
+running md5sum ./project_248/data_files/3d0818m_35.raw
+Added input file data_files/3d0818m_35.raw to file list.

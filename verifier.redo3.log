@@ -1,0 +1,40 @@
+EXAMINING PROJECT 303...
+Found project path: /Volumes/3440_Archive_001/project_303
+Loading 7z file list from project 303
+Checking analysis 3881...
+PROJECT 303 OK
+
+
+EXAMINING PROJECT 321...
+Found project path: /Volumes/3440_Archive_001/project_321
+Loading 7z file list from project 321
+Checking analysis 4050...
+Checking analysis 4052...
+Checking analysis 4053...
+Checking analysis 4056...
+Checking analysis 4058...
+Checking analysis 4059...
+Checking analysis 4085...
+Using new filename: caPSC01.analysis_4085.RAW
+Using new filename: caPSC02.analysis_4085.RAW
+Using new filename: caPSC03.analysis_4085.RAW
+Using new filename: caPSC04.analysis_4085.RAW
+Using new filename: caPSC05.analysis_4085.RAW
+Using new filename: caPSC08.analysis_4085.RAW
+Using new filename: caPSC09.analysis_4085.RAW
+Using new filename: caPSC10.analysis_4085.RAW
+Checking analysis 4086...
+Using new filename: qPSC10.analysis_4086.RAW
+Using new filename: qPSC02.analysis_4086.RAW
+Using new filename: qPSC03.analysis_4086.RAW
+Using new filename: qPSC04.analysis_4086.RAW
+Using new filename: qPSC06.analysis_4086.RAW
+Using new filename: qPSC07.analysis_4086.RAW
+Using new filename: qPSC08.analysis_4086.RAW
+Using new filename: qPSC09.analysis_4086.RAW
+Using new filename: qPSC05.analysis_4086.RAW
+Using new filename: qPSC01.analysis_4086.RAW
+PROJECT 321 OK
+
+
+

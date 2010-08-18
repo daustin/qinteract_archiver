@@ -21,15 +21,22 @@ VOLUMES = [ "/Volumes/3440_Archive_001",
 # first read in projects and get a local project list
 
 project_ids = []
-project_file = File.open(ARGV[0])
 
-project_file.each do |l|
-  
-  project_ids << l.split("\t")[10].to_i
-  
-end
+# project_ids = [170,172,220,223,224,227,229,230,238,247,249,250,256,281,282] # timeout reruns - redo 1
 
-project_file.close
+# project_ids = [172,224,239,240,245] #missing file reruns - redo 2
+
+project_ids = [303,321] # file discrepancies - redo 3
+
+# project_file = File.open(ARGV[0])
+
+# project_file.each do |l|
+  
+#  project_ids << l.split("\t")[10].to_i
+  
+# end
+
+# project_file.close
 project_ids.uniq!
 project_ids.sort!
 
@@ -91,10 +98,11 @@ project_ids.each do |pid|
     remote_file_list = {}
     
     begin 
-      RestClient.get("#{FILELIST_URL}/#{analysis['analysis_id']}") do |res| 
+      # RestClient.get("#{FILELIST_URL}/#{analysis['analysis_id']}") do |res| 
         # puts res[0]
-        remote_file_list = JSON.parse res.to_s
-      end
+        # remote_file_list = JSON.parse res.to_s
+      # end
+      remote_file_list = JSON.parse `curl -s #{FILELIST_URL}/#{analysis['analysis_id']}`
     rescue Exception => e
       puts "ERROR: Could not build remote file list #{e.message}"
       error = true
@@ -104,6 +112,13 @@ project_ids.each do |pid|
     # check fasta file
     remote_fasta_path = File.basename(remote_file_list['fasta']['path'])
     remote_fasta_size = remote_file_list['fasta']['size'].to_i
+    
+    ext = File.extname(remote_fasta_path)
+    new_filename = "#{File.basename(remote_fasta_path, ext)}.analysis_#{analysis['analysis_id']}#{ext}"
+    if zipped_list["project_#{pid}/data_files/#{new_filename}"]
+      puts "Using new filename: #{new_filename}"
+      remote_fasta_path = new_filename
+    end  
     
     if zipped_list["project_#{pid}/data_files/#{remote_fasta_path}"].nil?
       puts "ERROR: COULD NOT FIND project_#{pid}/data_files/#{remote_fasta_path}"
@@ -121,6 +136,13 @@ project_ids.each do |pid|
       
       remote_file_path = File.basename(rf['path'])
       remote_file_size = rf['size'].to_i
+
+      ext = File.extname(remote_file_path)
+      new_filename = "#{File.basename(remote_file_path, ext)}.analysis_#{analysis['analysis_id']}#{ext}"
+      if zipped_list["project_#{pid}/data_files/#{new_filename}"]
+        puts "Using new filename: #{new_filename}"
+        remote_file_path = new_filename
+      end
 
       if zipped_list["project_#{pid}/data_files/#{remote_file_path}"].nil?
         puts "ERROR: COULD NOT FIND project_#{pid}/data_files/#{remote_file_path}"

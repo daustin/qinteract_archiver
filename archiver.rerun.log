@@ -1,0 +1,1365 @@
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_no_blanks_small_only.rerun.txt...
+Found new project 172 - Test.2
+Creating project staging dirs.
+Found new analysis 2206 - Matt_PSD_test_1
+Using prot db: IPI.HUMAN.v3.14/ipi.HUMAN.v3.14.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.HUMAN.v3.14/ipi.HUMAN.v3.14.fasta' -> `./project_172/data_files/ipi.HUMAN.v3.14.fasta'
+running md5sum ./project_172/data_files/ipi.HUMAN.v3.14.fasta
+Added prot_db file data_files/ipi.HUMAN.v3.14.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_1.
+running md5sum ./project_172/data_files/HPSD2_17.RAW
+Added input file data_files/HPSD2_17.RAW to file list.
+Found new analysis 2207 - Matt_PSD_test_2_decon
+Using prot db: IPI.HUMAN.v3.14/ipi.HUMAN.v3.14.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_2_decon.
+Found new analysis 2208 - Matt_PSD_test_2_decon_combion
+Using prot db: IPI.HUMAN.v3.14/ipi.HUMAN.v3.14.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_2_decon_combion.
+Found new analysis 2209 - Matt_PSD_test_4_msex_combion
+Using prot db: IPI.HUMAN.v3.14/ipi.HUMAN.v3.14.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_4_msex_combion.
+Found new analysis 2210 - Matt_PSD_test_5_Mascot
+Using prot db: IPI.HUMAN.v3.14/ipi.HUMAN.v3.14.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_5_Mascot.
+Found new analysis 2211 - Matt_PSD_test_6
+Using prot db: IPI.HUMAN.v3.14/ipi.HUMAN.v3.14.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_6.
+Found new analysis 2216 - Matt_PSD_test_7
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.HUMAN.080508/ipi.HUMAN.080508.fasta' -> `./project_172/data_files/ipi.HUMAN.080508.fasta'
+running md5sum ./project_172/data_files/ipi.HUMAN.080508.fasta
+Added prot_db file data_files/ipi.HUMAN.080508.fasta to file list.
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_7.
+Found new analysis 2217 - Matt_PSD_SEQUEST_1
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_1B.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_1B.RAW
+Added input file data_files/HPSD2_1B.RAW to file list.
+Added input file data_files/HPSD2_2.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_2.RAW
+Added input file data_files/HPSD2_2.RAW to file list.
+Added input file data_files/HPSD2_3.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_3.RAW
+Added input file data_files/HPSD2_3.RAW to file list.
+Added input file data_files/HPSD2_4.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_4.RAW
+Added input file data_files/HPSD2_4.RAW to file list.
+Added input file data_files/HPSD2_5.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_5.RAW
+Added input file data_files/HPSD2_5.RAW to file list.
+Added input file data_files/HPSD2_6.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_6.RAW
+Added input file data_files/HPSD2_6.RAW to file list.
+Added input file data_files/HPSD2_7.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_7.RAW
+Added input file data_files/HPSD2_7.RAW to file list.
+Added input file data_files/HPSD2_8.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_8.RAW
+Added input file data_files/HPSD2_8.RAW to file list.
+Added input file data_files/HPSD2_9.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_9.RAW
+Added input file data_files/HPSD2_9.RAW to file list.
+Added input file data_files/HPSD2_10.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_10.RAW
+Added input file data_files/HPSD2_10.RAW to file list.
+Added input file data_files/HPSD2_11.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_11.RAW
+Added input file data_files/HPSD2_11.RAW to file list.
+Added input file data_files/HPSD2_12.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_12.RAW
+Added input file data_files/HPSD2_12.RAW to file list.
+Added input file data_files/HPSD2_13B.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_13B.RAW
+Added input file data_files/HPSD2_13B.RAW to file list.
+Added input file data_files/HPSD2_14B.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_14B.RAW
+Added input file data_files/HPSD2_14B.RAW to file list.
+Added input file data_files/HPSD2_15.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_15.RAW
+Added input file data_files/HPSD2_15.RAW to file list.
+Added input file data_files/HPSD2_16.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_16.RAW
+Added input file data_files/HPSD2_16.RAW to file list.
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_SEQUEST_1.
+Added input file data_files/HPSD2_18.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_18.RAW
+Added input file data_files/HPSD2_18.RAW to file list.
+Added input file data_files/HPSD2_19.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_19.RAW
+Added input file data_files/HPSD2_19.RAW to file list.
+Added input file data_files/HPSD2_20.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_20.RAW
+Added input file data_files/HPSD2_20.RAW to file list.
+Added input file data_files/HPSD2_21.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_21.RAW
+Added input file data_files/HPSD2_21.RAW to file list.
+Added input file data_files/HPSD2_22.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_22.RAW
+Added input file data_files/HPSD2_22.RAW to file list.
+Added input file data_files/HPSD2_23.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_23.RAW
+Added input file data_files/HPSD2_23.RAW to file list.
+Added input file data_files/HPSD2_24.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_24.RAW
+Added input file data_files/HPSD2_24.RAW to file list.
+Added input file data_files/HPSD2_25.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_25.RAW
+Added input file data_files/HPSD2_25.RAW to file list.
+Added input file data_files/HPSD2_26.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_26.RAW
+Added input file data_files/HPSD2_26.RAW to file list.
+Added input file data_files/HPSD2_27.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_27.RAW
+Added input file data_files/HPSD2_27.RAW to file list.
+Added input file data_files/HPSD2_28.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_28.RAW
+Added input file data_files/HPSD2_28.RAW to file list.
+Added input file data_files/HPSD2_29.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_29.RAW
+Added input file data_files/HPSD2_29.RAW to file list.
+Added input file data_files/HPSD2_30.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_30.RAW
+Added input file data_files/HPSD2_30.RAW to file list.
+Added input file data_files/HPSD2_31.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_31.RAW
+Added input file data_files/HPSD2_31.RAW to file list.
+Added input file data_files/HPSD2_32.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_32.RAW
+Added input file data_files/HPSD2_32.RAW to file list.
+Added input file data_files/HPSD2_33.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_33.RAW
+Added input file data_files/HPSD2_33.RAW to file list.
+Added input file data_files/HPSD2_34.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_34.RAW
+Added input file data_files/HPSD2_34.RAW to file list.
+Added input file data_files/HPSD2_35.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_35.RAW
+Added input file data_files/HPSD2_35.RAW to file list.
+Added input file data_files/HPSD2_36.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_36.RAW
+Added input file data_files/HPSD2_36.RAW to file list.
+Added input file data_files/HPSD2_37.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_37.RAW
+Added input file data_files/HPSD2_37.RAW to file list.
+Added input file data_files/HPSD2_38.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_38.RAW
+Added input file data_files/HPSD2_38.RAW to file list.
+Added input file data_files/HPSD2_39.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_39.RAW
+Added input file data_files/HPSD2_39.RAW to file list.
+Added input file data_files/HPSD2_40.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_40.RAW
+Added input file data_files/HPSD2_40.RAW to file list.
+Added input file data_files/HPSD2_41.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_41.RAW
+Added input file data_files/HPSD2_41.RAW to file list.
+Added input file data_files/HPSD2_42.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_42.RAW
+Added input file data_files/HPSD2_42.RAW to file list.
+Added input file data_files/HPSD2_43.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_43.RAW
+Added input file data_files/HPSD2_43.RAW to file list.
+Added input file data_files/HPSD2_44.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_44.RAW
+Added input file data_files/HPSD2_44.RAW to file list.
+Added input file data_files/HPSD2_45.RAW to analysis Matt_PSD_SEQUEST_1.
+running md5sum ./project_172/data_files/HPSD2_45.RAW
+Added input file data_files/HPSD2_45.RAW to file list.
+Found new analysis 2219 - Matt_PSD_test_7_msex_combion
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_7_msex_combion.
+Found new analysis 2221 - Matt_PSD_test_8_Mas
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_8_Mas.
+Found new analysis 2222 - Matt_PSD_test_9_Mas
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_9_Mas.
+Added input file data_files/HPSD2_18.RAW to analysis Matt_PSD_test_9_Mas.
+Found new analysis 2227 - Matt_PSD_test_9_mas
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_test_9_mas.
+Added input file data_files/HPSD2_18.RAW to analysis Matt_PSD_test_9_mas.
+Found new analysis 2236 - Matt_PSD_SEQUEST_2
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_1B.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_2.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_3.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_4.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_5.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_6.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_7.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_8.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_9.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_10.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_11.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_12.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_13B.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_14B.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_15.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_16.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_17.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_18.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_19.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_20.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_21.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_22.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_23.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_24.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_25.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_26.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_27.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_28.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_29.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_30.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_31.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_32.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_33.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_34.RAW to analysis Matt_PSD_SEQUEST_2.
+Added input file data_files/HPSD2_35.RAW to analysis Matt_PSD_SEQUEST_2.
+Found new analysis 2257 - Matt_PSD_SEQUEST_2_1B
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD1_1.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_1.RAW
+Added input file data_files/HPSD1_1.RAW to file list.
+Added input file data_files/HPSD1_8.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_8.RAW
+Added input file data_files/HPSD1_8.RAW to file list.
+Added input file data_files/HPSD1_3.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_3.RAW
+Added input file data_files/HPSD1_3.RAW to file list.
+Added input file data_files/HPSD1_6.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_6.RAW
+Added input file data_files/HPSD1_6.RAW to file list.
+Added input file data_files/HPSD1_9.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_9.RAW
+Added input file data_files/HPSD1_9.RAW to file list.
+Added input file data_files/HPSD1_5.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_5.RAW
+Added input file data_files/HPSD1_5.RAW to file list.
+Added input file data_files/HPSD1_2.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_2.RAW
+Added input file data_files/HPSD1_2.RAW to file list.
+Added input file data_files/HPSD1_4.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_4.RAW
+Added input file data_files/HPSD1_4.RAW to file list.
+Added input file data_files/HPSD1_10.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_10.RAW
+Added input file data_files/HPSD1_10.RAW to file list.
+Added input file data_files/HPSD1_7.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_7.RAW
+Added input file data_files/HPSD1_7.RAW to file list.
+Added input file data_files/HPSD1_12.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_12.RAW
+Added input file data_files/HPSD1_12.RAW to file list.
+Added input file data_files/HPSD1_20.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_20.RAW
+Added input file data_files/HPSD1_20.RAW to file list.
+Added input file data_files/HPSD1_11.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_11.RAW
+Added input file data_files/HPSD1_11.RAW to file list.
+Added input file data_files/HPSD1_13.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_13.RAW
+Added input file data_files/HPSD1_13.RAW to file list.
+Added input file data_files/HPSD1_15.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_15.RAW
+Added input file data_files/HPSD1_15.RAW to file list.
+Added input file data_files/HPSD1_14.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_14.RAW
+Added input file data_files/HPSD1_14.RAW to file list.
+Added input file data_files/HPSD1_16.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_16.RAW
+Added input file data_files/HPSD1_16.RAW to file list.
+Added input file data_files/HPSD1_17.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_17.RAW
+Added input file data_files/HPSD1_17.RAW to file list.
+Added input file data_files/HPSD1_19.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_19.RAW
+Added input file data_files/HPSD1_19.RAW to file list.
+Added input file data_files/HPSD1_18.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_18.RAW
+Added input file data_files/HPSD1_18.RAW to file list.
+Added input file data_files/HPSD1_30.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_30.RAW
+Added input file data_files/HPSD1_30.RAW to file list.
+Added input file data_files/HPSD1_22.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_22.RAW
+Added input file data_files/HPSD1_22.RAW to file list.
+Added input file data_files/HPSD1_23.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_23.RAW
+Added input file data_files/HPSD1_23.RAW to file list.
+Added input file data_files/HPSD1_21.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_21.RAW
+Added input file data_files/HPSD1_21.RAW to file list.
+Added input file data_files/HPSD1_24.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_24.RAW
+Added input file data_files/HPSD1_24.RAW to file list.
+Added input file data_files/HPSD1_25.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_25.RAW
+Added input file data_files/HPSD1_25.RAW to file list.
+Added input file data_files/HPSD1_29.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_29.RAW
+Added input file data_files/HPSD1_29.RAW to file list.
+Added input file data_files/HPSD1_26.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_26.RAW
+Added input file data_files/HPSD1_26.RAW to file list.
+Added input file data_files/HPSD1_28.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_28.RAW
+Added input file data_files/HPSD1_28.RAW to file list.
+Added input file data_files/HPSD1_27.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_27.RAW
+Added input file data_files/HPSD1_27.RAW to file list.
+Added input file data_files/HPSD1_31.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_31.RAW
+Added input file data_files/HPSD1_31.RAW to file list.
+Added input file data_files/HPSD1_32.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_32.RAW
+Added input file data_files/HPSD1_32.RAW to file list.
+Added input file data_files/HPSD1_34.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_34.RAW
+Added input file data_files/HPSD1_34.RAW to file list.
+Added input file data_files/HPSD1_33.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_33.RAW
+Added input file data_files/HPSD1_33.RAW to file list.
+Added input file data_files/HPSD1_35.RAW to analysis Matt_PSD_SEQUEST_2_1B.
+running md5sum ./project_172/data_files/HPSD1_35.RAW
+Added input file data_files/HPSD1_35.RAW to file list.
+Found new analysis 2258 - Matt_MASCOT_HPSD2
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_1B.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_2.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_3.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_4.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_5.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_6.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_7.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_8.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_9.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_10.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_11.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_12.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_13B.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_14B.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_15.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_16.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_17.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_18.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_19.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_20.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_21.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_22.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_23.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_24.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_25.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_26.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_27.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_28.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_29.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_30.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_31.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_32.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_33.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_34.RAW to analysis Matt_MASCOT_HPSD2.
+Added input file data_files/HPSD2_35.RAW to analysis Matt_MASCOT_HPSD2.
+Found new analysis 2259 - Matt_MASCOT_HPSD1B
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD1_1.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_8.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_3.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_6.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_9.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_5.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_2.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_4.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_10.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_7.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_12.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_20.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_11.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_13.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_15.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_14.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_16.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_17.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_19.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_18.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_30.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_22.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_23.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_21.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_24.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_25.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_29.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_26.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_28.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_27.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_31.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_32.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_34.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_33.RAW to analysis Matt_MASCOT_HPSD1B.
+Added input file data_files/HPSD1_35.RAW to analysis Matt_MASCOT_HPSD1B.
+Found new analysis 2264 - mascot test cleavage 2
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD1_17.RAW to analysis mascot test cleavage 2.
+Found new analysis 2265 - mascot test cleavage 2 tol 0.1
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD1_17.RAW to analysis mascot test cleavage 2 tol 0.1.
+Found new analysis 2266 - mascot test hspd2_17 cl2 tol 0.1
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis mascot test hspd2_17 cl2 tol 0.1.
+Found new analysis 2267 - mascot test hspd2_17 cl2 tol 0.2
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD2_17.RAW to analysis mascot test hspd2_17 cl2 tol 0.2.
+Found new analysis 2268 - Matt_PSD_SEQUEST_merge
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Sequest search params to analysis
+Added input file data_files/HPSD2_8.RAW to analysis Matt_PSD_SEQUEST_merge.
+Found new analysis 2664 - Matt_MASCOT_HPSD1B_2
+Using prot db: IPI.HUMAN.080508/ipi.HUMAN.080508.fasta
+Adding Mascot search params to analysis
+Added input file data_files/HPSD1_1.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_8.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_3.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_6.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_9.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_5.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_2.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_4.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_10.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_7.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_12.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_20.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_11.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_13.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_15.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_14.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_16.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_17.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_19.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_18.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_30.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_22.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_23.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_21.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_24.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_25.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_29.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_26.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_28.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_27.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_31.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_32.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_34.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_33.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Added input file data_files/HPSD1_35.RAW to analysis Matt_MASCOT_HPSD1B_2.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2206.tgz
+removed directory: `tilo_2206'
+removed `archive_2206.tgz'
+Added files for analysis 2206 - Matt_PSD_test_1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2207.tgz
+removed directory: `tilo_2207'
+removed `archive_2207.tgz'
+Added files for analysis 2207 - Matt_PSD_test_2_decon.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2208.tgz
+removed directory: `tilo_2208'
+removed `archive_2208.tgz'
+Added files for analysis 2208 - Matt_PSD_test_2_decon_combion.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2209.tgz
+removed directory: `tilo_2209'
+removed `archive_2209.tgz'
+Added files for analysis 2209 - Matt_PSD_test_4_msex_combion.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2210.tgz
+removed directory: `tilo_2210'
+removed `archive_2210.tgz'
+Added files for analysis 2210 - Matt_PSD_test_5_Mascot.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2211.tgz
+removed directory: `tilo_2211'
+removed `archive_2211.tgz'
+Added files for analysis 2211 - Matt_PSD_test_6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2216.tgz
+removed directory: `tilo_2216'
+removed `archive_2216.tgz'
+Added files for analysis 2216 - Matt_PSD_test_7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2217.tgz
+removed directory: `tilo_2217'
+removed `archive_2217.tgz'
+Added files for analysis 2217 - Matt_PSD_SEQUEST_1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2219.tgz
+removed directory: `tilo_2219'
+removed `archive_2219.tgz'
+Added files for analysis 2219 - Matt_PSD_test_7_msex_combion.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2221.tgz
+removed directory: `tilo_2221'
+removed `archive_2221.tgz'
+Added files for analysis 2221 - Matt_PSD_test_8_Mas.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2222.tgz
+removed directory: `tilo_2222'
+removed `archive_2222.tgz'
+Added files for analysis 2222 - Matt_PSD_test_9_Mas.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2227.tgz
+removed directory: `tilo_2227'
+removed `archive_2227.tgz'
+Added files for analysis 2227 - Matt_PSD_test_9_mas.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2236.tgz
+removed directory: `tilo_2236'
+removed `archive_2236.tgz'
+Added files for analysis 2236 - Matt_PSD_SEQUEST_2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2257.tgz
+removed directory: `tilo_2257'
+removed `archive_2257.tgz'
+Added files for analysis 2257 - Matt_PSD_SEQUEST_2_1B.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2258.tgz
+removed directory: `tilo_2258'
+removed `archive_2258.tgz'
+Added files for analysis 2258 - Matt_MASCOT_HPSD2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2259.tgz
+removed directory: `tilo_2259'
+removed `archive_2259.tgz'
+Added files for analysis 2259 - Matt_MASCOT_HPSD1B.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2264.tgz
+removed directory: `tilo_2264'
+removed `archive_2264.tgz'
+Added files for analysis 2264 - mascot test cleavage 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2265.tgz
+removed directory: `tilo_2265'
+removed `archive_2265.tgz'
+Added files for analysis 2265 - mascot test cleavage 2 tol 0.1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2266.tgz
+removed directory: `tilo_2266'
+removed `archive_2266.tgz'
+Added files for analysis 2266 - mascot test hspd2_17 cl2 tol 0.1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2267.tgz
+removed directory: `tilo_2267'
+removed `archive_2267.tgz'
+Added files for analysis 2267 - mascot test hspd2_17 cl2 tol 0.2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2268.tgz
+removed directory: `tilo_2268'
+removed `archive_2268.tgz'
+Added files for analysis 2268 - Matt_PSD_SEQUEST_merge.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_2664.tgz
+removed directory: `tilo_2664'
+removed `archive_2664.tgz'
+Added files for analysis 2664 - Matt_MASCOT_HPSD1B_2.
+Project contains 1631 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 2097156096 bytes == 0x325e000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x80740000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x325e000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x80740000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x325e000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x80740000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/136 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 185340
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------6ae19ef657c0
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  180k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 17 Aug 2010 22:07:45 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/136
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100  180k    0     0  100  180k      0   668k --:--:-- --:--:-- --:--:--  698k100  180k    0     0  100  180k      0   667k --:--:-- --:--:-- --:--:--  698k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_172.7z.*' 1cdd28d679b0a5bb62898e8b0e99324a,7ec98b3d6baa3d7d57f2c546eb671228,7a0ef3e5aa5e520b28d4db44c87830cf,432964ae0e3652e60302cac5bc85efc4,bce3bf6a9b43d8a7666c776be1b737b1,dbfbde0055816c5b2a48ddd566eae4c5,f6d7028fbe000d2d9d434626a099e4ef,3538e0821ada9471b511b853758aa985 14866911557
+Client output: ==> 
+remote path: /export/scratch/project_172.7z.*
+remote md5: 1cdd28d679b0a5bb62898e8b0e99324a,7ec98b3d6baa3d7d57f2c546eb671228,7a0ef3e5aa5e520b28d4db44c87830cf,432964ae0e3652e60302cac5bc85efc4,bce3bf6a9b43d8a7666c776be1b737b1,dbfbde0055816c5b2a48ddd566eae4c5,f6d7028fbe000d2d9d434626a099e4ef,3538e0821ada9471b511b853758aa985
+remote size: 14866911557
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_172.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 172 - Test.2
+Found new project 224 - zebrafish-24hpf-2
+Creating project staging dirs.
+Found new analysis 3096 - Zebrafish-24hpf-2
+Using prot db: IPI.DANRE.080523/ipi.DANRE.080523.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.DANRE.080523/ipi.DANRE.080523.fasta' -> `./project_224/data_files/ipi.DANRE.080523.fasta'
+running md5sum ./project_224/data_files/ipi.DANRE.080523.fasta
+Added prot_db file data_files/ipi.DANRE.080523.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-13Sep08-12.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-12.RAW
+Added input file data_files/ZF24-13Sep08-12.RAW to file list.
+Added input file data_files/ZF24-13Sep08-01.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-01.RAW
+Added input file data_files/ZF24-13Sep08-01.RAW to file list.
+Added input file data_files/ZF24-13Sep08-02.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-02.RAW
+Added input file data_files/ZF24-13Sep08-02.RAW to file list.
+Added input file data_files/ZF24-13Sep08-03.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-03.RAW
+Added input file data_files/ZF24-13Sep08-03.RAW to file list.
+Added input file data_files/ZF24-13Sep08-04.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-04.RAW
+Added input file data_files/ZF24-13Sep08-04.RAW to file list.
+Added input file data_files/ZF24-13Sep08-05.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-05.RAW
+Added input file data_files/ZF24-13Sep08-05.RAW to file list.
+Added input file data_files/ZF24-13Sep08-06.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-06.RAW
+Added input file data_files/ZF24-13Sep08-06.RAW to file list.
+Added input file data_files/ZF24-13Sep08-07.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-07.RAW
+Added input file data_files/ZF24-13Sep08-07.RAW to file list.
+Added input file data_files/ZF24-13Sep08-08.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-08.RAW
+Added input file data_files/ZF24-13Sep08-08.RAW to file list.
+Added input file data_files/ZF24-13Sep08-09.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-09.RAW
+Added input file data_files/ZF24-13Sep08-09.RAW to file list.
+Added input file data_files/ZF24-13Sep08-10.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-10.RAW
+Added input file data_files/ZF24-13Sep08-10.RAW to file list.
+Added input file data_files/ZF24-13Sep08-11.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-13Sep08-11.RAW
+Added input file data_files/ZF24-13Sep08-11.RAW to file list.
+Added input file data_files/ZF24-16Sep08-03.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-16Sep08-03.RAW
+Added input file data_files/ZF24-16Sep08-03.RAW to file list.
+Added input file data_files/ZF24-16Sep08-01.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-16Sep08-01.RAW
+Added input file data_files/ZF24-16Sep08-01.RAW to file list.
+Added input file data_files/ZF24-16Sep08-02.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-16Sep08-02.RAW
+Added input file data_files/ZF24-16Sep08-02.RAW to file list.
+Added input file data_files/ZF24-29Sep08-40.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-40.RAW
+Added input file data_files/ZF24-29Sep08-40.RAW to file list.
+Added input file data_files/ZF24-29Sep08-04.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-04.RAW
+Added input file data_files/ZF24-29Sep08-04.RAW to file list.
+Added input file data_files/ZF24-29Sep08-05.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-05.RAW
+Added input file data_files/ZF24-29Sep08-05.RAW to file list.
+Added input file data_files/ZF24-29Sep08-06.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-06.RAW
+Added input file data_files/ZF24-29Sep08-06.RAW to file list.
+Added input file data_files/ZF24-29Sep08-07.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-07.RAW
+Added input file data_files/ZF24-29Sep08-07.RAW to file list.
+Added input file data_files/ZF24-29Sep08-08.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-08.RAW
+Added input file data_files/ZF24-29Sep08-08.RAW to file list.
+Added input file data_files/ZF24-29Sep08-09.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-09.RAW
+Added input file data_files/ZF24-29Sep08-09.RAW to file list.
+Added input file data_files/ZF24-29Sep08-10.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-10.RAW
+Added input file data_files/ZF24-29Sep08-10.RAW to file list.
+Added input file data_files/ZF24-29Sep08-11.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-11.RAW
+Added input file data_files/ZF24-29Sep08-11.RAW to file list.
+Added input file data_files/ZF24-29Sep08-12.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-12.RAW
+Added input file data_files/ZF24-29Sep08-12.RAW to file list.
+Added input file data_files/ZF24-29Sep08-13.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-13.RAW
+Added input file data_files/ZF24-29Sep08-13.RAW to file list.
+Added input file data_files/ZF24-29Sep08-14.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-14.RAW
+Added input file data_files/ZF24-29Sep08-14.RAW to file list.
+Added input file data_files/ZF24-29Sep08-15.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-15.RAW
+Added input file data_files/ZF24-29Sep08-15.RAW to file list.
+Added input file data_files/ZF24-29Sep08-16.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-16.RAW
+Added input file data_files/ZF24-29Sep08-16.RAW to file list.
+Added input file data_files/ZF24-29Sep08-17.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-17.RAW
+Added input file data_files/ZF24-29Sep08-17.RAW to file list.
+Added input file data_files/ZF24-29Sep08-18.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-18.RAW
+Added input file data_files/ZF24-29Sep08-18.RAW to file list.
+Added input file data_files/ZF24-29Sep08-19.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-19.RAW
+Added input file data_files/ZF24-29Sep08-19.RAW to file list.
+Added input file data_files/ZF24-29Sep08-20.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-20.RAW
+Added input file data_files/ZF24-29Sep08-20.RAW to file list.
+Added input file data_files/ZF24-29Sep08-21.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-21.RAW
+Added input file data_files/ZF24-29Sep08-21.RAW to file list.
+Added input file data_files/ZF24-29Sep08-21_runstopped.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-21_runstopped.RAW
+Added input file data_files/ZF24-29Sep08-21_runstopped.RAW to file list.
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-22.RAW
+Added input file data_files/ZF24-29Sep08-22.RAW to file list.
+Added input file data_files/ZF24-29Sep08-23.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-23.RAW
+Added input file data_files/ZF24-29Sep08-23.RAW to file list.
+Added input file data_files/ZF24-29Sep08-24.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-24.RAW
+Added input file data_files/ZF24-29Sep08-24.RAW to file list.
+Added input file data_files/ZF24-29Sep08-25.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-25.RAW
+Added input file data_files/ZF24-29Sep08-25.RAW to file list.
+Added input file data_files/ZF24-29Sep08-26.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-26.RAW
+Added input file data_files/ZF24-29Sep08-26.RAW to file list.
+Added input file data_files/ZF24-29Sep08-27.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-27.RAW
+Added input file data_files/ZF24-29Sep08-27.RAW to file list.
+Added input file data_files/ZF24-29Sep08-28.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-28.RAW
+Added input file data_files/ZF24-29Sep08-28.RAW to file list.
+Added input file data_files/ZF24-29Sep08-29.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-29.RAW
+Added input file data_files/ZF24-29Sep08-29.RAW to file list.
+Added input file data_files/ZF24-29Sep08-30.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-30.RAW
+Added input file data_files/ZF24-29Sep08-30.RAW to file list.
+Added input file data_files/ZF24-29Sep08-31.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-31.RAW
+Added input file data_files/ZF24-29Sep08-31.RAW to file list.
+Added input file data_files/ZF24-29Sep08-32.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-32.RAW
+Added input file data_files/ZF24-29Sep08-32.RAW to file list.
+Added input file data_files/ZF24-29Sep08-33.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-33.RAW
+Added input file data_files/ZF24-29Sep08-33.RAW to file list.
+Added input file data_files/ZF24-29Sep08-34.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-34.RAW
+Added input file data_files/ZF24-29Sep08-34.RAW to file list.
+Added input file data_files/ZF24-29Sep08-35.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-35.RAW
+Added input file data_files/ZF24-29Sep08-35.RAW to file list.
+Added input file data_files/ZF24-29Sep08-36.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-36.RAW
+Added input file data_files/ZF24-29Sep08-36.RAW to file list.
+Added input file data_files/ZF24-29Sep08-37.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-37.RAW
+Added input file data_files/ZF24-29Sep08-37.RAW to file list.
+Added input file data_files/ZF24-29Sep08-38.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-38.RAW
+Added input file data_files/ZF24-29Sep08-38.RAW to file list.
+Added input file data_files/ZF24-29Sep08-39.RAW to analysis Zebrafish-24hpf-2.
+running md5sum ./project_224/data_files/ZF24-29Sep08-39.RAW
+Added input file data_files/ZF24-29Sep08-39.RAW to file list.
+Found new analysis 3161 - Zebrafish-24hpf-tpp-8-14
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta' -> `./project_224/data_files/ipi.DANRE.080523.rev.fasta'
+running md5sum ./project_224/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-tpp-8-14.
+running md5sum ./project_224/data_files/zf-24-30Oct08-22.RAW
+Added input file data_files/zf-24-30Oct08-22.RAW to file list.
+Added input file data_files/zf-24-30Oct08-24.RAW to analysis Zebrafish-24hpf-tpp-8-14.
+running md5sum ./project_224/data_files/zf-24-30Oct08-24.RAW
+Added input file data_files/zf-24-30Oct08-24.RAW to file list.
+Found new analysis 3174 - Zebrafish-24hpf-tpp-8-14-22.14
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-tpp-8-14-22.14.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3096.tgz
+removed directory: `xuanwen_3096'
+removed `archive_3096.tgz'
+Added files for analysis 3096 - Zebrafish-24hpf-2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3161.tgz
+removed directory: `xuanwen_3161'
+removed `archive_3161.tgz'
+Added files for analysis 3161 - Zebrafish-24hpf-tpp-8-14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3174.tgz
+removed directory: `xuanwen_3174'
+removed `archive_3174.tgz'
+Added files for analysis 3174 - Zebrafish-24hpf-tpp-8-14-22.14.
+Project contains 356 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 2097156096 bytes == 0x5add000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x82fbf000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x5add000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x82fbf000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/137 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 46083
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------dfeab2daf93d
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 46083    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 17 Aug 2010 23:19:09 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/137
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 46083    0     0  100 46083      0   354k --:--:-- --:--:-- --:--:--  381k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_224.7z.*' 5e17637e4325e0a97c792973fc883224,9788360cf00c62a25f3db7a2d0978665,7b4ce862a63c1e39706f6475942ee14f,50326ebc2b092984d4f2642948b2ea12,63a4c0a6f92d2a3aa1bb37bae9edee79 9227072564
+Client output: ==> 
+remote path: /export/scratch/project_224.7z.*
+remote md5: 5e17637e4325e0a97c792973fc883224,9788360cf00c62a25f3db7a2d0978665,7b4ce862a63c1e39706f6475942ee14f,50326ebc2b092984d4f2642948b2ea12,63a4c0a6f92d2a3aa1bb37bae9edee79
+remote size: 9227072564
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_224.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 224 - zebrafish-24hpf-2
+Found new project 239 - zebrafish-24hpf-text
+Creating project staging dirs.
+Found new analysis 3162 - Zebrafish-24hpf-22-1.4
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta' -> `./project_239/data_files/ipi.DANRE.080523.rev.fasta'
+running md5sum ./project_239/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.4.
+running md5sum ./project_239/data_files/ZF24-29Sep08-22.RAW
+Added input file data_files/ZF24-29Sep08-22.RAW to file list.
+Found new analysis 3163 - Zebrafish-24hpf-22-1.1
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.1.
+Found new analysis 3164 - Zebrafish-24hpf-22-2
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-2.
+Found new analysis 3165 - Zebrafish-24hpf-22-50ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-50ppm.
+Found new analysis 3166 - Zebrafish-24hpf-22-20 ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-20 ppm.
+Found new analysis 3168 - Zebrafish-24hpf-22-10ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-10ppm.
+Found new analysis 3169 - Zebrafish-24hpf-22-5 ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-5 ppm.
+Found new analysis 3170 - Zebrafish-24hpf-22-1.5
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.5.
+Found new analysis 3171 - platelet-scx-1.3
+Using prot db: IPI.DANRE.080523.REV/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis platelet-scx-1.3.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3162.tgz
+removed directory: `xuanwen_3162'
+removed `archive_3162.tgz'
+Added files for analysis 3162 - Zebrafish-24hpf-22-1.4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3163.tgz
+removed directory: `xuanwen_3163'
+removed `archive_3163.tgz'
+Added files for analysis 3163 - Zebrafish-24hpf-22-1.1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3164.tgz
+removed directory: `xuanwen_3164'
+removed `archive_3164.tgz'
+Added files for analysis 3164 - Zebrafish-24hpf-22-2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3165.tgz
+removed directory: `xuanwen_3165'
+removed `archive_3165.tgz'
+Added files for analysis 3165 - Zebrafish-24hpf-22-50ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3166.tgz
+removed directory: `xuanwen_3166'
+removed `archive_3166.tgz'
+Added files for analysis 3166 - Zebrafish-24hpf-22-20 ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3168.tgz
+removed directory: `xuanwen_3168'
+removed `archive_3168.tgz'
+Added files for analysis 3168 - Zebrafish-24hpf-22-10ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3169.tgz
+removed directory: `xuanwen_3169'
+removed `archive_3169.tgz'
+Added files for analysis 3169 - Zebrafish-24hpf-22-5 ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3170.tgz
+removed directory: `xuanwen_3170'
+removed `archive_3170.tgz'
+Added files for analysis 3170 - Zebrafish-24hpf-22-1.5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3171.tgz
+removed directory: `xuanwen_3171'
+removed `archive_3171.tgz'
+Added files for analysis 3171 - platelet-scx-1.3.
+Project contains 196 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 1286569984 bytes == 0xdef4000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/138 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 41776
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------2a64fd757c26
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 41776    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 17 Aug 2010 23:31:10 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/138
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 41776    0     0  100 41776      0   244k --:--:-- --:--:-- --:--:--  420k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_239.7z.*' d4b68a31faef9b2f9eda44051d6c1207 1286569004
+Client output: ==> 
+remote path: /export/scratch/project_239.7z.*
+remote md5: d4b68a31faef9b2f9eda44051d6c1207
+remote size: 1286569004
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_239.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 239 - zebrafish-24hpf-text
+Found new project 240 - zebrafish-24hpf-22-1
+Creating project staging dirs.
+Found new analysis 3176 - Zebrafish-24hpf-22-1.4-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta' -> `./project_240/data_files/ipi.DANRE.080523.rev.fasta'
+running md5sum ./project_240/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine.
+running md5sum ./project_240/data_files/ZF24-29Sep08-22.RAW
+Added input file data_files/ZF24-29Sep08-22.RAW to file list.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine.
+running md5sum ./project_240/data_files/zf-24-30Oct08-22.RAW
+Added input file data_files/zf-24-30Oct08-22.RAW to file list.
+Found new analysis 3179 - Zebrafish-24hpf-22-20 ppm-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-20 ppm-combine.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-20 ppm-combine.
+Found new analysis 3181 - Zebrafish-24hpf-22-1.4-combine-2
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine-2.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine-2.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3176.tgz
+removed directory: `xuanwen_3176'
+removed `archive_3176.tgz'
+Added files for analysis 3176 - Zebrafish-24hpf-22-1.4-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3179.tgz
+removed directory: `xuanwen_3179'
+removed `archive_3179.tgz'
+Added files for analysis 3179 - Zebrafish-24hpf-22-20 ppm-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3181.tgz
+removed directory: `xuanwen_3181'
+removed `archive_3181.tgz'
+Added files for analysis 3181 - Zebrafish-24hpf-22-1.4-combine-2.
+Project contains 75 total files.
+Generated filelist.txt
+Zipping and compressing project...
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/139 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 15876
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------9d5a3832ec20
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 15876    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 17 Aug 2010 23:38:54 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/139
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 15876    0     0  100 15876      0   151k --:--:-- --:--:-- --:--:--  170k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_240.7z.*' d6f9f8b56c333647487629b567fee92b 1000122966
+Client output: ==> 
+remote path: /export/scratch/project_240.7z.*
+remote md5: d6f9f8b56c333647487629b567fee92b
+remote size: 1000122966
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_240.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 240 - zebrafish-24hpf-22-1
+Found new project 245 - zebrafish-24hpf-22 t
+Creating project staging dirs.
+Found new analysis 3197 - Zebrafish-24hpf-22-1.4
+Using prot db: IPI.DANRE.080523.REV/ipi.DANRE.080523.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.DANRE.080523.REV/ipi.DANRE.080523.rev.fasta' -> `./project_245/data_files/ipi.DANRE.080523.rev.fasta'
+running md5sum ./project_245/data_files/ipi.DANRE.080523.rev.fasta
+Added prot_db file data_files/ipi.DANRE.080523.rev.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.4.
+running md5sum ./project_245/data_files/ZF24-29Sep08-22.RAW
+Added input file data_files/ZF24-29Sep08-22.RAW to file list.
+Found new analysis 3200 - Zebrafish-24hpf-22-1.4-top 8
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-1.4-top 8.
+running md5sum ./project_245/data_files/zf-24-30Oct08-22.RAW
+Added input file data_files/zf-24-30Oct08-22.RAW to file list.
+Found new analysis 3201 - Zebrafish-24hpf-22-1.4-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-1.4-combine.
+Found new analysis 3206 - Zebrafish-24hpf-22-1-7-10
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1-7-10.
+Found new analysis 3207 - Zebrafish-24hpf-22-1-7-5ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-1-7-5ppm.
+Found new analysis 3208 - Zebrafish-24hpf-22-10ppm-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-10ppm-combine.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-10ppm-combine.
+Found new analysis 3210 - Zebrafish-24hpf-22-20ppm-combine
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-20ppm-combine.
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-20ppm-combine.
+Found new analysis 3214 - Zebrafish-24hpf-22-20 ppm
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/ZF24-29Sep08-22.RAW to analysis Zebrafish-24hpf-22-20 ppm.
+Found new analysis 3215 - Zebrafish-24hpf-22-20ppm-top 8
+Using prot db: IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta
+Adding Sequest search params to analysis
+Added input file data_files/zf-24-30Oct08-22.RAW to analysis Zebrafish-24hpf-22-20ppm-top 8.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3197.tgz
+removed directory: `xuanwen_3197'
+removed `archive_3197.tgz'
+Added files for analysis 3197 - Zebrafish-24hpf-22-1.4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3200.tgz
+removed directory: `xuanwen_3200'
+removed `archive_3200.tgz'
+Added files for analysis 3200 - Zebrafish-24hpf-22-1.4-top 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3201.tgz
+removed directory: `xuanwen_3201'
+removed `archive_3201.tgz'
+Added files for analysis 3201 - Zebrafish-24hpf-22-1.4-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3206.tgz
+removed directory: `xuanwen_3206'
+removed `archive_3206.tgz'
+Added files for analysis 3206 - Zebrafish-24hpf-22-1-7-10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3207.tgz
+removed directory: `xuanwen_3207'
+removed `archive_3207.tgz'
+Added files for analysis 3207 - Zebrafish-24hpf-22-1-7-5ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3208.tgz
+removed directory: `xuanwen_3208'
+removed `archive_3208.tgz'
+Added files for analysis 3208 - Zebrafish-24hpf-22-10ppm-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3210.tgz
+removed directory: `xuanwen_3210'
+removed `archive_3210.tgz'
+Added files for analysis 3210 - Zebrafish-24hpf-22-20ppm-combine.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3214.tgz
+removed directory: `xuanwen_3214'
+removed `archive_3214.tgz'
+Added files for analysis 3214 - Zebrafish-24hpf-22-20 ppm.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_3215.tgz
+removed directory: `xuanwen_3215'
+removed `archive_3215.tgz'
+Added files for analysis 3215 - Zebrafish-24hpf-22-20ppm-top 8.
+Project contains 215 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 1822539776 bytes == 0x86d3000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/140 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 44296
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------8702495d1ef0
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 44296    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 17 Aug 2010 23:53:48 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/140
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 44296    0     0  100 44296      0   297k --:--:-- --:--:-- --:--:--  470k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_245.7z.*' 5e4d4fec6ee76107f642f477955a6e6a 1822537658
+Client output: ==> 
+remote path: /export/scratch/project_245.7z.*
+remote md5: 5e4d4fec6ee76107f642f477955a6e6a
+remote size: 1822537658
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_245.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 245 - zebrafish-24hpf-22 t
+Found new project 303 - BeWo_06_24_09_SCX
+Creating project staging dirs.
+Found new analysis 3881 - BeWo_06_24_09_SCX
+Using prot db: REFSEQ_HUMAN_071119/refseq_human_071119.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ_HUMAN_071119/refseq_human_071119.fasta' -> `./project_303/data_files/refseq_human_071119.fasta'
+running md5sum ./project_303/data_files/refseq_human_071119.fasta
+Added prot_db file data_files/refseq_human_071119.fasta to file list.
+Adding Sequest search params to analysis
+Added input file data_files/SCX-19.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-19.RAW
+Added input file data_files/SCX-19.RAW to file list.
+Added input file data_files/SCX-1.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-1.RAW
+Added input file data_files/SCX-1.RAW to file list.
+Added input file data_files/SCX-2.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-2.RAW
+Added input file data_files/SCX-2.RAW to file list.
+Added input file data_files/SCX-3.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-3.RAW
+Added input file data_files/SCX-3.RAW to file list.
+Added input file data_files/SCX-4.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-4.RAW
+Added input file data_files/SCX-4.RAW to file list.
+Added input file data_files/SCX-5.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-5.RAW
+Added input file data_files/SCX-5.RAW to file list.
+Added input file data_files/SCX-6.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-6.RAW
+Added input file data_files/SCX-6.RAW to file list.
+Added input file data_files/SCX-7.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-7.RAW
+Added input file data_files/SCX-7.RAW to file list.
+Added input file data_files/SCX-8.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-8.RAW
+Added input file data_files/SCX-8.RAW to file list.
+Added input file data_files/SCX-9.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-9.RAW
+Added input file data_files/SCX-9.RAW to file list.
+Added input file data_files/SCX-10.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-10.RAW
+Added input file data_files/SCX-10.RAW to file list.
+Added input file data_files/SCX-11.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-11.RAW
+Added input file data_files/SCX-11.RAW to file list.
+Added input file data_files/SCX-12.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-12.RAW
+Added input file data_files/SCX-12.RAW to file list.
+Added input file data_files/SCX-13.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-13.RAW
+Added input file data_files/SCX-13.RAW to file list.
+Added input file data_files/SCX-14.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-14.RAW
+Added input file data_files/SCX-14.RAW to file list.
+Added input file data_files/SCX-15.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-15.RAW
+Added input file data_files/SCX-15.RAW to file list.
+Added input file data_files/SCX-16.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-16.RAW
+Added input file data_files/SCX-16.RAW to file list.
+Added input file data_files/SCX-17.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-17.RAW
+Added input file data_files/SCX-17.RAW to file list.
+Added input file data_files/SCX-18.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-18.RAW
+Added input file data_files/SCX-18.RAW to file list.
+Added input file data_files/SCX-20.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-20.RAW
+Added input file data_files/SCX-20.RAW to file list.
+Added input file data_files/SCX-20.RAW to analysis BeWo_06_24_09_SCX.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 3881 - BeWo_06_24_09_SCX.
+Project contains 6894 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 2097156096 bytes == 0x7aa4000 @ 
+tcmalloc: large alloc 2055487488 bytes == 0x84f86000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/141 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 622722
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------bfc208e9f144
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  608k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Wed, 18 Aug 2010 00:23:38 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/141
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100  608k    0     0  100  608k      0  1825k --:--:-- --:--:-- --:--:-- 1912k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_303.7z.*' c7a1a4564b6d430c37dd7a6d697276dd,5d315fb98497fe0746f73cdc29d7bbe2 4152637233
+Client output: ==> 
+remote path: /export/scratch/project_303.7z.*
+remote md5: c7a1a4564b6d430c37dd7a6d697276dd,5d315fb98497fe0746f73cdc29d7bbe2
+remote size: 4152637233
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_303.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 303 - BeWo_06_24_09_SCX

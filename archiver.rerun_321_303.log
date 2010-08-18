@@ -1,0 +1,561 @@
+[root@chutney scratch]# ruby qinteract_archiver.rb qinteract_no_blanks_small_only.rerun_321.txt 
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_no_blanks_small_only.rerun_321.txt...
+Found new project 321 - 090805 ME paper
+Creating project staging dirs.
+Found new analysis 4050 - PCC0120
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta' -> `./project_321/data_files/refseq_human_20090317.rev.fasta'
+running md5sum ./project_321/data_files/refseq_human_20090317.rev.fasta
+Added prot_db file data_files/refseq_human_20090317.rev.fasta to file list.
+Adding Sequest search params to analysis
+running md5sum ./project_321/data_files/SCXC01.RAW
+Added input file data_files/SCXC01.RAW to file list.
+Added input file data_files/SCXC01.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC02.RAW
+Added input file data_files/SCXC02.RAW to file list.
+Added input file data_files/SCXC02.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC03.RAW
+Added input file data_files/SCXC03.RAW to file list.
+Added input file data_files/SCXC03.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC04_080122134410.RAW
+Added input file data_files/SCXC04_080122134410.RAW to file list.
+Added input file data_files/SCXC04_080122134410.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC05.RAW
+Added input file data_files/SCXC05.RAW to file list.
+Added input file data_files/SCXC05.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC06.RAW
+Added input file data_files/SCXC06.RAW to file list.
+Added input file data_files/SCXC06.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC07.RAW
+Added input file data_files/SCXC07.RAW to file list.
+Added input file data_files/SCXC07.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC08.RAW
+Added input file data_files/SCXC08.RAW to file list.
+Added input file data_files/SCXC08.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC09.RAW
+Added input file data_files/SCXC09.RAW to file list.
+Added input file data_files/SCXC09.RAW to analysis PCC0120.
+running md5sum ./project_321/data_files/SCXC10.RAW
+Added input file data_files/SCXC10.RAW to file list.
+Added input file data_files/SCXC10.RAW to analysis PCC0120.
+Found new analysis 4052 - qPSC120
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+Already added refseq_human_20090317.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_321/data_files/SCXQ01.RAW
+Added input file data_files/SCXQ01.RAW to file list.
+Added input file data_files/SCXQ01.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ02.RAW
+Added input file data_files/SCXQ02.RAW to file list.
+Added input file data_files/SCXQ02.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ03.RAW
+Added input file data_files/SCXQ03.RAW to file list.
+Added input file data_files/SCXQ03.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ04.RAW
+Added input file data_files/SCXQ04.RAW to file list.
+Added input file data_files/SCXQ04.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ05.RAW
+Added input file data_files/SCXQ05.RAW to file list.
+Added input file data_files/SCXQ05.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ06.RAW
+Added input file data_files/SCXQ06.RAW to file list.
+Added input file data_files/SCXQ06.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ07.RAW
+Added input file data_files/SCXQ07.RAW to file list.
+Added input file data_files/SCXQ07.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ08.RAW
+Added input file data_files/SCXQ08.RAW to file list.
+Added input file data_files/SCXQ08.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ09.RAW
+Added input file data_files/SCXQ09.RAW to file list.
+Added input file data_files/SCXQ09.RAW to analysis qPSC120.
+running md5sum ./project_321/data_files/SCXQ10.RAW
+Added input file data_files/SCXQ10.RAW to file list.
+Added input file data_files/SCXQ10.RAW to analysis qPSC120.
+Found new analysis 4053 - qPSC227
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+Already added refseq_human_20090317.rev.fasta
+Adding Sequest search params to analysis
+Already added SCXQ01.RAW
+Added input file data_files/SCXQ01.RAW to analysis qPSC227.
+Already added SCXQ02.RAW
+Added input file data_files/SCXQ02.RAW to analysis qPSC227.
+Already added SCXQ03.RAW
+Added input file data_files/SCXQ03.RAW to analysis qPSC227.
+Already added SCXQ04.RAW
+Added input file data_files/SCXQ04.RAW to analysis qPSC227.
+Already added SCXQ05.RAW
+Added input file data_files/SCXQ05.RAW to analysis qPSC227.
+Already added SCXQ06.RAW
+Added input file data_files/SCXQ06.RAW to analysis qPSC227.
+Already added SCXQ07.RAW
+Added input file data_files/SCXQ07.RAW to analysis qPSC227.
+Already added SCXQ08.RAW
+Added input file data_files/SCXQ08.RAW to analysis qPSC227.
+Already added SCXQ09.RAW
+Added input file data_files/SCXQ09.RAW to analysis qPSC227.
+Already added SCXQ10.RAW
+Added input file data_files/SCXQ10.RAW to analysis qPSC227.
+running md5sum ./project_321/data_files/SCXQ11.RAW
+Added input file data_files/SCXQ11.RAW to file list.
+Added input file data_files/SCXQ11.RAW to analysis qPSC227.
+Found new analysis 4056 - caPSC428
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+Already added refseq_human_20090317.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_321/data_files/caPSC01.RAW
+Added input file data_files/caPSC01.RAW to file list.
+Added input file data_files/caPSC01.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC02.RAW
+Added input file data_files/caPSC02.RAW to file list.
+Added input file data_files/caPSC02.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC04.RAW
+Added input file data_files/caPSC04.RAW to file list.
+Added input file data_files/caPSC04.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC03.RAW
+Added input file data_files/caPSC03.RAW to file list.
+Added input file data_files/caPSC03.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC07_080430124808.RAW
+Added input file data_files/caPSC07_080430124808.RAW to file list.
+Added input file data_files/caPSC07_080430124808.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC08.RAW
+Added input file data_files/caPSC08.RAW to file list.
+Added input file data_files/caPSC08.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC06_080430111911.RAW
+Added input file data_files/caPSC06_080430111911.RAW to file list.
+Added input file data_files/caPSC06_080430111911.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC10.RAW
+Added input file data_files/caPSC10.RAW to file list.
+Added input file data_files/caPSC10.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC09.RAW
+Added input file data_files/caPSC09.RAW to file list.
+Added input file data_files/caPSC09.RAW to analysis caPSC428.
+running md5sum ./project_321/data_files/caPSC05.RAW
+Added input file data_files/caPSC05.RAW to file list.
+Added input file data_files/caPSC05.RAW to analysis caPSC428.
+Found new analysis 4058 - PCC428
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+Already added refseq_human_20090317.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_321/data_files/PCC10.RAW
+Added input file data_files/PCC10.RAW to file list.
+Added input file data_files/PCC10.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC09b.RAW
+Added input file data_files/PCC09b.RAW to file list.
+Added input file data_files/PCC09b.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC08b.RAW
+Added input file data_files/PCC08b.RAW to file list.
+Added input file data_files/PCC08b.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC01.RAW
+Added input file data_files/PCC01.RAW to file list.
+Added input file data_files/PCC01.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC02.RAW
+Added input file data_files/PCC02.RAW to file list.
+Added input file data_files/PCC02.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC07b.RAW
+Added input file data_files/PCC07b.RAW to file list.
+Added input file data_files/PCC07b.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC03.RAW
+Added input file data_files/PCC03.RAW to file list.
+Added input file data_files/PCC03.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC06.RAW
+Added input file data_files/PCC06.RAW to file list.
+Added input file data_files/PCC06.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC05.RAW
+Added input file data_files/PCC05.RAW to file list.
+Added input file data_files/PCC05.RAW to analysis PCC428.
+running md5sum ./project_321/data_files/PCC04.RAW
+Added input file data_files/PCC04.RAW to file list.
+Added input file data_files/PCC04.RAW to analysis PCC428.
+Found new analysis 4059 - qPSC428
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+Already added refseq_human_20090317.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_321/data_files/qPSC09.RAW
+Added input file data_files/qPSC09.RAW to file list.
+Added input file data_files/qPSC09.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC10.RAW
+Added input file data_files/qPSC10.RAW to file list.
+Added input file data_files/qPSC10.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC01.RAW
+Added input file data_files/qPSC01.RAW to file list.
+Added input file data_files/qPSC01.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC08.RAW
+Added input file data_files/qPSC08.RAW to file list.
+Added input file data_files/qPSC08.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC07.RAW
+Added input file data_files/qPSC07.RAW to file list.
+Added input file data_files/qPSC07.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC02.RAW
+Added input file data_files/qPSC02.RAW to file list.
+Added input file data_files/qPSC02.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC03.RAW
+Added input file data_files/qPSC03.RAW to file list.
+Added input file data_files/qPSC03.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC06.RAW
+Added input file data_files/qPSC06.RAW to file list.
+Added input file data_files/qPSC06.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC04.RAW
+Added input file data_files/qPSC04.RAW to file list.
+Added input file data_files/qPSC04.RAW to analysis qPSC428.
+running md5sum ./project_321/data_files/qPSC05.RAW
+Added input file data_files/qPSC05.RAW to file list.
+Added input file data_files/qPSC05.RAW to analysis qPSC428.
+Found new analysis 4085 - caPSC1103w
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+Already added refseq_human_20090317.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_321/data_files/caPSC14.RAW
+Added input file data_files/caPSC14.RAW to file list.
+Added input file data_files/caPSC14.RAW to analysis caPSC1103w.
+Already added caPSC01.RAW
+Found name conflict. Saving new file as caPSC01.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC01.RAW' -> `./project_321/data_files/caPSC01.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC01.analysis_4085.RAW
+Added input file data_files/caPSC01.analysis_4085.RAW to file list.
+Added input file data_files/caPSC01.analysis_4085.RAW to analysis caPSC1103w.
+Already added caPSC02.RAW
+Found name conflict. Saving new file as caPSC02.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC02.RAW' -> `./project_321/data_files/caPSC02.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC02.analysis_4085.RAW
+Added input file data_files/caPSC02.analysis_4085.RAW to file list.
+Added input file data_files/caPSC02.analysis_4085.RAW to analysis caPSC1103w.
+Already added caPSC03.RAW
+Found name conflict. Saving new file as caPSC03.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC03.RAW' -> `./project_321/data_files/caPSC03.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC03.analysis_4085.RAW
+Added input file data_files/caPSC03.analysis_4085.RAW to file list.
+Added input file data_files/caPSC03.analysis_4085.RAW to analysis caPSC1103w.
+Already added caPSC04.RAW
+Found name conflict. Saving new file as caPSC04.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC04.RAW' -> `./project_321/data_files/caPSC04.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC04.analysis_4085.RAW
+Added input file data_files/caPSC04.analysis_4085.RAW to file list.
+Added input file data_files/caPSC04.analysis_4085.RAW to analysis caPSC1103w.
+Already added caPSC05.RAW
+Found name conflict. Saving new file as caPSC05.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC05.RAW' -> `./project_321/data_files/caPSC05.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC05.analysis_4085.RAW
+Added input file data_files/caPSC05.analysis_4085.RAW to file list.
+Added input file data_files/caPSC05.analysis_4085.RAW to analysis caPSC1103w.
+running md5sum ./project_321/data_files/caPSC06.RAW
+Added input file data_files/caPSC06.RAW to file list.
+Added input file data_files/caPSC06.RAW to analysis caPSC1103w.
+running md5sum ./project_321/data_files/caPSC07.RAW
+Added input file data_files/caPSC07.RAW to file list.
+Added input file data_files/caPSC07.RAW to analysis caPSC1103w.
+Already added caPSC08.RAW
+Found name conflict. Saving new file as caPSC08.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC08.RAW' -> `./project_321/data_files/caPSC08.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC08.analysis_4085.RAW
+Added input file data_files/caPSC08.analysis_4085.RAW to file list.
+Added input file data_files/caPSC08.analysis_4085.RAW to analysis caPSC1103w.
+Already added caPSC09.RAW
+Found name conflict. Saving new file as caPSC09.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC09.RAW' -> `./project_321/data_files/caPSC09.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC09.analysis_4085.RAW
+Added input file data_files/caPSC09.analysis_4085.RAW to file list.
+Added input file data_files/caPSC09.analysis_4085.RAW to analysis caPSC1103w.
+Already added caPSC10.RAW
+Found name conflict. Saving new file as caPSC10.analysis_4085.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200811/caPSC10.RAW' -> `./project_321/data_files/caPSC10.analysis_4085.RAW'
+running md5sum ./project_321/data_files/caPSC10.analysis_4085.RAW
+Added input file data_files/caPSC10.analysis_4085.RAW to file list.
+Added input file data_files/caPSC10.analysis_4085.RAW to analysis caPSC1103w.
+running md5sum ./project_321/data_files/caPSC11.RAW
+Added input file data_files/caPSC11.RAW to file list.
+Added input file data_files/caPSC11.RAW to analysis caPSC1103w.
+running md5sum ./project_321/data_files/caPSC12.RAW
+Added input file data_files/caPSC12.RAW to file list.
+Added input file data_files/caPSC12.RAW to analysis caPSC1103w.
+running md5sum ./project_321/data_files/caPSC13.RAW
+Added input file data_files/caPSC13.RAW to file list.
+Added input file data_files/caPSC13.RAW to analysis caPSC1103w.
+Found new analysis 4086 - qPSC724
+Using prot db: REFSEQ_HS_REV_090317/refseq_human_20090317.rev.fasta
+Already added refseq_human_20090317.rev.fasta
+Adding Sequest search params to analysis
+Already added qPSC10.RAW
+Found name conflict. Saving new file as qPSC10.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC10.RAW' -> `./project_321/data_files/qPSC10.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC10.analysis_4086.RAW
+Added input file data_files/qPSC10.analysis_4086.RAW to file list.
+Added input file data_files/qPSC10.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC02.RAW
+Found name conflict. Saving new file as qPSC02.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC02.RAW' -> `./project_321/data_files/qPSC02.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC02.analysis_4086.RAW
+Added input file data_files/qPSC02.analysis_4086.RAW to file list.
+Added input file data_files/qPSC02.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC03.RAW
+Found name conflict. Saving new file as qPSC03.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC03.RAW' -> `./project_321/data_files/qPSC03.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC03.analysis_4086.RAW
+Added input file data_files/qPSC03.analysis_4086.RAW to file list.
+Added input file data_files/qPSC03.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC04.RAW
+Found name conflict. Saving new file as qPSC04.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC04.RAW' -> `./project_321/data_files/qPSC04.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC04.analysis_4086.RAW
+Added input file data_files/qPSC04.analysis_4086.RAW to file list.
+Added input file data_files/qPSC04.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC06.RAW
+Found name conflict. Saving new file as qPSC06.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC06.RAW' -> `./project_321/data_files/qPSC06.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC06.analysis_4086.RAW
+Added input file data_files/qPSC06.analysis_4086.RAW to file list.
+Added input file data_files/qPSC06.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC07.RAW
+Found name conflict. Saving new file as qPSC07.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC07.RAW' -> `./project_321/data_files/qPSC07.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC07.analysis_4086.RAW
+Added input file data_files/qPSC07.analysis_4086.RAW to file list.
+Added input file data_files/qPSC07.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC08.RAW
+Found name conflict. Saving new file as qPSC08.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC08.RAW' -> `./project_321/data_files/qPSC08.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC08.analysis_4086.RAW
+Added input file data_files/qPSC08.analysis_4086.RAW to file list.
+Added input file data_files/qPSC08.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC09.RAW
+Found name conflict. Saving new file as qPSC09.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC09.RAW' -> `./project_321/data_files/qPSC09.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC09.analysis_4086.RAW
+Added input file data_files/qPSC09.analysis_4086.RAW to file list.
+Added input file data_files/qPSC09.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC05.RAW
+Found name conflict. Saving new file as qPSC05.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC05.RAW' -> `./project_321/data_files/qPSC05.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC05.analysis_4086.RAW
+Added input file data_files/qPSC05.analysis_4086.RAW to file list.
+Added input file data_files/qPSC05.analysis_4086.RAW to analysis qPSC724.
+Already added qPSC01.RAW
+Found name conflict. Saving new file as qPSC01.analysis_4086.RAW. Updating lims hash accordingly.
+`/export/lims/data_files/200807/qPSC01.RAW' -> `./project_321/data_files/qPSC01.analysis_4086.RAW'
+running md5sum ./project_321/data_files/qPSC01.analysis_4086.RAW
+Added input file data_files/qPSC01.analysis_4086.RAW to file list.
+Added input file data_files/qPSC01.analysis_4086.RAW to analysis qPSC724.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 4050 - PCC0120.
+Added files for analysis 4052 - qPSC120.
+Added files for analysis 4053 - qPSC227.
+Added files for analysis 4056 - caPSC428.
+Added files for analysis 4058 - PCC428.
+Added files for analysis 4059 - qPSC428.
+Added files for analysis 4085 - caPSC1103w.
+Added files for analysis 4086 - qPSC724.
+Project contains 697 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+tcmalloc: large alloc 2097156096 bytes == 0x100c1000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x8d442000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x100c1000 @ 
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_321.7z.*' b9c4004de417e7290b699b58ccfe5ff2,479a2111eadd96469d3550cf9aface1e,d860e82f265533003474e8156b4f0050,d02f17bde28094bf84ac3a6b0e199bc4 6508304680
+
+
+
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/142 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 87673
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------a4508c04084c
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 87673    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+ 89 87673    0     0   89 78454      0  74661  0:00:01  0:00:01 --:--:-- 75509< HTTP/1.1 302 Found
+< Date: Wed, 18 Aug 2010 18:00:02 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/142
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 87673    0     0  100 87673      0  73731  0:00:01  0:00:01 --:--:-- 74488* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Client output: ==> 
+remote path: /export/scratch/project_321.7z.*
+remote md5: b9c4004de417e7290b699b58ccfe5ff2,479a2111eadd96469d3550cf9aface1e,d860e82f265533003474e8156b4f0050,d02f17bde28094bf84ac3a6b0e199bc4
+remote size: 6508304680
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_321.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 321 - 090805 ME paper
+
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_no_blanks_small_only.rerun_303.txt...
+Found new project 303 - BeWo_06_24_09_SCX
+Creating project staging dirs.
+Found new analysis 3881 - BeWo_06_24_09_SCX
+Using prot db: REFSEQ_HUMAN_071119/refseq_human_071119.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ_HUMAN_071119/refseq_human_071119.fasta' -> `./project_303/data_files/refseq_human_071119.fasta'
+running md5sum ./project_303/data_files/refseq_human_071119.fasta
+Added prot_db file data_files/refseq_human_071119.fasta to file list.
+Adding Sequest search params to analysis
+running md5sum ./project_303/data_files/SCX-19.RAW
+Added input file data_files/SCX-19.RAW to file list.
+Added input file data_files/SCX-19.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-1.RAW
+Added input file data_files/SCX-1.RAW to file list.
+Added input file data_files/SCX-1.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-2.RAW
+Added input file data_files/SCX-2.RAW to file list.
+Added input file data_files/SCX-2.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-3.RAW
+Added input file data_files/SCX-3.RAW to file list.
+Added input file data_files/SCX-3.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-4.RAW
+Added input file data_files/SCX-4.RAW to file list.
+Added input file data_files/SCX-4.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-5.RAW
+Added input file data_files/SCX-5.RAW to file list.
+Added input file data_files/SCX-5.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-6.RAW
+Added input file data_files/SCX-6.RAW to file list.
+Added input file data_files/SCX-6.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-7.RAW
+Added input file data_files/SCX-7.RAW to file list.
+Added input file data_files/SCX-7.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-8.RAW
+Added input file data_files/SCX-8.RAW to file list.
+Added input file data_files/SCX-8.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-9.RAW
+Added input file data_files/SCX-9.RAW to file list.
+Added input file data_files/SCX-9.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-10.RAW
+Added input file data_files/SCX-10.RAW to file list.
+Added input file data_files/SCX-10.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-11.RAW
+Added input file data_files/SCX-11.RAW to file list.
+Added input file data_files/SCX-11.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-12.RAW
+Added input file data_files/SCX-12.RAW to file list.
+Added input file data_files/SCX-12.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-13.RAW
+Added input file data_files/SCX-13.RAW to file list.
+Added input file data_files/SCX-13.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-14.RAW
+Added input file data_files/SCX-14.RAW to file list.
+Added input file data_files/SCX-14.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-15.RAW
+Added input file data_files/SCX-15.RAW to file list.
+Added input file data_files/SCX-15.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-16.RAW
+Added input file data_files/SCX-16.RAW to file list.
+Added input file data_files/SCX-16.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-17.RAW
+Added input file data_files/SCX-17.RAW to file list.
+Added input file data_files/SCX-17.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-18.RAW
+Added input file data_files/SCX-18.RAW to file list.
+Added input file data_files/SCX-18.RAW to analysis BeWo_06_24_09_SCX.
+running md5sum ./project_303/data_files/SCX-20.RAW
+Added input file data_files/SCX-20.RAW to file list.
+Added input file data_files/SCX-20.RAW to analysis BeWo_06_24_09_SCX.
+Already added SCX-20.RAW
+Added input file data_files/SCX-20.RAW to analysis BeWo_06_24_09_SCX.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 3881 - BeWo_06_24_09_SCX.
+Project contains 135 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+tcmalloc: large alloc 2097156096 bytes == 0xd641000 @ 
+tcmalloc: large alloc 2044604416 bytes == 0x8ab23000 @ 
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_303.7z.*' 0c937318afbae799a46250b3585b6099,479d4417453d1a1af2ec06708499fce5 4141754416
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/143 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 16335
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------752ce66a65c3
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 16335    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Wed, 18 Aug 2010 18:26:39 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/143
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 16335    0     0  100 16335      0   130k --:--:-- --:--:-- --:--:--  143k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Client output: ==> 
+remote path: /export/scratch/project_303.7z.*
+remote md5: 0c937318afbae799a46250b3585b6099,479d4417453d1a1af2ec06708499fce5
+remote size: 4141754416
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_303.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 303 - BeWo_06_24_09_SCX
+
+
+
