@@ -26,12 +26,6 @@ puts "remote path: #{remote_path}"
 puts "remote md5: #{remote_md5}"
 puts "remote size: #{remote_size}"
 
-#workaround for project 342
-if remote_path =~ /project_342/
-puts "ERROR: reached project 342"
-exit 1
-end
-
 # first find volume that is big enough
 
 current_vol = ''
