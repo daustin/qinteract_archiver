@@ -38,12 +38,14 @@ current_vol = ''
 
 VOLUMES.each do |v|
 
-  df_out = `df -k #{v}`
-  cur_size = df_out.split("\n")[1].split(' ')[3]
-  if (remote_size.to_i / 1024) < cur_size.to_i
-     current_vol = v
-     break
-  end 
+  if File.exist? v
+    df_out = `df -k #{v}`
+    cur_size = df_out.split("\n")[1].split(' ')[3]
+    if (remote_size.to_i / 1024) < cur_size.to_i
+       current_vol = v
+       break
+    end
+  end
 
 end
 
