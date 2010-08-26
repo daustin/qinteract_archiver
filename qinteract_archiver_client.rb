@@ -94,13 +94,15 @@ Dir.chdir current_vol do
     cout = `curl -v -F "readme_file=@README.json" -u iarchive:iarchive http://bioinf.itmat.upenn.edu/iarchive/create 2>&1`
     new_id = 0
     cout.each_line do |el|
-	if el =~ /archive\/show\/(\d+)/
-	   new_id = $1
-	end
+	    if el =~ /archive\/show\/(\d+)/
+	      new_id = $1
+	    end
     end
 
+    # put iarchive id into read me
+    
     if new_id == 0
-	puts "ERROR: Could not fetch new archive id from iarchive."
+	    puts "ERROR: Could not fetch new archive id from iarchive."
     else
         system "thor client:update_readme #{folder_name}.7z.001 iarchive_id #{new_id}"
 	`curl -v -F "readme_file=@README.json" -u iarchive:iarchive http://bioinf.itmat.upenn.edu/iarchive/update/#{new_id}`
@@ -109,8 +111,6 @@ Dir.chdir current_vol do
   end
 
 end
-
-# now this is where we extract the readme, alter it, and then save it to iarchive
 
 puts "FILE ARCHIVED!"
 
