@@ -16,6 +16,28 @@ VOLUMES = [ "/Volumes/3440_Archive_001",
 	    "/Volumes/3440_Archive_002",
 	    "/Volumes/3440_Archive_003",
 	    "/Volumes/3440_Archive_004" ]
+
+
+# tar & zip directory
+puts "Zipping and compressing project..."
+unless File.exist? ARGV[0]
+  
+  puts "Could not find folder #{ARGV[0]} exiting"
+  exit 1
+  
+end
+
+system "thor archive:compress #{ARGV[0]}"
+
+folder_name = ARGV[0]
+
+zip_size = 0
+
+Dir.glob("*.7z.*") do |z|
+
+  zip_size += File.size(z)
+
+end
 	    
 # first find volume that is big enough
 
@@ -26,7 +48,7 @@ VOLUMES.each do |v|
   if File.exist? v
     df_out = `df -k #{v}`
     cur_size = df_out.split("\n")[1].split(' ')[3]
-    if (remote_size.to_i / 1024) < cur_size.to_i
+    if (zip_size.to_i / 1024) < cur_size.to_i
        current_vol = v
        break
     end
@@ -41,20 +63,6 @@ if current_vol == ''
 end
 
 puts "Using #{current_vol}"
-
-	    
-# tar & zip directory
-puts "Zipping and compressing project..."
-unless File.exist? ARGV[0]
-  
-  puts "Could not find folder #{ARGV[0]} exiting"
-  exit 1
-  
-end
-
-system "thor archive:compress #{ARGV[0]}"
-
-folder_name = ARGV[0]
 
 `mkdir #{current_vol}/#{folder_name}`
 
