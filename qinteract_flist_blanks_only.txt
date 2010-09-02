@@ -1,0 +1,187 @@
+478	Ken	BCRABL	bcr-abl-04182007	Tue Apr 17 12:11:00 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/478	BCRABL/bcrabl.fasta	20
+552	Ken	BCRABL	Bcr-Abl-IP	Mon Apr 23 14:02:53 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/552	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	20
+424	Ken	PANCSERUM	Pancreatic Serum Control	Tue Mar 06 13:16:01 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/424	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	25
+426	Ken	PANCSERUM	Pancreatic Cancer Serum	Tue Mar 06 15:14:12 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/426	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	25
+433	Ken	test	test	Thu Mar 08 13:48:36 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/433	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	30
+446	Ken	CAPAN-2 CM	CAPAN-2 CM	Tue Mar 20 10:18:17 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/446	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	32
+455	Ken	Timecourse	Timecourse Cre 0	Mon Mar 26 16:55:45 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/455	REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta	34
+456	Ken	Timecourse	Timecourse Cre 270	Mon Mar 26 16:56:38 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/456	REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta	34
+554	Ken	Initial PANC Serum 	Initial Serum Control	Mon Apr 23 16:06:57 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/554	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	38
+555	Ken	Initial PANC Serum 	Initial Serum Cancer	Mon Apr 23 16:08:15 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/555	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	38
+2231	kannan	CT26 YAMC	YAMC-CT26 Mascot	Sun May 11 01:25:22 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2231	REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta	40
+657	colin	JSS_paper	JSS	Thu May 24 12:01:06 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/657	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	46
+658	colin	JSS_paper	JSS Mascot	Thu May 24 12:04:41 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/658	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	46
+664	colin	JSS_paper	JSS Mascot	Thu May 24 15:19:53 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/664	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	46
+716	angela	RBC 01 to 10	RBC000 - 1	Tue Jun 05 10:41:55 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/716	REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta	52
+737	angela	RBC 01 to 10	RBC1to10 Pfalc - 1 - 1	Tue Jun 05 11:47:17 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/737	PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta	52
+749	Ken	panc control by IPG 	panc control slice 1	Wed Jun 06 12:50:18 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/749	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+750	Ken	panc control by IPG 	panc control slice 2	Wed Jun 06 16:26:07 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/750	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+751	Ken	panc control by IPG 	panc control slice 3	Wed Jun 06 16:27:41 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/751	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+752	Ken	panc control by IPG 	panc control slice 4	Wed Jun 06 16:36:09 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/752	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+753	Ken	panc control by IPG 	panc control slice 5	Wed Jun 06 16:37:48 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/753	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+754	Ken	panc control by IPG 	panc control slice 6	Wed Jun 06 16:38:54 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/754	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+755	Ken	panc control by IPG 	panc control slice 7	Wed Jun 06 16:40:02 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/755	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+756	Ken	panc control by IPG 	panc control slice 8	Wed Jun 06 16:42:43 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/756	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+757	Ken	panc control by IPG 	panc control slice 9	Wed Jun 06 16:43:35 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/757	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	53
+764	imurray	HDL	HDL - 1	Fri Jun 15 09:48:40 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/764	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	56
+779	imurray	HDL	HDL-Mascot	Fri Jun 29 14:29:38 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/779	REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta	56
+1083	rmarissa	Shotgun plt	Shotgun plt untreated	Wed Sep 12 15:37:03 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1083	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	63
+1084	rmarissa	Shotgun plt	Shotgun plt treated	Wed Sep 12 15:38:19 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1084	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	63
+809	Colin	LowFolate IPG+SCX	LowFolateIPG&SCX	Sun Jul 22 19:56:56 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/809	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	64
+975	Colin	LowFolate IPG+SCX	LowFolateIPG&SCX Mascot	Mon Aug 20 09:37:24 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/975	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	64
+805	Colin	HighFolate IPG+SCX	HighFolate IPG+SCX	Sun Jul 22 19:32:33 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/805	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	65
+974	Colin	HighFolate IPG+SCX	HighFolate IPG+SCX Mascot	Mon Aug 20 09:36:27 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/974	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	65
+1086	rmarissa	07/20/07	Plt bead IgG  - 1	Wed Sep 12 15:50:17 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1086	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	68
+1090	rmarissa	07/20/07	Liver bead - 1	Wed Sep 12 15:55:33 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1090	REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta	68
+1106	rmarissa	07/20/07	liver peptide capture - 1	Thu Sep 13 15:28:55 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1106	REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta	68
+830	colin	shedome-SCX	ShedomeSCX_223	Thu Jul 26 15:51:02 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/830	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	70
+831	colin	Shadome_IPG	ShedomeIPG-CGB-001-219	Thu Jul 26 15:54:47 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/831	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	71
+833	colin	Eahy926-Nuc&cyto	Eahy926	Thu Jul 26 16:21:13 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/833	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	72
+834	angela	RBC A01 to A24	RBC A01 to A24 - 1	Mon Jul 30 11:38:55 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/834	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	73
+864	sumits	Preterm-20Jul07	End1-SILAC6-FT	Tue Jul 31 14:16:11 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/864	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	75
+865	sumits	Preterm-20Jul07	VK2-SILAC6-FT	Tue Jul 31 14:23:15 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/865	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	75
+866	sumits	Preterm-20Jul07	DMEM-FT	Tue Jul 31 14:46:59 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/866	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	75
+870	sumits	Preterm-20Jul07	End1-SILAC6-SCXLTQ	Thu Aug 02 13:01:22 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/870	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	75
+871	sumits	Preterm-20Jul07	Vk2-SILAC6-SCXLTQ	Thu Aug 02 13:13:27 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/871	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	75
+872	Angela	RBC A25 to A34	RBCA25to34 - 1	Mon Aug 06 12:08:02 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/872	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	76
+891	Angela	RBC A25 to A34	RBCR01to34human - 1	Mon Aug 06 14:51:02 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/891	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	76
+925	Angela	RBC A25 to A34	RBCR01to34plasmo - 1	Mon Aug 06 14:54:28 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/925	PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta	76
+959	Angela	RBC A25 to A34	TestForDave - 1	Thu Aug 09 16:58:13 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/959	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	76
+1098	rmarissa	08/03/07	Shotgun liver NT	Wed Sep 12 16:00:30 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1098	REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta	77
+1099	rmarissa	08/03/07	Shotgun liver	Wed Sep 12 16:02:13 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1099	REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta	77
+1101	rmarissa	08/03/07	Plt peptide capture - 1	Wed Sep 12 16:04:31 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1101	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	77
+1028	Angela	RBC S01 to S24	RBC S Human - 1	Mon Aug 27 16:46:16 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1028	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	79
+1052	Angela	RBC S01 to S24	RBC S Plasmo - 1	Mon Aug 27 16:48:01 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1052	PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta	79
+1113	Angela	RBC S01 to S24	RBC S19 to 24 repeat human - 1	Thu Sep 20 16:07:48 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1113	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	79
+1119	Angela	RBC S01 to S24	RBC S19 to 24 repeat plasmo - 1	Thu Sep 20 16:08:52 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1119	PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta	79
+1110	colin	EaHy926 SCX MTX	CGB-001-142	Thu Sep 13 15:53:45 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1110	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	80
+1111	colin	EaHy926 SCX MTX	MTX treatment retry	Sun Sep 16 12:57:07 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1111	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	80
+1125	Angela	RBC S25 to S34	RBC S25 to S34 Human - 1	Thu Sep 20 16:10:20 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1125	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	82
+1135	Angela	RBC S25 to S34	RBC S25 to S34 Plasmo - 1	Thu Sep 20 16:11:23 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1135	PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta	82
+1145	Angela	RBC A01 to A08	RBC A01 to A08 Plasmo - 1	Fri Sep 21 10:09:30 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1145	PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta	83
+1180	Angela	FPLC MiaPaCa-2	FPLCMP - 1	Wed Oct 17 16:02:50 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1180	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	88
+1218	Angela	FPLC MiaPaCa-2	Combined	Tue Oct 23 12:19:12 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1218	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	88
+1487	Angela	FPLC MiaPaCa-2	FPLCMP2new - 1	Wed Dec 12 12:08:04 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1487	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	88
+1224	macdonl	HumanPSD1	Human PSD An1	Wed Oct 31 11:11:22 -0400 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1224	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	90
+1656	macdonl	HumanPSD1	HPSD1_Mascot	Wed Jan 30 13:39:10 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1656	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	90
+1229	Angela	RBC D25 to D34	RBCD25 - 1	Mon Nov 05 11:41:42 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1229	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	91
+1239	Angela	RBC Z01 to Z34	RBCZ01to34Human - 1	Mon Nov 05 13:36:22 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1239	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	92
+1273	Angela	RBC Z01 to Z34	RBCZ01to34Plasmo - 1	Mon Nov 05 13:41:16 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1273	PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta	92
+1307	sumits	Preterm-02Nov2007	Replicate-1	Mon Nov 12 11:54:23 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1307	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1308	sumits	Preterm-02Nov2007	Replicate-2	Mon Nov 12 11:58:47 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1308	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1309	sumits	Preterm-02Nov2007	Replicate-3	Mon Nov 12 12:00:06 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1309	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1310	sumits	Preterm-02Nov2007	Replicate-4	Mon Nov 12 12:01:17 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1310	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1311	sumits	Preterm-02Nov2007	SCX-1	Tue Nov 13 08:36:06 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1311	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1312	sumits	Preterm-02Nov2007	SCX-2	Tue Nov 13 08:39:41 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1312	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1313	sumits	Preterm-02Nov2007	SCX-3	Tue Nov 13 08:53:00 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1313	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1314	sumits	Preterm-02Nov2007	SCX-4	Tue Nov 13 08:55:43 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1314	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1315	sumits	Preterm-02Nov2007	SCX-5	Tue Nov 13 09:01:49 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1315	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1316	sumits	Preterm-02Nov2007	SCX-6	Tue Nov 13 09:10:52 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1316	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1317	sumits	Preterm-02Nov2007	SCX-7	Tue Nov 13 09:13:02 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1317	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1318	sumits	Preterm-02Nov2007	SCX-8	Tue Nov 13 09:19:08 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1318	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1319	sumits	Preterm-02Nov2007	SCX-9	Tue Nov 13 09:22:30 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1319	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1339	sumits	Preterm-02Nov2007	test-silac	Mon Nov 19 18:14:23 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1339	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	93
+1320	Angela	Matrices	Matrices - 1	Tue Nov 13 14:43:48 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1320	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	94
+1483	rmarissa	SATA 1	SATA 1 - 1	Tue Dec 11 12:06:56 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1483	BOVINE_20060714/bovine_20060714.fasta	95
+1342	sumits	Preterm-20Nov2007-SI	End1-Vk2-SILAC	Tue Nov 20 11:38:27 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1342	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1343	sumits	Preterm-20Nov2007-SI	SCX-1	Tue Nov 20 11:44:52 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1343	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1344	sumits	Preterm-20Nov2007-SI	SCX-2	Tue Nov 20 11:59:40 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1344	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1345	sumits	Preterm-20Nov2007-SI	SCX-3	Tue Nov 20 12:11:32 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1345	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1346	sumits	Preterm-20Nov2007-SI	SCX-4	Tue Nov 20 12:14:07 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1346	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1347	sumits	Preterm-20Nov2007-SI	SCX-5	Tue Nov 20 12:17:06 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1347	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1348	sumits	Preterm-20Nov2007-SI	SCX-6	Tue Nov 20 12:20:06 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1348	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1349	sumits	Preterm-20Nov2007-SI	SCX-7	Tue Nov 20 12:23:14 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1349	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1350	sumits	Preterm-20Nov2007-SI	SCX-8	Tue Nov 20 12:25:08 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1350	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1351	sumits	Preterm-20Nov2007-SI	SCX-9	Tue Nov 20 12:28:02 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1351	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	96
+1582	sumits	Preterm-20Nov2007-SI	End1-Vk2-SILAC2007	Tue Jan 15 12:12:40 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1582	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	96
+1353	Angela	SAXSet1and4	SAXmp - 1 - 1	Mon Nov 26 11:42:40 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1353	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	97
+1406	Angela	SAXSet1and4	SAXstd - 1	Tue Nov 27 11:21:17 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1406	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	97
+1373	Angela	SCXset2and3	SCXmp - 1	Mon Nov 26 11:44:53 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1373	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	98
+1395	Angela	SCXset2and3	SCXstd - 1	Mon Nov 26 15:46:57 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1395	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	98
+1420	Angela	MPCMshotgun	MiaPaCaCM	Mon Dec 03 10:49:23 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1420	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	99
+1431	macdonl	HPSD_Glyc_Sol	PCDHG1	Tue Dec 04 16:37:05 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1431	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	100
+1438	macdonl	HPSD_Glyc_Sol	HPSDBG_chk	Wed Dec 05 21:52:51 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1438	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	100
+1442	macdonl	HPSD_Glyc_Sol	PSDHAGly_3_AYW	Thu Dec 06 11:47:49 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1442	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	100
+1443	macdonl	HPSD_Glyc_Sol	PSDHAGly_3_MLM	Thu Dec 06 11:49:04 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1443	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	100
+1444	Angela	SAXSCX	SAXfrac - 1	Sun Dec 09 13:05:54 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1444	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	102
+1456	Angela	SAXSCX	SCXfrac - 1	Sun Dec 09 13:07:40 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1456	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	102
+1469	Angela	SAXSCX	SAXno5 - 1	Mon Dec 10 12:55:53 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1469	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	102
+1468	macdonl	OE	OESF1	Sun Dec 09 16:37:04 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1468	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	103
+1520	macdonl	OE	OESF3_Olf	Mon Dec 17 15:39:58 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1520	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	103
+1534	macdonl	OE	OESF3B_Olf	Mon Dec 17 17:28:20 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1534	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	103
+1535	macdonl	OE	OESF3C_Olf	Mon Dec 17 19:17:23 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1535	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	103
+1536	macdonl	OE	OESF3D_Olf	Mon Dec 17 21:51:56 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1536	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	103
+1471	rmarissa	SATA2	SATA steps - 1	Tue Dec 11 11:58:57 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1471	BOVINE_20060714/bovine_20060714.fasta	105
+1485	rmarissa	SATA2	SATA FINAL - 1	Tue Dec 11 12:08:39 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1485	BOVINE_20060714/bovine_20060714.fasta	105
+1515	macdonl	HPSDB_SDS	HPSDB2_1	Mon Dec 17 15:29:25 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1515	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	106
+1516	macdonl	HPSDB_SDS	HPSDB2_2	Mon Dec 17 15:30:33 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1516	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	106
+1517	macdonl	HPSDB_SDS	HPSDB2_3	Mon Dec 17 15:31:34 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1517	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	106
+1519	macdonl	HPSDB_SDS	HPSDB2_4	Mon Dec 17 15:33:33 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1519	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	106
+1522	rmarissa	SATA2.1	SATAstrict - 1	Mon Dec 17 17:18:30 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1522	BOVINE_20060714/bovine_20060714.fasta	108
+1541	rmarissa	SATA 12-07-07	SATA-digest - 1	Tue Dec 18 16:44:53 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1541	BOVINE_20060714/bovine_20060714.fasta	111
+1543	rmarissa	SATA 12-07-07	SATA-acetylation - 1	Tue Dec 18 16:48:46 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1543	BOVINE_20060714/bovine_20060714.fasta	111
+1545	rmarissa	SATA 12-07-07	SATA-reduction - 1	Tue Dec 18 16:52:49 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1545	BOVINE_20060714/bovine_20060714.fasta	111
+1547	rmarissa	SATA 12-07-07	SATA_SATA - 1	Tue Dec 18 16:57:50 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1547	BOVINE_20060714/bovine_20060714.fasta	111
+1549	rmarissa	SATA 12-07-07	SATA_deprotection - 1	Tue Dec 18 17:13:06 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1549	BOVINE_20060714/bovine_20060714.fasta	111
+1551	rmarissa	SATA 12-07-07	SATA_final - 1	Tue Dec 18 17:14:30 -0500 2007	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1551	BOVINE_20060714/bovine_20060714.fasta	111
+1589	Angela	QualQAC	QualPSCQ	Wed Jan 23 12:09:09 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1589	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	117
+1590	Angela	QualQAC	QualPSCA	Wed Jan 23 12:10:04 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1590	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	117
+1591	Angela	QualQAC	QualPCC	Wed Jan 23 12:11:29 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1591	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	117
+1592	Angela	QualQAC	PSCAheavy	Fri Jan 25 16:56:29 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1592	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	117
+1712	Angela	QualQAC	PSCAheavystatic	Fri Feb 08 11:12:24 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1712	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	117
+1713	Angela	QualQAC	PSCAheavydiff	Fri Feb 08 11:16:43 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1713	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	117
+1593	rmarissa	Giannis1-23-08	December Exp - 1	Tue Jan 29 11:30:31 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1593	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	118
+1604	rmarissa	GSTO1-23-08	Lysate_A - 1	Tue Jan 29 11:33:54 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1604	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	119
+1614	rmarissa	GSTO1-23-08	Lysate_A_ONOO - 1	Tue Jan 29 11:36:11 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1614	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	119
+1624	rmarissa	GSTO1-23-08	Lysate_B - 1	Tue Jan 29 11:38:39 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1624	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	119
+1634	rmarissa	GSTO1-23-08	Lysate_B_ONOO - 1	Tue Jan 29 11:40:30 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1634	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	119
+1654	sumits	End1-Vk2-MRM-28Jan08	SCX1-9-Sequest	Wed Jan 30 10:03:22 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1654	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	121
+1709	sumits	End1-Vk2-MRM-28Jan08	SCX1-9-Mascot	Thu Feb 07 14:19:15 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1709	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	121
+1664	rmarissa	SATA 3	Digestion - 1	Mon Feb 04 09:46:22 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1664	BOVINE_20060714/bovine_20060714.fasta	124
+1668	rmarissa	SATA 3	Acetylation - 1	Mon Feb 04 09:48:59 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1668	BOVINE_20060714/bovine_20060714.fasta	124
+1670	rmarissa	SATA 3	reduction - 1	Mon Feb 04 09:50:48 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1670	BOVINE_20060714/bovine_20060714.fasta	124
+1672	rmarissa	SATA 3	SATA addition - 1	Mon Feb 04 09:52:45 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1672	BOVINE_20060714/bovine_20060714.fasta	124
+1674	rmarissa	SATA 3	Final - 1	Mon Feb 04 09:54:13 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1674	BOVINE_20060714/bovine_20060714.fasta	124
+1676	rmarissa	NO2Y column 1-29-08	Endogenous Bound	Mon Feb 04 09:58:57 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1676	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	126
+1677	rmarissa	NO2Y column 1-29-08	Endogenous unbound	Mon Feb 04 10:00:29 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1677	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	126
+1678	rmarissa	NO2Y column 1-29-08	Nitrated bound	Mon Feb 04 10:01:55 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1678	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	126
+1683	rmarissa	NO2Y column 1-29-08	Nitrated unbound	Mon Feb 04 17:25:19 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1683	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	126
+1684	rmarissa	NO2Y column 1-29-08	Reduced bound	Mon Feb 04 17:30:22 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1684	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	126
+1685	rmarissa	NO2Y column 1-29-08	Reduced unbound	Mon Feb 04 17:31:37 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1685	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	126
+1777	Ken	CM Min SCX 2-15-08	CAPAN-2 CM Min SCX 2-15-08	Fri Feb 15 15:39:17 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1777	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	127
+1809	Angela	QualQAC2	QualPSCq	Thu Feb 28 13:25:57 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1809	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	128
+1819	macdonl	HPSD2	HPSD2A - 1	Mon Mar 03 13:29:24 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1819	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	130
+1828	macdonl	HPSD2	HPSD2_B	Mon Mar 03 16:31:20 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1828	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	130
+1829	macdonl	HPSD2	HPSD2_C - 1	Tue Mar 04 13:29:19 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1829	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	130
+1847	macdonl	HPSD2	HPSD2_D	Wed Mar 05 13:51:40 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1847	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	130
+2115	macdonl	HPSD2	HPSD2_16 NanovsMicro - 1	Tue Apr 08 17:13:16 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2115	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	130
+2117	macdonl	HPSD2	HPSD2_16 Nanotest	Tue Apr 08 17:14:47 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2117	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	130
+2138	macdonl	HPSD2	HPSD2_Seq_NAc	Tue Apr 15 14:00:38 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2138	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	130
+2139	macdonl	HPSD2	HPSD2_Seq_NAc2	Tue Apr 15 16:45:38 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2139	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	130
+2141	macdonl	HPSD2	HPSD2_Nacytl3	Wed Apr 16 14:19:16 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2141	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	130
+1843	Angela	QAClabEff	QAClabEff - 1	Tue Mar 04 16:40:14 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1843	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	131
+1848	Angela	QAClabEff	HPSD2C	Wed Mar 05 20:13:20 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1848	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	131
+1950	sumits	End1Vk2-SILAC-MAR08	End1Vk2-SILAC-Rep1	Mon Mar 31 10:01:35 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1950	REFSEQ_HUMAN_071119_REV/refseq_human_071119_rev.fasta	151
+1951	sumits	End1Vk2-SILAC-MAR08	End1Vk2-SILAC-Rep2	Mon Mar 31 10:03:06 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1951	REFSEQ_HUMAN_071119_REV/refseq_human_071119_rev.fasta	151
+1960	sumits	End1Vk2-SILAC-MAR08	End1Vk2-SILAC-Rep3	Tue Apr 01 18:25:48 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1960	REFSEQ_HUMAN_071119_REV/refseq_human_071119_rev.fasta	151
+1978	sumits	End1Vk2-SILAC-MAR08	End1Vk2-SILAC2008	Wed Apr 02 13:54:34 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/1978	REFSEQ_HUMAN_071119_REV/refseq_human_071119_rev.fasta	151
+2110	macdonl	HPSD1B3 	HPSD1_1B	Sat Apr 05 15:14:58 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2110	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	156
+2111	macdonl	HPSD1B3 	HPSD1_1 Nacetyl	Sat Apr 05 15:42:39 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2111	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	156
+2140	rkannan	CT26 YAMC	CT26 YAMC SILAC test	Tue Apr 15 17:37:23 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2140	REFSEQ_MOUSE_071219/refseq_mouse_071219.fasta	161
+2945	wehr	080724Qual4	caPSCqual2b	Tue Jul 29 16:15:07 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2945	HOMO_SAPIENS_030408/Homo_Sapiens_030408.fasta	203
+2948	rmarissa	08-07-24 Stds	Stds_lysate - Stds_lysate.mzXML (main)	Wed Aug 06 13:16:21 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2948	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	205
+2949	rmarissa	08-07-24 Stds	Stds_only - Stds_only.mzXML (main)	Wed Aug 06 13:17:01 -0400 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/2949	REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta	205
+3161	xuanwen	zebrafish-24hpf-2	Zebrafish-24hpf-tpp-8-14	Thu Nov 13 16:26:22 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3161	IPI.DANRE.080523.REV2/ipi.DANRE.080523.rev.fasta	224
+3124	xuanwen	plate-PAGE-1	platelet-SDS-2st	Fri Nov 07 10:20:19 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3124	IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta	229
+3125	xuanwen	plate-PAGE-1	platelet-SDS-all	Fri Nov 07 10:23:47 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3125	IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta	229
+3126	xuanwen	plate-PAGE-1	platelet-SDS-all-mascot	Sun Nov 09 15:29:40 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3126	IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta	229
+3128	xuanwen	plate-PAGE-1-11-11	platelet-SDS-all-sequest	Tue Nov 11 17:46:38 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3128	IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta	231
+3129	xuanwen	plate-PAGE-1-11-11	xuanwen-platelet-PAGE-all-mascot	Tue Nov 11 17:50:51 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3129	IPI.HUMAN.20081105.REV/ipi.HUMAN.20081105.rev.fasta	231
+3189	sumits	11Nov2008-Rachana	MT2A-Rachana-FT2008	Mon Nov 17 10:34:36 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3189	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	235
+3190	sumits	11Nov2008-Rachana	EBI3-Rachana-FT2008	Mon Nov 17 10:35:44 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3190	REFSEQ_HUMAN_071119/refseq_human_071119.fasta	235
+3160	xuanwen	plate-PAGE-all-seque	platelet-PAGE-10	Thu Nov 13 16:18:53 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3160	IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta	238
+3196	xuanwen	platelet-PAGE-all-dR	platelet-PAGE-all-20 ppm	Mon Nov 17 14:01:13 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3196	IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta	244
+3213	xuanwen	platelet-PAGE-all-dR	platelet-PAGE-all-1.4	Wed Nov 19 08:59:03 -0500 2008	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3213	IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta	244
+4137	daustin	zfin chromosome expe	zfin all chroms with parts 2 and 3	Thu Aug 20 16:47:39 -0400 2009	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/4137	ZFIN_GENE_COMPRESSED/zfin_gene_compressed.fasta	281
+3909	angel	zfish_new	zfish_24hpf	Thu Jul 16 16:08:59 -0400 2009	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3909	IPI.DANRE.v3.59.DECOY/ipi.DANRE.v3.59.decoy.fasta	306
+3912	angel	zfish_new	zfish_24hpf_mascot	Fri Jul 17 14:33:44 -0400 2009	http://bioinf.itmat.upenn.edu/qInteract2/analysis/view/3912	IPI.DANRE.v3.59.DECOY/ipi.DANRE.v3.59.decoy.fasta	306
