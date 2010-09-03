@@ -404,68 +404,69 @@ f = File.open(ARGV[0]).each do |l|
   # add input file info to analysis hash 
 
   file_path = la[INPUT_PATH_COL]
-  basename = File.basename file_path
-  lims_hash = {:file => "data_files/#{basename}"}
-  lims_hash[:lims_project_id] = la[LIMS_PROJECT_ID_COL].to_i unless la[LIMS_PROJECT_ID_COL].nil?
-  lims_hash[:lims_project_name] = la[LIMS_PROJECT_NAME_COL] unless la[LIMS_PROJECT_NAME_COL].nil?
-  lims_hash[:lims_project_description] =  lims_db[:projects].where(:id => la[LIMS_PROJECT_ID_COL].to_i).first[:description] unless la[LIMS_PROJECT_ID_COL].nil?
-  lims_hash[:lims_project_owner] = [ la[LIMS_OWNER_COL], la[LIMS_FULLNAME_COL].strip ] unless la[LIMS_OWNER_COL].nil?
+  unless file_path.nil? || file_path.strip == 'dummy'
+    basename = File.basename file_path
+    lims_hash = {:file => "data_files/#{basename}"}
+    lims_hash[:lims_project_id] = la[LIMS_PROJECT_ID_COL].to_i unless la[LIMS_PROJECT_ID_COL].nil?
+    lims_hash[:lims_project_name] = la[LIMS_PROJECT_NAME_COL] unless la[LIMS_PROJECT_NAME_COL].nil?
+    lims_hash[:lims_project_description] =  lims_db[:projects].where(:id => la[LIMS_PROJECT_ID_COL].to_i).first[:description] unless la[LIMS_PROJECT_ID_COL].nil?
+    lims_hash[:lims_project_owner] = [ la[LIMS_OWNER_COL], la[LIMS_FULLNAME_COL].strip ] unless la[LIMS_OWNER_COL].nil?
     
-  # add input file info to file_list
-  # copy input file to data_files, unless already there
-  file_hash = { :path => "data_files/#{basename}" }
-  file_hash[:asset_id] = la[LIMS_ASSET_ID_COL] unless la[LIMS_ASSET_ID_COL].nil? || la[LIMS_ASSET_ID_COL] =~ /not in the DB/
-  file_hash[:lims_project_id] = la[LIMS_PROJECT_ID_COL].to_i unless la[LIMS_PROJECT_ID_COL].nil?
-  file_hash[:lims_owner] = [[ la[LIMS_OWNER_COL], la[LIMS_FULLNAME_COL]]] unless la[LIMS_OWNER_COL].nil?
+    # add input file info to file_list
+    # copy input file to data_files, unless already there
+    file_hash = { :path => "data_files/#{basename}" }
+    file_hash[:asset_id] = la[LIMS_ASSET_ID_COL] unless la[LIMS_ASSET_ID_COL].nil? || la[LIMS_ASSET_ID_COL] =~ /not in the DB/
+    file_hash[:lims_project_id] = la[LIMS_PROJECT_ID_COL].to_i unless la[LIMS_PROJECT_ID_COL].nil?
+    file_hash[:lims_owner] = [[ la[LIMS_OWNER_COL], la[LIMS_FULLNAME_COL]]] unless la[LIMS_OWNER_COL].nil?
   
-  if File.exist?("./#{project_hash[:archive_folder_name]}/data_files/#{basename}")
+    if File.exist?("./#{project_hash[:archive_folder_name]}/data_files/#{basename}")
   
-    # take md5 of each file.  if they are different then rename with analysis ID and copy
-    puts "Already added #{File.basename(la[INPUT_PATH_COL])}"
-    existing_md5 = `#{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{File.basename(la[INPUT_PATH_COL])}`
-    existing_md5 = existing_md5.split(' ')[0]
-    new_md5 = `#{MD5CMD} #{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]}`
-    new_md5 = new_md5.split(' ')[0]
+      # take md5 of each file.  if they are different then rename with analysis ID and copy
+      puts "Already added #{File.basename(la[INPUT_PATH_COL])}"
+      existing_md5 = `#{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{File.basename(la[INPUT_PATH_COL])}`
+      existing_md5 = existing_md5.split(' ')[0]
+      new_md5 = `#{MD5CMD} #{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]}`
+      new_md5 = new_md5.split(' ')[0]
     
-    if existing_md5 != new_md5
+      if existing_md5 != new_md5
       
-      ext = File.extname("#{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]}")
-      base_no_ext = File.basename("#{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]}", ext)
-      new_filename = "#{base_no_ext}.analysis_#{analysis_hash[:analysis_id]}#{ext}"        
-      puts "Found name conflict. Saving new file as #{new_filename}. Updating lims hash accordingly."
-      lims_hash[:file] = "data_files/#{new_filename}"
-      file_hash[:path] = "data_files/#{new_filename}" # redo path
+        ext = File.extname("#{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]}")
+        base_no_ext = File.basename("#{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]}", ext)
+        new_filename = "#{base_no_ext}.analysis_#{analysis_hash[:analysis_id]}#{ext}"        
+        puts "Found name conflict. Saving new file as #{new_filename}. Updating lims hash accordingly."
+        lims_hash[:file] = "data_files/#{new_filename}"
+        file_hash[:path] = "data_files/#{new_filename}" # redo path
 
-      # copy NEW file into data files and compute md5
-      system "cp -v #{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]} ./#{project_hash[:archive_folder_name]}/data_files/#{new_filename}"
-      puts "running #{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{new_filename}"
-      md5 = `#{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{new_filename}`
+        # copy NEW file into data files and compute md5
+        system "cp -v #{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]} ./#{project_hash[:archive_folder_name]}/data_files/#{new_filename}"
+        puts "running #{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{new_filename}"
+        md5 = `#{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{new_filename}`
+        file_hash[:md5] = md5.split(' ')[0]
+        project_hash[:file_list] << file_hash
+        puts "Added input file #{file_hash[:path]} to file list."
+                      
+      else
+      
+        # do nothing!
+      
+      end
+    
+    else
+      
+      # copy file into data files and compute md5
+      system "cp #{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]} ./#{project_hash[:archive_folder_name]}/data_files"
+      puts "running #{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{basename}"
+      md5 = `#{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{basename}`
       file_hash[:md5] = md5.split(' ')[0]
       project_hash[:file_list] << file_hash
       puts "Added input file #{file_hash[:path]} to file list."
-                      
-    else
-      
-      # do nothing!
-      
-    end
-    
-  else
-      
-    # copy file into data files and compute md5
-    system "cp #{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]} ./#{project_hash[:archive_folder_name]}/data_files"
-    puts "running #{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{basename}"
-    md5 = `#{MD5CMD} ./#{project_hash[:archive_folder_name]}/data_files/#{basename}`
-    file_hash[:md5] = md5.split(' ')[0]
-    project_hash[:file_list] << file_hash
-    puts "Added input file #{file_hash[:path]} to file list."
         
+    end
+
+    #this was moved down here in case data files had a naming conflict
+    analysis_hash[:lims_projects] << lims_hash unless la[LIMS_PROJECT_ID_COL].nil? 
+    puts "Added input file #{lims_hash[:file]} to analysis #{analysis_hash[:analysis_name]}."
   end
-
-  #this was moved down here in case data files had a naming conflict
-  analysis_hash[:lims_projects] << lims_hash unless la[LIMS_PROJECT_ID_COL].nil? 
-  puts "Added input file #{lims_hash[:file]} to analysis #{analysis_hash[:analysis_name]}."
-
   last_project_id = this_project_id
   last_analysis_id = this_analysis_id
     

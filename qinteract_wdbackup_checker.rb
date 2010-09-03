@@ -21,7 +21,7 @@ EOL
 
 ### CLASS VARS
 
-QINTERACT_ARCHIVE_PATH = '/export/wdbackup'
+QINTERACT_ARCHIVE_PATH = '/Volumes/WDBackup/wdbackup'
 
 #indexes of columns in tsv file
 
@@ -43,7 +43,7 @@ LIMS_FULLNAME_COL = 16
 #first lets get to the databases
 
 puts 'Initializing database connections...'
-qinteract_db = Sequel.connect('mysql://qinteractdba:qinteract@localhost/qinteract_dev') 
+qinteract_db = Sequel.connect('mysql://qinteractdba:qinteract@db/qinteract_dev') 
 
 # build a uniq list of analyses from the file first
 
@@ -69,10 +69,14 @@ analyses.each do |id|
 
   analysis = qinteract_db[:pipeline_analyses].where(:id => id).first
   if analysis[:archived].to_i == 1
-     # get and print file and size
-     size = File.size("#{QINTERACT_ARCHIVE_PATH}/archive_#{id}.tgz")
-     total_size += size
-     puts "#{QINTERACT_ARCHIVE_PATH}/archive_#{id}.tgz\t#{size/1024}"
+     if File.exist? "#{QINTERACT_ARCHIVE_PATH}/archive_#{id}.tgz"
+       # get and print file and size
+       size = File.size("#{QINTERACT_ARCHIVE_PATH}/archive_#{id}.tgz")
+       total_size += size
+       puts "#{QINTERACT_ARCHIVE_PATH}/archive_#{id}.tgz\t#{size/1024}"
+     else
+        puts "WARNING: #{QINTERACT_ARCHIVE_PATH}/archive_#{id}.tgz NOT FOUND!"
+     end
   end
 
 end
