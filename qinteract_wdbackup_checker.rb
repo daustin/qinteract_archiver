@@ -45,7 +45,9 @@ LIMS_FULLNAME_COL = 16
 #first lets get to the databases
 
 puts 'Initializing database connections...'
-qinteract_db = Sequel.connect('mysql://qinteractdba:qinteract@db/qinteract_dev') 
+# qinteract_db = Sequel.connect('mysql://qinteractdba:qinteract@localhost:3306/qinteract_dev') 
+
+qinteract_db = Sequel.connect(:adapter=>'mysql', :host=>'db', :database=>'qinteract_dev', :user=>'qinteractdba', :password=>'qinteract')
 
 # build a uniq list of analyses from the file first
 
@@ -68,7 +70,6 @@ analyses.sort!
 puts "filename\tsize"
 
 analyses.each do |id|
-
   analysis = qinteract_db[:pipeline_analyses].where(:id => id).first
   if analysis.nil?
     puts "WARNING: ANALYSIS #{id} NOT FOUND"
