@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'rubygems'
 require 'sequel'
 require 'json'
@@ -68,6 +70,11 @@ puts "filename\tsize"
 analyses.each do |id|
 
   analysis = qinteract_db[:pipeline_analyses].where(:id => id).first
+  if analysis.nil?
+    puts "WARNING: ANALYSIS #{id} NOT FOUND"
+    next
+  end
+
   if analysis[:archived].to_i == 1
      if File.exist? "#{QINTERACT_ARCHIVE_PATH}/archive_#{id}.tgz"
        # get and print file and size
