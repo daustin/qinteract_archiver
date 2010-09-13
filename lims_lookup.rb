@@ -60,7 +60,7 @@ next if l.strip.empty?
     ref = lims_db[:assets].where(:filesystem_name => file_ref, :filesystem_path => date_folder).first
     
     if ref.nil?
-      puts "#{l.strip}\t#{md5}\tlims asset not found"
+      puts "#{l.strip}\t#{md5}\tFiles in the system but not in the DB"
 
     else
     
