@@ -48,7 +48,7 @@ next if l.strip.empty?
     la = l.strip.split("\t")
   
     #lookup md5
-    md5 = `#{MD5SUM} #{LIMS_PATH}#{la[INPUT_PATH_COL]}`
+    md5 = `#{MD5CMD} #{LIMS_PATH_PREFIX}#{la[INPUT_PATH_COL]}`
     md5 = md5.split(' ')[0]
   
     #lookup lims project info, find date folder and lims reference
@@ -58,13 +58,20 @@ next if l.strip.empty?
   
     #now look it up
     ref = lims_db[:assets].where(:filesystem_name => file_ref, :filesystem_path => date_folder).first
-    project = lims_db[:projects].where(:id => ref[:project_id].to_i).first
-    user = lims_db[:users].where(:id => project[:user_id]).first
+    
+    if ref.nil?
+      puts "#{l.strip}\t#{md5}\tlims asset not found"
 
-    #print it out
+    else
+    
+      project = lims_db[:projects].where(:id => ref[:project_id].to_i).first
+      user = lims_db[:users].where(:id => project[:user_id]).first
+
+      #print it out
   
-    puts "#{l.strip}\t#{ref[:id]}\t#{ref[:project_id]}\t#{project[:name]}\t#{user[:login]}\t#{user[:fname]} #{user[:lname]}"
+      puts "#{l.strip}\t#{md5}\t#{ref[:id]}\t#{ref[:project_id]}\t#{project[:name]}\t#{user[:login]}\t#{user[:fname]} #{user[:lname]}"
 
+    end
 
   end
 
