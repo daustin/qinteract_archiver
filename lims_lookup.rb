@@ -54,7 +54,7 @@ next if l.strip.empty?
     #lookup lims project info, find date folder and lims reference
     lims_ref = la[LIMS_REFERENCE]
     date_folder = lims_ref.split('/')[0]
-    file_ref = lims_ref.split('/')[0]
+    file_ref = lims_ref.split('/')[1]
   
     #now look it up
     ref = lims_db[:assets].where(:filesystem_name => file_ref, :filesystem_path => date_folder).first
