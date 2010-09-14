@@ -12,7 +12,7 @@
 #######
 
 MD5CMD = 'md5 -q' # needs to output only md5 hash, or a wsv with the hash as the first value 
-disk_id = File.basename(Dir.cwd)
+disk_id = File.basename(Dir.pwd)
 
 unless File.exist? ARGV[0]
   

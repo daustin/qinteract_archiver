@@ -81,7 +81,7 @@ class ClientHelper
        jdata += jfline
      end
      jparsed = JSON.parse(jdata)
-     jparsed.update({"#{hash_key}" => hash_value})
+     jparsed["#{hash_key}"] = hash_value
      File.open(readme_json_file, 'w') {|f| f.write(JSON.generate(jparsed)) }
    end
   
