@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 #####################
 #
-#  Local Archiving script for qinteract archiver
+#  Local Archiving script for qinteract archiver (NOT USED)
 #  Dave Austin @ ITMAT UPENN
 #
 #  Finds space on volumes, zips local archive directory, 
