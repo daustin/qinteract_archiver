@@ -87,15 +87,15 @@ Dir.chdir "#{folder_name}" do
     
   end
   
-  puts "Updating README in 7zip..."
+  # puts "Updating README in 7zip..."
   
   # remove stale references to README.json
   
-  system "#{PZIPCMD} d -r -mmt=on #{folder_name}.7z.001 README.json"
+  # system "#{PZIPCMD} d -r -mmt=on #{folder_name}.7z README.json"
   
   # update README.json reference in 7z file
     
-  system "#{PZIPCMD} u -mx0 -mmt #{folder_name}.7z.001 #{folder_name}/README.json"
+  # system "#{PZIPCMD} u -mx0 -mmt #{folder_name}.7z #{folder_name}/README.json"
   
   # cp readme to cwd and cleanup
   
