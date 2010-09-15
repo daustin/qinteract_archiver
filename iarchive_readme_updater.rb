@@ -11,6 +11,9 @@
 #
 #######
 
+require 'rubygems'
+require 'json'
+
 MD5CMD = 'md5 -q' # needs to output only md5 hash, or a wsv with the hash as the first value 
 PZIPCMD = '7za'
 
@@ -84,9 +87,15 @@ Dir.chdir "#{folder_name}" do
     
   end
   
+  puts "Updating README in 7zip..."
+  
+  # remove stale references to README.json
+  
+  system "#{PZIPCMD} d -r -mmt=on #{folder_name}.7z.001 README.json"
+  
   # update README.json reference in 7z file
     
-  system "#{PZIPCMD} u -mx6 -mmt #{folder_name}.7z.001 #{folder_name}/README.json"
+  system "#{PZIPCMD} u -mx0 -mmt #{folder_name}.7z.001 #{folder_name}/README.json"
   
   # cp readme to cwd and cleanup
   

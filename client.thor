@@ -33,7 +33,7 @@ class ClientHelper
   end
   
   def self.update_archive(file_name, archive_file)
-    `#{@pzip_bin} u -mx6 -mmt #{archive_file} #{file_name}`
+    `#{@pzip_bin} u -mx0 -mmt #{archive_file} #{file_name}`
   end
   
   def self.decompress_file(file_name, archive_file)
