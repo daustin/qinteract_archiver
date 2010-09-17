@@ -101,16 +101,16 @@ project_ids.each do |pid|
     
     ext = File.extname(remote_fasta_path)
     new_filename = "#{File.basename(remote_fasta_path, ext)}.analysis_#{analysis['analysis_id']}#{ext}"
-    if File.exist? "#{project_path}/data_files/#{new_filename}"
+    if File.exist?("#{project_path}/data_files/#{new_filename}")
       puts "Using new filename: #{new_filename}"
       remote_fasta_path = new_filename
     end  
     
-    if ! File.exist? "#{project_path}/data_files/#{remote_fasta_path}"
+    if ! File.exist?("#{project_path}/data_files/#{remote_fasta_path}")
       puts "ERROR: COULD NOT FIND project_#{pid}/data_files/#{remote_fasta_path}"
       error = true
-    elsif File.size "#{project_path}/data_files/#{remote_fasta_path}" != remote_fasta_size
-      puts "ERROR: FOUND SIZE DISCREPANCY FOR project_#{pid}/data_files/#{remote_fasta_path}. Found #{File.size "#{project_path}/data_files/#{remote_fasta_path}"} expected #{remote_fasta_size}."
+    elsif File.size("#{project_path}/data_files/#{remote_fasta_path}") != remote_fasta_size
+      puts "ERROR: FOUND SIZE DISCREPANCY FOR project_#{pid}/data_files/#{remote_fasta_path}. Found #{File.size("#{project_path}/data_files/#{remote_fasta_path}")} expected #{remote_fasta_size}."
     
     else
       # do nothing
@@ -125,16 +125,16 @@ project_ids.each do |pid|
 
       ext = File.extname(remote_file_path)
       new_filename = "#{File.basename(remote_file_path, ext)}.analysis_#{analysis['analysis_id']}#{ext}"
-      if File.exist? "#{project_path}/data_files/#{new_filename}"
+      if File.exist?("#{project_path}/data_files/#{new_filename}")
         puts "Using new filename: #{new_filename}"
         remote_file_path = new_filename
       end
 
-      if ! File.exist? "#{project_path}/data_files/#{remote_file_path}"
+      if ! File.exist?("#{project_path}/data_files/#{remote_file_path}")
         puts "ERROR: COULD NOT FIND project_#{pid}/data_files/#{remote_file_path}"
         error = true
-      elsif File.size "#{project_path}/data_files/#{remote_file_path}" != remote_file_size
-        puts "ERROR: FOUND SIZE DISCREPANCY FOR project_#{pid}/data_files/#{remote_file_path}. Found #{File.size "#{project_path}/data_files/#{remote_file_path}"} expected #{remote_file_size}."
+      elsif File.size("#{project_path}/data_files/#{remote_file_path}") != remote_file_size
+        puts "ERROR: FOUND SIZE DISCREPANCY FOR project_#{pid}/data_files/#{remote_file_path}. Found #{File.size("#{project_path}/data_files/#{remote_file_path}")} expected #{remote_file_size}."
 
       else
         # do nothing
@@ -149,11 +149,11 @@ project_ids.each do |pid|
       remote_file_path = File.basename(rf['path'])
       remote_file_size = rf['size'].to_i
 
-      if ! File.exist? "#{project_path}/analysis_#{analysis['analysis_id']}/#{remote_file_path}"
+      if ! File.exist?("#{project_path}/analysis_#{analysis['analysis_id']}/#{remote_file_path}")
         puts "ERROR: COULD NOT FIND project_#{pid}/analysis_#{analysis['analysis_id']}/#{remote_file_path}"
         error = true
-      elsif File.size "#{project_path}/analysis_#{analysis['analysis_id']}/#{remote_file_path}" != remote_file_size
-        puts "ERROR: FOUND SIZE DISCREPANCY FOR project_#{pid}/analysis_#{analysis['analysis_id']}/#{remote_file_path}. Found #{File.size "#{project_path}/analysis_#{analysis['analysis_id']}/#{remote_file_path}"} expected #{remote_file_size}."
+      elsif File.size("#{project_path}/analysis_#{analysis['analysis_id']}/#{remote_file_path}") != remote_file_size
+        puts "ERROR: FOUND SIZE DISCREPANCY FOR project_#{pid}/analysis_#{analysis['analysis_id']}/#{remote_file_path}. Found #{File.size("#{project_path}/analysis_#{analysis['analysis_id']}/#{remote_file_path}")} expected #{remote_file_size}."
 
       else
         # do nothing
