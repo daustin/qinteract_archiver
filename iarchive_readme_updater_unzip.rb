@@ -59,7 +59,10 @@ Dir.chdir "#{folder_name}" do
     new_id = $1 if el =~ /archive\/show\/(\d+)/
   end
 
-  exit "ERROR: Could not fetch new archive id from iarchive." if new_id == 0
+  if new_id == 0
+    puts "ERROR: Could not fetch new archive id from iarchive."
+    exit  1
+  end
   
   # add iarchive ID to existing JSON in memory
   puts "Updating iarchive id..."
