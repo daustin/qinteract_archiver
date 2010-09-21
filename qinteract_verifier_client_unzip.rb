@@ -84,16 +84,15 @@ project_ids.each do |pid|
     remote_file_list = {}
     
     begin 
-      # RestClient.get("#{FILELIST_URL}/#{analysis['analysis_id']}") do |res| 
-        # puts res[0]
-        # remote_file_list = JSON.parse res.to_s
-      # end
       remote_file_list = JSON.parse `curl -s #{FILELIST_URL}/#{analysis['analysis_id']}`
     rescue Exception => e
       puts "ERROR: Could not build remote file list #{e.message}"
       error = true
       break
     end
+
+    # workaround for sleepy disk
+    lsout = `ls #{project_path}`
 
     # check fasta file
     remote_fasta_path = File.basename(remote_file_list['fasta']['path'])
@@ -105,7 +104,7 @@ project_ids.each do |pid|
       puts "Using new filename: #{new_filename}"
       remote_fasta_path = new_filename
     end  
-    
+    puts "checking: #{project_path}/data_files/#{remote_fasta_path} "
     if ! File.exist?("#{project_path}/data_files/#{remote_fasta_path}")
       puts "ERROR: COULD NOT FIND project_#{pid}/data_files/#{remote_fasta_path}"
       error = true
