@@ -1,0 +1,1187 @@
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_no_blanks_big_only.part2.txt...
+Found new project 342 - pierce
+Creating project staging dirs.
+Found new analysis 4235 - pierce_1_garland
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta' -> `./project_342/data_files/refseq_mouse.20090928.rev.fasta'
+running md5sum ./project_342/data_files/refseq_mouse.20090928.rev.fasta
+Added prot_db file data_files/refseq_mouse.20090928.rev.fasta to file list.
+Adding Sequest search params to analysis
+running md5sum ./project_342/data_files/Garland-KI-1.RAW
+Added input file data_files/Garland-KI-1.RAW to file list.
+Added input file data_files/Garland-KI-1.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-10.RAW
+Added input file data_files/Garland-KI-10.RAW to file list.
+Added input file data_files/Garland-KI-10.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-11.RAW
+Added input file data_files/Garland-KI-11.RAW to file list.
+Added input file data_files/Garland-KI-11.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-12.RAW
+Added input file data_files/Garland-KI-12.RAW to file list.
+Added input file data_files/Garland-KI-12.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-13.RAW
+Added input file data_files/Garland-KI-13.RAW to file list.
+Added input file data_files/Garland-KI-13.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-14.RAW
+Added input file data_files/Garland-KI-14.RAW to file list.
+Added input file data_files/Garland-KI-14.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-15.RAW
+Added input file data_files/Garland-KI-15.RAW to file list.
+Added input file data_files/Garland-KI-15.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-16.RAW
+Added input file data_files/Garland-KI-16.RAW to file list.
+Added input file data_files/Garland-KI-16.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-17.RAW
+Added input file data_files/Garland-KI-17.RAW to file list.
+Added input file data_files/Garland-KI-17.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-18.RAW
+Added input file data_files/Garland-KI-18.RAW to file list.
+Added input file data_files/Garland-KI-18.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-19.RAW
+Added input file data_files/Garland-KI-19.RAW to file list.
+Added input file data_files/Garland-KI-19.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-2.RAW
+Added input file data_files/Garland-KI-2.RAW to file list.
+Added input file data_files/Garland-KI-2.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-20.RAW
+Added input file data_files/Garland-KI-20.RAW to file list.
+Added input file data_files/Garland-KI-20.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-21.RAW
+Added input file data_files/Garland-KI-21.RAW to file list.
+Added input file data_files/Garland-KI-21.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-22.RAW
+Added input file data_files/Garland-KI-22.RAW to file list.
+Added input file data_files/Garland-KI-22.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-3.RAW
+Added input file data_files/Garland-KI-3.RAW to file list.
+Added input file data_files/Garland-KI-3.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-4.RAW
+Added input file data_files/Garland-KI-4.RAW to file list.
+Added input file data_files/Garland-KI-4.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-5.RAW
+Added input file data_files/Garland-KI-5.RAW to file list.
+Added input file data_files/Garland-KI-5.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-6.RAW
+Added input file data_files/Garland-KI-6.RAW to file list.
+Added input file data_files/Garland-KI-6.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-7.RAW
+Added input file data_files/Garland-KI-7.RAW to file list.
+Added input file data_files/Garland-KI-7.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-8.RAW
+Added input file data_files/Garland-KI-8.RAW to file list.
+Added input file data_files/Garland-KI-8.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-KI-9.RAW
+Added input file data_files/Garland-KI-9.RAW to file list.
+Added input file data_files/Garland-KI-9.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-1-FTU.RAW
+Added input file data_files/Garland-WT-1-FTU.RAW to file list.
+Added input file data_files/Garland-WT-1-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-10-FTU.RAW
+Added input file data_files/Garland-WT-10-FTU.RAW to file list.
+Added input file data_files/Garland-WT-10-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-11-FTU.RAW
+Added input file data_files/Garland-WT-11-FTU.RAW to file list.
+Added input file data_files/Garland-WT-11-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-12-FTU.RAW
+Added input file data_files/Garland-WT-12-FTU.RAW to file list.
+Added input file data_files/Garland-WT-12-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-13-FTU.RAW
+Added input file data_files/Garland-WT-13-FTU.RAW to file list.
+Added input file data_files/Garland-WT-13-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-14-FTU.RAW
+Added input file data_files/Garland-WT-14-FTU.RAW to file list.
+Added input file data_files/Garland-WT-14-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-15-FTU.RAW
+Added input file data_files/Garland-WT-15-FTU.RAW to file list.
+Added input file data_files/Garland-WT-15-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-16-FTU.RAW
+Added input file data_files/Garland-WT-16-FTU.RAW to file list.
+Added input file data_files/Garland-WT-16-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-17-FTU.RAW
+Added input file data_files/Garland-WT-17-FTU.RAW to file list.
+Added input file data_files/Garland-WT-17-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-18-FTU.RAW
+Added input file data_files/Garland-WT-18-FTU.RAW to file list.
+Added input file data_files/Garland-WT-18-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-19-FTU.RAW
+Added input file data_files/Garland-WT-19-FTU.RAW to file list.
+Added input file data_files/Garland-WT-19-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-2-FTU.RAW
+Added input file data_files/Garland-WT-2-FTU.RAW to file list.
+Added input file data_files/Garland-WT-2-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-20-FTU.RAW
+Added input file data_files/Garland-WT-20-FTU.RAW to file list.
+Added input file data_files/Garland-WT-20-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-21-FTU.RAW
+Added input file data_files/Garland-WT-21-FTU.RAW to file list.
+Added input file data_files/Garland-WT-21-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-22-FTU.RAW
+Added input file data_files/Garland-WT-22-FTU.RAW to file list.
+Added input file data_files/Garland-WT-22-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-3-FTU.RAW
+Added input file data_files/Garland-WT-3-FTU.RAW to file list.
+Added input file data_files/Garland-WT-3-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-4-FTU.RAW
+Added input file data_files/Garland-WT-4-FTU.RAW to file list.
+Added input file data_files/Garland-WT-4-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-5-FTU.RAW
+Added input file data_files/Garland-WT-5-FTU.RAW to file list.
+Added input file data_files/Garland-WT-5-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-6-FTU.RAW
+Added input file data_files/Garland-WT-6-FTU.RAW to file list.
+Added input file data_files/Garland-WT-6-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-7-FTU.RAW
+Added input file data_files/Garland-WT-7-FTU.RAW to file list.
+Added input file data_files/Garland-WT-7-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-8-FTU.RAW
+Added input file data_files/Garland-WT-8-FTU.RAW to file list.
+Added input file data_files/Garland-WT-8-FTU.RAW to analysis pierce_1_garland.
+running md5sum ./project_342/data_files/Garland-WT-9-FTU.RAW
+Added input file data_files/Garland-WT-9-FTU.RAW to file list.
+Added input file data_files/Garland-WT-9-FTU.RAW to analysis pierce_1_garland.
+Found new analysis 4239 - pierce_2_14mo
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_342/data_files/Pierce14moCHORwt-1-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-1-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-1-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-10-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-10-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-10-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-11-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-11-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-11-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-12-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-12-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-12-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-13-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-13-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-13-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-14-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-14-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-14-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-15-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-15-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-15-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-16-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-16-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-16-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-17-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-17-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-17-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-18-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-18-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-18-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-19-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-19-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-19-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-2-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-2-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-2-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-20-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-20-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-20-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-3-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-3-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-3-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-4-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-4-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-4-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-5-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-5-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-5-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-6-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-6-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-6-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-7-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-7-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-7-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-8-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-8-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-8-Orbi2.RAW to analysis pierce_2_14mo.
+running md5sum ./project_342/data_files/Pierce14moCHORwt-9-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-9-Orbi2.RAW to file list.
+Added input file data_files/Pierce14moCHORwt-9-Orbi2.RAW to analysis pierce_2_14mo.
+Found new analysis 4240 - pierce_3_ft
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-1.RAW
+Added input file data_files/Pierce-FT103007-WT-1.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-1.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-10.RAW
+Added input file data_files/Pierce-FT103007-WT-10.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-10.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-11.RAW
+Added input file data_files/Pierce-FT103007-WT-11.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-11.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-12.RAW
+Added input file data_files/Pierce-FT103007-WT-12.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-12.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-2.RAW
+Added input file data_files/Pierce-FT103007-WT-2.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-2.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-3.RAW
+Added input file data_files/Pierce-FT103007-WT-3.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-3.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-4.RAW
+Added input file data_files/Pierce-FT103007-WT-4.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-4.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-5.RAW
+Added input file data_files/Pierce-FT103007-WT-5.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-5.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-6.RAW
+Added input file data_files/Pierce-FT103007-WT-6.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-6.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-7.RAW
+Added input file data_files/Pierce-FT103007-WT-7.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-7.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-8.RAW
+Added input file data_files/Pierce-FT103007-WT-8.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-8.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT-9.RAW
+Added input file data_files/Pierce-FT103007-WT-9.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT-9.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT13.RAW
+Added input file data_files/Pierce-FT103007-WT13.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT13.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT14.RAW
+Added input file data_files/Pierce-FT103007-WT14.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT14.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT15.RAW
+Added input file data_files/Pierce-FT103007-WT15.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT15.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT16.RAW
+Added input file data_files/Pierce-FT103007-WT16.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT16.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT17.RAW
+Added input file data_files/Pierce-FT103007-WT17.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT17.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT18.RAW
+Added input file data_files/Pierce-FT103007-WT18.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT18.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT19.RAW
+Added input file data_files/Pierce-FT103007-WT19.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT19.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT103007-WT20.RAW
+Added input file data_files/Pierce-FT103007-WT20.RAW to file list.
+Added input file data_files/Pierce-FT103007-WT20.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-1.RAW
+Added input file data_files/Pierce-FT110207-KO-1.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-1.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-10.RAW
+Added input file data_files/Pierce-FT110207-KO-10.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-10.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-11.RAW
+Added input file data_files/Pierce-FT110207-KO-11.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-11.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-12.RAW
+Added input file data_files/Pierce-FT110207-KO-12.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-12.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-13.RAW
+Added input file data_files/Pierce-FT110207-KO-13.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-13.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-14.RAW
+Added input file data_files/Pierce-FT110207-KO-14.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-14.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-15.RAW
+Added input file data_files/Pierce-FT110207-KO-15.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-15.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-16.RAW
+Added input file data_files/Pierce-FT110207-KO-16.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-16.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-17.RAW
+Added input file data_files/Pierce-FT110207-KO-17.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-17.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-18.RAW
+Added input file data_files/Pierce-FT110207-KO-18.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-18.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-19.RAW
+Added input file data_files/Pierce-FT110207-KO-19.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-19.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-2.RAW
+Added input file data_files/Pierce-FT110207-KO-2.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-2.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-20.RAW
+Added input file data_files/Pierce-FT110207-KO-20.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-20.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-3.RAW
+Added input file data_files/Pierce-FT110207-KO-3.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-3.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-4.RAW
+Added input file data_files/Pierce-FT110207-KO-4.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-4.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-5.RAW
+Added input file data_files/Pierce-FT110207-KO-5.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-5.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-6.RAW
+Added input file data_files/Pierce-FT110207-KO-6.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-6.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-7.RAW
+Added input file data_files/Pierce-FT110207-KO-7.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-7.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-8.RAW
+Added input file data_files/Pierce-FT110207-KO-8.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-8.RAW to analysis pierce_3_ft.
+running md5sum ./project_342/data_files/Pierce-FT110207-KO-9.RAW
+Added input file data_files/Pierce-FT110207-KO-9.RAW to file list.
+Added input file data_files/Pierce-FT110207-KO-9.RAW to analysis pierce_3_ft.
+Found new analysis 4241 - pierce_4_24mo
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-1-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-1-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-1-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-10-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-10-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-10-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-11-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-11-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-11-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-12-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-12-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-12-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-13-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-13-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-13-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-14-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-14-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-14-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-15-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-15-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-15-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-16-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-16-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-16-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-17-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-17-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-17-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-18-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-18-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-18-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-19-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-19-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-19-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-2-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-2-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-2-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-20-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-20-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-20-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-21-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-21-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-21-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-22-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-22-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-22-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-3-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-3-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-3-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-4-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-4-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-4-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-5-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-5-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-5-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-6-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-6-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-6-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-7-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-7-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-7-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-8-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-8-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-8-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24mo-kiBM-9-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-9-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-kiBM-9-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-1-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-1-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-1-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-10-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-10-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-10-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-11-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-11-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-11-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-12-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-12-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-12-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-13-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-13-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-13-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-14-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-14-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-14-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-15-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-15-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-15-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-16-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-16-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-16-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-17-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-17-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-17-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-18-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-18-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-18-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-19-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-19-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-19-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-2-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-2-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-2-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-20-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-20-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-20-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-21-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-21-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-21-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-22-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-22-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-22-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-3-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-3-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-3-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-4-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-4-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-4-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-5-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-5-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-5-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-6-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-6-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-6-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-7-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-7-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-7-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-8-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-8-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-8-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moCHki-9-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-9-Orbi2.RAW to file list.
+Added input file data_files/Pierce24moCHki-9-Orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-1-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-1-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-1-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-10-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-10-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-10-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-11-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-11-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-11-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-12-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-12-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-12-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-13-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-13-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-13-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-14-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-14-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-14-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-15-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-15-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-15-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-16-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-16-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-16-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-17-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-17-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-17-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-18-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-18-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-18-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-19-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-19-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-19-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-2-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-2-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-2-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-20-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-20-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-20-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-21-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-21-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-21-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-22-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-22-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-22-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-3-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-3-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-3-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-4-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-4-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-4-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-5-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-5-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-5-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-6-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-6-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-6-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-7-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-7-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-7-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-8-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-8-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-8-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-1-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-1-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-1-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-10-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-10-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-10-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-11-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-11-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-11-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-12-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-12-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-12-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-13-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-13-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-13-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-14-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-14-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-14-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-15-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-15-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-15-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-16-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-16-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-16-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-17-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-17-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-17-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-18-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-18-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-18-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-19-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-19-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-19-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-2-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-2-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-2-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-20-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-20-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-20-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-21-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-21-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-21-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-3-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-3-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-3-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-4-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-4-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-4-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-5-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-5-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-5-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-6-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-6-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-6-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-7-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-7-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-7-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-8-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-8-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-8-orbi2.RAW to analysis pierce_4_24mo.
+running md5sum ./project_342/data_files/Pierce24moWT-BMch-9-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-9-orbi2.RAW to file list.
+Added input file data_files/Pierce24moWT-BMch-9-orbi2.RAW to analysis pierce_4_24mo.
+Found new analysis 4444 - pierce_5_sq.garland
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+Already added Garland-KI-1.RAW
+Added input file data_files/Garland-KI-1.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-10.RAW
+Added input file data_files/Garland-KI-10.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-11.RAW
+Added input file data_files/Garland-KI-11.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-12.RAW
+Added input file data_files/Garland-KI-12.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-13.RAW
+Added input file data_files/Garland-KI-13.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-14.RAW
+Added input file data_files/Garland-KI-14.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-15.RAW
+Added input file data_files/Garland-KI-15.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-16.RAW
+Added input file data_files/Garland-KI-16.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-17.RAW
+Added input file data_files/Garland-KI-17.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-18.RAW
+Added input file data_files/Garland-KI-18.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-19.RAW
+Added input file data_files/Garland-KI-19.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-2.RAW
+Added input file data_files/Garland-KI-2.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-20.RAW
+Added input file data_files/Garland-KI-20.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-21.RAW
+Added input file data_files/Garland-KI-21.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-22.RAW
+Added input file data_files/Garland-KI-22.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-3.RAW
+Added input file data_files/Garland-KI-3.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-4.RAW
+Added input file data_files/Garland-KI-4.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-5.RAW
+Added input file data_files/Garland-KI-5.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-6.RAW
+Added input file data_files/Garland-KI-6.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-7.RAW
+Added input file data_files/Garland-KI-7.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-8.RAW
+Added input file data_files/Garland-KI-8.RAW to analysis pierce_5_sq.garland.
+Already added Garland-KI-9.RAW
+Added input file data_files/Garland-KI-9.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-1-FTU.RAW
+Added input file data_files/Garland-WT-1-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-10-FTU.RAW
+Added input file data_files/Garland-WT-10-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-11-FTU.RAW
+Added input file data_files/Garland-WT-11-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-12-FTU.RAW
+Added input file data_files/Garland-WT-12-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-13-FTU.RAW
+Added input file data_files/Garland-WT-13-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-14-FTU.RAW
+Added input file data_files/Garland-WT-14-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-15-FTU.RAW
+Added input file data_files/Garland-WT-15-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-16-FTU.RAW
+Added input file data_files/Garland-WT-16-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-17-FTU.RAW
+Added input file data_files/Garland-WT-17-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-18-FTU.RAW
+Added input file data_files/Garland-WT-18-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-19-FTU.RAW
+Added input file data_files/Garland-WT-19-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-2-FTU.RAW
+Added input file data_files/Garland-WT-2-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-20-FTU.RAW
+Added input file data_files/Garland-WT-20-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-21-FTU.RAW
+Added input file data_files/Garland-WT-21-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-22-FTU.RAW
+Added input file data_files/Garland-WT-22-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-3-FTU.RAW
+Added input file data_files/Garland-WT-3-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-4-FTU.RAW
+Added input file data_files/Garland-WT-4-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-5-FTU.RAW
+Added input file data_files/Garland-WT-5-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-6-FTU.RAW
+Added input file data_files/Garland-WT-6-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-7-FTU.RAW
+Added input file data_files/Garland-WT-7-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-8-FTU.RAW
+Added input file data_files/Garland-WT-8-FTU.RAW to analysis pierce_5_sq.garland.
+Already added Garland-WT-9-FTU.RAW
+Added input file data_files/Garland-WT-9-FTU.RAW to analysis pierce_5_sq.garland.
+Found new analysis 4445 - pierce_6.24.orbi.mod
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+Already added Pierce24mo-kiBM-1-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-1-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-10-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-10-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-11-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-11-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-12-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-12-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-13-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-13-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-14-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-14-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-15-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-15-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-16-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-16-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-17-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-17-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-18-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-18-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-19-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-19-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-2-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-2-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-20-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-20-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-21-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-21-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-22-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-22-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-3-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-3-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-4-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-4-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-5-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-5-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-6-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-6-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-7-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-7-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-8-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-8-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24mo-kiBM-9-Orbi2.RAW
+Added input file data_files/Pierce24mo-kiBM-9-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-1-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-1-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-10-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-10-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-11-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-11-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-12-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-12-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-13-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-13-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-14-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-14-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-15-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-15-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-16-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-16-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-17-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-17-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-18-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-18-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-19-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-19-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-2-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-2-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-20-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-20-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-21-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-21-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-22-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-22-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-3-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-3-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-4-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-4-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-5-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-5-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-6-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-6-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-7-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-7-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-8-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-8-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moCHki-9-Orbi2.RAW
+Added input file data_files/Pierce24moCHki-9-Orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-1-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-1-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-10-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-10-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-11-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-11-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-12-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-12-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-13-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-13-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-14-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-14-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-15-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-15-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-16-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-16-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-17-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-17-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-18-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-18-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-19-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-19-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-2-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-2-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-20-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-20-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-21-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-21-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-22-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-22-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-3-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-3-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-4-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-4-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-5-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-5-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-6-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-6-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-7-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-7-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moKI-BMch-8-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-8-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-1-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-1-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-10-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-10-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-11-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-11-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-12-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-12-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-13-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-13-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-14-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-14-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-15-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-15-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-16-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-16-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-17-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-17-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-18-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-18-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-19-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-19-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-2-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-2-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-20-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-20-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-21-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-21-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-3-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-3-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-4-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-4-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-5-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-5-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-6-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-6-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-7-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-7-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-8-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-8-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Already added Pierce24moWT-BMch-9-orbi2.RAW
+Added input file data_files/Pierce24moWT-BMch-9-orbi2.RAW to analysis pierce_6.24.orbi.mod.
+Found new analysis 4446 - pierce.14.ft.mod
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+Already added Pierce-FT103007-WT-1.RAW
+Added input file data_files/Pierce-FT103007-WT-1.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-10.RAW
+Added input file data_files/Pierce-FT103007-WT-10.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-11.RAW
+Added input file data_files/Pierce-FT103007-WT-11.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-12.RAW
+Added input file data_files/Pierce-FT103007-WT-12.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-2.RAW
+Added input file data_files/Pierce-FT103007-WT-2.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-3.RAW
+Added input file data_files/Pierce-FT103007-WT-3.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-4.RAW
+Added input file data_files/Pierce-FT103007-WT-4.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-5.RAW
+Added input file data_files/Pierce-FT103007-WT-5.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-6.RAW
+Added input file data_files/Pierce-FT103007-WT-6.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-7.RAW
+Added input file data_files/Pierce-FT103007-WT-7.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-8.RAW
+Added input file data_files/Pierce-FT103007-WT-8.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT-9.RAW
+Added input file data_files/Pierce-FT103007-WT-9.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT13.RAW
+Added input file data_files/Pierce-FT103007-WT13.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT14.RAW
+Added input file data_files/Pierce-FT103007-WT14.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT15.RAW
+Added input file data_files/Pierce-FT103007-WT15.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT16.RAW
+Added input file data_files/Pierce-FT103007-WT16.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT17.RAW
+Added input file data_files/Pierce-FT103007-WT17.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT18.RAW
+Added input file data_files/Pierce-FT103007-WT18.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT19.RAW
+Added input file data_files/Pierce-FT103007-WT19.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT103007-WT20.RAW
+Added input file data_files/Pierce-FT103007-WT20.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-1.RAW
+Added input file data_files/Pierce-FT110207-KO-1.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-10.RAW
+Added input file data_files/Pierce-FT110207-KO-10.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-11.RAW
+Added input file data_files/Pierce-FT110207-KO-11.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-12.RAW
+Added input file data_files/Pierce-FT110207-KO-12.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-13.RAW
+Added input file data_files/Pierce-FT110207-KO-13.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-14.RAW
+Added input file data_files/Pierce-FT110207-KO-14.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-15.RAW
+Added input file data_files/Pierce-FT110207-KO-15.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-16.RAW
+Added input file data_files/Pierce-FT110207-KO-16.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-17.RAW
+Added input file data_files/Pierce-FT110207-KO-17.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-18.RAW
+Added input file data_files/Pierce-FT110207-KO-18.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-19.RAW
+Added input file data_files/Pierce-FT110207-KO-19.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-2.RAW
+Added input file data_files/Pierce-FT110207-KO-2.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-20.RAW
+Added input file data_files/Pierce-FT110207-KO-20.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-3.RAW
+Added input file data_files/Pierce-FT110207-KO-3.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-4.RAW
+Added input file data_files/Pierce-FT110207-KO-4.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-5.RAW
+Added input file data_files/Pierce-FT110207-KO-5.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-6.RAW
+Added input file data_files/Pierce-FT110207-KO-6.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-7.RAW
+Added input file data_files/Pierce-FT110207-KO-7.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-8.RAW
+Added input file data_files/Pierce-FT110207-KO-8.RAW to analysis pierce.14.ft.mod.
+Already added Pierce-FT110207-KO-9.RAW
+Added input file data_files/Pierce-FT110207-KO-9.RAW to analysis pierce.14.ft.mod.
+Found new analysis 4447 - pierce.14.orbi.mod
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+Already added Pierce14moCHORwt-1-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-1-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-10-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-10-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-11-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-11-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-12-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-12-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-13-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-13-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-14-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-14-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-15-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-15-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-16-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-16-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-17-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-17-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-18-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-18-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-19-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-19-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-2-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-2-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-20-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-20-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-3-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-3-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-4-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-4-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-5-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-5-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-6-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-6-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-7-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-7-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-8-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-8-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Already added Pierce14moCHORwt-9-Orbi2.RAW
+Added input file data_files/Pierce14moCHORwt-9-Orbi2.RAW to analysis pierce.14.orbi.mod.
+Found new analysis 4474 - pierce sequest 24mo missing
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-20-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-20-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-20-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-11-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-11-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-11-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-9-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-9-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-9-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-18-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-18-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-18-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-4-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-4-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-4-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-7-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-7-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-7-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-3-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-3-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-3-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-6-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-6-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-6-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-12-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-12-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-12-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-1-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-1-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-1-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-17-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-17-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-17-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-21-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-21-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-21-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-8-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-8-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-8-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-13-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-13-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-13-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-19-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-19-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-19-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-15-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-15-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-15-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-14-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-14-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-14-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-2-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-2-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-2-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-16-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-16-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-16-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-10-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-10-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-10-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24mo-wtBM-5-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-5-Orbi2.RAW to file list.
+Added input file data_files/Pierce24mo-wtBM-5-Orbi2.RAW to analysis pierce sequest 24mo missing.
+running md5sum ./project_342/data_files/Pierce24moKI-BMch-9-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-9-orbi2.RAW to file list.
+Added input file data_files/Pierce24moKI-BMch-9-orbi2.RAW to analysis pierce sequest 24mo missing.
+Found new analysis 4475 - pierce sequest 24 mo 2 oxy
+Using prot db: REFSEQ.MOUSE.20090928.REV/refseq_mouse.20090928.rev.fasta
+Already added refseq_mouse.20090928.rev.fasta
+Adding Sequest search params to analysis
+Already added Pierce24mo-wtBM-20-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-20-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-11-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-11-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-9-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-9-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-18-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-18-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-4-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-4-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-7-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-7-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-3-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-3-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-6-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-6-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-12-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-12-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-1-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-1-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-17-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-17-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-21-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-21-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-8-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-8-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-13-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-13-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-19-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-19-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-15-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-15-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-14-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-14-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-2-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-2-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-16-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-16-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-10-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-10-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24mo-wtBM-5-Orbi2.RAW
+Added input file data_files/Pierce24mo-wtBM-5-Orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Already added Pierce24moKI-BMch-9-orbi2.RAW
+Added input file data_files/Pierce24moKI-BMch-9-orbi2.RAW to analysis pierce sequest 24 mo 2 oxy.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 4235 - pierce_1_garland.
+Added files for analysis 4239 - pierce_2_14mo.
+Added files for analysis 4240 - pierce_3_ft.
+Added files for analysis 4241 - pierce_4_24mo.
+Added files for analysis 4444 - pierce_5_sq.garland.
+Added files for analysis 4445 - pierce_6.24.orbi.mod.
+Added files for analysis 4446 - pierce.14.ft.mod.
+Added files for analysis 4447 - pierce.14.orbi.mod.
+Added files for analysis 4474 - pierce sequest 24mo missing.
+Added files for analysis 4475 - pierce sequest 24 mo 2 oxy.
+Project contains 2595 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 2097156096 bytes == 0x20f03000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x9e2d4000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x20f03000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x9e2d4000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x20f03000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x9e2d4000 @ 
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_342.7z.*' bc63cd377d722b431bd3170c2439dc09,6f589f56deb748ab02ec60611d22c360,aeafd561a87f79c81acdceaf15644a42,11d3f06f95c438ea30a3e6e4bc84fc05,faf1d9e19d192fd7b1483d41f45c3878,acd225ab32c3c66f584ab332071daecb,2f774dbe33b0ef7a7b322b80a2e40991,136de1ef3ba5e31dc87c50c629ddbd07,d17b5c2f5e939a22d304d9e6699d78f4,3cfe61beff864c744f40a324e1177990,eac98cf5b9c3cf08b6e7835df0d32768,b0bfef2245e309b5618aa9c2116fd08d,6b5f124e87830e5c2c859333f6d4f4b6,83acc4be24882dc4183927e9d7e6eb7c,feb2c003deef194d117d302d174ec274,518b15ced6f5df97dc23ed07ed9c6c34,1fc16fe076759370e6b678e35d7bb8bb,c9f8f996a575388bba70d0d1c029e57c,8fa05b01b1dceb8c48a59f2d0888ad3a,300ff3fc4f40287118f7772cd421b4c2,92cdaa659e17fd93ba1a7059061a94f5,47febe2f69ca2d52fe19fb1d7b8b1efc,0d58498b606994cddbd414bd01e62708,9fc45a4fa8d4f54d2290e18ba7cf1722,f9ed2707c452787968e5963828f2ace1,58936e681f3c6ee541178ce198d13efc,1a0845c19cb021a2bee084481b8bbff1,fef3cf65497d3fb56064c56a24832740,fcaee88bd71777eb81bb1723a73b4465,2958f8e6980fb4082d914dbeda5cf857,f72c47678ab6bd13ea67eb584d796463,8f4c7438700dffc27f0d74a23890c5c7,d8f853b9c4ef07b86021ee7d7f2d7f0b,86a529f1a3c2d71ef6eaad5cd3554eaf,aed02bbffeb1e71738680f1e5351f84a,77e86c6d0cfb59f07bc3304c3cc30c4c,3f9ceaf7b1409c62a1aebbf5b79afdd2,8bac239a2653ff0a3f5d42365243a998,2cd8f5d7380c67adb1cd61e9b8b4cea3,7c43052f90f82db2fb09fe04bf2167f5,87333c2bb9f2095a34a2e7e7b700025b,5cf2fd40ac5ebfaab94ec9dd307ea0fb,5cced48151b78c42c621fa16769b3cae,5ef1698295f12b5d3e8dd48ef604b066,76597ff6559f3444688438b25b027a6c,40458952c70874241584ea3381c56af9,097c29dc36ff84bf549610a7ff6e50d7,2818e9164091d9b179dfb50135306e65,9cc77d191105a15706205f2004c5a3ea,716fa190a4265be1d0b154b290d9ccf7,93c45dcf8b3b306e3e23eb3ed5447068,ad99a17477fd5733bc9299aac107fb95,62c68bffe87e59644c7538b17fab08ef,71bf3c50795888945ce2e1f46d502c94,e1c56d82ff97927e33e0d4e042ed1d9b,17837942badb187dd9cfe0fef0682d17,97891a0315a9687bbccf9f40d77bab04,abc0541413076f5d4c58e94fb6a28ffb,0b9f6e73b1b5675f044b87d1d74b4329,e8e1b35d321c437ad87965d5777bd6aa,17c90d503d313dbf6867c67df1f54ab1,0bbe55a6a2d4fa07533a3743bde8dc9c,91f8ed772851af524ae48e053f4c11a1,33a8028c36bac2c932004c626103b61d,0a4c07a7525251335e13e3f2c03d361d,4e1039bc6f8e58668865f1df369bacc4,48c21ca700c86e576cf4816a02c5a787,764f52a36e712651e5a9f89dc1f45cbb,275e3a4ff41b9e8423f88904f835d9ab,d16ce9d2261cf4aedf60d93b3a67506f,6b68bf8539c5e4bd2fc3499472411b21,035c8cae54126140a2e75a7ec412d380,0cc5a6e6eb0890c409b5d7b3a8776e54,10ad0ad5f5c395b7bb8e107f54d5dd3a,e5423f83e7c15b3ae6d151f4b153b856,95c0e43635474c87ce65d85c069b6b9e,2a420be7800156d9ec67ea5cfaa8c1ed,9c8bf5b3822875c2839752de91f168db,ff96916a05e23c663793e4ec4275aa74,ab1f069efcdf4fba84ba610adbba2e66,c193204a764fcefb32ebdaf4a22a4e9b,75e5d99a6250ccb7a1e2888695294ebc,7773d3f226c3285aafb0bb3699a62f6b,6bbe6ddc275d46c3f34403668f5a0308,ddd362cfcb6ef6bc678bc4ff708d3cd5,7639d3c57055991654a09f228adda759,ada7fd7eb6615a39d9f990b4d57bfd2b,7066ddd5cec23fb41fc67c0003ea1ff1,f4965327288279754e6ba7804a8c4a3f,18be4fddb99c20646c4ce686af1b4630,6d588e1a885646a7a9580e665775762a,4852c2a0f4ac83e7378f53f2819520fd,cf08d79c684640da15b981823756d2b5,63499b05341b22c45cffa046d79f6f6d,7a3321006d9f8dc324455c8255810da2,70e268c9a974af94046aaabbf6645a79,46c8358aa04e46be5f42c3dae1d2014a,2e539eb93e8f74a5f6107349e68cb127,7c6b2938fe63099e9820cdda5bccba90,c073740edd5c9eb94def9f5a51e5b2a3,d1d49fd9dcc03345f8fbedacb7a7a254,811f3fc261ff68f7256a6e24b743f114,0da2447302f5e02cb991603a19e9b399,2e2592874dd2d3972c155550c651607d,c98cb61d8dc99beefda546f35b8f5e97,1f23f4b83ef20283f4ef333333efee83,200b580fb79956f9beeec992dae774dd,a7861e4942c4ff3036918d9e7a671f28,02af2a02fea6611fca728bdd623879f0,cc4da01a70d2b0ede671fd5efaca3cc2,09956b3d8fde9c9efd3afdc3e95d5971,f21cce32b55cf2a027d75fcecef62209,eb033a4947bd760d6c57b14845d3c36a,3f8a0414599069f39105d9c09e4da2d2,ac86b37bfdbd0ecf388097a04c6a2463,b7ee09af2c3f878de3ae8b6ac9e99f3e,ebf3da0ad76e6240ee75ed39887d7903,b442170f321578cebc11edbc2524aa1e,33148dc15d25516abe612192fbbf9* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/149 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 307658
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------e1a8df99c4b8
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  300k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Fri, 27 Aug 2010 15:59:09 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/149
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100  300k    0     0  100  300k      0  1233k --:--:-- --:--:-- --:--:-- 1573k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+7f0,284a551d45034ce32992ca41c0e074c8,e8414e21637ae1cd12a04da9e1afe005,b5e626831029ca2e69c1473930ae3115,757be5702123815361185fd402c43640,9f055f4817aae987a7af7675dae58473,fb35b6ddf157062b6bf53cb19af3aa6e,f2555402c32c04f4b73c7339b9d29d26,f4aa6272e8de6fcb631362988d699d63,cfb2c560c1f422538bbda3c702994a5c,70acfe3427d41223d492fc4156caebfe,81fb3c62574682c2c8fe762f7ab42b6c,483287b28f055271eff812c541444472,0fe58538a7913f1ebfd8d616d7de7027,9b9b3cc9c3e537c78dddbca1996e2a39,c03d8c5169eb0cb125ee6a2862d2c2db,a5e3fe38a7c638f4e5b81fafccc506ec,ceae4a1a0c3e6493d014ca8e5f921a0a,efa4f959947b0705fc616146c4378f63,785177fb078dfbb38188aed9c80b11ae,0452d5939d48cac1631c0562e00479c9,eb9c3af89ace6456d822ab06a2931281,e195e5954da3e889e3730d469f0f8e04,badd55380316801c03a3aee354ceaef7,12ee354ec57af9df448d7a3d1c3dbabb,d0584a3db9a50a75598d6ee7fe365d9a 300224058577
+Client output: ==> 
+remote path: /export/scratch/project_342.7z.*
+remote md5: bc63cd377d722b431bd3170c2439dc09,6f589f56deb748ab02ec60611d22c360,aeafd561a87f79c81acdceaf15644a42,11d3f06f95c438ea30a3e6e4bc84fc05,faf1d9e19d192fd7b1483d41f45c3878,acd225ab32c3c66f584ab332071daecb,2f774dbe33b0ef7a7b322b80a2e40991,136de1ef3ba5e31dc87c50c629ddbd07,d17b5c2f5e939a22d304d9e6699d78f4,3cfe61beff864c744f40a324e1177990,eac98cf5b9c3cf08b6e7835df0d32768,b0bfef2245e309b5618aa9c2116fd08d,6b5f124e87830e5c2c859333f6d4f4b6,83acc4be24882dc4183927e9d7e6eb7c,feb2c003deef194d117d302d174ec274,518b15ced6f5df97dc23ed07ed9c6c34,1fc16fe076759370e6b678e35d7bb8bb,c9f8f996a575388bba70d0d1c029e57c,8fa05b01b1dceb8c48a59f2d0888ad3a,300ff3fc4f40287118f7772cd421b4c2,92cdaa659e17fd93ba1a7059061a94f5,47febe2f69ca2d52fe19fb1d7b8b1efc,0d58498b606994cddbd414bd01e62708,9fc45a4fa8d4f54d2290e18ba7cf1722,f9ed2707c452787968e5963828f2ace1,58936e681f3c6ee541178ce198d13efc,1a0845c19cb021a2bee084481b8bbff1,fef3cf65497d3fb56064c56a24832740,fcaee88bd71777eb81bb1723a73b4465,2958f8e6980fb4082d914dbeda5cf857,f72c47678ab6bd13ea67eb584d796463,8f4c7438700dffc27f0d74a23890c5c7,d8f853b9c4ef07b86021ee7d7f2d7f0b,86a529f1a3c2d71ef6eaad5cd3554eaf,aed02bbffeb1e71738680f1e5351f84a,77e86c6d0cfb59f07bc3304c3cc30c4c,3f9ceaf7b1409c62a1aebbf5b79afdd2,8bac239a2653ff0a3f5d42365243a998,2cd8f5d7380c67adb1cd61e9b8b4cea3,7c43052f90f82db2fb09fe04bf2167f5,87333c2bb9f2095a34a2e7e7b700025b,5cf2fd40ac5ebfaab94ec9dd307ea0fb,5cced48151b78c42c621fa16769b3cae,5ef1698295f12b5d3e8dd48ef604b066,76597ff6559f3444688438b25b027a6c,40458952c70874241584ea3381c56af9,097c29dc36ff84bf549610a7ff6e50d7,2818e9164091d9b179dfb50135306e65,9cc77d191105a15706205f2004c5a3ea,716fa190a4265be1d0b154b290d9ccf7,93c45dcf8b3b306e3e23eb3ed5447068,ad99a17477fd5733bc9299aac107fb95,62c68bffe87e59644c7538b17fab08ef,71bf3c50795888945ce2e1f46d502c94,e1c56d82ff97927e33e0d4e042ed1d9b,17837942badb187dd9cfe0fef0682d17,97891a0315a9687bbccf9f40d77bab04,abc0541413076f5d4c58e94fb6a28ffb,0b9f6e73b1b5675f044b87d1d74b4329,e8e1b35d321c437ad87965d5777bd6aa,17c90d503d313dbf6867c67df1f54ab1,0bbe55a6a2d4fa07533a3743bde8dc9c,91f8ed772851af524ae48e053f4c11a1,33a8028c36bac2c932004c626103b61d,0a4c07a7525251335e13e3f2c03d361d,4e1039bc6f8e58668865f1df369bacc4,48c21ca700c86e576cf4816a02c5a787,764f52a36e712651e5a9f89dc1f45cbb,275e3a4ff41b9e8423f88904f835d9ab,d16ce9d2261cf4aedf60d93b3a67506f,6b68bf8539c5e4bd2fc3499472411b21,035c8cae54126140a2e75a7ec412d380,0cc5a6e6eb0890c409b5d7b3a8776e54,10ad0ad5f5c395b7bb8e107f54d5dd3a,e5423f83e7c15b3ae6d151f4b153b856,95c0e43635474c87ce65d85c069b6b9e,2a420be7800156d9ec67ea5cfaa8c1ed,9c8bf5b3822875c2839752de91f168db,ff96916a05e23c663793e4ec4275aa74,ab1f069efcdf4fba84ba610adbba2e66,c193204a764fcefb32ebdaf4a22a4e9b,75e5d99a6250ccb7a1e2888695294ebc,7773d3f226c3285aafb0bb3699a62f6b,6bbe6ddc275d46c3f34403668f5a0308,ddd362cfcb6ef6bc678bc4ff708d3cd5,7639d3c57055991654a09f228adda759,ada7fd7eb6615a39d9f990b4d57bfd2b,7066ddd5cec23fb41fc67c0003ea1ff1,f4965327288279754e6ba7804a8c4a3f,18be4fddb99c20646c4ce686af1b4630,6d588e1a885646a7a9580e665775762a,4852c2a0f4ac83e7378f53f2819520fd,cf08d79c684640da15b981823756d2b5,63499b05341b22c45cffa046d79f6f6d,7a3321006d9f8dc324455c8255810da2,70e268c9a974af94046aaabbf6645a79,46c8358aa04e46be5f42c3dae1d2014a,2e539eb93e8f74a5f6107349e68cb127,7c6b2938fe63099e9820cdda5bccba90,c073740edd5c9eb94def9f5a51e5b2a3,d1d49fd9dcc03345f8fbedacb7a7a254,811f3fc261ff68f7256a6e24b743f114,0da2447302f5e02cb991603a19e9b399,2e2592874dd2d3972c155550c651607d,c98cb61d8dc99beefda546f35b8f5e97,1f23f4b83ef20283f4ef333333efee83,200b580fb79956f9beeec992dae774dd,a7861e4942c4ff3036918d9e7a671f28,02af2a02fea6611fca728bdd623879f0,cc4da01a70d2b0ede671fd5efaca3cc2,09956b3d8fde9c9efd3afdc3e95d5971,f21cce32b55cf2a027d75fcecef62209,eb033a4947bd760d6c57b14845d3c36a,3f8a0414599069f39105d9c09e4da2d2,ac86b37bfdbd0ecf388097a04c6a2463,b7ee09af2c3f878de3ae8b6ac9e99f3e,ebf3da0ad76e6240ee75ed39887d7903,b442170f321578cebc11edbc2524aa1e,33148dc15d25516abe612192fbbf97f0,284a551d45034ce32992ca41c0e074c8,e8414e21637ae1cd12a04da9e1afe005,b5e626831029ca2e69c1473930ae3115,757be5702123815361185fd402c43640,9f055f4817aae987a7af7675dae58473,fb35b6ddf157062b6bf53cb19af3aa6e,f2555402c32c04f4b73c7339b9d29d26,f4aa6272e8de6fcb631362988d699d63,cfb2c560c1f422538bbda3c702994a5c,70acfe3427d41223d492fc4156caebfe,81fb3c62574682c2c8fe762f7ab42b6c,483287b28f055271eff812c541444472,0fe58538a7913f1ebfd8d616d7de7027,9b9b3cc9c3e537c78dddbca1996e2a39,c03d8c5169eb0cb125ee6a2862d2c2db,a5e3fe38a7c638f4e5b81fafccc506ec,ceae4a1a0c3e6493d014ca8e5f921a0a,efa4f959947b0705fc616146c4378f63,785177fb078dfbb38188aed9c80b11ae,0452d5939d48cac1631c0562e00479c9,eb9c3af89ace6456d822ab06a2931281,e195e5954da3e889e3730d469f0f8e04,badd55380316801c03a3aee354ceaef7,12ee354ec57af9df448d7a3d1c3dbabb,d0584a3db9a50a75598d6ee7fe365d9a
+remote size: 300224058577
+Using /Volumes/3440_Archive_002
+Downloading /export/scratch/project_342.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 342 - pierce

@@ -1,0 +1,2122 @@
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_flist_with_blanks.txt...
+Found new project 3 - RBC Matrix
+Creating project staging dirs.
+Found new analysis 9 - RBC Matrix Human - 1
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_3/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_3/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 10 - RBC Matrix Human - 2
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 11 - RBC Matrix Human - 3
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 12 - RBC Matrix Human - 4
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 13 - RBC Matrix Human - 5
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 14 - RBC Matrix Human - 6
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 15 - RBC Matrix Human - 7
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 16 - RBC Matrix Human - 8
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 17 - RBC Matrix Human - 9
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 18 - RBC Matrix Human - 10
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 19 - RBC Matrix Human - 11
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 20 - RBC Matrix Human - 12
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 21 - RBC Matrix Human - 13
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 22 - RBC Matrix Human - 14
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 23 - RBC Matrix Human - 15
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 24 - RBC Matrix Human - 16
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 25 - RBC Matrix Human - 17
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 26 - RBC Matrix Human - 18
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 27 - RBC Matrix Human - 19
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 28 - RBC Matrix Human - 20
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 29 - RBC Matrix Human - 21
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 30 - RBC Matrix Human - 22
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 31 - RBC Matrix Human - 23
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 32 - RBC Matrix Human - 24
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 33 - RBC Matrix Human - 25
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 34 - RBC Matrix Human - 26
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 35 - RBC Matrix Human - 27
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 36 - RBC Matrix Human - 28
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 37 - RBC Matrix Human - 29
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 38 - RBC Matrix Human - 30
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 39 - RBC Matrix Human - 31
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 40 - RBC Matrix Human - 32
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 41 - RBC Matrix Human - 33
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 42 - RBC Matrix Human - 34
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 43 - RBC Matrix Human - 35
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 44 - RBC Matrix Human - 36
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 45 - RBC Matrix Human - 37
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 46 - RBC Matrix Human - 38
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 47 - RBC Matrix Human - 39
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 48 - RBC Matrix Human - 40
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 49 - RBC Matrix Human - 41
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 50 - RBC Matrix Human - 42
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 53 - RBC Matrix_Plasmo - 1
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta' -> `./project_3/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta'
+running md5sum ./project_3/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Added prot_db file data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 54 - RBC Matrix_Plasmo - 2
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 55 - RBC Matrix_Plasmo - 3
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 56 - RBC Matrix_Plasmo - 4
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 57 - RBC Matrix_Plasmo - 5
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 58 - RBC Matrix_Plasmo - 6
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 59 - RBC Matrix_Plasmo - 7
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 60 - RBC Matrix_Plasmo - 8
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 61 - RBC Matrix_Plasmo - 9
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 62 - RBC Matrix_Plasmo - 10
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 63 - RBC Matrix_Plasmo - 11
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 64 - RBC Matrix_Plasmo - 12
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 65 - RBC Matrix_Plasmo - 13
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 66 - RBC Matrix_Plasmo - 14
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 67 - RBC Matrix_Plasmo - 15
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 68 - RBC Matrix_Plasmo - 16
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 69 - RBC Matrix_Plasmo - 17
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 70 - RBC Matrix_Plasmo - 18
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 71 - RBC Matrix_Plasmo - 19
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 72 - RBC Matrix_Plasmo - 20
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 73 - RBC Matrix_Plasmo - 21
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 74 - RBC Matrix_Plasmo - 22
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 75 - RBC Matrix_Plasmo - 23
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 76 - RBC Matrix_Plasmo - 24
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 77 - RBC Matrix_Plasmo - 25
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 78 - RBC Matrix_Plasmo - 26
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 79 - RBC Matrix_Plasmo - 27
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 80 - RBC Matrix_Plasmo - 28
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 81 - RBC Matrix_Plasmo - 29
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 82 - RBC Matrix_Plasmo - 30
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 83 - RBC Matrix_Plasmo - 31
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 84 - RBC Matrix_Plasmo - 32
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 85 - RBC Matrix_Plasmo - 33
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 86 - RBC Matrix_Plasmo - 34
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 87 - RBC Matrix_Plasmo - 35
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 88 - RBC Matrix_Plasmo - 36
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 89 - RBC Matrix_Plasmo - 37
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 90 - RBC Matrix_Plasmo - 38
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 91 - RBC Matrix_Plasmo - 39
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 92 - RBC Matrix_Plasmo - 40
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 93 - RBC Matrix_Plasmo - 41
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 94 - RBC Matrix_Plasmo - 42
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_9.tgz
+removed directory: `angela_9'
+removed `archive_9.tgz'
+Added files for analysis 9 - RBC Matrix Human - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_10.tgz
+removed directory: `angela_10'
+removed `archive_10.tgz'
+Added files for analysis 10 - RBC Matrix Human - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_11.tgz
+removed directory: `angela_11'
+removed `archive_11.tgz'
+Added files for analysis 11 - RBC Matrix Human - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_12.tgz
+removed directory: `angela_12'
+removed `archive_12.tgz'
+Added files for analysis 12 - RBC Matrix Human - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_13.tgz
+removed directory: `angela_13'
+removed `archive_13.tgz'
+Added files for analysis 13 - RBC Matrix Human - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_14.tgz
+removed directory: `angela_14'
+removed `archive_14.tgz'
+Added files for analysis 14 - RBC Matrix Human - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_15.tgz
+removed directory: `angela_15'
+removed `archive_15.tgz'
+Added files for analysis 15 - RBC Matrix Human - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_16.tgz
+removed directory: `angela_16'
+removed `archive_16.tgz'
+Added files for analysis 16 - RBC Matrix Human - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_17.tgz
+removed directory: `angela_17'
+removed `archive_17.tgz'
+Added files for analysis 17 - RBC Matrix Human - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_18.tgz
+removed directory: `angela_18'
+removed `archive_18.tgz'
+Added files for analysis 18 - RBC Matrix Human - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_19.tgz
+removed directory: `angela_19'
+removed `archive_19.tgz'
+Added files for analysis 19 - RBC Matrix Human - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_20.tgz
+removed directory: `angela_20'
+removed `archive_20.tgz'
+Added files for analysis 20 - RBC Matrix Human - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_21.tgz
+removed directory: `angela_21'
+removed `archive_21.tgz'
+Added files for analysis 21 - RBC Matrix Human - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_22.tgz
+removed directory: `angela_22'
+removed `archive_22.tgz'
+Added files for analysis 22 - RBC Matrix Human - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_23.tgz
+removed directory: `angela_23'
+removed `archive_23.tgz'
+Added files for analysis 23 - RBC Matrix Human - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_24.tgz
+removed directory: `angela_24'
+removed `archive_24.tgz'
+Added files for analysis 24 - RBC Matrix Human - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_25.tgz
+removed directory: `angela_25'
+removed `archive_25.tgz'
+Added files for analysis 25 - RBC Matrix Human - 17.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_26.tgz
+removed directory: `angela_26'
+removed `archive_26.tgz'
+Added files for analysis 26 - RBC Matrix Human - 18.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_27.tgz
+removed directory: `angela_27'
+removed `archive_27.tgz'
+Added files for analysis 27 - RBC Matrix Human - 19.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_28.tgz
+removed directory: `angela_28'
+removed `archive_28.tgz'
+Added files for analysis 28 - RBC Matrix Human - 20.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_29.tgz
+removed directory: `angela_29'
+removed `archive_29.tgz'
+Added files for analysis 29 - RBC Matrix Human - 21.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_30.tgz
+removed directory: `angela_30'
+removed `archive_30.tgz'
+Added files for analysis 30 - RBC Matrix Human - 22.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_31.tgz
+removed directory: `angela_31'
+removed `archive_31.tgz'
+Added files for analysis 31 - RBC Matrix Human - 23.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_32.tgz
+removed directory: `angela_32'
+removed `archive_32.tgz'
+Added files for analysis 32 - RBC Matrix Human - 24.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_33.tgz
+removed directory: `angela_33'
+removed `archive_33.tgz'
+Added files for analysis 33 - RBC Matrix Human - 25.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_34.tgz
+removed directory: `angela_34'
+removed `archive_34.tgz'
+Added files for analysis 34 - RBC Matrix Human - 26.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_35.tgz
+removed directory: `angela_35'
+removed `archive_35.tgz'
+Added files for analysis 35 - RBC Matrix Human - 27.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_36.tgz
+removed directory: `angela_36'
+removed `archive_36.tgz'
+Added files for analysis 36 - RBC Matrix Human - 28.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_37.tgz
+removed directory: `angela_37'
+removed `archive_37.tgz'
+Added files for analysis 37 - RBC Matrix Human - 29.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_38.tgz
+removed directory: `angela_38'
+removed `archive_38.tgz'
+Added files for analysis 38 - RBC Matrix Human - 30.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_39.tgz
+removed directory: `angela_39'
+removed `archive_39.tgz'
+Added files for analysis 39 - RBC Matrix Human - 31.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_40.tgz
+removed directory: `angela_40'
+removed `archive_40.tgz'
+Added files for analysis 40 - RBC Matrix Human - 32.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_41.tgz
+removed directory: `angela_41'
+removed `archive_41.tgz'
+Added files for analysis 41 - RBC Matrix Human - 33.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_42.tgz
+removed directory: `angela_42'
+removed `archive_42.tgz'
+Added files for analysis 42 - RBC Matrix Human - 34.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_43.tgz
+removed directory: `angela_43'
+removed `archive_43.tgz'
+Added files for analysis 43 - RBC Matrix Human - 35.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_44.tgz
+removed directory: `angela_44'
+removed `archive_44.tgz'
+Added files for analysis 44 - RBC Matrix Human - 36.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_45.tgz
+removed directory: `angela_45'
+removed `archive_45.tgz'
+Added files for analysis 45 - RBC Matrix Human - 37.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_46.tgz
+removed directory: `angela_46'
+removed `archive_46.tgz'
+Added files for analysis 46 - RBC Matrix Human - 38.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_47.tgz
+removed directory: `angela_47'
+removed `archive_47.tgz'
+Added files for analysis 47 - RBC Matrix Human - 39.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_48.tgz
+removed directory: `angela_48'
+removed `archive_48.tgz'
+Added files for analysis 48 - RBC Matrix Human - 40.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_49.tgz
+removed directory: `angela_49'
+removed `archive_49.tgz'
+Added files for analysis 49 - RBC Matrix Human - 41.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_50.tgz
+removed directory: `angela_50'
+removed `archive_50.tgz'
+Added files for analysis 50 - RBC Matrix Human - 42.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_53.tgz
+removed directory: `angela_53'
+removed `archive_53.tgz'
+Added files for analysis 53 - RBC Matrix_Plasmo - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_54.tgz
+removed directory: `angela_54'
+removed `archive_54.tgz'
+Added files for analysis 54 - RBC Matrix_Plasmo - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_55.tgz
+removed directory: `angela_55'
+removed `archive_55.tgz'
+Added files for analysis 55 - RBC Matrix_Plasmo - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_56.tgz
+removed directory: `angela_56'
+removed `archive_56.tgz'
+Added files for analysis 56 - RBC Matrix_Plasmo - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_57.tgz
+removed directory: `angela_57'
+removed `archive_57.tgz'
+Added files for analysis 57 - RBC Matrix_Plasmo - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_58.tgz
+removed directory: `angela_58'
+removed `archive_58.tgz'
+Added files for analysis 58 - RBC Matrix_Plasmo - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_59.tgz
+removed directory: `angela_59'
+removed `archive_59.tgz'
+Added files for analysis 59 - RBC Matrix_Plasmo - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_60.tgz
+removed directory: `angela_60'
+removed `archive_60.tgz'
+Added files for analysis 60 - RBC Matrix_Plasmo - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_61.tgz
+removed directory: `angela_61'
+removed `archive_61.tgz'
+Added files for analysis 61 - RBC Matrix_Plasmo - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_62.tgz
+removed directory: `angela_62'
+removed `archive_62.tgz'
+Added files for analysis 62 - RBC Matrix_Plasmo - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_63.tgz
+removed directory: `angela_63'
+removed `archive_63.tgz'
+Added files for analysis 63 - RBC Matrix_Plasmo - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_64.tgz
+removed directory: `angela_64'
+removed `archive_64.tgz'
+Added files for analysis 64 - RBC Matrix_Plasmo - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_65.tgz
+removed directory: `angela_65'
+removed `archive_65.tgz'
+Added files for analysis 65 - RBC Matrix_Plasmo - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_66.tgz
+removed directory: `angela_66'
+removed `archive_66.tgz'
+Added files for analysis 66 - RBC Matrix_Plasmo - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_67.tgz
+removed directory: `angela_67'
+removed `archive_67.tgz'
+Added files for analysis 67 - RBC Matrix_Plasmo - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_68.tgz
+removed directory: `angela_68'
+removed `archive_68.tgz'
+Added files for analysis 68 - RBC Matrix_Plasmo - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_69.tgz
+removed directory: `angela_69'
+removed `archive_69.tgz'
+Added files for analysis 69 - RBC Matrix_Plasmo - 17.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_70.tgz
+removed directory: `angela_70'
+removed `archive_70.tgz'
+Added files for analysis 70 - RBC Matrix_Plasmo - 18.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_71.tgz
+removed directory: `angela_71'
+removed `archive_71.tgz'
+Added files for analysis 71 - RBC Matrix_Plasmo - 19.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_72.tgz
+removed directory: `angela_72'
+removed `archive_72.tgz'
+Added files for analysis 72 - RBC Matrix_Plasmo - 20.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_73.tgz
+removed directory: `angela_73'
+removed `archive_73.tgz'
+Added files for analysis 73 - RBC Matrix_Plasmo - 21.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_74.tgz
+removed directory: `angela_74'
+removed `archive_74.tgz'
+Added files for analysis 74 - RBC Matrix_Plasmo - 22.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_75.tgz
+removed directory: `angela_75'
+removed `archive_75.tgz'
+Added files for analysis 75 - RBC Matrix_Plasmo - 23.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_76.tgz
+removed directory: `angela_76'
+removed `archive_76.tgz'
+Added files for analysis 76 - RBC Matrix_Plasmo - 24.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_77.tgz
+removed directory: `angela_77'
+removed `archive_77.tgz'
+Added files for analysis 77 - RBC Matrix_Plasmo - 25.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_78.tgz
+removed directory: `angela_78'
+removed `archive_78.tgz'
+Added files for analysis 78 - RBC Matrix_Plasmo - 26.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_79.tgz
+removed directory: `angela_79'
+removed `archive_79.tgz'
+Added files for analysis 79 - RBC Matrix_Plasmo - 27.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_80.tgz
+removed directory: `angela_80'
+removed `archive_80.tgz'
+Added files for analysis 80 - RBC Matrix_Plasmo - 28.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_81.tgz
+removed directory: `angela_81'
+removed `archive_81.tgz'
+Added files for analysis 81 - RBC Matrix_Plasmo - 29.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_82.tgz
+removed directory: `angela_82'
+removed `archive_82.tgz'
+Added files for analysis 82 - RBC Matrix_Plasmo - 30.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_83.tgz
+removed directory: `angela_83'
+removed `archive_83.tgz'
+Added files for analysis 83 - RBC Matrix_Plasmo - 31.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_84.tgz
+removed directory: `angela_84'
+removed `archive_84.tgz'
+Added files for analysis 84 - RBC Matrix_Plasmo - 32.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_85.tgz
+removed directory: `angela_85'
+removed `archive_85.tgz'
+Added files for analysis 85 - RBC Matrix_Plasmo - 33.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_86.tgz
+removed directory: `angela_86'
+removed `archive_86.tgz'
+Added files for analysis 86 - RBC Matrix_Plasmo - 34.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_87.tgz
+removed directory: `angela_87'
+removed `archive_87.tgz'
+Added files for analysis 87 - RBC Matrix_Plasmo - 35.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_88.tgz
+removed directory: `angela_88'
+removed `archive_88.tgz'
+Added files for analysis 88 - RBC Matrix_Plasmo - 36.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_89.tgz
+removed directory: `angela_89'
+removed `archive_89.tgz'
+Added files for analysis 89 - RBC Matrix_Plasmo - 37.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_90.tgz
+removed directory: `angela_90'
+removed `archive_90.tgz'
+Added files for analysis 90 - RBC Matrix_Plasmo - 38.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_91.tgz
+removed directory: `angela_91'
+removed `archive_91.tgz'
+Added files for analysis 91 - RBC Matrix_Plasmo - 39.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_92.tgz
+removed directory: `angela_92'
+removed `archive_92.tgz'
+Added files for analysis 92 - RBC Matrix_Plasmo - 40.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_93.tgz
+removed directory: `angela_93'
+removed `archive_93.tgz'
+Added files for analysis 93 - RBC Matrix_Plasmo - 41.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_94.tgz
+removed directory: `angela_94'
+removed `archive_94.tgz'
+Added files for analysis 94 - RBC Matrix_Plasmo - 42.
+Project contains 931 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 1130237952 bytes == 0x4d45000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/150 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 102740
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------930f86fb9c1c
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  100k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sat, 04 Sep 2010 14:52:48 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/150
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100  100k    0     0  100  100k      0  2429k --:--:-- --:--:-- --:--:-- 2640k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_3.7z.*' 2793b2f6e17a4e087993c4ef24a6adc7 1130236374
+Client output: ==> 
+remote path: /export/scratch/project_3.7z.*
+remote md5: 2793b2f6e17a4e087993c4ef24a6adc7
+remote size: 1130236374
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_3.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 3 - RBC Matrix
+Found new project 4 - RBC Mem B
+Creating project staging dirs.
+Found new analysis 95 - RBC Mem B Human - 1
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_4/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_4/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 96 - RBC Mem B Human - 2
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 97 - RBC Mem B Human - 3
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 98 - RBC Mem B Human - 4
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 99 - RBC Mem B Human - 5
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 100 - RBC Mem B Human - 6
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 101 - RBC Mem B Human - 7
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 102 - RBC Mem B Human - 8
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 103 - RBC Mem B Human - 9
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 104 - RBC Mem B Human - 10
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 105 - RBC Mem B Human - 11
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 106 - RBC Mem B Human - 12
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 107 - RBC Mem B Human - 13
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 108 - RBC Mem B Human - 14
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 109 - RBC Mem B Human - 15
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 110 - RBC Mem B Human - 16
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 111 - RBC Mem B Human - 17
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 112 - RBC Mem B Human - 18
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 113 - RBC Mem B Human - 19
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 114 - RBC Mem B Human - 20
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 115 - RBC Mem B Human - 21
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 116 - RBC Mem B Human - 22
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 117 - RBC Mem B Human - 23
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 118 - RBC Mem B Human - 24
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 119 - RBC Mem B Human - 25
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 120 - RBC Mem B Human - 26
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 121 - RBC Mem B Plasmo - 1
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta' -> `./project_4/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta'
+running md5sum ./project_4/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Added prot_db file data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 122 - RBC Mem B Plasmo - 2
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 123 - RBC Mem B Plasmo - 3
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 124 - RBC Mem B Plasmo - 4
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 125 - RBC Mem B Plasmo - 5
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 126 - RBC Mem B Plasmo - 6
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 127 - RBC Mem B Plasmo - 7
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 128 - RBC Mem B Plasmo - 8
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 129 - RBC Mem B Plasmo - 9
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 130 - RBC Mem B Plasmo - 10
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 131 - RBC Mem B Plasmo - 11
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 132 - RBC Mem B Plasmo - 12
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 133 - RBC Mem B Plasmo - 13
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 134 - RBC Mem B Plasmo - 14
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 135 - RBC Mem B Plasmo - 15
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 136 - RBC Mem B Plasmo - 16
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 137 - RBC Mem B Plasmo - 17
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 138 - RBC Mem B Plasmo - 18
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 139 - RBC Mem B Plasmo - 19
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 140 - RBC Mem B Plasmo - 20
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 141 - RBC Mem B Plasmo - 21
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 142 - RBC Mem B Plasmo - 22
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 143 - RBC Mem B Plasmo - 23
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 144 - RBC Mem B Plasmo - 24
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 145 - RBC Mem B Plasmo - 25
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 146 - RBC Mem B Plasmo - 26
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_95.tgz
+removed directory: `angela_95'
+removed `archive_95.tgz'
+Added files for analysis 95 - RBC Mem B Human - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_96.tgz
+removed directory: `angela_96'
+removed `archive_96.tgz'
+Added files for analysis 96 - RBC Mem B Human - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_97.tgz
+removed directory: `angela_97'
+removed `archive_97.tgz'
+Added files for analysis 97 - RBC Mem B Human - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_98.tgz
+removed directory: `angela_98'
+removed `archive_98.tgz'
+Added files for analysis 98 - RBC Mem B Human - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_99.tgz
+removed directory: `angela_99'
+removed `archive_99.tgz'
+Added files for analysis 99 - RBC Mem B Human - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_100.tgz
+removed directory: `angela_100'
+removed `archive_100.tgz'
+Added files for analysis 100 - RBC Mem B Human - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_101.tgz
+removed directory: `angela_101'
+removed `archive_101.tgz'
+Added files for analysis 101 - RBC Mem B Human - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_102.tgz
+removed directory: `angela_102'
+removed `archive_102.tgz'
+Added files for analysis 102 - RBC Mem B Human - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_103.tgz
+removed directory: `angela_103'
+removed `archive_103.tgz'
+Added files for analysis 103 - RBC Mem B Human - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_104.tgz
+removed directory: `angela_104'
+removed `archive_104.tgz'
+Added files for analysis 104 - RBC Mem B Human - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_105.tgz
+removed directory: `angela_105'
+removed `archive_105.tgz'
+Added files for analysis 105 - RBC Mem B Human - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_106.tgz
+removed directory: `angela_106'
+removed `archive_106.tgz'
+Added files for analysis 106 - RBC Mem B Human - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_107.tgz
+removed directory: `angela_107'
+removed `archive_107.tgz'
+Added files for analysis 107 - RBC Mem B Human - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_108.tgz
+removed directory: `angela_108'
+removed `archive_108.tgz'
+Added files for analysis 108 - RBC Mem B Human - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_109.tgz
+removed directory: `angela_109'
+removed `archive_109.tgz'
+Added files for analysis 109 - RBC Mem B Human - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_110.tgz
+removed directory: `angela_110'
+removed `archive_110.tgz'
+Added files for analysis 110 - RBC Mem B Human - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_111.tgz
+removed directory: `angela_111'
+removed `archive_111.tgz'
+Added files for analysis 111 - RBC Mem B Human - 17.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_112.tgz
+removed directory: `angela_112'
+removed `archive_112.tgz'
+Added files for analysis 112 - RBC Mem B Human - 18.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_113.tgz
+removed directory: `angela_113'
+removed `archive_113.tgz'
+Added files for analysis 113 - RBC Mem B Human - 19.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_114.tgz
+removed directory: `angela_114'
+removed `archive_114.tgz'
+Added files for analysis 114 - RBC Mem B Human - 20.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_115.tgz
+removed directory: `angela_115'
+removed `archive_115.tgz'
+Added files for analysis 115 - RBC Mem B Human - 21.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_116.tgz
+removed directory: `angela_116'
+removed `archive_116.tgz'
+Added files for analysis 116 - RBC Mem B Human - 22.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_117.tgz
+removed directory: `angela_117'
+removed `archive_117.tgz'
+Added files for analysis 117 - RBC Mem B Human - 23.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_118.tgz
+removed directory: `angela_118'
+removed `archive_118.tgz'
+Added files for analysis 118 - RBC Mem B Human - 24.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_119.tgz
+removed directory: `angela_119'
+removed `archive_119.tgz'
+Added files for analysis 119 - RBC Mem B Human - 25.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_120.tgz
+removed directory: `angela_120'
+removed `archive_120.tgz'
+Added files for analysis 120 - RBC Mem B Human - 26.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_121.tgz
+removed directory: `angela_121'
+removed `archive_121.tgz'
+Added files for analysis 121 - RBC Mem B Plasmo - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_122.tgz
+removed directory: `angela_122'
+removed `archive_122.tgz'
+Added files for analysis 122 - RBC Mem B Plasmo - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_123.tgz
+removed directory: `angela_123'
+removed `archive_123.tgz'
+Added files for analysis 123 - RBC Mem B Plasmo - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_124.tgz
+removed directory: `angela_124'
+removed `archive_124.tgz'
+Added files for analysis 124 - RBC Mem B Plasmo - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_125.tgz
+removed directory: `angela_125'
+removed `archive_125.tgz'
+Added files for analysis 125 - RBC Mem B Plasmo - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_126.tgz
+removed directory: `angela_126'
+removed `archive_126.tgz'
+Added files for analysis 126 - RBC Mem B Plasmo - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_127.tgz
+removed directory: `angela_127'
+removed `archive_127.tgz'
+Added files for analysis 127 - RBC Mem B Plasmo - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_128.tgz
+removed directory: `angela_128'
+removed `archive_128.tgz'
+Added files for analysis 128 - RBC Mem B Plasmo - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_129.tgz
+removed directory: `angela_129'
+removed `archive_129.tgz'
+Added files for analysis 129 - RBC Mem B Plasmo - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_130.tgz
+removed directory: `angela_130'
+removed `archive_130.tgz'
+Added files for analysis 130 - RBC Mem B Plasmo - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_131.tgz
+removed directory: `angela_131'
+removed `archive_131.tgz'
+Added files for analysis 131 - RBC Mem B Plasmo - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_132.tgz
+removed directory: `angela_132'
+removed `archive_132.tgz'
+Added files for analysis 132 - RBC Mem B Plasmo - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_133.tgz
+removed directory: `angela_133'
+removed `archive_133.tgz'
+Added files for analysis 133 - RBC Mem B Plasmo - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_134.tgz
+removed directory: `angela_134'
+removed `archive_134.tgz'
+Added files for analysis 134 - RBC Mem B Plasmo - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_135.tgz
+removed directory: `angela_135'
+removed `archive_135.tgz'
+Added files for analysis 135 - RBC Mem B Plasmo - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_136.tgz
+removed directory: `angela_136'
+removed `archive_136.tgz'
+Added files for analysis 136 - RBC Mem B Plasmo - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_137.tgz
+removed directory: `angela_137'
+removed `archive_137.tgz'
+Added files for analysis 137 - RBC Mem B Plasmo - 17.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_138.tgz
+removed directory: `angela_138'
+removed `archive_138.tgz'
+Added files for analysis 138 - RBC Mem B Plasmo - 18.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_139.tgz
+removed directory: `angela_139'
+removed `archive_139.tgz'
+Added files for analysis 139 - RBC Mem B Plasmo - 19.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_140.tgz
+removed directory: `angela_140'
+removed `archive_140.tgz'
+Added files for analysis 140 - RBC Mem B Plasmo - 20.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_141.tgz
+removed directory: `angela_141'
+removed `archive_141.tgz'
+Added files for analysis 141 - RBC Mem B Plasmo - 21.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_142.tgz
+removed directory: `angela_142'
+removed `archive_142.tgz'
+Added files for analysis 142 - RBC Mem B Plasmo - 22.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_143.tgz
+removed directory: `angela_143'
+removed `archive_143.tgz'
+Added files for analysis 143 - RBC Mem B Plasmo - 23.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_144.tgz
+removed directory: `angela_144'
+removed `archive_144.tgz'
+Added files for analysis 144 - RBC Mem B Plasmo - 24.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_145.tgz
+removed directory: `angela_145'
+removed `archive_145.tgz'
+Added files for analysis 145 - RBC Mem B Plasmo - 25.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_146.tgz
+removed directory: `angela_146'
+removed `archive_146.tgz'
+Added files for analysis 146 - RBC Mem B Plasmo - 26.
+Project contains 578 total files.
+Generated filelist.txt
+Zipping and compressing project...
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/151 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 65838
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------a6d66661b5a4
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 65838    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sat, 04 Sep 2010 14:59:05 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/151
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 65838    0     0  100 65838      0   382k --:--:-- --:--:-- --:--:--  389k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_4.7z.*' 965c35f92113c1c6e44f59a290d5dc1f 924543391
+Client output: ==> 
+remote path: /export/scratch/project_4.7z.*
+remote md5: 965c35f92113c1c6e44f59a290d5dc1f
+remote size: 924543391
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_4.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 4 - RBC Mem B
+Found new project 7 - Jeff
+Creating project staging dirs.
+Found new analysis 156 - Jeff Top
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta' -> `./project_7/data_files/REFSEQ.MOUSE.20061206.fasta'
+running md5sum ./project_7/data_files/REFSEQ.MOUSE.20061206.fasta
+Added prot_db file data_files/REFSEQ.MOUSE.20061206.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 157 - Jeff Bottom
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Found new analysis 313 - treatedband
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Found new analysis 314 - unknownband
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_7/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_7/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 315 - untreated
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Found new analysis 332 - 1222007LargeBand
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 407 - 3207 - 1
+Using prot db: MOUSE/mouse.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/MOUSE/mouse.fasta' -> `./project_7/data_files/mouse.fasta'
+running md5sum ./project_7/data_files/mouse.fasta
+Added prot_db file data_files/mouse.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 408 - 3207 - 2
+Using prot db: MOUSE/mouse.fasta
+Already added mouse.fasta
+Found new analysis 409 - 3207 - 3
+Using prot db: MOUSE/mouse.fasta
+Already added mouse.fasta
+Found new analysis 410 - 3207 - 4
+Using prot db: MOUSE/mouse.fasta
+Already added mouse.fasta
+Found new analysis 411 - 3207 - 5
+Using prot db: MOUSE/mouse.fasta
+Already added mouse.fasta
+Found new analysis 412 - 3207 - 6
+Using prot db: MOUSE/mouse.fasta
+Already added mouse.fasta
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_156.tgz
+removed directory: `Gene_156'
+removed `archive_156.tgz'
+Added files for analysis 156 - Jeff Top.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_157.tgz
+removed directory: `Gene_157'
+removed `archive_157.tgz'
+Added files for analysis 157 - Jeff Bottom.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_313.tgz
+removed directory: `Gene_313'
+removed `archive_313.tgz'
+Added files for analysis 313 - treatedband.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_314.tgz
+removed directory: `Gene_314'
+removed `archive_314.tgz'
+Added files for analysis 314 - unknownband.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_315.tgz
+removed directory: `Gene_315'
+removed `archive_315.tgz'
+Added files for analysis 315 - untreated.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_332.tgz
+removed directory: `Gene_332'
+removed `archive_332.tgz'
+Added files for analysis 332 - 1222007LargeBand.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_407.tgz
+removed directory: `Gene_407'
+removed `archive_407.tgz'
+Added files for analysis 407 - 3207 - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_408.tgz
+removed directory: `Gene_408'
+removed `archive_408.tgz'
+Added files for analysis 408 - 3207 - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_409.tgz
+removed directory: `Gene_409'
+removed `archive_409.tgz'
+Added files for analysis 409 - 3207 - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_410.tgz
+removed directory: `Gene_410'
+removed `archive_410.tgz'
+Added files for analysis 410 - 3207 - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_411.tgz
+removed directory: `Gene_411'
+removed `archive_411.tgz'
+Added files for analysis 411 - 3207 - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_412.tgz
+removed directory: `Gene_412'
+removed `archive_412.tgz'
+Added files for analysis 412 - 3207 - 6.
+Project contains 158 total files.
+Generated filelist.txt
+Zipping and compressing project...
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/152 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 32232
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------2d90ca40a9d8
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 32232    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sat, 04 Sep 2010 15:00:25 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/152
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 32232    0     0  100 32232      0   970k --:--:-- --:--:-- --:--:-- 1085k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_7.7z.*' a9d9d1aec3a755759c57b15cf61a9509 183163644
+Client output: ==> 
+remote path: /export/scratch/project_7.7z.*
+remote md5: a9d9d1aec3a755759c57b15cf61a9509
+remote size: 183163644
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_7.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 7 - Jeff
+Found new project 8 - FT2Window
+Creating project staging dirs.
+Found new analysis 155 - FL2 Window
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_8/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_8/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_155.tgz
+removed directory: `Gene_155'
+removed `archive_155.tgz'
+Added files for analysis 155 - FL2 Window.
+Project contains 13 total files.
+Generated filelist.txt
+Zipping and compressing project...
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/153 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 3910
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------beab4050d40e
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  3910    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sat, 04 Sep 2010 15:00:51 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/153
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100  3910    0     0  100  3910      0   187k --:--:-- --:--:-- --:--:--  224k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_8.7z.*' b9aad1f1bd9066dc0fcc050eee5e840d 56179928
+Client output: ==> 
+remote path: /export/scratch/project_8.7z.*
+remote md5: b9aad1f1bd9066dc0fcc050eee5e840d
+remote size: 56179928
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_8.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 8 - FT2Window
+Found new project 11 - RBC Matrix CD
+Creating project staging dirs.
+Found new analysis 188 - RBC Mem Human - 1
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_11/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_11/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 189 - RBC Mem Human - 2
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 190 - RBC Mem Human - 3
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 191 - RBC Mem Human - 4
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 192 - RBC Mem Human - 5
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 193 - RBC Mem Human - 6
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 194 - RBC Mem Human - 7
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 195 - RBC Mem Human - 8
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 196 - RBC Mem Human - 9
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 197 - RBC Mem Human - 10
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 198 - RBC Mem Human - 11
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 199 - RBC Mem Human - 12
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 200 - RBC Mem Human - 13
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 201 - RBC Mem Human - 14
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 202 - RBC Mem Human - 15
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 203 - RBC Mem Human - 16
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 204 - RBC Mem Human - 17
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 205 - RBC Mem Human - 18
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 206 - RBC Mem Human - 19
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 207 - RBC Mem Human - 20
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 208 - RBC Mem Human - 21
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 226 - RBC Mem plasmo - 1
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta' -> `./project_11/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta'
+running md5sum ./project_11/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Added prot_db file data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 227 - RBC Mem plasmo - 2
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 228 - RBC Mem plasmo - 3
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 229 - RBC Mem plasmo - 4
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 230 - RBC Mem plasmo - 5
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 231 - RBC Mem plasmo - 6
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 232 - RBC Mem plasmo - 7
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 233 - RBC Mem plasmo - 8
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 234 - RBC Mem plasmo - 9
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 235 - RBC Mem plasmo - 10
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 236 - RBC Mem plasmo - 11
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 237 - RBC Mem plasmo - 12
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 238 - RBC Mem plasmo - 13
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 239 - RBC Mem plasmo - 14
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 240 - RBC Mem plasmo - 15
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 241 - RBC Mem plasmo - 16
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 242 - RBC Mem plasmo - 17
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 243 - RBC Mem plasmo - 18
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 244 - RBC Mem plasmo - 19
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 245 - RBC Mem plasmo - 20
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 246 - RBC Mem plasmo - 21
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_188.tgz
+removed directory: `angela_188'
+removed `archive_188.tgz'
+Added files for analysis 188 - RBC Mem Human - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_189.tgz
+removed directory: `angela_189'
+removed `archive_189.tgz'
+Added files for analysis 189 - RBC Mem Human - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_190.tgz
+removed directory: `angela_190'
+removed `archive_190.tgz'
+Added files for analysis 190 - RBC Mem Human - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_191.tgz
+removed directory: `angela_191'
+removed `archive_191.tgz'
+Added files for analysis 191 - RBC Mem Human - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_192.tgz
+removed directory: `angela_192'
+removed `archive_192.tgz'
+Added files for analysis 192 - RBC Mem Human - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_193.tgz
+removed directory: `angela_193'
+removed `archive_193.tgz'
+Added files for analysis 193 - RBC Mem Human - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_194.tgz
+removed directory: `angela_194'
+removed `archive_194.tgz'
+Added files for analysis 194 - RBC Mem Human - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_195.tgz
+removed directory: `angela_195'
+removed `archive_195.tgz'
+Added files for analysis 195 - RBC Mem Human - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_196.tgz
+removed directory: `angela_196'
+removed `archive_196.tgz'
+Added files for analysis 196 - RBC Mem Human - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_197.tgz
+removed directory: `angela_197'
+removed `archive_197.tgz'
+Added files for analysis 197 - RBC Mem Human - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_198.tgz
+removed directory: `angela_198'
+removed `archive_198.tgz'
+Added files for analysis 198 - RBC Mem Human - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_199.tgz
+removed directory: `angela_199'
+removed `archive_199.tgz'
+Added files for analysis 199 - RBC Mem Human - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_200.tgz
+removed directory: `angela_200'
+removed `archive_200.tgz'
+Added files for analysis 200 - RBC Mem Human - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_201.tgz
+removed directory: `angela_201'
+removed `archive_201.tgz'
+Added files for analysis 201 - RBC Mem Human - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_202.tgz
+removed directory: `angela_202'
+removed `archive_202.tgz'
+Added files for analysis 202 - RBC Mem Human - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_203.tgz
+removed directory: `angela_203'
+removed `archive_203.tgz'
+Added files for analysis 203 - RBC Mem Human - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_204.tgz
+removed directory: `angela_204'
+removed `archive_204.tgz'
+Added files for analysis 204 - RBC Mem Human - 17.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_205.tgz
+removed directory: `angela_205'
+removed `archive_205.tgz'
+Added files for analysis 205 - RBC Mem Human - 18.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_206.tgz
+removed directory: `angela_206'
+removed `archive_206.tgz'
+Added files for analysis 206 - RBC Mem Human - 19.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_207.tgz
+removed directory: `angela_207'
+removed `archive_207.tgz'
+Added files for analysis 207 - RBC Mem Human - 20.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_208.tgz
+removed directory: `angela_208'
+removed `archive_208.tgz'
+Added files for analysis 208 - RBC Mem Human - 21.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_226.tgz
+removed directory: `angela_226'
+removed `archive_226.tgz'
+Added files for analysis 226 - RBC Mem plasmo - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_227.tgz
+removed directory: `angela_227'
+removed `archive_227.tgz'
+Added files for analysis 227 - RBC Mem plasmo - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_228.tgz
+removed directory: `angela_228'
+removed `archive_228.tgz'
+Added files for analysis 228 - RBC Mem plasmo - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_229.tgz
+removed directory: `angela_229'
+removed `archive_229.tgz'
+Added files for analysis 229 - RBC Mem plasmo - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_230.tgz
+removed directory: `angela_230'
+removed `archive_230.tgz'
+Added files for analysis 230 - RBC Mem plasmo - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_231.tgz
+removed directory: `angela_231'
+removed `archive_231.tgz'
+Added files for analysis 231 - RBC Mem plasmo - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_232.tgz
+removed directory: `angela_232'
+removed `archive_232.tgz'
+Added files for analysis 232 - RBC Mem plasmo - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_233.tgz
+removed directory: `angela_233'
+removed `archive_233.tgz'
+Added files for analysis 233 - RBC Mem plasmo - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_234.tgz
+removed directory: `angela_234'
+removed `archive_234.tgz'
+Added files for analysis 234 - RBC Mem plasmo - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_235.tgz
+removed directory: `angela_235'
+removed `archive_235.tgz'
+Added files for analysis 235 - RBC Mem plasmo - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_236.tgz
+removed directory: `angela_236'
+removed `archive_236.tgz'
+Added files for analysis 236 - RBC Mem plasmo - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_237.tgz
+removed directory: `angela_237'
+removed `archive_237.tgz'
+Added files for analysis 237 - RBC Mem plasmo - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_238.tgz
+removed directory: `angela_238'
+removed `archive_238.tgz'
+Added files for analysis 238 - RBC Mem plasmo - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_239.tgz
+removed directory: `angela_239'
+removed `archive_239.tgz'
+Added files for analysis 239 - RBC Mem plasmo - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_240.tgz
+removed directory: `angela_240'
+removed `archive_240.tgz'
+Added files for analysis 240 - RBC Mem plasmo - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_241.tgz
+removed directory: `angela_241'
+removed `archive_241.tgz'
+Added files for analysis 241 - RBC Mem plasmo - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_242.tgz
+removed directory: `angela_242'
+removed `archive_242.tgz'
+Added files for analysis 242 - RBC Mem plasmo - 17.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_243.tgz
+removed directory: `angela_243'
+removed `archive_243.tgz'
+Added files for analysis 243 - RBC Mem plasmo - 18.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_244.tgz
+removed directory: `angela_244'
+removed `archive_244.tgz'
+Added files for analysis 244 - RBC Mem plasmo - 19.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_245.tgz
+removed directory: `angela_245'
+removed `archive_245.tgz'
+Added files for analysis 245 - RBC Mem plasmo - 20.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_246.tgz
+removed directory: `angela_246'
+removed `archive_246.tgz'
+Added files for analysis 246 - RBC Mem plasmo - 21.
+Project contains 458 total files.
+Generated filelist.txt
+Zipping and compressing project...
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/154 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 53234
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------69a543875ae9
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 53234    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sat, 04 Sep 2010 15:02:14 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/154
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 53234    0     0  100 53234      0   901k --:--:-- --:--:-- --:--:--  945k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_11.7z.*' 358fb1b884249690b1047007699b5f7f 169144071
+Client output: ==> 
+remote path: /export/scratch/project_11.7z.*
+remote md5: 358fb1b884249690b1047007699b5f7f
+remote size: 169144071
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_11.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 11 - RBC Matrix CD
+Found new project 12 - RBC Mem B2
+Creating project staging dirs.
+Found new analysis 171 - RBC Mem Human - 1
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_12/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_12/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 172 - RBC Mem Human - 2
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 173 - RBC Mem Human - 3
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 174 - RBC Mem Human - 4
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 175 - RBC Mem Human - 5
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 176 - RBC Mem Human - 6
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 177 - RBC Mem Human - 7
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 178 - RBC Mem Human - 8
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 179 - RBC Mem Human - 9
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 180 - RBC Mem Human - 10
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 181 - RBC Mem Human - 11
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 182 - RBC Mem Human - 12
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 183 - RBC Mem Human - 13
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 184 - RBC Mem Human - 14
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 185 - RBC Mem Human - 15
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 186 - RBC Mem Human - 16
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 187 - RBC Mem Human - 17
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 209 - RBC Mem Plasmo - 1
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta' -> `./project_12/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta'
+running md5sum ./project_12/data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Added prot_db file data_files/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 210 - RBC Mem Plasmo - 2
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 211 - RBC Mem Plasmo - 3
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 212 - RBC Mem Plasmo - 4
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 213 - RBC Mem Plasmo - 5
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 214 - RBC Mem Plasmo - 6
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 215 - RBC Mem Plasmo - 7
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 216 - RBC Mem Plasmo - 8
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 217 - RBC Mem Plasmo - 9
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 218 - RBC Mem Plasmo - 10
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 219 - RBC Mem Plasmo - 11
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 220 - RBC Mem Plasmo - 12
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 221 - RBC Mem Plasmo - 13
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 222 - RBC Mem Plasmo - 14
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 223 - RBC Mem Plasmo - 15
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 224 - RBC Mem Plasmo - 16
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Found new analysis 225 - RBC Mem Plasmo - 17
+Using prot db: PFALCIPARUMANNOTATEDPROTEINS_PLASMODB-5.0/PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Already added PfalciparumAnnotatedProteins_plasmoDB-5.0.fasta
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_171.tgz
+removed directory: `angela_171'
+removed `archive_171.tgz'
+Added files for analysis 171 - RBC Mem Human - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_172.tgz
+removed directory: `angela_172'
+removed `archive_172.tgz'
+Added files for analysis 172 - RBC Mem Human - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_173.tgz
+removed directory: `angela_173'
+removed `archive_173.tgz'
+Added files for analysis 173 - RBC Mem Human - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_174.tgz
+removed directory: `angela_174'
+removed `archive_174.tgz'
+Added files for analysis 174 - RBC Mem Human - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_175.tgz
+removed directory: `angela_175'
+removed `archive_175.tgz'
+Added files for analysis 175 - RBC Mem Human - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_176.tgz
+removed directory: `angela_176'
+removed `archive_176.tgz'
+Added files for analysis 176 - RBC Mem Human - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_177.tgz
+removed directory: `angela_177'
+removed `archive_177.tgz'
+Added files for analysis 177 - RBC Mem Human - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_178.tgz
+removed directory: `angela_178'
+removed `archive_178.tgz'
+Added files for analysis 178 - RBC Mem Human - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_179.tgz
+removed directory: `angela_179'
+removed `archive_179.tgz'
+Added files for analysis 179 - RBC Mem Human - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_180.tgz
+removed directory: `angela_180'
+removed `archive_180.tgz'
+Added files for analysis 180 - RBC Mem Human - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_181.tgz
+removed directory: `angela_181'
+removed `archive_181.tgz'
+Added files for analysis 181 - RBC Mem Human - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_182.tgz
+removed directory: `angela_182'
+removed `archive_182.tgz'
+Added files for analysis 182 - RBC Mem Human - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_183.tgz
+removed directory: `angela_183'
+removed `archive_183.tgz'
+Added files for analysis 183 - RBC Mem Human - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_184.tgz
+removed directory: `angela_184'
+removed `archive_184.tgz'
+Added files for analysis 184 - RBC Mem Human - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_185.tgz
+removed directory: `angela_185'
+removed `archive_185.tgz'
+Added files for analysis 185 - RBC Mem Human - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_186.tgz
+removed directory: `angela_186'
+removed `archive_186.tgz'
+Added files for analysis 186 - RBC Mem Human - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_187.tgz
+removed directory: `angela_187'
+removed `archive_187.tgz'
+Added files for analysis 187 - RBC Mem Human - 17.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_209.tgz
+removed directory: `angela_209'
+removed `archive_209.tgz'
+Added files for analysis 209 - RBC Mem Plasmo - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_210.tgz
+removed directory: `angela_210'
+removed `archive_210.tgz'
+Added files for analysis 210 - RBC Mem Plasmo - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_211.tgz
+removed directory: `angela_211'
+removed `archive_211.tgz'
+Added files for analysis 211 - RBC Mem Plasmo - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_212.tgz
+removed directory: `angela_212'
+removed `archive_212.tgz'
+Added files for analysis 212 - RBC Mem Plasmo - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_213.tgz
+removed directory: `angela_213'
+removed `archive_213.tgz'
+Added files for analysis 213 - RBC Mem Plasmo - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_214.tgz
+removed directory: `angela_214'
+removed `archive_214.tgz'
+Added files for analysis 214 - RBC Mem Plasmo - 6.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_215.tgz
+removed directory: `angela_215'
+removed `archive_215.tgz'
+Added files for analysis 215 - RBC Mem Plasmo - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_216.tgz
+removed directory: `angela_216'
+removed `archive_216.tgz'
+Added files for analysis 216 - RBC Mem Plasmo - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_217.tgz
+removed directory: `angela_217'
+removed `archive_217.tgz'
+Added files for analysis 217 - RBC Mem Plasmo - 9.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_218.tgz
+removed directory: `angela_218'
+removed `archive_218.tgz'
+Added files for analysis 218 - RBC Mem Plasmo - 10.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_219.tgz
+removed directory: `angela_219'
+removed `archive_219.tgz'
+Added files for analysis 219 - RBC Mem Plasmo - 11.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_220.tgz
+removed directory: `angela_220'
+removed `archive_220.tgz'
+Added files for analysis 220 - RBC Mem Plasmo - 12.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_221.tgz
+removed directory: `angela_221'
+removed `archive_221.tgz'
+Added files for analysis 221 - RBC Mem Plasmo - 13.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_222.tgz
+removed directory: `angela_222'
+removed `archive_222.tgz'
+Added files for analysis 222 - RBC Mem Plasmo - 14.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_223.tgz
+removed directory: `angela_223'
+removed `archive_223.tgz'
+Added files for analysis 223 - RBC Mem Plasmo - 15.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_224.tgz
+removed directory: `angela_224'
+removed `archive_224.tgz'
+Added files for analysis 224 - RBC Mem Plasmo - 16.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_225.tgz
+removed directory: `angela_225'
+removed `archive_225.tgz'
+Added files for analysis 225 - RBC Mem Plasmo - 17.
+Project contains 376 total files.
+Generated filelist.txt
+Zipping and compressing project...
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/155 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 44506
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------6a9edb9f77c8
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 44506    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sat, 04 Sep 2010 15:03:55 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/155
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 44506    0     0  100 44506      0   395k --:--:-- --:--:-- --:--:--  406k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_12.7z.*' 7454bd95b7c74530bcd8ec8c5730e268 228054546
+Client output: ==> 
+remote path: /export/scratch/project_12.7z.*
+remote md5: 7454bd95b7c74530bcd8ec8c5730e268
+remote size: 228054546
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_12.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 12 - RBC Mem B2
+Found new project 13 - CT26
+Creating project staging dirs.
+Found new analysis 300 - CT26 New
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta' -> `./project_13/data_files/REFSEQ.MOUSE.20061206.fasta'
+running md5sum ./project_13/data_files/REFSEQ.MOUSE.20061206.fasta
+Added prot_db file data_files/REFSEQ.MOUSE.20061206.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 301 - CT26 Old
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Found new analysis 308 - CT26 Heavy
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Found new analysis 324 - CT26
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Found new analysis 325 - YAMC
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Found new analysis 334 - YAMC 1
+Using prot db: REFSEQ.MOUSE.20061206/REFSEQ.MOUSE.20061206.fasta
+Already added REFSEQ.MOUSE.20061206.fasta
+Adding Sequest search params to analysis
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_300.tgz
+removed directory: `Ken_300'
+removed `archive_300.tgz'
+Added files for analysis 300 - CT26 New.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_301.tgz
+removed directory: `Ken_301'
+removed `archive_301.tgz'
+Added files for analysis 301 - CT26 Old.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_308.tgz
+removed directory: `Ken_308'
+removed `archive_308.tgz'
+Added files for analysis 308 - CT26 Heavy.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_324.tgz
+removed directory: `Ken_324'
+removed `archive_324.tgz'
+Added files for analysis 324 - CT26.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_325.tgz
+removed directory: `Ken_325'
+removed `archive_325.tgz'
+Added files for analysis 325 - YAMC.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_334.tgz
+removed directory: `Ken_334'
+removed `archive_334.tgz'
+Added files for analysis 334 - YAMC 1.
+Project contains 130 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 2097156096 bytes == 0x20a16000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/156 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 26965
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------b234e51bbfe2
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 26965    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sat, 04 Sep 2010 15:12:33 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/156
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 26965    0     0  100 26965      0   908k --:--:-- --:--:-- --:--:-- 1012k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_13.7z.*' 9139f071a89cb3c91e38d67c6f13d30f,089cfe62de53ac44d2cf424a4d3afab0 2216273314
+Client output: ==> 
+remote path: /export/scratch/project_13.7z.*
+remote md5: 9139f071a89cb3c91e38d67c6f13d30f,089cfe62de53ac44d2cf424a4d3afab0
+remote size: 2216273314
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_13.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 13 - CT26
+Found new project 16 - Serum Protein
+Creating project staging dirs.
+Found new analysis 302 - Serum Protein
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_16/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_16/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_302.tgz
+removed directory: `yuehua_302'
+removed `archive_302.tgz'
+Added files for analysis 302 - Serum Protein.
+Project contains 14 total files.
+Generated filelist.txt
+Zipping and compressing project...
+scp: /export/scratch/project_16.7z.*: No such file or directory
+"md5" was called incorrectly. Call as "/usr/bin/thor client:md5 <array of archive filenames> <array of md5 hashes>".
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/ftools.rb:106:in `stat': No such file or directory - /tmp/restore-1283613159/project_16/README.json (Errno::ENOENT)
+	from /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/ftools.rb:106:in `move'
+	from /Users/itmat/.thor/18e07807b65102b98a168067622547d3:26:in `extract_readme_from_archive'
+	from /Users/itmat/.thor/18e07807b65102b98a168067622547d3:106:in `update_readme'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `send'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `run'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:109:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `call'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:161:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/base.rb:379:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:140:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/runner.rb:34:in `method_missing'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `send'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `run'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:108:in `run'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:109:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `call'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:161:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/base.rb:379:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:140:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/bin/thor:6
+	from /usr/bin/thor:19:in `load'
+	from /usr/bin/thor:19
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_16.7z.*' a3eabfc0ffd0b55416f3f818fcdbd6fa 42048216
+Client output: ==> 
+remote path: /export/scratch/project_16.7z.*
+remote md5: a3eabfc0ffd0b55416f3f818fcdbd6fa
+remote size: 42048216
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_16.7z.*...
+
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+ERROR: Could not fetch new archive id from iarchive.
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+ERROR RECIEVED FROM CLIENT. ABORTING PROJECT 16 - Serum Protein

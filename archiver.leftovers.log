@@ -1,0 +1,1585 @@
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_flist_leftovers.txt...
+Found new project 370 - Exudate_Time_Course
+Creating project staging dirs.
+Found new analysis 4487 - Exudate_PBS_6h_A_1st_mascot
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta' -> `./project_370/data_files/ipi.MOUSE.3.53.rev.fasta'
+running md5sum ./project_370/data_files/ipi.MOUSE.3.53.rev.fasta
+Added prot_db file data_files/ipi.MOUSE.3.53.rev.fasta to file list.
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_1.RAW
+Added input file data_files/Exudate_PBS_6h_A_1.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_1.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_10.RAW
+Added input file data_files/Exudate_PBS_6h_A_10.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_10.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_11.RAW
+Added input file data_files/Exudate_PBS_6h_A_11.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_11.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_12.RAW
+Added input file data_files/Exudate_PBS_6h_A_12.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_12.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_13.RAW
+Added input file data_files/Exudate_PBS_6h_A_13.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_13.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_14.RAW
+Added input file data_files/Exudate_PBS_6h_A_14.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_14.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_2.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_2.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_3.RAW
+Added input file data_files/Exudate_PBS_6h_A_3.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_3.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_3_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_3_2.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_3_2.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_4.RAW
+Added input file data_files/Exudate_PBS_6h_A_4.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_4.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_5.RAW
+Added input file data_files/Exudate_PBS_6h_A_5.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_5.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_6.RAW
+Added input file data_files/Exudate_PBS_6h_A_6.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_6.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_7.RAW
+Added input file data_files/Exudate_PBS_6h_A_7.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_7.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_8.RAW
+Added input file data_files/Exudate_PBS_6h_A_8.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_8.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_6h_A_9.RAW
+Added input file data_files/Exudate_PBS_6h_A_9.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_9.RAW to analysis Exudate_PBS_6h_A_1st_mascot.
+Found new analysis 4488 - Exudate_PBS_6h_A_1st_sequest
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Sequest search params to analysis
+Already added Exudate_PBS_6h_A_1.RAW
+Added input file data_files/Exudate_PBS_6h_A_1.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_10.RAW
+Added input file data_files/Exudate_PBS_6h_A_10.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_11.RAW
+Added input file data_files/Exudate_PBS_6h_A_11.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_12.RAW
+Added input file data_files/Exudate_PBS_6h_A_12.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_13.RAW
+Added input file data_files/Exudate_PBS_6h_A_13.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_14.RAW
+Added input file data_files/Exudate_PBS_6h_A_14.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_2.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_3.RAW
+Added input file data_files/Exudate_PBS_6h_A_3.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_3_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_3_2.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_4.RAW
+Added input file data_files/Exudate_PBS_6h_A_4.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_5.RAW
+Added input file data_files/Exudate_PBS_6h_A_5.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_6.RAW
+Added input file data_files/Exudate_PBS_6h_A_6.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_7.RAW
+Added input file data_files/Exudate_PBS_6h_A_7.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_8.RAW
+Added input file data_files/Exudate_PBS_6h_A_8.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Already added Exudate_PBS_6h_A_9.RAW
+Added input file data_files/Exudate_PBS_6h_A_9.RAW to analysis Exudate_PBS_6h_A_1st_sequest.
+Found new analysis 4489 - Exudate_PBS_6h_A_2rd_mascot
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_1.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_1.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_1.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_2.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_2.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_2.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_3.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_3.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_3.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_4.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_4.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_4.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_5.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_5.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_5.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_6.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_6.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_6.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_7.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_7.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_7.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+running md5sum ./project_370/data_files/Exudate_PBS_041610_6h_B_8.RAW
+Added input file data_files/Exudate_PBS_041610_6h_B_8.RAW to file list.
+Added input file data_files/Exudate_PBS_041610_6h_B_8.RAW to analysis Exudate_PBS_6h_A_2rd_mascot.
+Found new analysis 4490 - Exudate_PBS_6h_A_1st_mascot_20ppm
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+Already added Exudate_PBS_6h_A_1.RAW
+Added input file data_files/Exudate_PBS_6h_A_1.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_10.RAW
+Added input file data_files/Exudate_PBS_6h_A_10.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_11.RAW
+Added input file data_files/Exudate_PBS_6h_A_11.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_12.RAW
+Added input file data_files/Exudate_PBS_6h_A_12.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_13.RAW
+Added input file data_files/Exudate_PBS_6h_A_13.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_14.RAW
+Added input file data_files/Exudate_PBS_6h_A_14.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_2.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_3.RAW
+Added input file data_files/Exudate_PBS_6h_A_3.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_3_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_3_2.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_4.RAW
+Added input file data_files/Exudate_PBS_6h_A_4.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_5.RAW
+Added input file data_files/Exudate_PBS_6h_A_5.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_6.RAW
+Added input file data_files/Exudate_PBS_6h_A_6.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_7.RAW
+Added input file data_files/Exudate_PBS_6h_A_7.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_8.RAW
+Added input file data_files/Exudate_PBS_6h_A_8.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Already added Exudate_PBS_6h_A_9.RAW
+Added input file data_files/Exudate_PBS_6h_A_9.RAW to analysis Exudate_PBS_6h_A_1st_mascot_20ppm.
+Found new analysis 4500 - Exudate_2rdB_0h_A_1st
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_10.RAW
+Added input file data_files/Exudate_0h_041810_A_10.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_10.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_11.RAW
+Added input file data_files/Exudate_0h_041810_A_11.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_11.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_12.RAW
+Added input file data_files/Exudate_0h_041810_A_12.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_12.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_13.RAW
+Added input file data_files/Exudate_0h_041810_A_13.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_13.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_14.RAW
+Added input file data_files/Exudate_0h_041810_A_14.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_14.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_15.RAW
+Added input file data_files/Exudate_0h_041810_A_15.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_15.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_3.RAW
+Added input file data_files/Exudate_0h_041810_A_3.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_3.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_4.RAW
+Added input file data_files/Exudate_0h_041810_A_4.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_4.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_5.RAW
+Added input file data_files/Exudate_0h_041810_A_5.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_5.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_6.RAW
+Added input file data_files/Exudate_0h_041810_A_6.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_6.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_7.RAW
+Added input file data_files/Exudate_0h_041810_A_7.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_7.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_8.RAW
+Added input file data_files/Exudate_0h_041810_A_8.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_8.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_0h_041810_A_9.RAW
+Added input file data_files/Exudate_0h_041810_A_9.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_9.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_PBS_0h_041810_A_1.RAW
+Added input file data_files/Exudate_PBS_0h_041810_A_1.RAW to file list.
+Added input file data_files/Exudate_PBS_0h_041810_A_1.RAW to analysis Exudate_2rdB_0h_A_1st.
+running md5sum ./project_370/data_files/Exudate_PBS_0h_041810_A_2.RAW
+Added input file data_files/Exudate_PBS_0h_041810_A_2.RAW to file list.
+Added input file data_files/Exudate_PBS_0h_041810_A_2.RAW to analysis Exudate_2rdB_0h_A_1st.
+Found new analysis 4503 - Exudate_2rd_24h_A-1st
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_1.RAW
+Added input file data_files/Exudate_24h_050210_A_1.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_1.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_10.RAW
+Added input file data_files/Exudate_24h_050210_A_10.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_10.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_11.RAW
+Added input file data_files/Exudate_24h_050210_A_11.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_11.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_12.RAW
+Added input file data_files/Exudate_24h_050210_A_12.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_12.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_13.RAW
+Added input file data_files/Exudate_24h_050210_A_13.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_13.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_14.RAW
+Added input file data_files/Exudate_24h_050210_A_14.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_14.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_15.RAW
+Added input file data_files/Exudate_24h_050210_A_15.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_15.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_2.RAW
+Added input file data_files/Exudate_24h_050210_A_2.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_2.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_3.RAW
+Added input file data_files/Exudate_24h_050210_A_3.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_3.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_4.RAW
+Added input file data_files/Exudate_24h_050210_A_4.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_4.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_5.RAW
+Added input file data_files/Exudate_24h_050210_A_5.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_5.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_6.RAW
+Added input file data_files/Exudate_24h_050210_A_6.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_6.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_7.RAW
+Added input file data_files/Exudate_24h_050210_A_7.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_7.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_8.RAW
+Added input file data_files/Exudate_24h_050210_A_8.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_8.RAW to analysis Exudate_2rd_24h_A-1st.
+running md5sum ./project_370/data_files/Exudate_24h_050210_A_9.RAW
+Added input file data_files/Exudate_24h_050210_A_9.RAW to file list.
+Added input file data_files/Exudate_24h_050210_A_9.RAW to analysis Exudate_2rd_24h_A-1st.
+Found new analysis 4505 - Exudate_2rd_24h_A-1st-100ppm
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+Already added Exudate_24h_050210_A_1.RAW
+Added input file data_files/Exudate_24h_050210_A_1.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_10.RAW
+Added input file data_files/Exudate_24h_050210_A_10.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_11.RAW
+Added input file data_files/Exudate_24h_050210_A_11.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_12.RAW
+Added input file data_files/Exudate_24h_050210_A_12.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_13.RAW
+Added input file data_files/Exudate_24h_050210_A_13.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_14.RAW
+Added input file data_files/Exudate_24h_050210_A_14.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_15.RAW
+Added input file data_files/Exudate_24h_050210_A_15.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_2.RAW
+Added input file data_files/Exudate_24h_050210_A_2.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_3.RAW
+Added input file data_files/Exudate_24h_050210_A_3.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_4.RAW
+Added input file data_files/Exudate_24h_050210_A_4.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_5.RAW
+Added input file data_files/Exudate_24h_050210_A_5.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_6.RAW
+Added input file data_files/Exudate_24h_050210_A_6.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_7.RAW
+Added input file data_files/Exudate_24h_050210_A_7.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_8.RAW
+Added input file data_files/Exudate_24h_050210_A_8.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Already added Exudate_24h_050210_A_9.RAW
+Added input file data_files/Exudate_24h_050210_A_9.RAW to analysis Exudate_2rd_24h_A-1st-100ppm.
+Found new analysis 4506 - Exudate_6h_A_mascot
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_1.RAW
+Added input file data_files/Exudate_6h_050110_A_1.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_1.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_10.RAW
+Added input file data_files/Exudate_6h_050110_A_10.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_10.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_11.RAW
+Added input file data_files/Exudate_6h_050110_A_11.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_11.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_12.RAW
+Added input file data_files/Exudate_6h_050110_A_12.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_12.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_13.RAW
+Added input file data_files/Exudate_6h_050110_A_13.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_13.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_14.RAW
+Added input file data_files/Exudate_6h_050110_A_14.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_14.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_15.RAW
+Added input file data_files/Exudate_6h_050110_A_15.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_15.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_2.RAW
+Added input file data_files/Exudate_6h_050110_A_2.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_2.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_3.RAW
+Added input file data_files/Exudate_6h_050110_A_3.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_3.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_4.RAW
+Added input file data_files/Exudate_6h_050110_A_4.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_4.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_5.RAW
+Added input file data_files/Exudate_6h_050110_A_5.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_5.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_6.RAW
+Added input file data_files/Exudate_6h_050110_A_6.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_6.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_7.RAW
+Added input file data_files/Exudate_6h_050110_A_7.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_7.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_8.RAW
+Added input file data_files/Exudate_6h_050110_A_8.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_8.RAW to analysis Exudate_6h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_6h_050110_A_9.RAW
+Added input file data_files/Exudate_6h_050110_A_9.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_9.RAW to analysis Exudate_6h_A_mascot.
+Found new analysis 4507 - Exudate_72h_A_mascot
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_1.RAW
+Added input file data_files/Exudate_72h_050210_A_1.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_1.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_10.RAW
+Added input file data_files/Exudate_72h_050210_A_10.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_10.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_11.RAW
+Added input file data_files/Exudate_72h_050210_A_11.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_11.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_12.RAW
+Added input file data_files/Exudate_72h_050210_A_12.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_12.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_13.RAW
+Added input file data_files/Exudate_72h_050210_A_13.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_13.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_14.RAW
+Added input file data_files/Exudate_72h_050210_A_14.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_14.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_15.RAW
+Added input file data_files/Exudate_72h_050210_A_15.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_15.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_2.RAW
+Added input file data_files/Exudate_72h_050210_A_2.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_2.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_3.RAW
+Added input file data_files/Exudate_72h_050210_A_3.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_3.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_4.RAW
+Added input file data_files/Exudate_72h_050210_A_4.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_4.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_5.RAW
+Added input file data_files/Exudate_72h_050210_A_5.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_5.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_6.RAW
+Added input file data_files/Exudate_72h_050210_A_6.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_6.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_7.RAW
+Added input file data_files/Exudate_72h_050210_A_7.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_7.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_8.RAW
+Added input file data_files/Exudate_72h_050210_A_8.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_8.RAW to analysis Exudate_72h_A_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_050210_A_9.RAW
+Added input file data_files/Exudate_72h_050210_A_9.RAW to file list.
+Added input file data_files/Exudate_72h_050210_A_9.RAW to analysis Exudate_72h_A_mascot.
+Found new analysis 4537 - exudate_72h_2-mascot
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_72h_2-mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to file list.
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_72h_2-mascot.
+Found new analysis 4538 - exudate_72h_3_mascot
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_13.RAW
+Added input file data_files/Exudate_72h_2_3_062310_13.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_13.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_1.RAW
+Added input file data_files/Exudate_72h_2_3_062310_1.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_1.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_2.RAW
+Added input file data_files/Exudate_72h_2_3_062310_2.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_2.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_3.RAW
+Added input file data_files/Exudate_72h_2_3_062310_3.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_3.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_4.RAW
+Added input file data_files/Exudate_72h_2_3_062310_4.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_4.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_5.RAW
+Added input file data_files/Exudate_72h_2_3_062310_5.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_5.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_6.RAW
+Added input file data_files/Exudate_72h_2_3_062310_6.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_6.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_7.RAW
+Added input file data_files/Exudate_72h_2_3_062310_7.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_7.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_8.RAW
+Added input file data_files/Exudate_72h_2_3_062310_8.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_8.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_9.RAW
+Added input file data_files/Exudate_72h_2_3_062310_9.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_9.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_10.RAW
+Added input file data_files/Exudate_72h_2_3_062310_10.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_10.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_11.RAW
+Added input file data_files/Exudate_72h_2_3_062310_11.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_11.RAW to analysis exudate_72h_3_mascot.
+running md5sum ./project_370/data_files/Exudate_72h_2_3_062310_12.RAW
+Added input file data_files/Exudate_72h_2_3_062310_12.RAW to file list.
+Added input file data_files/Exudate_72h_2_3_062310_12.RAW to analysis exudate_72h_3_mascot.
+Found new analysis 4539 - exudate_72h_2-mascot_100
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+Already added Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_72h_2-mascot_100.
+Already added Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_72h_2-mascot_100.
+Found new analysis 4541 - exudate_72h_2-mascot_500
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+Already added Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_72h_2-mascot_500.
+Already added Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_72h_2-mascot_500.
+Found new analysis 4542 - exudate_72-2-2-squest_30ppm
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Sequest search params to analysis
+Already added Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_72-2-2-squest_30ppm.
+Already added Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_72-2-2-squest_30ppm.
+Found new analysis 4543 - exudate_72h-2-2-sequest6_100
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Sequest search params to analysis
+Already added Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_72h-2-2-sequest6_100.
+Already added Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_72h-2-2-sequest6_100.
+Found new analysis 4544 - exudate_72h-2-2-sequest6_500
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Sequest search params to analysis
+Already added Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_72h-2-2-sequest6_500.
+Already added Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_72h-2-2-sequest6_500.
+Found new analysis 4545 - exudate_mascot_72h_20ppm
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+Already added Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_mascot_72h_20ppm.
+Already added Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_mascot_72h_20ppm.
+Found new analysis 4546 - exudate_sequest_72_2-2-20ppm
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Sequest search params to analysis
+Already added Exudate_72h_2_2_061510_14.RAW
+Added input file data_files/Exudate_72h_2_2_061510_14.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_1.RAW
+Added input file data_files/Exudate_72h_2_2_061510_1.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_2.RAW
+Added input file data_files/Exudate_72h_2_2_061510_2.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_3.RAW
+Added input file data_files/Exudate_72h_2_2_061510_3.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_4.RAW
+Added input file data_files/Exudate_72h_2_2_061510_4.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_5.RAW
+Added input file data_files/Exudate_72h_2_2_061510_5.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_6.RAW
+Added input file data_files/Exudate_72h_2_2_061510_6.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_7.RAW
+Added input file data_files/Exudate_72h_2_2_061510_7.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_8.RAW
+Added input file data_files/Exudate_72h_2_2_061510_8.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_9.RAW
+Added input file data_files/Exudate_72h_2_2_061510_9.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_10.RAW
+Added input file data_files/Exudate_72h_2_2_061510_10.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_11.RAW
+Added input file data_files/Exudate_72h_2_2_061510_11.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_12.RAW
+Added input file data_files/Exudate_72h_2_2_061510_12.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Already added Exudate_72h_2_2_061510_13.RAW
+Added input file data_files/Exudate_72h_2_2_061510_13.RAW to analysis exudate_sequest_72_2-2-20ppm.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 4487 - Exudate_PBS_6h_A_1st_mascot.
+Added files for analysis 4488 - Exudate_PBS_6h_A_1st_sequest.
+Added files for analysis 4489 - Exudate_PBS_6h_A_2rd_mascot.
+Added files for analysis 4490 - Exudate_PBS_6h_A_1st_mascot_20ppm.
+Added files for analysis 4500 - Exudate_2rdB_0h_A_1st.
+Added files for analysis 4503 - Exudate_2rd_24h_A-1st.
+Added files for analysis 4505 - Exudate_2rd_24h_A-1st-100ppm.
+Added files for analysis 4506 - Exudate_6h_A_mascot.
+Added files for analysis 4507 - Exudate_72h_A_mascot.
+Added files for analysis 4537 - exudate_72h_2-mascot.
+Added files for analysis 4538 - exudate_72h_3_mascot.
+Added files for analysis 4539 - exudate_72h_2-mascot_100.
+Added files for analysis 4541 - exudate_72h_2-mascot_500.
+Added files for analysis 4542 - exudate_72-2-2-squest_30ppm.
+Added files for analysis 4543 - exudate_72h-2-2-sequest6_tcmalloc: large alloc 2097156096 bytes == 0xd251000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x8a6a2000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0xd251000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x8a6a2000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0xd251000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x8a6a2000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/261 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 242803
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------4f803a2cc16d
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  237k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 14 Sep 2010 03:40:48 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/261
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100  237k    0     0  100  237k      0  1181k --:--:-- --:--:-- --:--:-- 1191k100  237k    0     0  100  237k      0  1180k --:--:-- --:--:-- --:--:-- 1191k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+100.
+Added files for analysis 4544 - exudate_72h-2-2-sequest6_500.
+Added files for analysis 4545 - exudate_mascot_72h_20ppm.
+Added files for analysis 4546 - exudate_sequest_72_2-2-20ppm.
+Project contains 2084 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_370.7z.*' a2321e378235be2c8d18e64a3c1c015a,bc55a94c982e222dda25bf338bec49a7,bd9f1273fec12d2df61bd17429f2cae0,663e851fec759f4ebaa3b342036b2398,8b4907d16ec0d44b63f54af449739583,c3d955cb0b13fa338220e2942b1b6de9,8575ab91966d2fe73783b90a247f8a1d,31113dfcbc87eff30f711d2144d22b94,e65a23ed8d74f4158dc7d2135912e3cb,5e76ce1a27aaaf398b7de7a9516717f5,63a3f382b1fc8489000ac74b999afde8,e742a134c971e92e8b2fc135064e7c2a,35c0942f92307b3c0aa83fb7602d7bf2,13df6611296d3d968a45b3fdd671fcea,23afa7e0341dadd89768deafe6bb8a07,ad01126d882765338c836fa7120a2395,3277bf9ad3cff641d65ea4ecff8b59e3,f49f024f05c9b6a2ef2a7039453ef0e4,4e1d22b45f665dd4de914ad983c73050,2d07cb84be782e9be2792416cd5a1593,aff09f30477efba2dc23453e5e25c218,caa84d66810e932c70e7a0887717571d,4e02751271fdc296c19d96df8c522813,dec050e62a90847709826aaaefd0a76b,d3e054737ed84126b90a8a2d031ccbf9,a990a5ed043b878fb7bd39cb1af33bc3,aa876099cb49354dd2a4b25ae78728d0,137f04efbc955c3f5d5cef9a9a918e65,eff09235ec374a4789f404b276eb6eac,9fae3a86e3663aa176896e83feed2ca8,7ab871a6060c1b05b14a8baecb62b075,329ae3353c974ef8219cd30360f13077,a939499d3d07dda8d98d84f5082f7c44,29a8a849181a2e27d53fd56a449c2ea1,21c4780fbb3eca95dfa4388303f291bc,84ccc99ca4c2bf9500d818e8eb226198,1bec90ce4974ac80e4fbe46ef62523de,f42fd84be4ff700eac0f6ff7b800f087,e1951e5e2515b9a700859c1a1132537a,2e9c3e2433e57e32372dee9ea9c9f456,35913872b63856f56610a31f5f12bd24,c328d281887d377b1e1e62afa01a60d9,ce42c463912a68e0431d2eac69da07de,280df0d3b8da204780ca921ffb8d5dfb,3be92093168d3c41d29a0522e61a13a0,1b443926cd5dc43419c61c7f5f1388e1,b1162294089e08b4bbed0ff82f668545,472268b346c24deb734a4a0f0eabd869,8933be1ed978dc26065785ab6b7429cd,6cae3304675b1c80eeb8bcbfd152021f,a6df9fd008470bd4c6702032d8716ce1,ed360e2046700e8d0aaaf2e07585dbdf 108585766514
+Client output: ==> 
+remote path: /export/scratch/project_370.7z.*
+remote md5: a2321e378235be2c8d18e64a3c1c015a,bc55a94c982e222dda25bf338bec49a7,bd9f1273fec12d2df61bd17429f2cae0,663e851fec759f4ebaa3b342036b2398,8b4907d16ec0d44b63f54af449739583,c3d955cb0b13fa338220e2942b1b6de9,8575ab91966d2fe73783b90a247f8a1d,31113dfcbc87eff30f711d2144d22b94,e65a23ed8d74f4158dc7d2135912e3cb,5e76ce1a27aaaf398b7de7a9516717f5,63a3f382b1fc8489000ac74b999afde8,e742a134c971e92e8b2fc135064e7c2a,35c0942f92307b3c0aa83fb7602d7bf2,13df6611296d3d968a45b3fdd671fcea,23afa7e0341dadd89768deafe6bb8a07,ad01126d882765338c836fa7120a2395,3277bf9ad3cff641d65ea4ecff8b59e3,f49f024f05c9b6a2ef2a7039453ef0e4,4e1d22b45f665dd4de914ad983c73050,2d07cb84be782e9be2792416cd5a1593,aff09f30477efba2dc23453e5e25c218,caa84d66810e932c70e7a0887717571d,4e02751271fdc296c19d96df8c522813,dec050e62a90847709826aaaefd0a76b,d3e054737ed84126b90a8a2d031ccbf9,a990a5ed043b878fb7bd39cb1af33bc3,aa876099cb49354dd2a4b25ae78728d0,137f04efbc955c3f5d5cef9a9a918e65,eff09235ec374a4789f404b276eb6eac,9fae3a86e3663aa176896e83feed2ca8,7ab871a6060c1b05b14a8baecb62b075,329ae3353c974ef8219cd30360f13077,a939499d3d07dda8d98d84f5082f7c44,29a8a849181a2e27d53fd56a449c2ea1,21c4780fbb3eca95dfa4388303f291bc,84ccc99ca4c2bf9500d818e8eb226198,1bec90ce4974ac80e4fbe46ef62523de,f42fd84be4ff700eac0f6ff7b800f087,e1951e5e2515b9a700859c1a1132537a,2e9c3e2433e57e32372dee9ea9c9f456,35913872b63856f56610a31f5f12bd24,c328d281887d377b1e1e62afa01a60d9,ce42c463912a68e0431d2eac69da07de,280df0d3b8da204780ca921ffb8d5dfb,3be92093168d3c41d29a0522e61a13a0,1b443926cd5dc43419c61c7f5f1388e1,b1162294089e08b4bbed0ff82f668545,472268b346c24deb734a4a0f0eabd869,8933be1ed978dc26065785ab6b7429cd,6cae3304675b1c80eeb8bcbfd152021f,a6df9fd008470bd4c6702032d8716ce1,ed360e2046700e8d0aaaf2e07585dbdf
+remote size: 108585766514
+Using /Volumes/3440_Archive_003
+Downloading /export/scratch/project_370.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 370 - Exudate_Time_Course
+Found new project 374 - aspirin_test_061210
+Creating project staging dirs.
+Found new analysis 4521 - aspirin_1h-24h-061310
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta' -> `./project_374/data_files/ipi.HUMAN.20081112.rev.fasta'
+running md5sum ./project_374/data_files/ipi.HUMAN.20081112.rev.fasta
+Added prot_db file data_files/ipi.HUMAN.20081112.rev.fasta to file list.
+Adding Mascot search params to analysis
+running md5sum ./project_374/data_files/sheep_cox-1_A1_full-061110.RAW
+Added input file data_files/sheep_cox-1_A1_full-061110.RAW to file list.
+Added input file data_files/sheep_cox-1_A1_full-061110.RAW to analysis aspirin_1h-24h-061310.
+running md5sum ./project_374/data_files/sheep_cox-1_A24_full-061111.RAW
+Added input file data_files/sheep_cox-1_A24_full-061111.RAW to file list.
+Added input file data_files/sheep_cox-1_A24_full-061111.RAW to analysis aspirin_1h-24h-061310.
+running md5sum ./project_374/data_files/sheep_cox-1_N3_full-061112.RAW
+Added input file data_files/sheep_cox-1_N3_full-061112.RAW to file list.
+Added input file data_files/sheep_cox-1_N3_full-061112.RAW to analysis aspirin_1h-24h-061310.
+Found new analysis 4522 - total-acetylation
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Already added ipi.HUMAN.20081112.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_374/data_files/Aspirin_down_fullscan_011210.RAW
+Added input file data_files/Aspirin_down_fullscan_011210.RAW to file list.
+Added input file data_files/Aspirin_down_fullscan_011210.RAW to analysis total-acetylation.
+running md5sum ./project_374/data_files/Aspirin_UP_fullscan_011210.RAW
+Added input file data_files/Aspirin_UP_fullscan_011210.RAW to file list.
+Added input file data_files/Aspirin_UP_fullscan_011210.RAW to analysis total-acetylation.
+Already added sheep_cox-1_A1_full-061110.RAW
+Added input file data_files/sheep_cox-1_A1_full-061110.RAW to analysis total-acetylation.
+Already added sheep_cox-1_A24_full-061111.RAW
+Added input file data_files/sheep_cox-1_A24_full-061111.RAW to analysis total-acetylation.
+Already added sheep_cox-1_N3_full-061112.RAW
+Added input file data_files/sheep_cox-1_N3_full-061112.RAW to analysis total-acetylation.
+Found new analysis 4525 - aspirin_062910
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Already added ipi.HUMAN.20081112.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_374/data_files/HCT116_10mm_062910_1.RAW
+Added input file data_files/HCT116_10mm_062910_1.RAW to file list.
+Added input file data_files/HCT116_10mm_062910_1.RAW to analysis aspirin_062910.
+running md5sum ./project_374/data_files/HCT116_48h_062910_1.RAW
+Added input file data_files/HCT116_48h_062910_1.RAW to file list.
+Added input file data_files/HCT116_48h_062910_1.RAW to analysis aspirin_062910.
+running md5sum ./project_374/data_files/HCT116_C_062910_1.RAW
+Added input file data_files/HCT116_C_062910_1.RAW to file list.
+Added input file data_files/HCT116_C_062910_1.RAW to analysis aspirin_062910.
+Found new analysis 4536 - apsirin_080410_1
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Already added ipi.HUMAN.20081112.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_374/data_files/Aspin_60_072710_full.RAW
+Added input file data_files/Aspin_60_072710_full.RAW to file list.
+Added input file data_files/Aspin_60_072710_full.RAW to analysis apsirin_080410_1.
+Found new analysis 4562 - aspirin_full_082010
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Already added ipi.HUMAN.20081112.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_374/data_files/A_C_30_full_081110_1.RAW
+Added input file data_files/A_C_30_full_081110_1.RAW to file list.
+Added input file data_files/A_C_30_full_081110_1.RAW to analysis aspirin_full_082010.
+running md5sum ./project_374/data_files/A_H_0_full_081110_1.RAW
+Added input file data_files/A_H_0_full_081110_1.RAW to file list.
+Added input file data_files/A_H_0_full_081110_1.RAW to analysis aspirin_full_082010.
+running md5sum ./project_374/data_files/A_H_30_full_081110_1.RAW
+Added input file data_files/A_H_30_full_081110_1.RAW to file list.
+Added input file data_files/A_H_30_full_081110_1.RAW to analysis aspirin_full_082010.
+running md5sum ./project_374/data_files/A_I_H_30_full_081110_1.RAW
+Added input file data_files/A_I_H_30_full_081110_1.RAW to file list.
+Added input file data_files/A_I_H_30_full_081110_1.RAW to analysis aspirin_full_082010.
+tcmalloc: large alloc 2097156096 bytes == 0x15871000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x92cc2000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x15871000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/262 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 27338
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------dacb581e75a8
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 27338    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 14 Sep 2010 04:19:00 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/262
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 27338    0     0  100 27338      0   680k --:--:-- --:--:-- --:--:--  741k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+running md5sum ./project_374/data_files/A_R_30_full_081110_1.RAW
+Added input file data_files/A_R_30_full_081110_1.RAW to file list.
+Added input file data_files/A_R_30_full_081110_1.RAW to analysis aspirin_full_082010.
+Found new analysis 4563 - Aspirin_modification_082010
+Using prot db: IPI.HUMAN.20081112.REV/ipi.HUMAN.20081112.rev.fasta
+Already added ipi.HUMAN.20081112.rev.fasta
+Adding Mascot search params to analysis
+Already added A_C_30_full_081110_1.RAW
+Added input file data_files/A_C_30_full_081110_1.RAW to analysis Aspirin_modification_082010.
+Already added A_H_0_full_081110_1.RAW
+Added input file data_files/A_H_0_full_081110_1.RAW to analysis Aspirin_modification_082010.
+Already added A_H_30_full_081110_1.RAW
+Added input file data_files/A_H_30_full_081110_1.RAW to analysis Aspirin_modification_082010.
+Already added A_I_H_30_full_081110_1.RAW
+Added input file data_files/A_I_H_30_full_081110_1.RAW to analysis Aspirin_modification_082010.
+Already added A_R_30_full_081110_1.RAW
+Added input file data_files/A_R_30_full_081110_1.RAW to analysis Aspirin_modification_082010.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 4521 - aspirin_1h-24h-061310.
+Added files for analysis 4522 - total-acetylation.
+Added files for analysis 4525 - aspirin_062910.
+Added files for analysis 4536 - apsirin_080410_1.
+Added files for analysis 4562 - aspirin_full_082010.
+Added files for analysis 4563 - Aspirin_modification_082010.
+Project contains 197 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_374.7z.*' f26b4781da05b375227c59f56a114c58,876e868b47ae821562469ae546db8171,c22b7658b2e39aabbc822ad3a0e60457,423c5bd6ae37db0a33349111476bafc6 6939026281
+Client output: ==> 
+remote path: /export/scratch/project_374.7z.*
+remote md5: f26b4781da05b375227c59f56a114c58,876e868b47ae821562469ae546db8171,c22b7658b2e39aabbc822ad3a0e60457,423c5bd6ae37db0a33349111476bafc6
+remote size: 6939026281
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_374.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 374 - aspirin_test_061210
+Found new project 375 - mascot test
+Creating project staging dirs.
+Found new analysis 4526 - scx-2
+Using prot db: REFSEQ_HUMAN_071119/refseq_human_071119.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ_HUMAN_071119/refseq_human_071119.fasta' -> `./project_375/data_files/refseq_human_071119.fasta'
+running md5sum ./project_375/data_files/refseq_human_071119.fasta
+Added prot_db file data_files/refseq_human_071119.fasta to file list.
+Adding Mascot search params to analysis
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/263 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 4689
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------bf293ccc213c
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  4689    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 14 Sep 2010 04:22:24 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/263
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+101  4689    0     0  101  4689      0  50713 --:--:-- --:--:-- --:--:--  147k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+running md5sum ./project_375/data_files/SCX-2.RAW
+Added input file data_files/SCX-2.RAW to file list.
+Added input file data_files/SCX-2.RAW to analysis scx-2.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 4526 - scx-2.
+Project contains 38 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_375.7z.*' bab08633688adb461f872dbc566c9c5f 382663900
+Client output: ==> 
+remote path: /export/scratch/project_375.7z.*
+remote md5: bab08633688adb461f872dbc566c9c5f
+remote size: 382663900
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_375.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 375 - mascot test
+Found new project 376 - Pre_term_12Immunodep
+Creating project staging dirs.
+Found new analysis 4531 - Mascot analysis of pre-term serum
+Using prot db: REFSEQ_HUMAN_071119/refseq_human_071119.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ_HUMAN_071119/refseq_human_071119.fasta' -> `./project_376/data_files/refseq_human_071119.fasta'
+running md5sum ./project_376/data_files/refseq_human_071119.fasta
+Added prot_db file data_files/refseq_human_071119.fasta to file list.
+Adding Mascot search params to analysis
+running md5sum ./project_376/data_files/PTSCX-1.RAW
+Added input file data_files/PTSCX-1.RAW to file list.
+Added input file data_files/PTSCX-1.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-2.RAW
+Added input file data_files/PTSCX-2.RAW to file list.
+Added input file data_files/PTSCX-2.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-3.RAW
+Added input file data_files/PTSCX-3.RAW to file list.
+Added input file data_files/PTSCX-3.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-4.RAW
+Added input file data_files/PTSCX-4.RAW to file list.
+Added input file data_files/PTSCX-4.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-5.RAW
+Added input file data_files/PTSCX-5.RAW to file list.
+Added input file data_files/PTSCX-5.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-6.RAW
+Added input file data_files/PTSCX-6.RAW to file list.
+Added input file data_files/PTSCX-6.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-7.RAW
+Added input file data_files/PTSCX-7.RAW to file list.
+Added input file data_files/PTSCX-7.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-8.RAW
+Added input file data_files/PTSCX-8.RAW to file list.
+Added input file data_files/PTSCX-8.RAW to analysis Mascot analysis of pre-term serum.
+running md5sum ./project_376/data_files/PTSCX-9.RAW
+Added input file data_files/PTSCX-9.RAW to file list.
+Added input file data_files/PTSCX-9.RAW to analysis Mascot analysis of pre-term serum.
+tcmalloc: large alloc 2097156096 bytes == 0x16914000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x93d65000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/264 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 15146
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------515ff9cdbf5f
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 15146    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 14 Sep 2010 04:41:21 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/264
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 15146    0     0  100 15146      0   563k --:--:-- --:--:-- --:--:--  643k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+running md5sum ./project_376/data_files/PTSCX-10.RAW
+Added input file data_files/PTSCX-10.RAW to file list.
+Added input file data_files/PTSCX-10.RAW to analysis Mascot analysis of pre-term serum.
+Found new analysis 4532 - test_SCX_3
+Using prot db: REFSEQ_HUMAN_071119/refseq_human_071119.fasta
+Already added refseq_human_071119.fasta
+Adding Mascot search params to analysis
+Already added PTSCX-3.RAW
+Added input file data_files/PTSCX-3.RAW to analysis test_SCX_3.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 4531 - Mascot analysis of pre-term serum.
+Added files for analysis 4532 - test_SCX_3.
+Project contains 137 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_376.7z.*' a74c7edeee67afdc2fb87eaa872c5889,65866a103578ed21212555c26f5fa8a9,4c7d45b04b3bf0bc2fa384bb62d1c8f8 4228374914
+Client output: ==> 
+remote path: /export/scratch/project_376.7z.*
+remote md5: a74c7edeee67afdc2fb87eaa872c5889,65866a103578ed21212555c26f5fa8a9,4c7d45b04b3bf0bc2fa384bb62d1c8f8
+remote size: 4228374914
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_376.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 376 - Pre_term_12Immunodep
+Found new project 377 - Exudate_2rd_Mascot
+Creating project staging dirs.
+Found new analysis 4547 - 0h_2_1
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta' -> `./project_377/data_files/ipi.MOUSE.3.53.rev.fasta'
+running md5sum ./project_377/data_files/ipi.MOUSE.3.53.rev.fasta
+Added prot_db file data_files/ipi.MOUSE.3.53.rev.fasta to file list.
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_3.RAW
+Added input file data_files/Exudate_0h_041810_A_3.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_3.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_4.RAW
+Added input file data_files/Exudate_0h_041810_A_4.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_4.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_5.RAW
+Added input file data_files/Exudate_0h_041810_A_5.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_5.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_6.RAW
+Added input file data_files/Exudate_0h_041810_A_6.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_6.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_7.RAW
+Added input file data_files/Exudate_0h_041810_A_7.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_7.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_8.RAW
+Added input file data_files/Exudate_0h_041810_A_8.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_8.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_9.RAW
+Added input file data_files/Exudate_0h_041810_A_9.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_9.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_10.RAW
+Added input file data_files/Exudate_0h_041810_A_10.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_10.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_11.RAW
+Added input file data_files/Exudate_0h_041810_A_11.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_11.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_12.RAW
+Added input file data_files/Exudate_0h_041810_A_12.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_12.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_13.RAW
+Added input file data_files/Exudate_0h_041810_A_13.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_13.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_14.RAW
+Added input file data_files/Exudate_0h_041810_A_14.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_14.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_0h_041810_A_15.RAW
+Added input file data_files/Exudate_0h_041810_A_15.RAW to file list.
+Added input file data_files/Exudate_0h_041810_A_15.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_0h_041810_A_1.RAW
+Added input file data_files/Exudate_PBS_0h_041810_A_1.RAW to file list.
+Added input file data_files/Exudate_PBS_0h_041810_A_1.RAW to analysis 0h_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_0h_041810_A_2.RAW
+Added input file data_files/Exudate_PBS_0h_041810_A_2.RAW to file list.
+Added input file data_files/Exudate_PBS_0h_041810_A_2.RAW to analysis 0h_2_1.
+Found new analysis 4548 - 0h_2_2
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_1.RAW
+Added input file data_files/Exudate_0h_2_2_052510_1.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_1.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_2.RAW
+Added input file data_files/Exudate_0h_2_2_052510_2.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_2.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_3.RAW
+Added input file data_files/Exudate_0h_2_2_052510_3.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_3.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_4.RAW
+Added input file data_files/Exudate_0h_2_2_052510_4.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_4.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_5.RAW
+Added input file data_files/Exudate_0h_2_2_052510_5.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_5.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_6.RAW
+Added input file data_files/Exudate_0h_2_2_052510_6.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_6.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_7.RAW
+Added input file data_files/Exudate_0h_2_2_052510_7.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_7.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_8.RAW
+Added input file data_files/Exudate_0h_2_2_052510_8.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_8.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_9.RAW
+Added input file data_files/Exudate_0h_2_2_052510_9.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_9.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_10.RAW
+Added input file data_files/Exudate_0h_2_2_052510_10.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_10.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_11.RAW
+Added input file data_files/Exudate_0h_2_2_052510_11.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_11.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_12.RAW
+Added input file data_files/Exudate_0h_2_2_052510_12.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_12.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_13.RAW
+Added input file data_files/Exudate_0h_2_2_052510_13.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_13.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_14.RAW
+Added input file data_files/Exudate_0h_2_2_052510_14.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_14.RAW to analysis 0h_2_2.
+running md5sum ./project_377/data_files/Exudate_0h_2_2_052510_15.RAW
+Added input file data_files/Exudate_0h_2_2_052510_15.RAW to file list.
+Added input file data_files/Exudate_0h_2_2_052510_15.RAW to analysis 0h_2_2.
+Found new analysis 4549 - 0h_2_3
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_15.RAW
+Added input file data_files/Exudate_0h_2_3_061710_15.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_15.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_1.RAW
+Added input file data_files/Exudate_0h_2_3_061710_1.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_1.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_2.RAW
+Added input file data_files/Exudate_0h_2_3_061710_2.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_2.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_3.RAW
+Added input file data_files/Exudate_0h_2_3_061710_3.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_3.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_4.RAW
+Added input file data_files/Exudate_0h_2_3_061710_4.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_4.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_5.RAW
+Added input file data_files/Exudate_0h_2_3_061710_5.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_5.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_6.RAW
+Added input file data_files/Exudate_0h_2_3_061710_6.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_6.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_7.RAW
+Added input file data_files/Exudate_0h_2_3_061710_7.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_7.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_8.RAW
+Added input file data_files/Exudate_0h_2_3_061710_8.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_8.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_9.RAW
+Added input file data_files/Exudate_0h_2_3_061710_9.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_9.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_10.RAW
+Added input file data_files/Exudate_0h_2_3_061710_10.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_10.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_14.RAW
+Added input file data_files/Exudate_0h_2_3_061710_14.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_14.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_11.RAW
+Added input file data_files/Exudate_0h_2_3_061710_11.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_11.RAW to analysis 0h_2_3.
+running md5sum ./project_377/data_files/Exudate_0h_2_3_061710_12.RAW
+Added input file data_files/Exudate_0h_2_3_061710_12.RAW to file list.
+Added input file data_files/Exudate_0h_2_3_061710_12.RAW to analysis 0h_2_3.
+Found new analysis 4550 - 6h_PBS_2_1
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_1.RAW
+Added input file data_files/Exudate_PBS_6h_A_1.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_1.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_2.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_2.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_3.RAW
+Added input file data_files/Exudate_PBS_6h_A_3.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_3.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_3_2.RAW
+Added input file data_files/Exudate_PBS_6h_A_3_2.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_3_2.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_4.RAW
+Added input file data_files/Exudate_PBS_6h_A_4.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_4.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_5.RAW
+Added input file data_files/Exudate_PBS_6h_A_5.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_5.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_6.RAW
+Added input file data_files/Exudate_PBS_6h_A_6.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_6.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_7.RAW
+Added input file data_files/Exudate_PBS_6h_A_7.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_7.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_8.RAW
+Added input file data_files/Exudate_PBS_6h_A_8.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_8.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_9.RAW
+Added input file data_files/Exudate_PBS_6h_A_9.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_9.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_10.RAW
+Added input file data_files/Exudate_PBS_6h_A_10.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_10.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_11.RAW
+Added input file data_files/Exudate_PBS_6h_A_11.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_11.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_12.RAW
+Added input file data_files/Exudate_PBS_6h_A_12.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_12.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_13.RAW
+Added input file data_files/Exudate_PBS_6h_A_13.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_13.RAW to analysis 6h_PBS_2_1.
+running md5sum ./project_377/data_files/Exudate_PBS_6h_A_14.RAW
+Added input file data_files/Exudate_PBS_6h_A_14.RAW to file list.
+Added input file data_files/Exudate_PBS_6h_A_14.RAW to analysis 6h_PBS_2_1.
+Found new analysis 4551 - 6h_PBS_2_2
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_14.RAW
+Added input file data_files/Exudate_PA_2_2_052210_14.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_14.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_1.RAW
+Added input file data_files/Exudate_PA_2_2_052210_1.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_1.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_2.RAW
+Added input file data_files/Exudate_PA_2_2_052210_2.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_2.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_3.RAW
+Added input file data_files/Exudate_PA_2_2_052210_3.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_3.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_4.RAW
+Added input file data_files/Exudate_PA_2_2_052210_4.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_4.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_5.RAW
+Added input file data_files/Exudate_PA_2_2_052210_5.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_5.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_6.RAW
+Added input file data_files/Exudate_PA_2_2_052210_6.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_6.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_7.RAW
+Added input file data_files/Exudate_PA_2_2_052210_7.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_7.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_8.RAW
+Added input file data_files/Exudate_PA_2_2_052210_8.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_8.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_9.RAW
+Added input file data_files/Exudate_PA_2_2_052210_9.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_9.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_10.RAW
+Added input file data_files/Exudate_PA_2_2_052210_10.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_10.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_11.RAW
+Added input file data_files/Exudate_PA_2_2_052210_11.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_11.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_12-2.RAW
+Added input file data_files/Exudate_PA_2_2_052210_12-2.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_12-2.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_12.RAW
+Added input file data_files/Exudate_PA_2_2_052210_12.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_12.RAW to analysis 6h_PBS_2_2.
+running md5sum ./project_377/data_files/Exudate_PA_2_2_052210_13.RAW
+Added input file data_files/Exudate_PA_2_2_052210_13.RAW to file list.
+Added input file data_files/Exudate_PA_2_2_052210_13.RAW to analysis 6h_PBS_2_2.
+Found new analysis 4552 - 6h_PBS_2_3
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_9.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_9.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_9.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_1.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_1.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_1.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_2.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_2.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_2.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_3.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_3.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_3.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_4.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_4.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_4.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_5.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_5.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_5.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_6.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_6.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_6.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_7.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_7.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_7.RAW to analysis 6h_PBS_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_PBS_2_3_061610_8.RAW
+Added input file data_files/Exudate_6h_PBS_2_3_061610_8.RAW to file list.
+Added input file data_files/Exudate_6h_PBS_2_3_061610_8.RAW to analysis 6h_PBS_2_3.
+Found new analysis 4553 - 6h_2_1
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_1.RAW
+Added input file data_files/Exudate_6h_050110_A_1.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_1.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_2.RAW
+Added input file data_files/Exudate_6h_050110_A_2.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_2.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_3.RAW
+Added input file data_files/Exudate_6h_050110_A_3.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_3.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_4.RAW
+Added input file data_files/Exudate_6h_050110_A_4.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_4.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_5.RAW
+Added input file data_files/Exudate_6h_050110_A_5.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_5.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_6.RAW
+Added input file data_files/Exudate_6h_050110_A_6.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_6.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_7.RAW
+Added input file data_files/Exudate_6h_050110_A_7.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_7.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_8.RAW
+Added input file data_files/Exudate_6h_050110_A_8.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_8.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_9.RAW
+Added input file data_files/Exudate_6h_050110_A_9.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_9.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_10.RAW
+Added input file data_files/Exudate_6h_050110_A_10.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_10.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_11.RAW
+Added input file data_files/Exudate_6h_050110_A_11.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_11.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_12.RAW
+Added input file data_files/Exudate_6h_050110_A_12.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_12.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_13.RAW
+Added input file data_files/Exudate_6h_050110_A_13.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_13.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_14.RAW
+Added input file data_files/Exudate_6h_050110_A_14.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_14.RAW to analysis 6h_2_1.
+running md5sum ./project_377/data_files/Exudate_6h_050110_A_15.RAW
+Added input file data_files/Exudate_6h_050110_A_15.RAW to file list.
+Added input file data_files/Exudate_6h_050110_A_15.RAW to analysis 6h_2_1.
+Found new analysis 4554 - 6h_2_2
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_6h_2_2_061210_15.RAW
+Added input file data_files/Exudate_6h_2_2_061210_15.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_061210_15.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_1.RAW
+Added input file data_files/Exudate_6h_2_2_053010_1.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_1.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_2.RAW
+Added input file data_files/Exudate_6h_2_2_053010_2.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_2.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_3.RAW
+Added input file data_files/Exudate_6h_2_2_053010_3.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_3.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_4.RAW
+Added input file data_files/Exudate_6h_2_2_053010_4.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_4.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_5.RAW
+Added input file data_files/Exudate_6h_2_2_053010_5.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_5.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_5_2.RAW
+Added input file data_files/Exudate_6h_2_2_053010_5_2.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_5_2.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_6.RAW
+Added input file data_files/Exudate_6h_2_2_053010_6.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_6.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_053010_7.RAW
+Added input file data_files/Exudate_6h_2_2_053010_7.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_053010_7.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_061210_9.RAW
+Added input file data_files/Exudate_6h_2_2_061210_9.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_061210_9.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_061210_10.RAW
+Added input file data_files/Exudate_6h_2_2_061210_10.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_061210_10.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_061210_11.RAW
+Added input file data_files/Exudate_6h_2_2_061210_11.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_061210_11.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_061210_12.RAW
+Added input file data_files/Exudate_6h_2_2_061210_12.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_061210_12.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_061210_13.RAW
+Added input file data_files/Exudate_6h_2_2_061210_13.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_061210_13.RAW to analysis 6h_2_2.
+running md5sum ./project_377/data_files/Exudate_6h_2_2_061210_14.RAW
+Added input file data_files/Exudate_6h_2_2_061210_14.RAW to file list.
+Added input file data_files/Exudate_6h_2_2_061210_14.RAW to analysis 6h_2_2.
+Found new analysis 4555 - 6h_2_3
+Using prot db: IPI.MOUSE.v3.53.REV/ipi.MOUSE.3.53.rev.fasta
+Already added ipi.MOUSE.3.53.rev.fasta
+Adding Mascot search params to analysis
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_15.RAW
+Added input file data_files/Exudate_6h_2_3_062010_15.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_15.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_1.RAW
+Added input file data_files/Exudate_6h_2_3_062010_1.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_1.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_2.RAW
+Added input file data_files/Exudate_6h_2_3_062010_2.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_2.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_3.RAW
+Added input file data_files/Exudate_6h_2_3_062010_3.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_3.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_4.RAW
+Added input file data_files/Exudate_6h_2_3_062010_4.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_4.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_5.RAW
+Added input file data_files/Exudate_6h_2_3_062010_5.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_5.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_6.RAW
+Added input file data_files/Exudate_6h_2_3_062010_6.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_6.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_7.RAW
+Added input file data_files/Exudate_6h_2_3_062010_7.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_7.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_8.RAW
+Added input file data_files/Exudate_6h_2_3_062010_8.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_8.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_9.RAW
+Added input file data_files/Exudate_6h_2_3_062010_9.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_9.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_10.RAW
+Added input file data_files/Exudate_6h_2_3_062010_10.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_10.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_11.RAW
+Added input file data_files/Exudate_6h_2_3_062010_11.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_11.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_12.RAW
+Added input file data_files/Exudate_6h_2_3_062010_12.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_12.RAW to analysis 6h_2_3.
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_13.RAW
+Added input file data_files/Exudate_6h_2_3_062010_13.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_13.RAW to analysis 6h_2_3.
+tcmalloc: large alloc 2097156096 bytes == 0xd895000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x8ace6000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0xd895000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x8ace6000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0xd895000 @ 
+tcmalloc: large alloc 2097156096 bytes == 0x8ace6000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/265 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 132474
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------34a336c84da9
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  129k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Tue, 14 Sep 2010 09:18:50 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/265
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100  129k    0     0  100  129k      0  1355k --:--:-- --:--:-- --:--:-- 1391k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+running md5sum ./project_377/data_files/Exudate_6h_2_3_062010_14.RAW
+Added input file data_files/Exudate_6h_2_3_062010_14.RAW to file list.
+Added input file data_files/Exudate_6h_2_3_062010_14.RAW to analysis 6h_2_3.
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Added files for analysis 4547 - 0h_2_1.
+Added files for analysis 4548 - 0h_2_2.
+Added files for analysis 4549 - 0h_2_3.
+Added files for analysis 4550 - 6h_PBS_2_1.
+Added files for analysis 4551 - 6h_PBS_2_2.
+Added files for analysis 4552 - 6h_PBS_2_3.
+Added files for analysis 4553 - 6h_2_1.
+Added files for analysis 4554 - 6h_2_2.
+Added files for analysis 4555 - 6h_2_3.
+Project contains 1143 total files.
+Generated filelist.txt
+Zipping and compressing project...
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_377.7z.*' 994fba517474cb689e49ea56f0cfa03b,0e8a4bd04933ad42dc65583907d68852,ec657bb9e4f2a3f2aee3565ec51c6064,c31a5f8a5fdd9de85e7d3562a32ca965,0f064360785805c351f87021b611effe,12346e88086d78236a5cd04a14a5bf9e,e5d108715a8ceeed16c525df510d746e,996e602600fa2b28e04e837daebd5d62,6d851de36a862d116647e352a9e6febd,7c56317ba2cc2b011b3ad088c25851d6,1774e543955fa81daf66a4bed71dab8d,f259982f44f4a397ed6d40803aaa93e4,78f1fd56f23d2d596514a422b6576f15,da53889c549f6ca25809e69fbfe48d25,475941f441c102c994f1a1fac879183d,fe0bd6ed345c2f12576d5488d7b155d6,ed7ed330476af954ab8fd9b045f0f8f8,647cf0810eba3a7f5e457736c57a3729,7b10bbddd2ca2e801e167812a32b1e41,c9aed60ba51bf6266ea9b1f78397c0cb,360df49d48db4a0fd7796966c0a4bc58,38f0a49675aec5e0569cf074774136e2,6a6e65e9ff6d3d0a57a8067609ead6fe,a538296620166c0d10d2bc9fa2390e81,13f2229837a35bf2de82c8835bf8aed1,27af03fbded046fb33f20704e39ab5e6,0b9bf9206c5c13af920adc9c2eac3554,7f4826c3240d26c8e047adbfeb2d8912 56630989324
+Client output: ==> 
+remote path: /export/scratch/project_377.7z.*
+remote md5: 994fba517474cb689e49ea56f0cfa03b,0e8a4bd04933ad42dc65583907d68852,ec657bb9e4f2a3f2aee3565ec51c6064,c31a5f8a5fdd9de85e7d3562a32ca965,0f064360785805c351f87021b611effe,12346e88086d78236a5cd04a14a5bf9e,e5d108715a8ceeed16c525df510d746e,996e602600fa2b28e04e837daebd5d62,6d851de36a862d116647e352a9e6febd,7c56317ba2cc2b011b3ad088c25851d6,1774e543955fa81daf66a4bed71dab8d,f259982f44f4a397ed6d40803aaa93e4,78f1fd56f23d2d596514a422b6576f15,da53889c549f6ca25809e69fbfe48d25,475941f441c102c994f1a1fac879183d,fe0bd6ed345c2f12576d5488d7b155d6,ed7ed330476af954ab8fd9b045f0f8f8,647cf0810eba3a7f5e457736c57a3729,7b10bbddd2ca2e801e167812a32b1e41,c9aed60ba51bf6266ea9b1f78397c0cb,360df49d48db4a0fd7796966c0a4bc58,38f0a49675aec5e0569cf074774136e2,6a6e65e9ff6d3d0a57a8067609ead6fe,a538296620166c0d10d2bc9fa2390e81,13f2229837a35bf2de82c8835bf8aed1,27af03fbded046fb33f20704e39ab5e6,0b9bf9206c5c13af920adc9c2eac3554,7f4826c3240d26c8e047adbfeb2d8912
+remote size: 56630989324
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_377.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 377 - Exudate_2rd_Mascot

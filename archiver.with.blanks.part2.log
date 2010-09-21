@@ -1,0 +1,447 @@
+##########################################
+#
+#   qInteract Archiver
+#   Dave Austin - ITMAT @ UPENN
+#
+#   Usage: ruby qinteract_archiver.rb <tabbed_list>
+#
+#   WARNING: ASSUMES INPUT FILE LIST IS SORTED 
+#   BY PROJECT ID THEN ANALYSIS ID
+#   
+#   Should be run as root to avoid perm issues!
+#
+##########################################
+Initializing database connections...
+Processing qinteract_flist_with_blanks.part2.txt...
+Found new project 16 - Serum Protein
+Creating project staging dirs.
+Found new analysis 302 - Serum Protein
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_16/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_16/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_302.tgz
+removed directory: `yuehua_302'
+removed `archive_302.tgz'
+Added files for analysis 302 - Serum Protein.
+Project contains 14 total files.
+Generated filelist.txt
+Zipping and compressing project...
+mkdir: project_16: File exists
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/157 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 3994
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------a322ecc69f93
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  3994    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sun, 05 Sep 2010 17:21:32 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/157
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+102  3994    0     0  102  3994      0   215k --:--:-- --:--:-- --:--:--  260k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_16.7z.*' fa28326158ea644d9e77a8a280d98bfd 42048218
+Client output: ==> 
+remote path: /export/scratch/project_16.7z.*
+remote md5: fa28326158ea644d9e77a8a280d98bfd
+remote size: 42048218
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_16.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 16 - Serum Protein
+Found new project 19 - SILAC Test
+Creating project staging dirs.
+Found new analysis 322 - 188
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_19/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_19/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 323 - 190
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_322.tgz
+removed directory: `Colin_322'
+removed `archive_322.tgz'
+Added files for analysis 322 - 188.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_323.tgz
+removed directory: `Colin_323'
+removed `archive_323.tgz'
+Added files for analysis 323 - 190.
+Project contains 87 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 2097156096 bytes == 0xe9ce000 @ 
+tcmalloc: large alloc 1975320576 bytes == 0x8be1f000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/158 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 12812
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------32264eeea433
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 12812    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sun, 05 Sep 2010 17:42:32 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/158
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 12812    0     0  100 12812      0   521k --:--:-- --:--:-- --:--:--  595k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_19.7z.*' 604882c24cb803652eb70dd76a9699e8,a328ef239618e8f234cac9f277f8dc86 4072471683
+Client output: ==> 
+remote path: /export/scratch/project_19.7z.*
+remote md5: 604882c24cb803652eb70dd76a9699e8,a328ef239618e8f234cac9f277f8dc86
+remote size: 4072471683
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_19.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 19 - SILAC Test
+Found new project 20 - BCRABL
+Creating project staging dirs.
+Found new analysis 477 - BCRABL - 0417
+Using prot db: REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta' -> `./project_20/data_files/refseq_human_20070228.fasta'
+running md5sum ./project_20/data_files/refseq_human_20070228.fasta
+Added prot_db file data_files/refseq_human_20070228.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 478 - bcr-abl-04182007
+Using prot db: BCRABL/bcrabl.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/BCRABL/bcrabl.fasta' -> `./project_20/data_files/bcrabl.fasta'
+running md5sum ./project_20/data_files/bcrabl.fasta
+Added prot_db file data_files/bcrabl.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 552 - Bcr-Abl-IP
+Using prot db: REFSEQ_HUMAN_20070228/refseq_human_20070228.fasta
+Already added refseq_human_20070228.fasta
+Adding Sequest search params to analysis
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_477.tgz
+removed directory: `Ken_477'
+removed `archive_477.tgz'
+Added files for analysis 477 - BCRABL - 0417.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_478.tgz
+removed directory: `Ken_478'
+removed `archive_478.tgz'
+Added files for analysis 478 - bcr-abl-04182007.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_552.tgz
+removed directory: `Ken_552'
+removed `archive_552.tgz'
+Added files for analysis 552 - Bcr-Abl-IP.
+Project contains 140 total files.
+Generated filelist.txt
+Zipping and compressing project...
+tcmalloc: large alloc 2097156096 bytes == 0x10aca000 @ 
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/159 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 17960
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------2d9d63f7a887
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 17960    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sun, 05 Sep 2010 17:59:56 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/159
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+100 17960    0     0  100 17960      0   660k --:--:-- --:--:-- --:--:--  730k* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_20.7z.*' fdbfa365b2d0e472596a2203bdefe1c7,d5d87db1bcc94b6b3b2c2005f906e5be 3184259735
+Client output: ==> 
+remote path: /export/scratch/project_20.7z.*
+remote md5: fdbfa365b2d0e472596a2203bdefe1c7,d5d87db1bcc94b6b3b2c2005f906e5be
+remote size: 3184259735
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_20.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 20 - BCRABL
+Found new project 21 - FAKIP
+Creating project staging dirs.
+Found new analysis 333 - LargeBand
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_21/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_21/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_333.tgz
+removed directory: `Gene_333'
+removed `archive_333.tgz'
+Added files for analysis 333 - LargeBand.
+Project contains 12 total files.
+Generated filelist.txt
+Zipping and compressing project...
+* About to connect() to bioinf.itmat.upenn.edu port 80 (#0)
+*   Trying 165.123.243.48... connected
+* Connected to bioinf.itmat.upenn.edu (165.123.243.48) port 80 (#0)
+* Server auth using Basic with user 'iarchive'
+> POST /iarchive/update/160 HTTP/1.1
+> Authorization: Basic aWFyY2hpdmU6aWFyY2hpdmU=
+> User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+> Host: bioinf.itmat.upenn.edu
+> Accept: */*
+> Content-Length: 3888
+> Expect: 100-continue
+> Content-Type: multipart/form-data; boundary=----------------------------302d6a9fafe6
+> 
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0  3888    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 100 Continue
+} [data not shown]
+< HTTP/1.1 302 Found
+< Date: Sun, 05 Sep 2010 18:00:11 GMT
+< Server: Apache
+< X-Powered-By: Phusion Passenger (mod_rails/mod_rack) 2.2.15
+< Set-Cookie: rack.session=BAh7BjoOX19GTEFTSF9fewY6C25vdGljZSIWVVBEQVRFIFNVQ0NFU1NGVUw%3D%0A; path=/
+< Location: /iarchive/show/160
+< Content-Length: 0
+< Status: 302
+< Content-Type: text/html;charset=utf-8
+< 
+102  3888    0     0  102  3888      0  37391 --:--:-- --:--:-- --:--:-- 38495* Connection #0 to host bioinf.itmat.upenn.edu left intact
+
+* Closing connection #0
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_21.7z.*' bdf724fb0ee50914426f394779424b27 17692061
+Client output: ==> 
+remote path: /export/scratch/project_21.7z.*
+remote md5: bdf724fb0ee50914426f394779424b27
+remote size: 17692061
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_21.7z.*...
+MD5: PASS  - All files passed MD5 inspection
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+FINISHED ARCHIVING PROJECT 21 - FAKIP
+Found new project 22 - GelcutsofFAKIPHT1080
+Creating project staging dirs.
+Found new analysis 355 - Gel plugs1_31_07
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+`/export/www-data/www/htdocs/qInteract/dblib/REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta' -> `./project_22/data_files/refseq_human.20050818.fasta'
+running md5sum ./project_22/data_files/refseq_human.20050818.fasta
+Added prot_db file data_files/refseq_human.20050818.fasta to file list.
+Adding Sequest search params to analysis
+Found new analysis 356 - 2
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 357 - 3
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 358 - 4
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 359 - 5
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 360 - 7
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 361 - 8
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 362 - gelplugs9_# - 1
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Adding Sequest search params to analysis
+Found new analysis 363 - gelplugs9_# - 2
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 364 - gelplugs9_# - 3
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 365 - gelplugs9_# - 4
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Found new analysis 366 - gelplugs9_# - 5
+Using prot db: REFSEQ.HUMAN.20050818/refseq_human.20050818.fasta
+Already added refseq_human.20050818.fasta
+Post processing project hash.  Collecting and archiving files...
+Assembling owners list...
+Adding other files to analyses...
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_355.tgz
+removed directory: `Gene_355'
+removed `archive_355.tgz'
+Added files for analysis 355 - Gel plugs1_31_07.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_356.tgz
+removed directory: `Gene_356'
+removed `archive_356.tgz'
+Added files for analysis 356 - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_357.tgz
+removed directory: `Gene_357'
+removed `archive_357.tgz'
+Added files for analysis 357 - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_358.tgz
+removed directory: `Gene_358'
+removed `archive_358.tgz'
+Added files for analysis 358 - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_359.tgz
+removed directory: `Gene_359'
+removed `archive_359.tgz'
+Added files for analysis 359 - 5.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_360.tgz
+removed directory: `Gene_360'
+removed `archive_360.tgz'
+Added files for analysis 360 - 7.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_361.tgz
+removed directory: `Gene_361'
+removed `archive_361.tgz'
+Added files for analysis 361 - 8.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_362.tgz
+removed directory: `Gene_362'
+removed `archive_362.tgz'
+Added files for analysis 362 - gelplugs9_# - 1.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_363.tgz
+removed directory: `Gene_363'
+removed `archive_363.tgz'
+Added files for analysis 363 - gelplugs9_# - 2.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_364.tgz
+removed directory: `Gene_364'
+removed `archive_364.tgz'
+Added files for analysis 364 - gelplugs9_# - 3.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_365.tgz
+removed directory: `Gene_365'
+removed `archive_365.tgz'
+Added files for analysis 365 - gelplugs9_# - 4.
+Analysis is archived to different location.  Retrieving /export/wdbackup/archive_366.tgz
+removed directory: `Gene_366'
+removed `archive_366.tgz'
+Added files for analysis 366 - gelplugs9_# - 5.
+Project contains 174 total files.
+Generated filelist.txt
+Zipping and compressing project...
+scp: /export/scratch/project_22.7z.*: No such file or directory
+"md5" was called incorrectly. Call as "/usr/bin/thor client:md5 <array of archive filenames> <array of md5 hashes>".
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/ftools.rb:106:in `stat': No such file or directory - /tmp/restore-1283709624/project_22/README.json (Errno::ENOENT)
+	from /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/ftools.rb:106:in `move'
+	from /Users/itmat/.thor/18e07807b65102b98a168067622547d3:26:in `extract_readme_from_archive'
+	from /Users/itmat/.thor/18e07807b65102b98a168067622547d3:106:in `update_readme'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `send'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `run'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:109:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `call'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:161:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/base.rb:379:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:140:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/runner.rb:34:in `method_missing'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `send'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:22:in `run'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/task.rb:108:in `run'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:109:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `call'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/invocation.rb:116:in `invoke'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:161:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor/base.rb:379:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/lib/thor.rb:140:in `start'
+	from /Library/Ruby/Gems/1.8/gems/thor-0.13.8/bin/thor:6
+	from /usr/bin/thor:19:in `load'
+	from /usr/bin/thor:19
+Generating md5, size. Calling client script...
+RUNNING CLIENT: ssh itmat@powmac.itmat.upenn.edu /Users/itmat/qinteract_archiver_client.rb '/export/scratch/project_22.7z.*' c5390fc102c9f3f100d24968cb18493e 202911605
+Client output: ==> 
+remote path: /export/scratch/project_22.7z.*
+remote md5: c5390fc102c9f3f100d24968cb18493e
+remote size: 202911605
+Using /Volumes/3440_Archive_001
+Downloading /export/scratch/project_22.7z.*...
+
+Updating README MD5
+Updating disk id
+Uploading to iarchive...
+ERROR: Could not fetch new archive id from iarchive.
+FILE ARCHIVED!
+ <== 
+Cleaning up project stage space...
+ERROR RECIEVED FROM CLIENT. ABORTING PROJECT 22 - GelcutsofFAKIPHT1080
